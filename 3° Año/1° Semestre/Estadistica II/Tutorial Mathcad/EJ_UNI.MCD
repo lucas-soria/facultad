@@ -1,0 +1,103 @@
+.MCAD 304020000 1 71 15 0
+.CMD FORMAT  rd=d ct=10 im=i et=3 zt=15 pr=3 mass length time charge temperature tr=0 vm=0
+.CMD SET ORIGIN 0
+.CMD SET TOL 0.001000000000000
+.CMD SET PRNCOLWIDTH 8
+.CMD SET PRNPRECISION 4
+.CMD PRINT_SETUP 1.200000 1.218750 1.200000 1.200000 0
+.CMD HEADER_FOOTER 1 1 *empty* *empty* *empty* 0 1 *empty* *empty* *empty*
+.CMD HEADER_FOOTER_FONT fontID=14 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD HEADER_FOOTER_FONT fontID=15 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFAULT_TEXT_PARPROPS 0 0 0
+.CMD DEFINE_FONTSTYLE_NAME fontID=0 name=Variables
+.CMD DEFINE_FONTSTYLE_NAME fontID=1 name=Constants
+.CMD DEFINE_FONTSTYLE_NAME fontID=2 name=Text
+.CMD DEFINE_FONTSTYLE_NAME fontID=4 name=User^1
+.CMD DEFINE_FONTSTYLE_NAME fontID=5 name=User^2
+.CMD DEFINE_FONTSTYLE_NAME fontID=6 name=User^3
+.CMD DEFINE_FONTSTYLE_NAME fontID=7 name=User^4
+.CMD DEFINE_FONTSTYLE_NAME fontID=8 name=User^5
+.CMD DEFINE_FONTSTYLE_NAME fontID=9 name=User^6
+.CMD DEFINE_FONTSTYLE_NAME fontID=10 name=User^7
+.CMD DEFINE_FONTSTYLE fontID=0 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=1 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=2 family=Arial points=10 bold=1 italic=0 underline=0 colrid=13
+.CMD DEFINE_FONTSTYLE fontID=4 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=5 family=Courier^New points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=6 family=System points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=7 family=Script points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=8 family=Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=9 family=Modern points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=10 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD UNITS U=1
+.CMD DIMENSIONS_ANALYSIS 0 0
+.CMD COLORTAB_ENTRY 0 0 0
+.CMD COLORTAB_ENTRY 128 0 0
+.CMD COLORTAB_ENTRY 0 128 0
+.CMD COLORTAB_ENTRY 128 128 0
+.CMD COLORTAB_ENTRY 0 0 128
+.CMD COLORTAB_ENTRY 128 0 128
+.CMD COLORTAB_ENTRY 0 128 128
+.CMD COLORTAB_ENTRY 128 128 128
+.CMD COLORTAB_ENTRY 192 192 192
+.CMD COLORTAB_ENTRY 255 0 0
+.CMD COLORTAB_ENTRY 0 255 0
+.CMD COLORTAB_ENTRY 255 255 0
+.CMD COLORTAB_ENTRY 0 0 255
+.CMD COLORTAB_ENTRY 255 0 255
+.CMD COLORTAB_ENTRY 0 255 255
+.CMD COLORTAB_ENTRY 255 255 255
+.TXT 2 1 2 0 0
+Cg a72.000000,72.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 4 0 4 0 0
+Cg a72.000000,72.000000,34
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\ul RESOLVER LOS 
+SIGUIENTES EJERCICIOS}}
+.TXT 5 0 6 0 0
+Cg a69.000000,69.000000,196
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 1 - Definir el {\fs24 
+grado centesimal} (grad)  y  hacer  por  lo menos tres ejemplos de   
+\par      transformación de ángulos expresados en esta unidad a radian 
+(rad) y grado \par      sexagesimal y visceversa. }
+.TXT 8 0 8 0 0
+Cg a69.000000,69.000000,186
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 2 - Hallar la 
+equivalencia en unidades básicas MKS de las siguientes: pulgada\par      
+(in), acre (acre), onza fluida (fl_oz), libra (lb), milla (mi), onza 
+(oz), pascal (Pa)\par      yarda (yr).}
+.TXT 8 0 10 0 0
+Cg a69.000000,69.000000,115
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 3 - Definir la unidad {
+\fs24 dia} y hacer tres ejemplos de conversión de magnitudes de   \par      
+tiempo reduciéndolas a días.}
+.TXT 7 0 12 0 0
+Cg a69.000000,69.000000,219
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 4 - Definir la unidad 
+de distancia {\fs24 seg_luz} como 300,000 km y la correspondiente {\fs24 
+\par      min_luz}. Determinar en base a esto la distancia tierra-sol 
+(que es de \par       150,000,000 km) en min_luz. Definir también el {
+\fs24 anio_luz}.}
+.TXT 11 1 14 0 0
+Cg a73.000000,73.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul\link3 Volver al Indice}}
+.ATT
+.LINK file:C:\RUBEN\WINMCAD\BARCE\INDICE.MCD
+.ATT_END
+.TXT 5 0 15 0 0
+Cg a73.000000,73.000000,14
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul Volver al Tema}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Unidad.mcd
+.ATT_END

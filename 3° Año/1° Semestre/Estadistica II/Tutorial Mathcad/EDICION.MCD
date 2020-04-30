@@ -1,0 +1,704 @@
+.MCAD 304020000 1 74 171 0
+.CMD FORMAT  rd=d ct=10 im=i et=3 zt=15 pr=3 mass length time charge temperature tr=0 vm=0
+.CMD SET ORIGIN 0
+.CMD SET TOL 0.001000000000000
+.CMD SET PRNCOLWIDTH 8
+.CMD SET PRNPRECISION 4
+.CMD PRINT_SETUP 1.200000 0.968750 1.200000 1.200000 0
+.CMD HEADER_FOOTER 1 1 *empty* *empty* *empty* 0 1 *empty* *empty* *empty*
+.CMD HEADER_FOOTER_FONT fontID=14 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD HEADER_FOOTER_FONT fontID=15 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFAULT_TEXT_PARPROPS 0 0 0
+.CMD DEFINE_FONTSTYLE_NAME fontID=0 name=Variables
+.CMD DEFINE_FONTSTYLE_NAME fontID=1 name=Constants
+.CMD DEFINE_FONTSTYLE_NAME fontID=2 name=Text
+.CMD DEFINE_FONTSTYLE_NAME fontID=4 name=User^1
+.CMD DEFINE_FONTSTYLE_NAME fontID=5 name=User^2
+.CMD DEFINE_FONTSTYLE_NAME fontID=6 name=User^3
+.CMD DEFINE_FONTSTYLE_NAME fontID=7 name=User^4
+.CMD DEFINE_FONTSTYLE_NAME fontID=8 name=User^5
+.CMD DEFINE_FONTSTYLE_NAME fontID=9 name=User^6
+.CMD DEFINE_FONTSTYLE_NAME fontID=10 name=User^7
+.CMD DEFINE_FONTSTYLE fontID=0 family=Times^New^Roman points=12 bold=1 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=1 family=Times^New^Roman points=12 bold=1 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=2 family=Arial points=10 bold=1 italic=0 underline=0 colrid=13
+.CMD DEFINE_FONTSTYLE fontID=4 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=5 family=Courier^New points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=6 family=System points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=7 family=Script points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=8 family=Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=9 family=Modern points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=10 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD UNITS U=1
+.CMD DIMENSIONS_ANALYSIS 0 0
+.CMD COLORTAB_ENTRY 0 0 0
+.CMD COLORTAB_ENTRY 128 0 0
+.CMD COLORTAB_ENTRY 0 128 0
+.CMD COLORTAB_ENTRY 128 128 0
+.CMD COLORTAB_ENTRY 0 0 128
+.CMD COLORTAB_ENTRY 128 0 128
+.CMD COLORTAB_ENTRY 0 128 128
+.CMD COLORTAB_ENTRY 128 128 128
+.CMD COLORTAB_ENTRY 192 192 192
+.CMD COLORTAB_ENTRY 255 0 0
+.CMD COLORTAB_ENTRY 0 255 0
+.CMD COLORTAB_ENTRY 255 255 0
+.CMD COLORTAB_ENTRY 0 0 255
+.CMD COLORTAB_ENTRY 255 0 255
+.CMD COLORTAB_ENTRY 0 255 255
+.CMD COLORTAB_ENTRY 255 255 255
+.TXT 3 3 169 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 4 0 168 0 0
+Cg a72.000000,72.000000,30
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\fs24\ul Edición de 
+una Hoja de Trabajo}}
+.EQN 4 0 64 0 0
+{    9     7 0 0}{61}
+19778 272 0 0 44
+40 7 9 1 24 0 216 0 0 0 0
+!q"<$fIt!!Iq5Y<6!A!"6k&K!9!'LG)1$w"<"2Is!!%)!A!"6k&K!9!#!!%)!`It!"9Q3tLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!!"9Q3tLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!!"4'5Y4&!A!"6k&K!9!#!!%)!A!"6k+t!Q!0!(9ZLG&K!9!#!!%)"2It!!.[5Z1@!Q!&!(9fLG)1
+
+.TXT 2 4 62 0 0
+Cg a74.000000,74.000000,62
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard El {\cf2 
+Menú Principal} de Mathcad presenta la siguiente estructura:}
+.EQN 1 -5 57 0 0
+{   20   487 0 0}{61}
+19778 29336 0 0 44
+40 487 20 1 24 0 29280 0 0 0 0
+#5"<LG#d!0IqLG#d!,DG#U"<LVLVLVLVLVLVLR>z!Q!0!(<6LVLVLVLVLVLV@nIt!"9Q5hLVLVJpLG1A>jIw!0LVLVK3LG1A&:It!$.[5YDF%)"#LH>{1PJ+!'DF'-"/LHG-(>Iw!*#d%Y!'LG1AA@J=!+)0&+"PLHG-'lIw!"Ip!Q!:!(<6LVLV0~Iw!,.Z"##dLVLV5XIw!"Ip!Q#Z!(9`LG1A$6Iw!!4&"#!*LGAa*rJ(!!<6#U!'LG1A
+"bIw!$<6"#!0LGAa"2Iw!!DF"#!'LG1A)pIw!!4&"#!'LG1A"bJ"!!<6"#!$LG1A"2Iw!$DF#%!$LG)1"2Iw!!DF#U!'LGIq"bIw!!4&"#!'LG1A"bI}!!<6#%!]LGIq#dIw!!DF"#!'LG1A"2Iw!!4&#U!-LGAa"bIw!!4&"#!*LGAa+DIw!!DF"#!-LG1A"2Iw!!4&"#!*LGIq"bI}!!DF"#!'LG1A*rJ(!!DF#%!-LGAa"bIw!!4&"#!'
+LGAa*rIw!!DF"#!*LGAa"bIw!!4&#U!6LG)1,g%"#dIw!")0"#!'LG1A"2Iw!!4&"#!WLG1A$fIw!!4&"#!'LG1A"2Iw!$DF"#!-LG1A"2Iw!!4&"#!'LG1A"2Iw!$4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A*rIw!!<6"#!'LG1A"bIw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A!`Iw!!4&"#!WLG1A"bIw
+!!<6#%!*LG1A"2Iw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!$<6"#!-LG1A#4Iw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!<6"#!'LG1A*rIw!!DF"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!+t"#!'LG1A"2Iw!$4&"#!-LG1A"2Iw!!4&"#!'LG1A"2Iw!!4&"#!3LG)1%y%"#dIw!")0"#!'LG1A"2Iw!%)0"#!6
+LG1A"2Iw!!4&"#!'LG1A+DIw!!DF"#!6LGAa"bIw!$4&"#!$LGAa!`Iw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A*BIw!!DF"#!'LG1A"bIw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!4&"#!<LG1A*BIw!!<6"#!*LGAa"bIw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!%1@"#!-LG1A#4Iw!!4&"#!'LG1A"2Iw!!4&
+"#!'LG1A"2Iw!!4&%)!WLG1A#4Iw!!4&"#!'LG1A"2Iw!!4&"#!'LGAa$fIw!$4&"#!-LG1A"2Iw!")0"#!'LG1A"2Iw!")0!Q!F!89`LG1A$6Iw!!4&"#!'LG1A,FIw!"1@"#!'LG1A"2Iw!!4&"#!]LG1A#4Iw!"9P"#!-LG1A*BIw!!+t#%!$LG1A"bIw!!+t"#!'LG1A"2Iw!!4&"#!WLG1A#4Iw!!4&"#!-LG1A!`Iw!!4&"#!'LG1A
+"2Iw!!4&"#!'LG1A"2Iw!")0#%!iLG1A"2Iw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A,FI}!!4&#%!*LG1A"2Iw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!+t"#!$LG1A*BIw!!DF"#!'LG1A"2Iw!!4&"#!'LG1A"2Iz!!LV#%!ZLG1A#4Iw!!4&"#!3LG1A"2Iw!!4&"#!3LG)1&[%"#dIw!")0
+"#!'LG1A"2J%!$4&"#!6LG1A"2Iw!!4&"#!'LG1A+DIw!!DF$'!*LGAa"bIw!$4&#%!'LGAa#4I}!!4&"#!'LG1A"2Iw!$4&"#!'LGAa"2Iw!!LV#%!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!4&"#!0LG1A-xIz!!<6"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!%)0"#!$LG)1"2It!!+t"#!*LG1A"2Iw
+!!4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!+t"#!$LG1A*BIw!!DF"#!'LG1A"2Iw!!4&"#!'LG1A"2I}!!<6"#!cLG1A#4Iw!!4&$'!'LG1A"2Iw!!4&"#!3LG)1+E%"#dJ%!!4&"#!'LG1A"2Iw!!4&"#!WLH&K"bIw!!4&"#!'LG1A"2Iw!$DF"#!-LG1A"2Iw!!4&"#!'LG1A"2Iw!$4&#%!'LGAa"2Iw!!4&"#!'LG1A"2Iw!!4&"#!W
+LG1A%8Iz!!4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!+t"#!'LG1A*rIz!!DF"#!-LG1A!`Iw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!4&"#!TLG1A"2I}!!4&"#!'LG1A"2Iw!!4&"#!'LG1A"2Iw!!4&"#!'LG1A!`Iw!!4&"#!'LG1A)pJ(!!<6"#!'LG1A"2Iw!!4&"#!'LG1A!`Iw!!4&
+"#!'LG1A*BJ+!!4&"#!'LG1A"2Iw!!4&"#!'LG1A$6It!/#e5YLV"#!3LG1A"2Iw!!<6#%!ZLG1A%8J"!!4&"#!$LGAa*rIw!!LV#%!'LG1A#4J%!$+t"S!-LG9Q"bI}!!4&#%!$LGIq*rIw!"9P#%!'LGAa"bJ"!!<6#U!*LG1A"bI}!!<6#%!ZLG1A$6Iw!!DF"#!$LH>{"bJ"!!DF#%!*LG1A"2Iw!!<6#%!WLG1A"2I}!!4&"#!'LG1A
+"2J"!!DF#U!*LGAa"2Iw!")0"#!TLG1A#4Iw!!<6#%!-LGAa"bIw!!4&"#!'LGAa*rIw!!DF"#!*LGAa"bIw!!4&#U!6LG)14w"<#dIw!"Ip"#!oLG1A&jIw!")0"#!]LG1A+DIw!$4&"S!-LG9Q&:Iw!!4&"#!cLG1A#dIt!%1@"#">LG1A"bIw!%)0"#!KLG1A/LIw!!DF"#!-LG1A)pIw!'DF"#!-LG1A*BIw!&6j"#!-LG1A&:Iw!#>z
+!Q"L!(9`LG1A$6Iw!!4&"#!oLG1A&jIw!!4&"#!'LG1A+DIw!$DF"#!WLG1A$6Iw!"Ip"#!'LG1A,vIw!!<6"#!fLG1A$6Iw!'+t"#!*LG1A,FIw!#>z"#!'LG1A-HIw!!DF"#!-LG1A!`Iw!#>z"#"/LG1A#4Iw!$4&"#!xLG1A#4Iw!"Ip"#!KLG)147"<#dJ(!!+t"#!'LG1A.JJ(!")0"#!'LG1A+tJ+!'LV"#!3LG1A(>Iw!%9P#U!i
+LG1A$6Iw!'4&#U!fLG1A(>Iw!!4&"#!iLG1A#4Iw!!DF"#!$LG1A(>Iw!'DF$W!ZLG1A/|Iw!!DF"#!?LG1A(>It!!Iq5hLVLVLVLVLVLVKoLG)1#U"<LVLVLVLVLVLVLR>z!Q!0!(<6LVLVLVLVLVLV@nIt!!DG5hIqLG#d!0IqLG#"!$!Q
+
+.ATT
+.STATUS Use menu on window.
+.ATT_END
+.EQN 5 1 67 0 0
+{    9     7 0 0}{61}
+19778 272 0 0 44
+40 7 9 1 24 0 216 0 0 0 0
+!q"<$fIt!!Iq5Y<6!A!"6k&K!9!'LG)1$w"<"2Is!!%)!A!"6k&K!9!#!!%)!`It!"9Q3tLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!!"9Q3tLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!!"4'5Y4&!A!"6k&K!9!#!!%)!A!"6k+t!Q!0!(9ZLG&K!9!#!!%)"2It!!.[5Z1@!Q!&!(9fLG)1
+
+.TXT 2 4 68 0 0
+Cg a74.000000,74.000000,21
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard La {\cf2 
+Paleta Matemática}:}
+.EQN 1 -4 70 0 0
+{   34   190 0 0}{61}
+19778 19504 0 0 44
+40 190 34 1 24 0 19448 0 0 0 0
+"3"<LG#d!$G-"s"<!Q#dApKu*?!&!!>{5Y)1LS#dAd3E!q!,!(9T!0KuLS!WAa.[&{"<!Q!6Ae6k!]!i!!+5-9!$Ae6k!]!i!!+5-9!$Ae6k$c!&!#4'5Y)1$3!$!%8/!Q!i6k)1-A!$!%8/!Q!i6k)1-A!$!%8/!Q!3Aa.[*#"<!Q!3Aa)1!`JX6k)1!`JX6k)1!`JX6k)1!`JX6k)1!`JX6k)1!`JX6k)1!`JX6k)1$3!&!*#e5Y)1$3!$
+!!+t!]!$!!)0!1!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!%)!q!'Aa2c!Q!$LJKu"+!$!!+t%e!$!#%i"+!$!!+t+q!'6k)1!`JRAa2c!Q!$LH0_!@Is!#6+"+!$!!+t+q!'6k)1$3!&!)>{5Y)1$3!$!!+t!]!$!!)0!1!"LG&K!@I|!!&J"s!"LG>{!@Is!!%)!q!'Aa2c!Q!$
+LJKu"+!$!!+t!]!#!!&J"_!#LG#e!PIr!!+5"S!?Aa2c!Q!$LJKu"+!$!!+t"/!"6k&K!9!#!$+5"+!$!!+t$3!"LG)1!`Is!#-y"+!$!!+t+q!'6k)1$3!&!/4'5Y)1$3!$!!+t!]!$!!)0!1!"LG&K!@Is!!3E!Q!"LG&K"/!$!!&J!A!'Aa)1!@Is!!%)!q!'Aa2c!Q!$LG;U!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is
+!!&J%e!'6k)1!`ItAa&K!@J(Aa)1&g!'6k)1!`IwAa9Q&7!*!!;U"+!$!!+t!]!"6k&K!]!"6k&K!9!#!!3E!A!"6k&K!9!#!!%)!A!"6k&K!9!$Aa&K!9!'Aa&K!9!-Aa2c!Q!$LGKu!@It!!1@!1!$LG&K&g!'6k)1!`JRAa2c!Q!3Aa.[#U%"!Q!3Aa)1!`ItAa)1!PIr!!&J!A!"LG)1!PItAa)1!@It!!)0!]!$!!&J!Q!#LG+5!Q!"
+LG&K!9!&!!3E"+!$!!+t"_!#!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@J.Aa2c!Q!$LG+5!A!"LGCe!PIr!!)0!1!$Aa)1&g!'6k)1!`IwAa)1(;!$!!;U"+!$!!+t"_!"6k&K!9!#!!3E!A!"6k3E!A!"6k;U!A!"6k+5!A!"6kCe"+!$!!+t#1!"LG)1""Ir!!1@!1!$LG&K!]!#!!&J!A!"LG&K!@Is!!&J!A!"LG&K
+!@IzAa2c!Q!$LI%i!A!"6k&K!9!9Aa2c!Q!3Aa.[Dw"<!Q!3Aa)1!`ItAa)1!PIr!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!9!&!!3E"+!$!!+t+q!'6k)1!`IwAa&K!@J%Aa)1&g!'6k)1!`IwAa)1(;!$!!;U"+!$!!+t"_!"6k&K!9!#!!3E!A!"6k3E!A!"6kCe!A!"6kKu
+"+!$!!+t#a!"LG)1""Ir!!+t!A!6Aa&K!@IzAa2c!Q!$LI%i!A!"6k&K!9!9Aa2c!Q!3Aa.[!q%"!Q!3Aa)1!`ItAa)1!PIr!!&J!A!"LG>{!@I|!!&J"s!"LG&K!9!&!!3E"+!$!!+t"_!#!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@J.Aa2c!Q!$LG3E!A!"LGCe!PIr!!)0!a!BAa2c!Q!$LG3E!Q!'Aa&K!@Is!!&J
+"/!"6k&K!9!#!!3E!A!"LG&K!@IwAa)1"_!'6k)1!`IzAa%)!A!"6k&K"_!#!!%)"/!#!!%)"_!#!!%)#a!'6k)1!`J%Aa&J!Q!$LG&K%5!#!!&J"_!'6k)1!`J4Aa&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6kCe"+!$!"(O!q!Z!89T!"(O!Q!$LG+5!Q!#LG#e!@Is!!&J!A!'Aa)1!@Is!!3E!Q!"LG&K"/!$!!&J!A!"6k.["/!'6k)1
+!`IzAa&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LHA!"+!$!!+t"/!#!!&J$3!&!!&J!A!"LHA!"+!$!!+t"/!$!!3E!A!"LG&K!@IwAa%)!A!"6k&K"/!#!!&J!A!"LG3E!Q!*Aa2c!Q!$LG;U!9!#!!%)!A!-Aa&K!9!#!!%)!A!"6k3E!A!"6k&K!9!#!!%)#1!'6k)1!`J(Aa&J!A!<Aa&K!@IzAa2c!Q!$LG3E!9!#
+!!%)!A!"6k&K!9!#!!+5!9!#!!%)!A!"6k&K!]!#!!%)!A!"6k&K!9!#!!%)!]!#!!%)!A!"6k;U"+!$!"(O!q#8!(9T!"(O!Q!$LG+5!Q!#LG#e!@Is!!&J!Q!#LG+5!Q!"LG)1!PItAa)1!@It!!)0!]!$!!&J!A!"6k.["/!'6k)1!`JRAa2c!Q!$LG;U!A!"LGCe!PIt!!&J"/!#!!&J%5!'6k)1!`IwAa)1(;!$!!;U"+!$!!+t"_!"
+6k&K!9!#!"(O!A!"6lA!"+!$!!+t)m!#!!&J"_!'6k)1!`ItAa%)!A!"6k&K"/!"6k&K!9!#!!%)!A!-Aa&K!9!#!!%)"_!#!!%)!A!"6k3E"+!$!"(O!q!*!89T!"(O!Q!$LG+5!Q!#LG#e!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"6k.["/!'6k)1!`J4Aa&K!9!#!!%)!A!"
+6k&K!9!#!!%)!A!"6k&K!9!#!!%)"/!'6k)1!`IzAa&K!@I}Aa&K!@It!!;U!A!"LH0_"+!$!!+t"/!$!#>;!Q!*Aa2c!Q!$LG;U!9!#!!%)!A!6Aa&K!9!9Aa2c!Q!$LH0_!A!"LHA!!A!"LG;U"+!$!!+t!]!"6k&K!9!#!!;U!9!#!!%)!A!-Aa&K!9!#!!%)"_!#!!%)!A!"6k3E"+!$!"(O!q!l!89T!"(O!Q!$LG+5!Q!#LG#e!@Is
+!!&J"s!"LG>{!@I|!!&J!A!"6k.["/!'6k)1!`Ir6k&K&7!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k3E"+!$!!+t!]!$!!+5!A!"LGCe!A!"LG)1!PIr!!3E!A!"LGCe!Q!'Aa2c!Q!$LG3E!Q!'Aa%)!A!"6k&K"/!"6k&K!9!#!!3E!A!"LG&K!@IwAa)1"_!'6k)1!`IzAa%)!A!"6k&K"/!#!!%)!A!"6k&K!9!#!!%)
+!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!'Aa2c!Q!$LH(O!A!"LG&K!@Is!!&J%5!#!!&J"_!'6k)1!`ItAa%)!A!"6k&K"_!"6k&K!9!#!!%)!A!*Aa&K!9!#!!%)"_!#!!%)!A!"6k3E"+!$!"(O!q!(!89T!"(O!Q!$LG+5!Q!#LG#e!@Is!!&J!A!'Aa)1!@Is!!3E!Q!"LG&K"/!$!!&J!A!"6k.["/!'6k)1!`Ir6k&K
+!9!#!$;U"+!$!!+t"s!"LHDG!@J%!!+5"+!$!!+t"/!$!!3E!9!#!!%)!A!'Aa%)!A!"6k&K"/!#!!&J!A!"LG3E!Q!*Aa2c!Q!$LG;U!9!#!!%)!A!6Aa&K!9!#!!%)$c!'6k)1!`J"Aa&K!@Is!!&J!A!"LG&K!@Is!!&J$c!#!!&J"_!'6k)1!`ItAa%)!A!"6k&K"_!"6k&K!9!#!!%)!A!"6k&K"/!#!!%)!A!"6k;U!A!"6k&K!9!'
+Aa2c!Q!3Aa.[#u%"!Q!3Aa)1!`ItAa)1!PIr!!&J!A!"LG)1!PItAa)1!@It!!)0!]!$!!&J!Q!#LG+5!Q!"LG&K!9!&!!3E"+!$!!+t!]!"6k&K!9!#!"8o!A!"6k&K!9!#!!%)$c!'6k)1!`ItAa)1"/!#!!&J"/!#!!&J!]!$!!)0!1!#LG#e"/!#!!&J"_!$!!3E"+!$!!+t"/!$!#>;!Q!*Aa2c!Q!$LG;U!9!#!!%)!A!6Aa&K!9!$
+Aa&K!9!3Aa2c!Q!$LH0_!A!"LHA!!A!"LG;U"+!$!!+t"/!"6k&K!9!#!!+5!9!#!!%)!A!$Aa%)!A!"6k&K"_!#!!%)!A!"6k&K!9!#!!%)!A!"6k;U"+!$!"(O!q!b!89T!"(O!Q!$LG+5!Q!#LG#e!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"6k.["/!'6k)1!`Ir6k&K!9!#
+!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!'Aa&K!9!#!!%)!A!"6k&K!9!#!!%)#a!'6k)1!`I}Aa&K!@IwAa&K!@ItAa)1#1!#!!&J$3!'6k)1!`IwAa)1(;!$!!;U"+!$!!+t"_!"6k&K!9!#!!;U!A!"6k&K!9!#!!%)!A!"6k&K!9!'Aa&K!9!0Aa2c!Q!$LH0_!A!"LHA!!A!"LG;U"+!$!!+t"_!"6k&K!9!#!!%)!A!"6k&K
+!]!"6k&K!9!#!!;U!A!"6k&K!9!'Aa&K!9!#!!%)"/!'6k)1$3!&!$>|5Y)1$3!$!!+t!]!$!!)0!1!"LG&K!9!#!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!@Is!!%)!q!'Aa2c!Q!$LG%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!Ce!A!"6k&K!9!#!!%)!A!"6k&K!9!*Aa2c
+!Q!$LGKu!A!"LG&K!@IwAa)1!]!#LG#e!PIr!!3E!A!"LGKu"+!$!!+t"/!$!!3E!A!"LG&K!@IwAa%)!A!"6k&K"/!#!!&J!A!"LG3E!Q!*Aa2c!Q!$LG;U!9!#!!%)!A!*Aa&K!9!'Aa&K!9!*Aa&K!9!#!!%)#1!'6k)1!`JFAa&K!@IzAa2c!Q!$LI6+!A!"6k&K!9!*Aa&K!9!'Aa2c!Q!3Aa.[(?%"!Q!3Aa)1!`ItAa)1!PIr!!&J
+!A!"6k)1!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!pIr!!&J!A!"6k.["/!'6k)1!`IzAa%)!A!"6k&K&7!#!!%)!A!"6k&K!9!#!!%)"/!'6k)1!`J.Aa)1#a!#!!&J#a!'6k)1!`IwAa)1"/!#!!&J!A!"LG3E!9!#!!%)!A!'Aa&K!@Is!!&J"/!$!!;U"+!$!!+t"_!"6k&K!9!#!!;U!A!"6k3E!A!"6k;U!A!"
+6k+5!A!"6k;U"+!$!!+t#1!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K#1!#!!&J!]!#!!&J"_!'6k)1!`J=Aa&K!9!#!!%)"/!#!!%)"/!'6k)1$3!&!!9R5Y)1$3!$!!+t!]!$!!)0!1!"LG&K!9!#!"I1!PIr!!&J!A!"6k.["/!'6k)1!`Ir6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!3Aa&K!9!#!!%)!A!"
+6k&K!9!'Aa2c!Q!$LHA!!Q!'Aa)0!1!#LG#e!]!#!!&J#a!'6k)1!`IwAa)1(;!$!!;U"+!$!!+t"_!"6k&K!9!#!!Ce!A!"6k3E!A!"6k3E!A!"6k+5!A!"6k;U"+!$!!+t#1!"LG)1""Ir!!1@!1!$LG&K"_!#!!&J!A!"LG+5!A!"LG;U"+!$!!+t(k!#!!%)!A!"6k&K!9!#!!%)"/!'6k)1$3!&!#)25Y)1$3!$!!+t!]!$!!)0!1!"
+LG&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!@Is!!%)!q!'Aa2c!Q!$LG%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!Ce!A!"6k&K!9!#!!%)!A!"6k&K!9!*Aa2c!Q!$LHA!!Q!0Aa&K!@J"Aa2c!Q!$LG3E!Q!KAa)1"_!'6k)1!`IzAa%)!A!"6k&K#a!#!!%)!A!"6k&K
+!9!$Aa&K!9!#!!%)!]!#!!%)"_!'6k)1!`I}Aa&J!A!$LG#e""Ir!!4&!A!'Aa&K!@Is!!&J!A!"LG&K!@Is!!&J"_!'6k)1!`JRAa2c!Q!3Aa.[J#"<!Q!3Aa)1!`ItAa)1!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIu!!3E"+!$!!+t$3!"6k&K!9!#!!;U!A!"6k&K
+!9!#!!%)!A!"6k&K!9!0Aa2c!Q!$LHA!!Q!*Aa)0!1!#LG#e!]!#!!&J#1!'6k)1!`IwAa9Q&7!*!!;U"+!$!!+t#1!"6k&K!]!"6k&K#a!#!!%)%5!'6k)1!`I}Aa&J!Q!&LG#e""Ir!!+t!A!*Aa&K!@Is!!&J#a!'6k)1!`JRAa2c!Q!3Aa.[;%"<!Q!3Aa)1!`IwAd!!"_!'6k)1!`J(Aa%)!A!"6k&K"/!#!!%)!A!"6k&K!9!6Aa2c
+!Q!$LH8o"S!0Aa&K!@I}Aa2c!Q!$LJKu"+!$!!+t#a!"6k&K$c!#!!%)$c!'6k)1!`I}Aa&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!-Aa&K!@J"Aa2c!Q!$LJKu"+!$!"(O!q"&!(9T!"(O!Q!$LJKu"+!$!!+t%5!"6k&K'9!'6k)1!`J.Aa)1#1!#LG#e!PIt!!&J#1!'6k)1!`JRAa2c!Q!$LI-y!A!"6k&K!9!6Aa2c!Q!$LJKu
+"+!$!!+t+q!'6k)1$3!&!%)15Y)1$3!$!!+t+q!'6k)1!`JRAa2c!Q!$LJKu"+!$!!+t+q!'6k)1!`JRAa2c!Q!$LJKu"+!$!!+t+q!'6k)1$3!&!$.[5Y)1$3!$!%1@!Y!$!%1@!Y!$!%1@!Y!$!%1@!Y!$!%1@!Y!$!%1@!Y!$!%1@!Y!$!"(O!q!D!(9T!"0_-9!$Ae6k!]!i!!+5-9!$Ae6k!]!i!!+5-9!6Aa.["s"<!Q#dApKu*?!&
+!!>{5Y)1LS#dAd3E!q!,!(9T!0KuLS!WAa.["3"<LG#d!$G-
+
+.ATT
+.STATUS Use math palette on window.
+.ATT_END
+.TXT 9 4 71 0 0
+Cg a69.000000,69.000000,37
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Donde cada uno de los 
+íconos definen:}
+.EQN 3 0 100 0 0
+{   26    26 0 0}{61}
+19778 2136 0 0 44
+40 26 26 1 24 0 2080 0 0 0 0
+"S"<!`J[!!+t!A!(!(9T!%8/!q!*!(9T!!+t,o!&!%Iq5Y)1!`ItAa)1!PIr!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!9!&!!3E"+!&!#>{5Y)1!`ItAa)1!PIr!!&J!A!"LG>{!@I|!!&J"s!"LG&K!9!&!!3E"+!&!$4'5Y)1!`ItAa)1!PIr!!&J!A!"LG&K"/!$!!&J!A!'
+Aa)1!@Is!!3E!Q!"LG&K!9!&!!3E"+!&!$DG5Y)1!`ItAa)1!PIr!!&J!A!"LG)1!PItAa)1!@It!!)0!]!$!!&J!Q!#LG+5!Q!"LG&K!9!&!!3E"+!&!%Iq5Y)1!`ItAa)1!PIr!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!9!&!!3E"+!&!#>{5Y)1!`ItAa)1!PIr!!&J!A!"
+LG>{!@I|!!&J"s!"LG&K!9!&!!3E"+!&!$4'5Y)1!`ItAa)1!PIr!!&J!A!"LG&K"/!$!!&J!A!'Aa)1!@Is!!3E!Q!"LG&K!9!&!!3E"+!&!$DG5Y)1!`ItAa)1!PIr!!&J!A!"LG)1!PItAa)1!@It!!)0!]!$!!&J!Q!#LG+5!Q!"LG&K!9!&!!3E"+!&!%Iq5Y)1!`ItAa)1!PIr!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"
+LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!9!&!!3E"+!&!#>{5Y)1!`ItAa)1!PIr!!&J!A!"LG>{!@I|!!&J"s!"LG&K!9!&!!3E"+!&!$4'5Y)1!`ItAa)1!PIr!!&J!A!"LG&K"/!$!!&J!A!'Aa)1!@Is!!3E!Q!"LG&K!9!&!!3E"+!&!$DG5Y)1!`ItAa)1!PIr!!&J!A!"LG)1!PItAa)1!@It!!)0!]!$!!&J!Q!#LG+5!Q!"
+LG&K!9!&!!3E"+!&!%Iq5Y)1!`ItAa)1!PIr!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!9!&!!3E"+!&!%Iq5Y)1!`ItAa)1!PIr!!&J!A!"6k&K!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!"LG&K!9!&!!3E"+!&!%>{5Y)1!`ItAa)1!PIr
+!!&J!A!"6k)1!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!pIr!!&J!A!"6k.["/!'6k.['}"<!Q!$LG+5!Q!#LG#e!@Is!!%)!A!?Aa)0!1!"LG&K!9!&!!3E"+!&!%Iq5Y)1!`ItAa)1!PIr!!&J!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"LG&K!9!&!!3E"+!&!%Iq
+5Y)1!`ItAa)1!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIu!!3E"+!&!!Iq5Y)1!`IwAd!!"_!'6k.["s"<!Q!$LJKu"+!&!!>{5Y)1!`JRAa2c!q!*!(9T!%1@!Y!&!!9Q5Y+t-9!$LG&K
+
+.ATT
+.STATUS Use button on palette.
+.ATT_END
+.EQN 0 25 101 0 0
+{   26    26 0 0}{61}
+19778 2136 0 0 44
+40 26 26 1 24 0 2080 0 0 0 0
+"S"<!`J[!!+t!A!(!(9T!%8/!q!*!(9T!!+t,o!&!!>{5Y)1!`JRAa2c!q!,!(9T!!+t+q!'6k.[$7"<!Q!$LG3E"S!?Aa9Q"_!'6k.[$7"<!Q!$LG3E!Q!KAa)1"_!'6k.[$7"<!Q!$LG3E!Q!KAa)1"_!'6k.[)A"<!Q!$LG3E!Q!'Aa&K!@Is!!&J"/!"6k&K!9!#!!3E!A!"LG&K!@IwAa)1"_!'6k.[)A"<!Q!$LG3E!Q!'Aa&K!@Is
+!!&J"/!"6k&K!9!#!!3E!A!"LG&K!@IwAa)1"_!'6k.[$7"<!Q!$LG3E!Q!KAa)1"_!'6k.[$7"<!Q!$LG3E!Q!KAa)1"_!'6k.[)A"<!Q!$LG3E!Q!'Aa%)!A!"6k&K"/!"6k&K!9!#!!3E!A!"LG&K!@IwAa)1"_!'6k.[)A"<!Q!$LG3E!Q!'Aa%)!A!"6k&K"/!"6k&K!9!#!!3E!A!"LG&K!@IwAa)1"_!'6k.[$7"<!Q!$LG3E!Q!K
+Aa)1"_!'6k.[$7"<!Q!$LG3E!Q!KAa)1"_!'6k.[)A"<!Q!$LG3E!Q!'Aa&K!@Is!!&J"/!"6k&K!9!#!!3E!A!"LG&K!@IwAa)1"_!'6k.[)A"<!Q!$LG3E!Q!'Aa&K!@Is!!&J"/!"6k&K!9!#!!3E!A!"LG&K!@IwAa)1"_!'6k.[$7"<!Q!$LG3E!Q!KAa)1"_!'6k.[$7"<!Q!$LG3E!Q!KAa)1"_!'6k.[$7"<!Q!$LG3E"S!?Aa9Q
+"_!'6k.["s"<!Q!$LJKu"+!&!!>{5Y)1!`JRAa2c!q!,!(9T!!+t+q!'6k.["S"<!Q!fLG*S!q!*!(9TLK6k!`Is!$!Q
+
+.ATT
+.STATUS Use button on palette.
+.ATT_END
+.TXT 3 -19 102 0 0
+Cg a70.625000,70.625000,17
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Paleta aritmética}
+.TXT 0 25 103 0 0
+Cg a48.625000,48.625000,29
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Paleta de Vectores y Matrices}
+.EQN 3 -31 104 0 0
+{   26    26 0 0}{61}
+19778 2136 0 0 44
+40 26 26 1 24 0 2080 0 0 0 0
+"S"<!`J[!!+t!A!(!(9T!%8/!q!*!(9T!!+t,o!&!!>{5Y)1!`JRAa2c!q!,!(9T!!+t+q!'6k.[)A"<!Q!$LG;U!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J%e!'6k.[)A"<!Q!$LG;U!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J%e!'6k.["s"<!Q!$LJKu"+!&!$#e5Y)1!`IzAa&K!@Is!!&J
+!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LHA!"+!&!$#e5Y)1!`IzAa&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LHA!"+!&!!>{5Y)1!`JRAa2c!q!N!(9T!!+t&g!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k3E"+!&!$#e5Y)1!`Ir6k&K&7!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"
+6k3E"+!&!")15Y)1!`Ir6k&K!9!#!$;U"+!&!#)15Y)1!`ItAa%)!A!"6k&K%5!#!!%)!A!"6k&K!9!6Aa2c!q!f!(9T!!+t!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K"/!#!!%)!A!"6k&K!9!#!!%)!A!"6kKu"+!&!%.[5Y)1!`Ir6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!-Aa&K!9!#!!%)
+!A!"6k&K!9!#!!%)"_!'6k.[']"<!Q!$LG;U!9!#!!%)!A!?Aa&K!9!#!!%)!A!"6k&K!9!'Aa2c!q!b!(9T!!+t!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K$3!#!!%)!A!"6k&K!9!#!!%)"/!'6k.[,g"<!Q!$LG%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!Ce!A!"6k&K!9!#!!%)!A!"6k&K
+!9!*Aa2c!q!L!(9T!!+t$3!"6k&K!9!#!!;U!A!"6k&K!9!#!!%)!A!"6k&K!9!0Aa2c!q!D!(9T!!+t$c!"6k&K!9!#!!3E!A!"6k&K!9!#!!%)$c!'6k.[#u"<!Q!$LH8o!9!#!#-y"+!&!!>{5Y)1!`JRAa2c!q!*!(9T!%1@!Y!&!!9Q5Y+t-9!$LG&K
+
+.ATT
+.STATUS Use button on palette.
+.ATT_END
+.EQN 0 25 105 0 0
+{   26    26 0 0}{61}
+19778 2136 0 0 44
+40 26 26 1 24 0 2080 0 0 0 0
+"S"<!`J[!!+t!A!(!(9T!%8/!q!*!(9T!!+t,o!&!!>{5Y)1!`JRAa2c!q!6!(9T!!+t"/!"6k&K!9!#!$+5"+!&!$DG5Y)1!`ItAa%)!A!$Aa%)!A!"6k&K"/!#!!%)!A!"6k&K!9!#!!%)!A!"6k+5!A!"6k3E!A!"6kCe"+!&!#DG5Y)1!`IzAa%)!A!"6k&K"/!#!!%)"/!#!!%)"_!#!!%)!]!#!!%)#1!'6k.[']"<!Q!$LG;U!9!#
+!!%)!A!'Aa&K!9!'Aa&K!9!-Aa&K!9!0Aa2c!q!H!(9T!!+t"_!"6k&K!9!#!!;U!A!"6k3E!A!"6k;U!A!"6kKu"+!&!$#e5Y)1!`IzAa%)!A!"6k&K#1!#!!%)!A!"6k&K!9!'Aa&K!9!#!!%)!A!"6kCe"+!&!">{5Y)1!`IzAa%)!A!"6k&K$3!#!!%)%e!'6k.[%Y"<!Q!$LG;U!9!#!!%)!A!6Aa&K!9!9Aa2c!q!h!(9T!!+t"_!"
+6k&K!9!#!!3E!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)"/!'6k.[&;"<!Q!$LG;U!9!#!!%)!A!6Aa&K!9!#!!%)$c!'6k.[&["<!Q!$LG;U!9!#!!%)!A!6Aa&K!9!$Aa&K!9!3Aa2c!q!R!(9T!!+t"_!"6k&K!9!#!!;U!A!"6k&K!9!#!!%)!A!"6k&K!9!'Aa&K!9!0Aa2c!q!L!(9T!!+t
+"_!"6k&K!9!#!!;U!A!"6k3E!A!"6k;U!A!"6k&K!9!-Aa2c!q!N!(9T!!+t"_!"6k&K!9!#!!;U!A!"6k3E!A!"6k;U!A!"6k+5!A!"6k;U"+!&!#DG5Y)1!`IzAa%)!A!"6k&K#1!#!!%)"/!#!!%)"/!#!!%)!]!#!!%)"_!'6k.[)a"<!Q!$LG;U!9!#!!%)!A!0Aa&K!9!#!!%)!A!"6k+5!A!"6k&K!9!$Aa&K!9!*Aa2c!q!>!(9T
+!!+t#1!"6k&K!]!"6k&K#a!#!!%)%5!'6k.[$w"<!Q!$LGKu!9!#!"0_!A!"6l0_"+!&!".[5Y)1!`J7Aa&K!9!#!!%)$c!'6k.["s"<!Q!$LJKu"+!&!!9Q5Y)1,vIt6k.["S"<!`J[!!+t!A!Q
+
+.ATT
+.STATUS Use button on palette.
+.ATT_END
+.TXT 2 -19 114 0 0
+Cg a17.375000,17.375000,31
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Paleta de Evaluación
+\par y Booleana}
+.TXT 1 25 107 0 0
+Cg a48.625000,48.625000,17
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Paleta de Cálculo}
+.EQN 4 -31 108 0 0
+{   27    26 0 0}{61}
+19778 2216 0 0 44
+40 26 27 1 24 0 2160 0 0 0 0
+!q"<.JIs!!9Q5Y+t-9!$LG&K"3"<!Q!i6k.["S"<!Q!$LK/}!q!0!(9T!!+t%e!$!#%i"+!&!"Iq5Y)1!`ItAa&K!@IzAa)0!1!#LG#e!]!*!"I1"+!&!".[5Y)1!`ItAa&K!@J(Aa)1&g!'6k.[&;"<!Q!$LG+5!A!"LGCe!PIr!!)0!1!$Aa)1&g!'6k.[$W"<!Q!$LG3E!A!"LH(O!Q!BAa2c!q!<!(9T!!+t"/!#!!&J#1!#LG#e!PIu
+!#%i"+!&!">{5Y)1!`IwAa&K!@J%Aa.[!@Is!!&J%e!'6k.[&;"<!Q!$LG;U!A!"LGCe!PIt!!&J"/!#!!&J%5!'6k.[&;"<!Q!$LG;U!A!"LGCe!A!"LG)1"_!#!!&J$c!'6k.[(?"<!Q!$LG+5!Q!$Aa&K!@I}Aa&K!@It!!)0!1!'Aa&K!@I}Aa)1"/!'6k.[$W"<!Q!$LG>{!@J0!!&J$'!$Aa2c!q!R!(9T!!+t!]!$!!3E!A!"LG3E
+!A!"LG+5!Q!#LG#e!PIr!!3E!A!"LG;U!Q!'Aa2c!q!B!(9T!!+t#1!#!!&J"/!#!!&J!]!$!!Ce!A!"LH(O"+!&!#9Q5Y)1!`J"Aa&K!@Is!!&J"/!$!!+5!PIr!!)0!1!'Aa&K!@J"Aa2c!q!6!(9T!!+t%e!$!!Ku!A!"LGKu"+!&!"Iq5Y)1!`J.Aa)1"/!#LG#e!PIr!!+5!A!"LGKu"+!&!".[5Y)1!`J.Aa)1#a!#!!&J#a!'6k.[
+&;"<!Q!$LHA!!Q!*Aa)0!1!#LG#e!]!#!!&J#1!'6k.[$W"<!Q!$LH8o"S!0Aa&K!@I}Aa2c!q!<!(9T!!+t%e!$!!Ce!PIr!!)0!Q!"LGCe"+!&!!>{5Y)1!`JRAa2c!q!*!(9T!%1@!Y!&!!9Q5Y+t-9!$LG&K
+
+.ATT
+.STATUS Use button on palette.
+.ATT_END
+.EQN 0 25 109 0 0
+{   26    26 0 0}{61}
+19778 2136 0 0 44
+40 26 26 1 24 0 2080 0 0 0 0
+"S"<!`J[!!+t!A!(!(9T!%8/!q!*!(9T!!+t,o!&!"#e5Y)1!`J(Aa&J!A!HAa2c!q!6!(9T!!+t$3!"LG)1!`Is!#-y"+!&!"9Q5Y)1!`J"Aa&J!Q!&LG#e!`Is!#%i"+!&!$4'5Y)1!`I}Aa&J!Q!&LG#e""Ir!!+t!A!$Aa&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG;U"+!&!"Iq5Y)1!`J"Aa&J!Q!&LG#e!`Is!"0_!A!"LG;U"+!&
+!">{5Y)1!`J%Aa&J!Q!$LG&K%5!#!!&J"_!'6k.[$w"<!Q!$LH0_!@Is!"A!!A!"LG;U"+!&!"#e5Y)1!`JFAa&K!@IzAa2c!q!8!(9T!!+t$c!#!!&J%e!#!!&J"_!'6k.[&;"<!Q!$LH(O!A!"LG&K!@Is!!&J%5!#!!&J"_!'6k.[']"<!Q!$LGKu!A!"LG&K!@Is!!&J!A!"LG&K!@J(Aa&K!@IzAa2c!q!8!(9T!!+t$c!#!!&J%e!#
+!!&J"_!'6k.[$w"<!Q!$LH0_!A!"LHA!!A!"LG;U"+!&!"#e5Y)1!`JFAa&K!@IzAa2c!q!V!(9T!!+t#1!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K#1!#!!&J!]!#!!&J"_!'6k.[(_"<!Q!$LGCe!@It!!1@!1!&LG#e!`Is!!;U!A!"LG&K!@ItAa&K!@IzAa2c!q!T!(9T!!+t#1!"LG&K!`Ir!!1@!1!'LG&K"/!#!!&J!A!"
+LG&K!@Is!!&J!A!"LG;U"+!&!#4'5Y)1!`I}Aa&J!Q!&LG#e""Ir!!+t!A!*Aa&K!@Is!!&J#a!'6k.[)!"<!Q!$LGCe!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!Ce!A!"LGKu"+!&!!>{5Y)1!`JRAa2c!q!,!(9T!!+t+q!'6k.["S"<!Q!fLG*S!q!*!(9TLK6k!`Is!$!Q
+
+.ATT
+.STATUS Use button on palette.
+.ATT_END
+.TXT 3 -19 117 0 0
+Cg a17.375000,17.375000,18
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Paleta de Gráficos}
+.TXT 0 25 111 0 0
+Cg a48.625000,48.625000,22
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Paleta de Programación}
+.EQN 3 -19 112 0 0
+{   26    26 0 0}{61}
+19778 2136 0 0 44
+40 26 26 1 24 0 2080 0 0 0 0
+"S"<!`J[!!+t!A!(!(9T!%8/!q!*!(9T!!+t,o!&!!>{5Y)1!`JRAa2c!q!,!(9T!!+t+q!'6k.["s"<!Q!$LJKu"+!&!".[5Y)1!`J4Aa&K!9!#!!%)%5!'6k.[$W"<!Q!$LI%i!A!"6k&K!9!9Aa2c!q!F!(9T!!+t&g!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!-Aa2c!q!h!(9T!!+t"/!"6k&K!9!#!!%)!A!"6k&K!]!"6k&K!9!#
+!!%)!A!$Aa&K!9!#!!%)!A!"6k&K!9!$Aa&K!9!#!!%)"_!'6k.[*C"<!Q!$LG+5!9!#!!%)!A!'Aa%)!A!"6k&K!9!#!!Ce!A!"6k&K!9!*Aa&K!9!#!!%)"/!'6k.[)a"<!Q!$LG+5!9!#!!%)!A!*Aa%)!A!"6k&K#1!#!!%)!A!"6k;U!A!"6k&K!9!'Aa2c!q!X!(9T!!+t!]!"6k&K!9!#!!;U!9!#!!%)!A!"6k&K"_!#!!%)!A!"
+6k;U!A!"6k&K!9!'Aa2c!q!\!(9T!!+t!]!"6k&K!9!#!!;U!9!#!!%)!A!"6k&K!9!#!!3E!A!"6k&K!9!*Aa&K!9!#!!%)"/!'6k.[+e"<!Q!$LG3E!9!#!!%)!A!$Aa%)!A!"6k&K!]!"6k&K!9!#!!;U!A!"6k&K!9!#!!%)!A!"6k&K!9!*Aa2c!q!\!(9T!!+t"_!"6k&K!9!#!!%)!A!"6k&K!]!"6k&K!9!#!!;U!A!"6k&K!9!'
+Aa&K!9!#!!%)"/!'6k.[%Y"<!Q!$LI6+!A!"6k&K!9!*Aa&K!9!'Aa2c!q!<!(9T!!+t(;!#!!%)!A!"6k3E!A!"6k3E"+!&!"DG5Y)1!`J@Aa&K!9!#!!%)!A!"6k&K!9!'Aa2c!q!,!(9T!!+t+q!'6k.["s"<!Q!$LJKu"+!&!!>{5Y)1!`JRAa2c!q!,!(9T!!+t+q!'6k.["s"<!Q!$LJKu"+!&!!9Q5Y)1,vIt6k.["S"<!`J[!!+t
+!A!Q
+
+.ATT
+.STATUS Use button on palette.
+.ATT_END
+.TXT 3 6 113 0 0
+Cg a62.625000,62.625000,24
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Paleta de Letras Griegas}
+.TXT 6 -22 118 0 0
+Cg a71.000000,71.000000,166
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Cuando se abre cada 
+una de estas, a través de un click, aparecen los operadores corres- 
+pondientes, los que se pueden incorporar inmediatamente en la Hoja de Trabajo.
+}
+.EQN 4 0 121 0 0
+{    9     7 0 0}{61}
+19778 272 0 0 44
+40 7 9 1 24 0 216 0 0 0 0
+!q"<$fIt!!Iq5Y<6!A!"6k&K!9!'LG)1$w"<"2Is!!%)!A!"6k&K!9!#!!%)!`It!"9Q3tLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!!"9Q3tLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!!"4'5Y4&!A!"6k&K!9!#!!%)!A!"6k+t!Q!0!(9ZLG&K!9!#!!%)"2It!!.[5Z1@!Q!&!(9fLG)1
+
+.TXT 2 4 122 0 0
+Cg a74.000000,74.000000,25
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard La {\cf2 
+Barra de Herramientas}:}
+.EQN 2 -4 123 0 0
+{   73   315 0 0}{61}
+19778 69260 0 0 44
+40 315 73 1 24 0 69204 0 0 0 0
+"S"<LG#d!0Iq@/!.!(9T!0KuLS#dAkI1"#!.!(9T!0KuLS#dAkI1"#!2!(9T!!3ELG#d!0Iq<W!'Aa1A$W"<!Q!'Aa)1LS#dApKu;a!$!!3E"#!6!(9T!!3E!Q#dApKuLS"_Aa)1"/!'!$4'5Y)1"/!$!"(O-9!$Ae6k%5!i!!+5-9!9Ae6k!]!i!"8o-9!$Ae6k%5!i!!+5-9!iAa)1"/!'!%>{5Y)1"/!$!!Ku!Q!i6k)1-A!$!"(O!Q!i
+Aa)1-E!$!"(O!Q!i6k)1-A!$!"(O!Q!i6k)1-A!$!"(O!Q!i6k)1-A!$!%0_!Q!'Aa1A?m"<!Q!'Aa)1#a!$!!+t,o!$!!+t,o!$!"(O!Q!$6k+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$!!*S!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t"/!$!"(O!Q!$LK/}!Q!$
+LK/}!Q!3Aa)1!`JX6k)1!`JX6k)1$3!$!!+t,o!$!!+t,o!$!%0_!Q!'Aa1ACU"<!Q!'Aa)1#a!$!!+t+q!'6k)1!`JRAa2c!Q!3Aa)1!Y!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`IwAa)1!Y!$Aa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!Q!3Aa)1!`JRAa2c!Q!$
+LJKu"+!$!"(O!Q!$LJKu"+!$!!+t+q!'6k)1$3!$!!+t&7!$LG1A%5!'6k)1!`JRAa2c!Q!fAa)1"/!'!.#e5Y)1"/!$!!Ku!Q!$LJKu"+!$!!+t+q!'6k)1$3!$!!*S!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa)1!Y!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`Iw
+Aa)1$3!$!!+t+q!'6k)1!`JRAa2c!Q!3Aa)1!`JRAa2c!Q!$LJKu"+!$!"(O!Q!$LHI1!1!&LG#e!PIw!"(O"+!$!!+t+q!'6k)1,s!$!!3E"##@!(9T!!3E!Q!0Aa)1!`JRAa2c!Q!$LHA!!9!#!!+t&7!'6k)1$3!$!!*S!`ItAa+t!]!$LG+5!`ItAa+t"#!$Aa+t!]!$LG+5!`ItAa+t!]!$LG3E!Q!$6k+5!`ItAa+t!]!$LG+5!`It
+Aa+t!]!$LG+5!`ItAa+t!Q!$LG)1!`ItAa+t!]!$!"(O!Q!$LJKu"+!$!!+t+q!'6k)1$3!$!!+t+q!'6k)1!`JRAa2c!Q!3Aa)1!`J.Aa#e""Ir!!1@!1!&LG1A#1!'6k)1!`JRAa2c!Q!fAa)1"/!'!0DG5Y)1"/!$!!Ku!Q!$LJKu"+!$!!+t%5!"6k&K!9!#!!%)!A!$LHA!"+!$!"(O!Q!$6k+5!`ItAa+t!]!$LG+5!`I}!!+5!`It
+Aa+t!]!$LG+5!`ItAa+t!]!$!!*S!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$!!+5!Q!$Aa+t"/!$!"(O!Q!$LJKu"+!$!!+t+q!'6k)1$3!$!!+t(k!$!!Ku"+!$!!+t+q!'6k)1$3!$!!+t!Y!$Aa2c!]!'6k+5!1!&LG#e""Ir!!1@!1!&LG#e!PIw!!3E"+!$!!+t%5!$6k9Q!Y!9Aa2c!Q!fAa)1"/!'!"9R5Y)1"/!$
+!!Ku!Q!$LHA!!9!#!!3E!9!#!"8o"+!$!!+t$c!"6k&K!9!#!!%)!A!"6k&K!9!#!!+t%5!'6k)1$3!$!!*S!`ItAa+t!]!$LG+5!`ItAa)1!]!$LG)1!`ItAa+t!]!$LG+5!`ItAa+t"/!$!!*S!]!$LG+5!`J"!!+t#U!$LG+5!Q!$Aa+t!]!$LG+5!Q!3Aa)1!`JRAa2c!Q!%LG&K!@Is!"(O!@Is!"(O!@Is!!Ku"+!$!"(O!Q!$LI>;
+"S!-Aa2c!Q!$LH(O$W!9Aa2c!Q!3Aa)1!`J+Aa+t!1!&LG#e""Ir!!1@!1!&LG#e""It!!+5"+!$!!+t%5!$!!)0!1!#LG4'%5!'6k)1,s!$!!3E"#!`!89T!!3E!Q!0Aa)1!`J.Aa%)!A!'Aa%)!A!9Aa2c!Q!$LH(O!9!#!!%)!A!"6k&K!`ItAa%)!A!"6k&K!`J(Aa2c!Q!3Aa)1!Y!$Aa+t!]!$LG+5!`ItAa+t#%!$Aa+t!]!$LG+5
+!`ItAa+t!]!$LG+5!Q!$6k+t!]!$LG+5#%!$LG+5!`I}!!+5!`It!!+t!]!$LG3E!Q!3Aa)1!`I}Ac4'#1!'6k)1!pIs!!+5!@Is!!Ce!@Is!"8o!@Is!!Ce"+!$!"(O!Q!$LI6+"3!#LG)1#1!'6k)1!`J"Aa)1!PIr!!1@!1!&LG#e""Iu!"0_"+!$!"(O!Q!$LG+5!Y!'Aa2c!]!$LG#e""Ir!!1@!1!'LG&K!@It!!1@!1!&LG+5"+!$
+!!+t%5!$!!)0!1!#LG4'%5!'6k)1,s!$!!3E"#"B!89T!!3E!Q!0Aa)1!`J.Aa%)!A!'Aa%)!A!9Aa2c!Q!$LGKu!9!#!!%)!A!"6k&K!`IzAa%)!A!"6k&K!`J%Aa2c!Q!3Aa)1!Y!$LG+5!`ItAa+t!]!$LG)1!`Ir!!1@!1!#LG)1!]!$LG+5!`ItAa+t!]!$LG3E!Q!$6k+5!`ItAa+t"S!$LG+5!Q!$Aa+t"S!$LG+5!Q!$Aa+t!]!$
+LG+5!Q!3Aa)1!`IzAa&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!q!-Aa2c!Q!$LG3E!@Is!!&J!A!'Aa&J!A!"LG&K%5!"LG&K!@Is!!;U"+!$!"(O!Q!$LGKu$'!$Aa4'!PIt!!Ku"+!$!!+t#a!0!!1@!1!$LG)1$c!'6k)1$3!$!!+t$3!$LG#e""Ir!!1@!1!&LG#e!`Is!!&J!A!$LG#e
+""Ir!!)0!]!'6k)1!`J+Aa*S"#!$6lA!"+!$!%0_!Q!'Aa1A:#%"!Q!'Aa)1#a!$!!+t%e!"6k&K"/!"6k&K%5!'6k)1!`J:Aa%)!A!"6k&K!`J"Aa2c!Q!3Aa)1!Y!$Aa+t!]!$LG+5!`ItAa+u""Ir!!1@!Q!$LG+5!`ItAa+t!]!$LG+5!`ItAa)1!Y!$LG+5!`ItAa)1!]!$LGIq!`ItAa)1!]!$LG)1!`ItAa+t"/!$!"(O!Q!$LG;U
+!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Iv!!Ce"+!$!!+t"/!"LG&K!@Is!!3E!@Is!!&J!A!$Aa&J!A!"LG&K"/!"LG&K!@Is!!3E!@Is!!&J!A!'Aa2c!Q!3Aa)1!`I}Aa1A!PIr!!)0!1!#LG#e!PI|!!)0!Q!3Aa2c!Q!$LGKu!Q!#LG#e""Ir!!1@!1!&LG+u$c!'6k)1$3!$!!+t!Y!$
+Aa:s!]!"!!1@!1!&LG#e"2Is!!+t!1!&LG#e""Ir!!1@!]!'6k)1!`J+Aa)1!PIx!"A!"+!$!%0_!Q!'Aa1A6;%"!Q!'Aa)1#a!$!!+t%e!"6k&K"/!"6k&K%5!'6k)1!`J=Aa%)!A!"6k&K!`I}Aa2c!Q!3Aa)1!Y!$LG+5!`ItAa+t!]!%!!1@!1!&LG#e""It!!+t!]!$LG+5!`ItAa+t"/!$!!*S!]!$LG+5!`ItAb>{!]!$LG+5!Q!$
+Aa+t!]!$LG+5!Q!3Aa)1!`IzAa&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!0Aa2c!Q!$LG3E!@Is!!&J!A!'Aa&J!A!"LG&K"_!"LG&K!@Is!!&J!A!$Aa&J!A!$Aa&J!A!"LG&K"/!'6k)1$3!$!!+t"_!'!!)0!1!/LG<7$c!'6k)1!`J"Aa9Q""Ir!!1@!1!$LG9Q#a!'6k)1$3!$!!+t
+#a!"!!1@!1!&LG#e"2Is!!&J!A!"LG&K!`Ir!!1@!1!&LG#e!PItAa2c!Q!$LH8o!Q!#LG4'%e!'6k)1,s!$!!3E"#!v!89T!!3E!Q!0Aa)1!`J.Aa%)!A!'Aa%)!A!9Aa2c!Q!$LIFK!9!#!!%)!A!$LG;U"+!$!"(O!Q!$6k+5!`ItAa+t!]!$LG)1!`Ir!!1@!1!&LG#e!PIt!!+5!`ItAa+t!]!$LG+5!`ItAa)1!Y!$LG+5!`J:!!+t
+!Q!$LG+5!`IwAa)1$3!$!!+t+q!'6k)1!`IzAa&J!A!'Aa&J!A!"LG&K#1!"LG&K!@Is!!Ce!@Is!!&J!A!$Aa2c!Q!3Aa)1!`IwAa1A!PIr!!+t!A!"6k&K!9!#!!%)!A!"6k1@"3!6Aa2c!Q!$LGKu!Q!#LG#e""Ir!!1@!1!&LG#e"bIt!!Ce"+!$!"(O!Q!$LG*S!]!$6k+5!1!&LG#e""Ir!!1@!1!$LG&K!@Is!!+t!1!&LG#e""Ir
+!!1@!]!'6k)1!`J+Aa)1!PIx!"A!"+!$!%0_!Q!'Aa1A,'%"!Q!'Aa)1#a!$!!+t$3!"6k&K!9!#!!%)!A!"6k&K"/!"6k&K%5!'6k)1!`JCAa%)!A!"6k&K!`IwAa2c!Q!3Aa)1!Y!$LG+5!`ItAa+t!Q!$LG#e!pIs!!1@!1!&LG#e!PIt!!+5!`ItAa+t!]!$LG3E!Q!$6k+5!`J@!!+t!]!$LG+5!`ItAa)1$3!$!!+t+q!'6k)1!`Iz
+Aa&J!A!"LG&K!]!"LG&K!@Is!!;U!@Is!!&J!A!0Aa&J!A!"LG&K!]!'6k)1$3!$!!+t"/!$!!)0!1!;LG+u$c!'6k)1!`J"AaIq""Ir!!+t"#!$LG)1#1!'6k)1$3!$!!+t#1!$LG#e""Ir!!1@!1!'LG&K!@It!!1@!1!&LG#e""Ir!!)0!]!'6k)1!`J+Aa)1!Y!#LG4'%5!'6k)1,s!$!!3E"#"N!89T!!3E!Q!0Aa)1!`J"Aa%)!A!"
+6k&K!9!#!!%)!A!"6k&K"/!"6k&K%5!'6k)1!`ItAa&K!9!*Aa&K!9!$Aa&K!9!#!!%)!A!"6k&K!9!*Aa&K!9!#!!%)!A!#6k&K!9!#!!3E"+!$!"(O!Q!$6k+5!`ItAa+t!]!%!!6j!1!#LG#e!PIr!!)0!A!&LG)1!`ItAa+t!]!$LG+5!`ItAa)1!Y!$LG+5!`J:!!+t!]!$LG+5!`IwAa)1$3!$!!+t#1!H!!Ce"+!$!!+t"_!"LG&K
+!@Is!!3E!@Is!!&J!A!'Aa&J!A!"LG&K!@Is!!Ce!@Is!!&J!A!$Aa2c!Q!3Aa)1!`IwAa)1!PIr!!<6!A!"6kIp!a!6Aa2c!Q!$LGKu!Q!6LG+5!Q!$LG)1#1!'6k)1$3!$!!+t"+!$Aa+t!1!&LG#e!`Is!!&J!A!$LG#e!`Is!!&J!A!"LG)1""Ir!!1@!1!&LG+5"+!$!!+t#a!$6k1A!]!$!!*S!PIx!"0_"+!$!%0_!Q!'Aa1ABs%"
+!Q!'Aa)1#a!$!!+t#1!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!'Aa%)!A!9Aa2c!Q!$LG+5!A!"6k;U!A!"6k3E!A!"6k3E!A!"6k+5!A!"6k;U!A!"6k;U"+!$!"(O!Q!$6k+t!]!$LG+5!`It!!+t!1!&LG#e"BIr!!+t!1!#LG)1!]!$LG+5!`ItAa+t"/!$!!*S!]!$LG+5!`ItAb>{!]!$LG+5!`ItAa+t!]!$LG+5!Q!3Aa)1!`Iz
+Aa&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!q!-Aa2c!Q!$LG3E!@Is!!&J!A!"LG&K!@Is!!+5!@Is!!&J!A!$Aa&J!A!"LG&K"/!"LG&K!@Is!!3E!@Is!!&J!A!$Aa2c!Q!3Aa)1!`IwAa)1!PIr!!<6!A!"6kIp!a!6Aa2c!Q!$LGKu"S!0LG1A!`It!!Ce"+!$!"(O!Q!$LG3E!`Ir!!1@
+!1!'LG&K!@It!!1@!1!$LG&K!@Is!!+t!1!&LG#e""Ir!!)0!]!'6k)1!`J"Aa)1!PIx!!+5!Q!$6k)0"3!3Aa2c!Q!fAa)1"/!'!,DH5Y)1"/!$!!Ku!Q!$LGCe!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K"/!"6k&K%5!'6k)1!`ItAa&K!9!#!!%)!A!"6k&K!9!#!!%)"/!#!!%)"/!#!!%)!]!#!!%)$c!'6k)1$3!$!!*S!]!$LG+5
+!`ItAa+u""Ir!!1@!1!&LG#e""It!!+t!]!$LG+5!`ItAa+t!]!$!!*S!`ItAa+t!]!$LG+5!`J"!!+t!]!$LG+5!`ItAa+t!]!$LG3E!Q!3Aa)1!`IzAa&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!q!-Aa2c!Q!$LG;U!@Is!!&J!A!*Aa&J!A!"LG&K%5!"LG&K!@Is!!+5"+!$!"(O!Q!$
+LG3E!Q!#LG#e!`Is!!%)!A!"6k&K!9!#!!%)!A!"6k9P!a!6Aa2c!Q!$LGCe"#!?LG)1#1!'6k)1$3!$!!+t"/!"!!1@!1!&LG#e!`Is!!&J!A!"LG)1"2Is!!&J!Q!&LG#e""Ir!!)0!Q!$Aa2c!Q!$LGKu!Q!#LG4'"/!$!!)0"3!3Aa2c!Q!fAa)1"/!'!,#f5Y)1"/!$!!Ku!Q!$LGCe!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K"/!"
+6k&K%5!'6k)1!`ItAa&K!9!*Aa&K!9!'Aa&K!9!#!!%)!A!"6k3E!A!"6l0_"+!$!"(O!Q!$6k+t!]!$LG+5!`ItAa+u""Ir!!1@!1!&LG)1!`ItAa+t!]!$LG+5!`IwAa)1!Y!$Aa+t!]!$LG+5!`ItAa+t!]!$!!+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!Q!3Aa)1!`IzAa&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K
+!@Is!!&J!A!"LG&K!@Is!!&J!A!0Aa2c!Q!$LGCe!@Is!!&J!A!$Aa&J!A!$Aa&J!A!9Aa&J!A!'Aa2c!Q!3Aa)1!`IwAa1A!PIr!!4&!A!"6kA`"3!6Aa2c!Q!$LGCe!Q!9LGAa#1!'6k)1$3!$!!+t#1!$LG#e""Ir!!+t!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!+t!1!&LG#e!PIt!!3E"+!$!!+t#a!$!!)0!1!#LG<7!PIr!!)0"3!3
+Aa2c!Q!fAa)1"/!'!(#f5Y)1"/!$!!Ku!Q!$LGCe!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K"/!"6k&K%5!'6k)1!`ItAa&K!9!*Aa&K!9!'Aa&K!9!'Aa&K!9!$Aa&K!9!6Aa2c!Q!3Aa)1!Y!$Aa+t!]!$LG+5!`ItAa+u""Ir!!1@!Q!$LG+5!`ItAa+t!]!$LG+5!`ItAa)1!Y!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`It
+Aa+t!]!$LG+5!`IwAa)1$3!$!!+t+q!'6k)1!`J"Aa&J!A!"LG&K!@Is!!3E!@Is!"(O!@Is!!;U"+!$!"(O!Q!$LG;U"#!#LG#e!`Is!!%)"RIx!"8o"+!$!!+t"_!B!"0_"+!$!"(O!Q!$LH(O!1!&LG#e!`Is!!&J!A!"LG&K!@Is!!+t!1!&LG#e""It!!3E"+!$!!+t#a!$6k)1!PIr!!)0!1!#LG#e!PIr!!)0"3!$6l(O"+!$!%0_
+!Q!'Aa1A)A%"!Q!'Aa)1#a!$!!+t#a!"6k&K!9!#!!%)!A!"6k&K!9!#!!3E!9!#!"8o"+!$!!+t"/!#!!%)!]!#!!%)"_!#!!%)"/!#!!%)!]!#!!%)"_!#!!%)"_!'6k)1$3!$!!*S!`ItAa+t!]!$LG+5!`ItAaAa!`ItAa+t!]!$LG+5!`ItAa+t"/!$!!*S!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5
+!`ItAa)1$3!$!!+t+q!'6k)1!`JRAa2c!Q!3Aa)1!`I}Aa1A!PIr!!)0!1!#LG#e!PIx!"A!"+!$!!+t+q!'6k)1$3!$!!+t%5!$LG#e""Ir!!1@!1!&LG#e""It!!;U"+!$!!+t$3!$6l&K!Y!6Aa2c!Q!fAa)1"/!'!#DH5Y)1"/!$!!Ku!Q!$LH(O!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!6Aa2c!Q!$LG3E!A!"6k&K
+!9!#!!%)"/!#!!%)!A!"6k&K!9!#!!%)"_!#!!%)!A!"6k&K!9!#!!%)"_!'6k)1$3!$!!*S!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa)1!Y!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`IwAa)1$3!$!!+t+q!'6k)1!`JRAa2c!Q!3Aa)1!`J"Ab&K&7!'6k)1!`JR
+Aa2c!Q!3Aa)1!`J1Aa#e""Ir!!1@!1!&LG)1#1!'6k)1!`JRAa2c!Q!fAa)1"/!'!.)15Y)1"/!$!!Ku!Q!$LJKu"+!$!!+t+q!'6k)1$3!$!!*S!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t"/!$!!*S!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa)1$3!$!!+t+q!'
+6k)1!`JRAa2c!Q!3Aa)1!`JRAa2c!Q!$LJKu"+!$!"(O!Q!$LI-y!`Ir!!1@!1!#LG)1#1!'6k)1!`JRAa2c!Q!fAa)1"/!'!-DG5Y)1"/!$!!Ku!Q!$LJKu"+!$!!+t+q!'6k)1$3!$!!*S!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa)1!Y!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`It
+Aa+t!]!$LG+5!`IwAa)1$3!$!!+t+q!'6k)1!`JRAa2c!Q!3Aa)1!`JRAa2c!Q!$LJKu"+!$!"(O!Q!$LI>;!1!#LG)1#a!'6k)1!`JRAa2c!Q!fAa)1"/!'!-.[5Y)1"/!$!!Ku!Q!$LJKu"+!$!!+t+q!'6k)1$3!$!!*S!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa+t"/!$!!*S!]!$LG+5!`ItAa+t!]!$
+LG+5!`ItAa+t!]!$LG+5!`ItAa+t!]!$LG+5!`ItAa)1$3!$!!+t+q!'6k)1!`JRAa2c!Q!3Aa)1!`JRAa2c!Q!$LJKu"+!$!"(O!Q!$LJKu"+!$!!+t+q!'6k)1,s!$!!3E"#""!(9T!!3E!Q!0Aa)1,vIt6k)1,vIt6k)1$3!$!%/}!]!$!%/}!]!$!"(O!Q!fLG*S!Q!fLG*S!Q!3Aa)1,vIt6k)1,vIt6k)1$3!$!%1@!Y!$!%1@!Y!$
+!%0_!Q!'Aa1A&{"<!Q!'Aa)1$3!i!!+5-9!$Ak6k!]#d!0Iq*3!3Aa)1"/!'!%>{5Y)1"/!$!!Ku!Q!i6k)1-A!$!%8/!Q!i6k)1$3!$!%8/!Q!i6k)1-A!$!%8/!Q!3Aa)1-A!$!%8/!Q!3Aa)1-A!$!!Ku!Q!'Aa1A1Q"<!Q!'Aa)1#a!$!!+t,o!$!!+t,o!$!!+t,o!$!!+t,o!$!"(O!Q!$LK/}!Q!$LK/}!Q!$LK/}!Q!$LK/}!Q!3
+Aa)1!`JX6k)1!`JX6k)1$3!$!!+t,o!$!!Ku!Q!'Aa1A59"<!Q!'Aa)1#a!$!!+t+q!'6k)1!`JRAa2c!Q!$LJKu"+!$!!+t+q!'6k)1$3!$!!+t+q!'6k)1!`JRAa2c!Q!$LJKu"+!$!!+t+q!'6k)1$3!$!!+t+q!'6k)1!`JRAa2c!Q!3Aa)1!`JRAa2c!Q!0Aa)1"/!'!(4'5Y)1"/!$!!Ku!Q!$LJKu"+!$!!+t+q!'6k)1!`JRAa2c
+!Q!$LJKu"+!$!"(O!Q!$LJKu"+!$!!+t+q!'6k)1!`JRAa2c!Q!$LJKu"+!$!"(O!Q!$LJKu"+!$!!+t+q!'6k)1$3!$!!+t+q!'6k)1#a!$!!3E"#"J!(9T!!3E!Q!0Aa)1!`JRAa2c!Q!$LJKu"+!$!!+t+q!'6k)1!`JRAa2c!Q!3Aa)1!`J.Aa4&"/!'LG3E"2IwAa2c!Q!$LJKu"+!$!!+t+q!'6k)1!`JRAa2c!Q!3Aa)1!`JRAa2c
+!Q!$LGCe$6J4Aa2c!Q!3Aa)1!`JRAa2c!Q!0Aa)1"/!'!-4'5Y)1"/!$!!Ku!Q!$LJKu"+!$!!+t+q!'6k)1!`I}Ac4'#1!'6k)1!`I}Ac#e$3!'6k)1$3!$!!+t%5!'6k3E"+!'Aa2c"_!'6k)1!`J%Aa&J!A!"LG&K'i!'6k)1!`JRAa2c!Q!$LJKu"+!$!"(O!Q!$LJKu"+!$!!+t"_!36k+t&g!'6k)1$3!$!!+t"/!#!!%)!A!"6k&K
+!9!#!!%)!A!"6l0_!A!"6k&K!9!#!!%)!A!"6k&K!9!'Aa2c!Q!0Aa)1"/!'!/Iq5Y)1"/!$!!Ku!Q!$LGKu&[!0Aa2c!Q!$LG3E&[!9Aa2c!Q!$LG;U!a!#LG#e!PJ%!!3E!a!#LG)1#1!'6k)1!`IzAa)1%e!$!!*S!Q!0Aa2c!Q!3Aa)1!`IzAa+t"_!'6k3E"+!'Aa2c#1!'6k)1!`J"Aa&J!A!'Aa&J!A!'Aa&J!A!"LG&K%5!'6k)1
+!`J+Ab>{#1!'6k)1!`J+Ab>{#1!'6k)1$3!$!!+t+q!'6k)1!`IzAb'm!`J4Aa2c!Q!3Aa)1!`IzAa&K!9!#!!%)!A!"6lA!!A!"6k&K!9!#!!%)"_!'6k)1#a!$!!3E"#!X!89T!!3E!Q!0Aa)1!`J"Aa+u""Ir!!1@!1!&LG#e""Ir!!)0!Q!0Aa2c!Q!$LG3E"#!$6k#e!PIt6k#e!PIt6k#e!PIt6k#e!PIt6k)1$c!'6k)1!`IzAa+u
+!PIr!!)0$'!'Aa+u!PIt!!Ce"+!$!!+t"/!H!!*S!Q!-Aa2c!Q!3Aa)1!`IwAa*S!`J%Aa2c"/!'6k3E!`IwAa2c!Q!$LGKu!@Is!!3E!@Is!!+5!@Is!!3E!@Is!"0_"+!$!!+t%5!$!!+t!1!&LG#e""Ir!!1@!Q!-Aa2c!Q!$LG;U$'!$LG#e""Ir!!1@!1!&LG)1#1!'6k)1$3!$!!+t+q!'6k)1!`IzAb'm!`J4Aa2c!Q!3Aa)1!`I}
+Aa&K!9!#!!%)%e!#!!%)!A!"6kCe"+!$!!Ku!Q!'Aa1A,G%"!Q!'Aa)1#a!$!!+t#a!$!!+t!1!&LG#e""Ir!!1@!1!&LG)1#a!'6k)1!`IwAa+u!PIt!!*S!`It6k+t!Y!$LG*S!`It6k)1$3!'6k)1!`IzAa+u!PIr!!)0$'!'Aa+u!PIt!!Ce"+!$!!+t"/!$!"(O!PIr!!)0!1!#LG#e"/!*!!Ce"+!$!"(O!Q!$LG+5"+!'Aa+t"_!'
+6k+t!]!'6k3E!Y!$LG3E"+!$!!+t#a!"LG&K"/!"LG&K!]!"LG&K"/!"LG&K$c!'6k)1!`J+Aa+u!PJ#!!)0!Q!-Aa2c!Q!$LG3E!Q!0LG+u!PJ#!!)0!Q!-Aa2c!Q!3Aa)1!`JRAa2c!Q!$LG;U$/!$LI%i"+!$!"(O!Q!$LGCe!A!"6k&K!9!#!!%)$c!#!!%)!A!"6k&K!9!-Aa2c!Q!0Aa)1"/!'!'>|5Y)1"/!$!!Ku!Q!$LGKu!a!&
+LG#e""Ir!!1@!1!&LG#e!PIt!!Ku"+!$!!+t"/!$!!+t!1!#LG)1!Y!"!!)0!Y!"!!)0!Y!"!!)0!Y!"!!)0!Y!$!!Ku"+!$!!+t"_!%!!)0!1!#LHAa!PIt!!Ce"+!$!!+t"/!$!"(O!1!#LG#e!PIr!!)0"/!$!!+5!Q!-Aa2c!Q!3Aa)1!`I}Aa*S!`IzAa2c!`Iw6k3E"+!*Aa2c!Q!$LH(O!@Is!!&J!A!"LG&K!]!"LG&K"/!"LG&K
+$c!'6k)1!`IwAb.[!`Ir!!1@!1!&LG#e""It!!Ce"+!$!!+t"/!$!!LV!Q!$LG#e""Ir!!1@!1!&LG)1#1!'6k)1$3!$!!+t+q!'6k)1!`IzAb'm'9!'6k)1$3!$!!+t#a!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6kKu"+!$!!Ku!Q!'Aa1A2s%"!Q!'Aa)1#a!$!!+t#a!$!!+t!1!&LG#e""Ir!!1@
+!1!&LG)1#a!'6k)1!`IwAa+u""Ir!!)0!Q!$6k+t!Y!$LG*S!`It6k+t!Y!$!!Ce"+!$!!+t"_!%!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIt!!Ce"+!$!!+t"/!H!!3E!Q!*Aa2c!Q!3Aa)1!`IzAa2c"/!$LGK5!`ItAa2c#1!'6k)1!`J+Aa&J!A!$Aa&J!A!"LG&K!@Is!"8o"+!$!!+t"/!%
+!!1@!1!&LG#e!PIu!!)0#e!#LG)1#1!'6k)1!`IwAa)1#dIu!!)0"c!#LG9Q#1!'6k)1$3!$!!+t+q!'6k)1!`I}Ab9P%e!'6k)1$3!$!!+t#a!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6kKu"+!$!!Ku!Q!'Aa1A)a%"!Q!'Aa)1#a!$!!+t#a!%!!1@!1!&LG#e""Ir!!1@!1!#LG)1#a!'6k)1!`Iw
+Aa)1!`Ir!!1@!1!#LI#e"_!'6k)1!`IzAa+u!PIr!!)0%9!#LG#e!PIt!!Ce"+!$!!+t"/!$!"I1!Q!$Aa)1!]!$!!;U"+!$!"(O!Q!$LG3E"+!'Aa:s!]!*6k+t"+!'Aa+t"/!'6k)1!`J+Aa&J!A!"LG&K!@Is!"I1"+!$!!+t"/!$!!+t#U!$LG#e""Ir!!1@!1!&LG)1#1!'6k)1!`IwAa)1#dIt!!+t!1!&LG#e""It!!+t!Q!-Aa2c
+!Q!3Aa)1!`J.Aa<6%e!'6k)1!`IzAb8/!`J.Aa2c!Q!3Aa)1!`J%Aa&K!9!#!!%)#a!#!!%)!A!"6l(O"+!$!!Ku!Q!'Aa1A*c%"!Q!'Aa)1#a!$!!+t#a!$!!+t!1!&LG#e""Ir!!1@!1!&LG)1#a!'6k)1!`IwAa+u""Ir!!1@!1!&LG#e""Ir!!)0!Q!9Aa2c!Q!$LG;U!a!#LG)1""Ir!!1@!1!&LG#e""Iv!!)0!Q!-Aa2c!Q!$LG;U
+&+!$Aa)1!]!'!!;U"+!$!"(O!Q!$LG+5"+!'Aa:s!]!36k+t!]!$6k+t"/!'6k)1!`J.Aa&J!A!BAa2c!Q!$LG3E!a!&LG#e""Ir!!)0!a!#LG1A!`I}!!Ce"+!$!!+t"/!$!!LV!a!&LG#e""Ir!!)0"#!0Aa2c!Q!3Aa)1!`J+Aa:s!`J.Aa2c!Q!$LG;U%1!$LHA!"+!$!"(O!Q!$LH(O!A!"6k&K!9!-Aa&K!9!#!!%)!A!"6l(O"+!$
+!!Ku!Q!'Aa1A-)%"!Q!'Aa)1#a!$!!+t#a!%!!1@!1!&LG#e""Ir!!1@!1!#LG)1#a!'6k)1!`IwAa)1!`Ir!!1@!1!&LG#e""Ir!!1@!Q!9Aa2c!Q!$LG;U!a!#LG)1!PIr!!1@!1!&LG#e""Ir!!+t!a!#LG)1#1!'6k)1!`I}Aa)1!`Ir!!1@!1!&LG#e""Ir!!)0!Q!$Aa)1!]!$!!;U"+!$!"(O!Q!$LGCe"+!'Aa:s!]!*6k+t"+!*
+Aa2c!Q!$LH8o!@Is!!&J!A!"LG&K&7!'6k)1!`IwAa)1!`J"!!+t!1!&LG#e!PIt!!+t!Q!0Aa2c!Q!$LG3E!Q!0LH6k#a!'6k)1$3!$!!+t%5!*6k+t!]!0LG;U"+!$!!+t"_!96lI1"+!$!"(O!Q!$LH0_!A!"6k&K!9!*Aa&K!9!#!!%)$c!'6k)1#a!$!!3E"#!D!89T!!3E!Q!0Aa)1!`J"Aa)1!`Ir!!1@!1!&LG#e""Ir!!1@!Q!0
+Aa2c!Q!$LG3E!a!&LG#e!PJ(!"8o"+!$!!+t"_!%!!)0!Q!&LG#e""Ir!!1@!1!&LG.[!PIt!!Ce"+!$!!+t#a!$!!+t#U!$LGAa#1!'6k)1$3!$!!+t"_!'6k3E"[!$Ab'm!`IzAa2c!Q!$LH8o!@Is!!+5!@Is!"I1"+!$!!+t"/!%!!1@!1!&LG#e!PIu!!1@!1!&LG1A$3!'6k)1!`IwAa)1'<It!!Ku"+!$!"(O!Q!$LH8o"[!$LGK5
+!`IzAa2c!Q!$LGCe#4J:Aa2c!Q!3Aa)1!`J(Aa&K!9!#!!%)"/!#!!%)!A!"6k&K!9!6Aa2c!Q!0Aa)1"/!'!#4(5Y)1"/!$!!Ku!Q!$LGKu!a!&LG#e""Ir!!1@#%!0Aa2c!Q!$LG;U"S!9Aa9Q#1!'6k)1!`IzAa+u!PIt!!)0!1!&LG#e""Ir!!1@!1!$LG+u!PIt!!Ce"+!$!!+t#a!%!!1@!1!&LG#e""Ir!!1@!Q!3Aa2c!Q!3Aa)1
+!`IwAa2c"/!'6k3E$_!'LG3E"+!$!!+t$c!"LG&K!@Is!!+5!@Is!!&J!A!<Aa2c!Q!$LG3E!Q!$LG4'!PJ(!"0_"+!$!!+t"/!$!!+t!Y!9!!*S!`It!!Ku"+!$!"(O!Q!$LGCe#4Iz6k+t#]!$LG;U"+!$!!+t"_!-6k+t'i!'6k)1$3!$!!+t%5!#!!%)!A!"6k+5!A!"6k&K!9!9Aa2c!Q!0Aa)1"/!'!"Ir5Y)1"/!$!!Ku!Q!$LGKu
+!Q!$LG#e""Ir!!1@!1!#LG)1!`It!"(O"+!$!!+t(k!'!!Ce"+!$!!+t"_!%!!)0!Q!&LG#e""Ir!!1@!1!&LG<7#1!'6k)1!`J%Aa+u!PJ#!!)0!Q!3Aa2c!Q!3Aa)1!`ItAa2c"/!'6k3E%a!$LG3E"+!$!!+t$c!"LG&K"_!"LG&K%e!'6k)1!`IwAa+u""Ir!!1@!Q!$LG)1&g!'6k)1!`IwAa)1!`It6k)1$3!$!!*S!`It!!Ku"+!$
+!"(O!Q!$LG;U#-!$LG:s!`J"6k+t"_!'6k)1!`IzAaC%!`J:Aa2c!Q!3Aa)1!`J+Aa&K!9!#!!%)!A!"6k&K!9!#!!%)%5!'6k)1#a!$!!3E"#!L!89T!!3E!Q!0Aa)1!`J"Aa+u""Ir!!1@!1!&LG1A$c!'6k)1!`J1Aa)1"_!$!!+5!Q!-Aa2c!Q!$LG;U!a!#LG)1!PIr!!1@!1!&LG#e""Ir!!+t!Q!$Aa)1#1!'6k)1!`J%Aa)1!`Ir
+!!1@!1!&LG#e""Ir!!)0!Q!0Aa2c!Q!3Aa)1!`I}Aa2c"/!'6k3E$/!$LG3E"+!$!!+t$c!"LG&K"_!"LG&K%e!'6k)1!`IwAa)1!`Ir!!1@!1!#LG1A'9!'6k)1!`IwAa)1"bIt!!)0"3!#LG+u"bIt!!Ku"+!$!"(O!Q!$LG;U#-!$LG:s!`J"6k+t"_!'6k)1!`IzAaC%!`J:Aa2c!Q!3Aa)1!`J.Aa&K!9!#!!%)!A!"6lA!"+!$!!Ku
+!Q!'Aa1AEy"<!Q!'Aa)1#a!$!!+t#a!9!"8o"+!$!!+t&g!*!"0_"+!$!!+t"_!K!!Ce"+!$!!+t$c!<!!Ku"+!$!"(O!Q!$LG3E!`Iw6k3E"+!'Ab/}"_!'6k)1!`J(Aa&J!A!*Aa&J!A!<Aa2c!Q!$LG3E$'!HAa2c!Q!$LG;U#U!#LG#e!PJ#!"(O"+!$!"(O!Q!$LG;U#-!$LG:s!`J"6k+t"_!'6k)1!`IzAaC%(;!'6k)1$3!$!!+t
+$c!#!!%)!A!"6k&K!9!#!!%)!A!"6lA!"+!$!!Ku!Q!'Aa1A<g"<!Q!'Aa)1#a!$!!+t+q!'6k)1!`JRAa2c!Q!$LJKu"+!$!!+t+q!'6k)1$3!$!!+t!]!*6k3E"+!'Aa2c"/!*6kCe"+!$!!+t$c!"LG&K"_!"LG&K%e!'6k)1!`JRAa2c!Q!$LH0_#%!?Aa2c!Q!3Aa)1!`IzAaC%!]!*6k+5#]!-Aa2c!Q!$LJKu"+!$!"(O!Q!$LJKu
+"+!$!!Ku!Q!'Aa1A59"<!Q!'Aa)1#a!$!!+t+q!'6k)1!`JRAa2c!Q!$LJKu"+!$!!+t+q!'6k)1$3!$!!+t+q!'6k)1!`JRAa2c!Q!$LJKu"+!$!!+t+q!'6k)1$3!$!!+t+q!'6k)1!`JRAa2c!Q!3Aa)1!`JRAa2c!Q!0Aa)1"/!'!(4'5Y)1"/!$!!Ku!Q!$LJKu"+!$!!+t+q!'6k)1!`JRAa2c!Q!$LJKu"+!$!"(O!Q!$LJKu"+!$
+!!+t+q!'6k)1!`JRAa2c!Q!$LJKu"+!$!"(O!Q!$LJKu"+!$!!+t+q!'6k)1$3!$!!+t+q!'6k)1#a!$!!3E"#":!(9T!!3E!Q!0Aa)1!`JRAa2c!Q!$LJKu"+!$!!+t+q!'6k)1!`JRAa2c!Q!3Aa)1!`JRAa2c!Q!$LJKu"+!$!!+t+q!'6k)1!`JRAa2c!Q!3Aa)1!`JRAa2c!Q!$LJKu"+!$!"(O!Q!$LJKu"+!$!!Ku!Q!'Aa1A1Q"<
+!Q!'Aa)1#a!$!%1@!Y!$!%1@!Y!$!%1@!Y!$!%1@!Y!$!"(O!Q!fLG*S!Q!fLG*S!Q!fLG*S!Q!fLG*S!Q!3Aa)1,vIt6k)1,vIt6k)1$3!$!%1@!Y!$!!Ku!Q!'Aa1A+%"<!Q!'Aa)1$3!i!!+5-9!$Ae6k!]!i!"8o-9!$Ae6k!]!i!!+5-9!9Ae6k!]!i!"8o-9!3Aa)1"/!'!".[5Y)1"/!$!0KuLS#dAjCe!Q!'Aa1A$W"<!Q!'Aa)1
+LS#dApKu;a!$!!3E"#!2!(9T!!3ELG#d!0Iq<W!'Aa1A?m*A!!!!Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!!!!!Am#%Am#%!!!!!!!!?m*A!!!!Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!!!!!Am#%Am#%!!!!!!!!?m*A!!!!Am#%Am#%!!!!Am#%Am#%Am#%6s"C6s"C6s"C6s"C6s"C6s"CAm#%!!!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!!!!!Am#%Am#%!!!!!!!!?m*A!!!!Am#%Am#%!!!!Am#%Am#%!!!!!!!!!!!!!!!!!!!!!!!!6s"CAm#%!!!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!!!!!Am#%Am#%!!!!!!!!?m*A!!!!Am#%Am#%!!!!Am#%Am#%!!!!LVLVLVLVLVLVLVLV!!!!6s"CAm#%!!!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!!!!!Am#%Am#%!!!!!!!!?m*A!!!!Am#%Am#%!!!!Am#%Am#%!!!!!!!!!!!!!!!!!!!!!!!!Am#%Am#%!!!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!!!!!Am#%Am#%!!!!!!!!?m*A!!!!Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!!!!!Am#%Am#%!!!!!!!!?m*A!!!!Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!!!!!Am#%Am#%!!!!!!!!?m*A!!!!Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!!!!!Am#%Am#%!!!!!!!!#u"<!Q!'ApIqLG#d!+&K"/!'!!DG5Y)1LS#dApKu>g!'!!DG5Y)1LS#dApKu>g!'!!9Q5hIqLG#d!,4'
+
+.ATT
+.STATUS Use tool bar on window.
+.ATT_END
+.TXT 14 1 124 0 0
+Cg a72.000000,72.000000,222
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Es una 
+forma de "tomar atajos" para hacer tareas rutinarias que se podrían 
+hacer se-\par leccionando la entrada adecuada en el {\cf2 Menú Principal}
+, con el consiguiente ahorro de\par tiempo.\par \par Se agregan dos 
+botones de bastante utilidad:}
+.EQN 11 0 125 0 0
+{   26    26 0 0}{61}
+19778 2136 0 0 44
+40 26 26 1 24 0 2080 0 0 0 0
+"S"<!`J[!!+t!A!(!(9T!%8/!q!*!(9T!!+t,o!&!"#e5Y)1!`J1Aa+t"#!9Aa2c!q!8!(9T!!+t&7!"!!1@!1!#LG1A$3!'6k.[%Y"<!Q!$LHA!!1!&LG#e""Ir!!1@"#!-Aa2c!q!N!(9T!!+t!Y!$Aa2c!]!'6k+5!1!&LG#e""Ir!!1@!1!&LG#e!PIw!!3E"+!&!#.[5Y)1!`J+Aa+t!1!&LG#e""Ir!!1@!1!&LG#e""It!!+5"+!&
+!#Iq5Y)1!`ItAa*S"/!'6k+5!`Ir!!1@!1!&LG#e"2Is!!&J!Q!&LG#e""ItAa2c!q!P!(9T!!+t$3!$LG#e""Ir!!1@!1!&LG#e!`Is!!&J!A!$LG#e""Ir!!)0!]!'6k.[)!"<!Q!$LG*S!]!*6k+5!1!&LG#e""Ir!!4&!A!$LG#e""Ir!!1@!1!&LG+5"+!&!$#e5Y)1!`J"Aa#e""Ir!!1@!1!'LG&K!@Is!!&J!A!$LG#e""Ir!!1@
+!1!#LG+5"+!&!$4'5Y)1!`It6k+5!Y!$Aa#e""Ir!!1@!1!&LG#e!`Is!!&J!A!$LG#e""Ir!!1@!1!&LG+5"+!&!#Iq5Y)1!`I}Aa+t!1!&LG#e""Ir!!4&!A!"LG)1""Ir!!1@!1!&LG#e!PItAa2c!q!Z!(9T!!+t"+!$Aa+t!1!&LG#e!`Is!!&J!A!$LG#e!`Is!!&J!A!"LG)1""Ir!!1@!1!&LG+5"+!&!$4'5Y)1!`IwAa+t!1!&
+LG#e"2Is!!&J!Q!&LG#e!`Is!!&J!A!$LG#e""Ir!!1@!1!#LG+5"+!&!$4'5Y)1!`IwAa#e""Ir!!1@!1!$LG&K!@Is!!&J!Q!'LG&K!@It!!1@!1!&LG#e!PIt!!+5"+!&!$9Q5Y)1!`I}Aa+t!1!&LG#e!`Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!`Ir!!1@!1!#LG)1"/!'6k.[)!"<!Q!$LH(O!1!&LG#e!`Is!!&J!A!"LG&K!@Is
+!!+t!1!&LG#e""It!!3E"+!&!##e5Y)1!`J+Aa+t!1!&LG#e""Ir!!1@!1!&LG)1"_!'6k.[%Y"<!Q!$LHI1!1!&LG#e""Ir!!1@!Q!-Aa2c!q!:!(9T!!+t'9!$LG#e""Ir!!)0!Q!-Aa2c!q!4!(9T!!+t(;!"!!)0!Q!0Aa2c!q!,!(9T!!+t+q!'6k.["S"<!Q!fLG*S!q!*!(9TLK6k!`Is!$!Q
+
+.ATT
+.STATUS Use tool bar on window.
+.ATT_END
+.EQN 0 40 129 0 0
+{   26    26 0 0}{61}
+19778 2136 0 0 44
+40 26 26 1 24 0 2080 0 0 0 0
+"S"<!`J[!!+t!A!(!(9T!%8/!q!*!(9T!!+t,o!&!!>{5Y)1!`JRAa2c!q!,!(9T!!+t+q!'6k.["s"<!Q!$LJKu"+!&!")15Y)1!`J+Aa*S"S!$6l8o"+!&!"4'5Y)1!`J+Aa)1!PIr!!)0"3!9Aa2c!q!8!(9T!!+t%5!$!!)0!1!#LG4'%5!'6k.[$7"<!Q!$LH8o!Y!'!!*S%e!'6k.[$7"<!Q!$LH8o!Q!#LG4'%e!'6k.[$7"<!Q!$
+LH8o!Q!#LG4'%e!'6k.[$7"<!Q!$LH8o!Q!#LG4'%e!'6k.[$W"<!Q!$LH8o!Q!$6k)0"3!9Aa2c!q!<!(9T!!+t#a!$6k1A!]!$!!*S!PIx!"0_"+!&!"DG5Y)1!`J"Aa)1!PIx!!+5!Q!$6k)0"3!3Aa2c!q!<!(9T!!+t#a!$!!)0"3!'Aa)1!PIx!"(O"+!&!"Iq5Y)1!`J"Aa)1!PIr!!)0"c!#LG#e!PIx!"(O"+!&!#4'5Y)1!`J"
+Aa*S!Q!#LG#e!PIr!!)0!1!#LG#e!PIx!!*S$3!'6k.[$7"<!Q!$LH(O!Y!3!!*S$c!'6k.["s"<!Q!$LJKu"+!&!!>{5Y)1!`JRAa2c!q!,!(9T!!+t+q!'6k.["s"<!Q!$LJKu"+!&!!9Q5Y)1,vIt6k.["S"<!`J[!!+t!A!Q
+
+.ATT
+.STATUS Use tool bar on window.
+.ATT_END
+.TXT 2 -34 126 0 0
+Cg a35.125000,35.125000,101
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Habilita las 
+QuickSheets™, que es una colección de Hojas de Trabajo que resuelven 
+tareas muy comunes.}
+.TXT 0 40 130 0 0
+Cg a72.625000,72.625000,26
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Habilita la Ayuda en línea}
+.TXT 10 -47 171 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.EQN 4 1 134 0 0
+{    9     7 0 0}{61}
+19778 272 0 0 44
+40 7 9 1 24 0 216 0 0 0 0
+!q"<$fIt!!Iq5Y<6!A!"6k&K!9!'LG)1$w"<"2Is!!%)!A!"6k&K!9!#!!%)!`It!"9Q3tLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!!"9Q3tLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!!"4'5Y4&!A!"6k&K!9!#!!%)!A!"6k+t!Q!0!(9ZLG&K!9!#!!%)"2It!!.[5Z1@!Q!&!(9fLG)1
+
+.TXT 2 4 135 0 0
+Cg a74.000000,74.000000,20
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard La {\cf2 
+Barra de Fuentes}:}
+.EQN 1 -4 136 0 0
+{   50   553 0 0}{61}
+19778 83056 0 0 44
+40 553 50 1 24 0 83000 0 0 0 0
+#u"<LVLVLVLVLVLVLVLV7,Ir!".[5Y+tLG#d!0IqLG#d!0Iq5y!$LG#e%9"<!`It!0KuLS#dApKuLS#dAh0_!Q!$LG#e%9"<!`It!0KuLS#dApKuLS#dAh0_!Q!$LG#e%y"<!`It!!3ELG#d!0IqLG#d!0Iq2s!'Aa)1!`Ir!"DG5Y+t!Q!'ApIqLG#d!0IqLG#d!'9Q"/!$!!+t!1!B!(9TLG)1"/!'!0KuLS#dApKuLS#dAfFK"#!'Aa)1
+!`Ir!##e5Y+t!Q!'Aa1ALS#dApKuLS#dApKu0{!'!!3E!Q!$LG#e&["<!`It!!3E"##dApKuLS#dApKuLS!~Aa1A"/!$!!+t!1!B!(9TLG)1"/!'!0KuLS#dApKuLS#dAfFK"#!'Aa)1!`Ir!#9Q5Y+t!Q!'Aa1A%e#dLK)0#a#dLQA`#a"wLVKuLS"DAa1A"/!$!!+t!1!p!(9TLG)1"/!'!"A!!Y#dAa;U)a!$LGKu!Y#dAh(O)a!$LGKu
+!Y">Ad)1!`J@AdAa&7!]!"I1+5!lAdAa&7!]!"I1+5!HAa1A"/!$!!+t!1"<!(9TLG)1"/!'!"A!!Y!$!0LV"2It!#Ei!Q!$LGKu!Y!$!0LV4&It!#Ei!Q!$LGKu!Y!$!(9P!Q!N6k)1!`J=Aa)1+=!$!"8o!Q!]6k)1%5!$!$C%!Q!fAa)1+=!$!"8o!Q!]6k)1%5!$!$C%!Q!EAa1A"/!$!!+t!1"N!(9TLG)1"/!'!"A!!Y!$!0LV"2It
+!!+t(7!$!!+t#a!$6k)1LVK$LG)1!`J=6k)1!`J"Aa*S!Q";LG)1!`J=6k)1!`J=Aa)1!`JL6k)1%5!$!!+t*k!$!"8o!Q!$LJ:s!Q!fAa)1!`JL6k)1%5!$!!+t*k!$!"8o!Q!$LJ:s!Q!EAa1A"/!$!!+t!1"`!(9TLG)1"/!'!"A!!Y!$!0LV"2It!!+t'9!'6k)1!`J"Aa*S!Q#dLMLV!Q!$LI-y"+!$!!+t#a!$6k)15XIt!!+t'9!'
+6k)1!`J=Aa)1!`JFAa2c!Q!9Aa)1!`JFAa2c!Q!9Aa)1!`JFAa2c!Q!fAa)1!`JFAa2c!Q!9Aa)1!`JFAa2c!Q!9Aa)1!`JFAa2c!Q!EAa1A"/!$!!+t!1"`!(9TLG)1"/!'!"A!!Y!$!0LV"2It!!+t'9!'6k)1!`J"Aa*S!Q#dLMLV!Q!$LI-y"+!$!!+t#a!$6k)15XIt!!+t'9!'6k)1!`J=Aa)1!`JFAa2c!Q!9Aa)1!`JFAa2c!Q!9
+Aa)1!`JFAa2c!Q!fAa)1!`JFAa2c!Q!9Aa)1!`JFAa2c!Q!9Aa)1!`JFAa2c!Q!EAa1A"/!$!!+t!1#"!(9TLG)1"/!'!"A!!Y!$!0LV"2It!!+t'9!'6k)1!`J"Aa*S!Q#dLMLV!Q!$LI-y"+!$!!+t#a!$6k)15XIt!!+t'9!'6k)1!`J=Aa)1!`I}Ab6k#a!'6k)1%5!$!!+t#1!3!"0_"+!$!"8o!Q!$LGKu$W!0Aa2c!Q!fAa)1!`Iz
+Aa9Q!]!6!!;U"+!$!"8o!Q!$LG;U"S!$Aa1A%5!'6k)1%5!$!!+t&g!*!!;U"+!$!#-y"#!'Aa)1!`Ir!#)25Y+t!Q!'Aa1A%e!$6k)1"bJ"!!LV#%!'LG1A"bJ"!!4&#U!$LG1A"2Iw!"1@"#!0LGAa"2Iw!!+t"#!'LG1A(nIt!!+t"_!6!!3E"+!$!!+t#a!$6k)1"2Iw!!DF"#!$LG1A"2Iw!!4&#U!$LG1ALVJ1LG)1!`IzAb.["/!'
+6k)1!`J"Aa*S!Q!0LG1A#4I}!%A`!Q!$LG;U$W!'Aa2c!Q!$LI>;!Q!$LGKu"S!'Aa9Q#1!'6k)1%5!$!!+t$3!'!"A!"+!$!"8o!Q!$LJ+5"+!$!%0_!Q!$LG3E"#!'Aa1A!]!'!!3E"#!'Aa2c!Q!9Aa)1!`IwAa1A"/!'!"A!"+!$!"8o!Q!$LI%i!Q!'Aa)1"/!'6k)1'9!'!!3E!Q!$LG#e+e%"!`It!!3E"#!<Aa*S!Q!*LG1A"2Iw
+!!<6"#!'LG1A!`Iw!!4&"#!'LG1A!`Iw!!+t"S!$LG1A!`Iw!"9P"#!-LG1A"2Iw!!+t"#!$LG1A!`Iw!$#d!Q!$LI-y"+!$!!+t#a!$6k)1"2Iw!!DF"#!$LG1A"2Iw!!+t"#!'LG1A!`Iw!0LV&:It!!+t'9!'6k)1!`J"Aa*S!Q!0LG1A"bIw!!4&"#!iLG)1!`J7Aa2c!Q!$LI>;!Q!$LGKu"S!'Aa9Q#1!'6k)1%5!$!!+t$3!'!"A!
+"+!$!"8o!Q!$LH(O$'!0Aa2c!Q!fAa)1!`IwAa1A"/!'!!+5"#!'Aa1A"/!'6k)1%5!$!!+t"/!'!!3E"#!<Aa2c!Q!9Aa)1!`I}Aa9Q!]!'!!+5!Q!'Aa)1"/!'6k)1'9!'!!3E!Q!$LG#e*C%"!`It!!3E"#!<Aa*S!Q!*LG1A"bIw!!4&"#!0LG1A"2Iw!!4&"#!$LG1A"2Iw!!+t"#!$LG1A%8Iw!!DF"#!3LG9Q"2Iw!$#d!Q!$LH(O
+!Q!0Aa2c!Q!$LGKu!Y!$!!<6$'!'LG1A"2Iw!!+t"#!'LG1A!`Iw!0LV&:It!!+t$3!$!!Ku"+!$!!+t#a!$6k)1#dIw!!<6"#!'LG1A-HIt!!+t$3!$!!Ku"+!$!!+t(;!$!!+t#a!*!!3E"S!-Aa2c!Q!9Aa)1!`J(Aa1A%5!'6k)1%5!$!!+t#a!3!"(O"+!$!%0_!Q!$LG3E"#!'Aa1A!]!'!!3E"#!'Aa2c!Q!9Aa)1!`IwAa1A"/!'
+!"A!"+!$!"8o!Q!$LG;U"#!'Aa1A"/!*!!;U"+!$!#-y"#!'Aa)1!`Ir!$4(5Y+t!Q!'Aa1A%e!$6k)1"bIw!!<6"#!'LH&K!`Iw!!<6#U!$LG1A"2Iw!!+t"#!$LG1A%8Iw!!DF$'!'LG9Q"2Iw!$#d!Q!$LGKu"S!-Aa2c!Q!$LGKu!Y!$!!<6"#!'LG1A"2Iw!!4&"#!'LGIq!`Iw!0LV&:It!!+t#a!*!!Ce"+!$!!+t#a!$6k)1#dIw
+!!<6"#!'LG1A-HIt!!+t#a!*!!Ce"+!$!!+t(;!$!!+t#a!6!!Ku"+!$!"8o!Q!$LH0_"#!9Aa2c!Q!9Aa)1!`J"Aa1A"/!'!"(O"+!$!%0_!Q!$LG3E"#!'Aa1A!]!'!!3E!Q!*Aa2c!Q!9Aa)1!`IwAa1A"/!'!!3E"S!-Aa2c!Q!9Aa)1!`IzAa1A"/!'!!3E!Q!0Aa2c!Q!EAa1A"/!$!!+t!1!h!89TLG)1"/!'!"A!!Y!$!!<6"#!*
+LG1A"2Iw!!4&"#!$LG1A$6Iw!!+t"#!'LG1A!`Iw!!+t"#!9LG1A#4Iw!!4&"#!$LG1A!`Iw!!+t"#!QLG)1!`I}AaIq"_!'6k)1!`J"Aa*S!Q!*LG1A"2Iw!!4&"#!'LG1A#dIw!!+t"##dLHIp!Q!$LGCe#U!*Aa2c!Q!$LGKu!Y!$!!LV"#!*LG1A"2Iw!%9P!Q!$LGCe#U!*Aa2c!Q!$LI>;!Q!$LGKu"S!'Aa9Q#1!'6k)1%5!$!!+t
+%5!'!"0_"+!$!"8o!Q!$LGKu"#!'Aa1A$3!'6k)1,s!$!!+t"_!*!!+5!Q!$AaAa#1!'6k)1%5!$!!+t"_!*!!+5!Q!'Aa)1"/!$!!;U"+!$!"8o!Q!$LG;U"#!'Aa1A!]!'!!Ku"+!$!#-y"#!'Aa)1!`Ir!#4(5Y+t!Q!'Aa1A%e!$6k)1"bIw!!<6"#!*LGAa"2Iz!!4&#%!'LG1A"2Iw!!+t"#!$LG9Q$fIw!!LV#%!'LG1A!`Iw!!+t
+"S!NLG)1!`IzAb.["/!'6k)1!`J"Aa*S!Q!-LGAa"bIz!!+t"#!'LGAa"2Iw!0LV&:It!!+t"_!6!!3E"+!$!!+t#a!$6k)1#dIw!!<6"#!'LG1A-HIt!!+t"_!6!!3E"+!$!!+t(;!$!!+t#a!*!!3E"S!-Aa2c!Q!9Aa)1!`J+Aa1A$c!'6k)1%5!$!!+t#a!'!!3E"#!3Aa2c!Q!fAa)1!`J.Aa1A$3!'6k)1%5!$!!+t&7!$!!3E!Q!*
+Aa2c!Q!9Aa)1!`IzAa1A"/!'!"8o"+!$!#-y"#!'Aa)1!`Ir!0>{5Y+t!Q!'Aa1A%e!$6k)1"bIw!!<6"#!<LG1A)@Iw!!+t"#!9LG1A)pIw!$#d!Q!$LGKu"S!-Aa2c!Q!$LGKu!Y!$!!DF#%!TLG1ALVJ1LG)1!`J"Aa9Q#1!'6k)1!`J"Aa*S!Q!0LG1A"bIw!!4&"#!iLG)1!`J"Aa9Q#1!'6k)1!`J=Aa)1!`J"Aa9Q"/!*!!Ce"+!$
+!"8o!Q!$LHA!"#!3Aa2c!Q!9Aa)1!`J"Aa1A"/!'!"(O"+!$!%0_!Q!$LHA!"#!3Aa2c!Q!9Aa)1!`J1Aa9Q#1!'6k)1%5!$!!+t#1!*!!+5!Q!9Aa2c!Q!EAa1A"/!$!!+t!1#T!(9TLG)1"/!'!"A!!Y!$!!<6"#!'LG1A&:Iw!$#d"#!$LG1A%8Iw!$+t"#!QLG)1!`J"Aa9Q#1!'6k)1!`J"Aa*S!Q!0LG1A*BIw!0LV&:It!!+t#a!*
+!!Ce"+!$!!+t#a!$6k)1"bI}!!<6"#!'LG1A-HIt!!+t#a!*!!Ce"+!$!!+t(;!$!!+t#1!9!!Ku"+!$!"8o!Q!$LH0_$'!-Aa2c!Q!9Aa)1!`I}Aa9Q!]!*!"(O"+!$!%0_!Q!$LH8o"S!3Aa2c!Q!9Aa)1!`J1Aa)1$3!'6k)1%5!$!!+t)m!'6k)1'9!'!!3E!Q!$LG#eD7"<!`It!!3E"#!<Aa*S!Q!*LGIq'<Iw!#G,"#!<LH&K2"It
+!!+t#a!*!!Ce"+!$!!+t#a!$6k)1#dIw!"9P"#!9LG1ALVJ1LG)1!`J"Aa9Q#1!'6k)1!`J"Aa*S!Q!0LG1A#4I}!%A`!Q!$LGKu"S!-Aa2c!Q!$LI>;!Q!$LJ+5"+!$!"8o!Q!$LJ+5"+!$!"8o!Q!$LJ+5"+!$!%0_!Q!$LJ+5"+!$!"8o!Q!$LHA!"#!3Aa2c!Q!9Aa)1!`JFAa2c!Q!EAa1A"/!$!!+t!1"`!(9TLG)1"/!'!"A!!Y!$
+!0LV"2It!!+t'9!'6k)1!`J"Aa*S!Q#dLMLV!Q!$LI-y"+!$!!+t#a!$6k)15XIt!!+t'9!'6k)1!`J=Aa)1!`JFAa2c!Q!9Aa)1!`JFAa2c!Q!9Aa)1!`JFAa2c!Q!fAa)1!`JFAa2c!Q!9Aa)1!`JFAa2c!Q!9Aa)1!`JFAa2c!Q!EAa1A"/!$!!+t!1"T!(9TLG)1"/!'!"A!!Y!$!0LV"2It!!+t'9!'6k)1!`J"Aa*S!Q#dLMLV!Q!$
+LI-y"+!$!!+t#a!$6k)15XIt!!+t'9!'6k)1!`J=Aa)1*rIt6k)1%5!$!$<6!Y!$!"8o!Q!ZLG*S!Q!fAa)1*rIt6k)1%5!$!$<6!Y!$!"8o!Q!ZLG*S!Q!EAa1A"/!$!!+t!1"0!(9TLG)1"/!'!"A!!Y!$!0LV"2It!!+t'9!'6k)1!`J"Aa*S!Q#dLMLV!Q!$LI-y"+!$!!+t#a!$6k)15XIt!!+t'9!'6k)1!`J@AdAa&7!]!"I1+5!l
+AdAa&7!]!"I1+5!HAa1A"/!$!!+t!1!t!(9TLG)1"/!'!"A!!Y!$!0LV"2It!#>z!Y!$!!+t#a!$6k)1LVK$LG)1(>It6k)1!`J"Aa*S!Q";LG)1(>It6k)1!`LVApKu7)!'!!3E!Q!$LG#e*#"<!`It!!3E"#!<Aa*SLG!]!!+t#a!$6zIq=)!$LGKu!Y"q!!+tLS#dAi%i"#!'Aa)1!`Ir!#Iq5Y+t!Q!'Aa1A%e#d6nK5!`J"ApK5=a!$
+LGKu?5!$LVKuLS"DAa1A"/!$!!+t!1!B!(9TLG)1"/!'!0KuLS#dApKuLS#dAfFK"#!'Aa)1!`Ir!##e5Y+t!Q!'Aa1ALS#dApKuLS#dApKu0{!'!!3E!Q!$LG#e&["<!`It!!3E"##dApKuLS#dApKuLS!~Aa1A"/!$!!+t!1!>!(9TLG)1"/#d!0IqLG#d!0IqLG",!!3E!Q!$LG#e%y"<!`It!!3ELG#d!0IqLG#d!0Iq2s!'Aa)1!`Ir
+!(DM3tLVLG!!!-#%Am#%Aa!!!-#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Aa!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!!!!!-#%Am#%Aa!!!0LVLG"@")IpLVIq!!#%Am#%Am!!!!#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am!!!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!!!!!#%Am#%Am!!!!#dLVIq6;2QLVLV!!!!Am#%Am#%!!!!Am#%Am#%Am#%6s"C6s"C6s"C6s"C6s"C6s"CAm#%!!!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!!!!!Am#%Am#%!!!!LVLV!(DM3tLVLG!!!-#%Am#%Aa!!!-#%Am#%Aa!!!!!!!!!!!!!!!!!!!!!!!)"C6w#%Aa!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!!!!!-#%Am#%Aa!!!0LVLG"@")IpLVIq!!#%Am#%Am!!!!#%Am#%Am!!!!#dLVLVLVLVLVLVLVIq!!"C6s#%Am!!!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!!!!!#%Am#%Am!!!!#dLVIq
+6;2QLVLV!!!!Am#%Am#%!!!!Am#%Am#%!!!!!!!!!!!!!!!!!!!!!!!!Am#%Am#%!!!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!!!!!Am#%Am#%!!!!LVLV!(DM3tLVLG!!!-#%Am#%Aa!!!-#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Aa!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!
+!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!)!!!!!!!-#%Am#%Aa!!!0LVLG"@")IpLVIq!!#%Am#%Am!!!!#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am!!!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C
+!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!"C!!!!!!#%Am#%Am!!!!#dLVIq6;2QLVLV!!!!Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!
+6k!!6k!!6k!!6k!!6k!!6k!!6k!!!!!!Am#%Am#%!!!!LVLV!"DG5Y+t!Q!'ApIqLG#d!0IqLG#d!'9Q"/!$!!+t!1!:!(9TLG)1LS#dApKuLS#dApKu5%!$!!+t!1!:!(9TLG)1LS#dApKuLS#dApKu5%!$!!+t!1!6!(9TLVIqLG#d!0IqLG#d!(>{!`Ir!$!Q
+
+.ATT
+.STATUS Use font bar on window.
+.ATT_END
+.TXT 13 0 149 0 0
+Cg a72.000000,72.000000,142
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Como en todas las 
+aplicaciones de Windows, permite modificar el tipo de Letra, Tama-\par 
+ño, Negrita, Italica, Subrayado, Superíndice y Subíndice.}
+.EQN 5 0 153 0 0
+{    9     7 0 0}{61}
+19778 272 0 0 44
+40 7 9 1 24 0 216 0 0 0 0
+!q"<$fIt!!Iq5Y<6!A!"6k&K!9!'LG)1$w"<"2Is!!%)!A!"6k&K!9!#!!%)!`It!"9Q3tLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!!"9Q3tLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!!"4'5Y4&!A!"6k&K!9!#!!%)!A!"6k+t!Q!0!(9ZLG&K!9!#!!%)"2It!!.[5Z1@!Q!&!(9fLG)1
+
+.TXT 2 4 154 0 0
+Cg a80.625000,80.625000,45
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard El {\cf2 
+Control de Navegación} del {\cf2 Electronic Book:}}
+.EQN 2 -1 152 0 0
+{   34   215 0 0}{61}
+19778 22088 0 0 44
+40 215 34 1 24 0 22032 0 0 0 0
+"3"<LG#d!)<7"s"<!Q#dApKu7)!'!!>{5Y)1LS#dAi%i"#!,!(9T!0KuLS"DAa1A']"<!Q!6Ae6k!]!i!!+5-9!$Ae6k!]!i!!+5-9!$Ae6k!]!i!"0_"#!L!(9T!"(O!Q!i6k)1-A!$!%8/!Q!i6k)1-A!$!%8/!Q!i6k)1-A!$!"(O"#!\!(9T!"(O!Q!$LK/}!Q!$LK/}!Q!$LK/}!Q!$LK/}!Q!$LK/}!Q!$LK/}!Q!$LK/}!Q!$LK/}
+!Q!3Aa1A-i"<!Q!3Aa)1!`JRAa2c!Q!$LJKu"+!$!!+t+q!'6k)1!`JRAa2c!Q!$LJKu"+!$!!+t+q!'6k)1!`JRAa2c!Q!$LJKu"+!$!"(O"#!x!(9T!"(O!Q!$LJKu"+!$!!+t+q!'6k)1!`JRAa2c!Q!$LJKu"+!$!!+t+q!'6k)1!`JRAa2c!Q!$LJKu"+!$!!+t!A!"LG&K!9!#!!-9)m!'6k)1$3!'!+>{5Y)1$3!$!!+t"/!$6k)1
+'9!$!!*S"_!'6k)1!`IwAa*S!Q!EAa)1!Y!*Aa2c!Q!$LG3E!Y!$!#-y!Q!$6k;U"+!$!!+t"/!$6k)1'9!$!!*S"_!'6k)1!`J%AbG-#a!'6k)1!`IwAa*S!Q!EAa)1!Y!*Aa2c!Q!$LG3E!Y!$!#-y!Q!$6k;U"+!$!!+t!A!"LG&K!9!#!!'m!A!EAa)1!Y!*Aa2c!Q!3Aa1AH?"<!Q!3Aa)1!`ItAaAa!Y!$Aa*S#%!$6k+5!Y!-!!3E
+"+!$!!+t!]!-!!*S!]!$6kAa!Y!$Aa*S#%!'Aa2c!Q!$LG+5#%!$6k+5!Y!-!!*S!]!$6kAa"/!'6k)1!`ItAaAa!Y!$Aa*S#%!$6k+5!Y!-!!3E"+!$!!+t$3!$!"9P!Q!0Aa2c!Q!$LG+5#%!$6k+5!Y!-!!*S!]!$6kAa"/!'6k)1!`ItAaAa!Y!$Aa*S#%!$6k+5!Y!-!!3E"+!$!!+t!]!#!!%)!A!"6k&K";!$Aa*S#%!$6k+5!Y!-
+!!3E"+!$!"(O"#"t!(9T!"(O!Q!$LG+5!Q!$LI4'"2It!!3E"+!$!!+t!]!$!!+t(/!$LG)1"/!'6k)1!`ItAa)1!`J=!!+5!Q!'Aa2c!Q!$LG+5!Q!$Ac<7!`It!!3E"+!$!!+t!]!?!!DF!Q!0Aa2c!Q!$LG+5!Q!$LI<7!]!$!!3E"+!$!!+t!]!$!!+5!Y!H!!+t!Q!'Aa2c!Q!$LG+5!A!"LG&K!9!#!!'m'M!$LG)1"/!'6k)1$3!'
+!-9Q5Y)1$3!$!!+t!]!$!"1@"/!6LG)1"/!'6k)1!`ItAa)1$fIwAb1@!Q!'Aa2c!Q!$LG+5!Q!6LGIq#1!$!!3E"+!$!!+t!]!$!!Ce#U!6LG)1"/!'6k)1!`ItAa)1%8It!!+5"bIz!!;U"+!$!!+t!]!$!"1@!Q!$Aa+t"#!*6k+5!Q!'Aa2c!Q!$LG+5!Q!$Aa:s"#!$LG+5!Q!6LG)1"/!'6k)1!`ItAa.[!9!#!!%)!A!"6kDF!Q!$
+Ab1@!Q!'Aa2c!Q!3Aa1AH_"<!Q!3Aa)1!`ItAa)1)@It!!3E"+!$!!+t!]!$!$#d!Q!'Aa2c!Q!$LG+5!Q!6LG)1!]!$LGAa"/!$!!3E"+!$!!+t!]!$!!3E#%!$LG+5!Q!6LG)1"/!'6k)1!`ItAa)1%8I}!!+t!Q!$Aa)1"_!'6k)1!`ItAa)1$fIt!!+5"bIw!!*S!]!$!!3E"+!$!!+t!]!$!!+5!Y!'!!<6!]!$!"1@!Q!'Aa2c!Q!$
+LG+5!q!"LG&K!9!#!!%)!Q!"LG&K!@Is!!+t!Q!$Aa.Z!A!"LG&K!pIs!!&J!A!$LG)1"/!'6k)1$3!'!#9R5Y)1$3!$!!+t!]!$!!6j!A!"LG&K!`It6k&J!A!"LG&K!@Is!!*S!pIs!!&J!A!"LG&K"2It!!3E"+!$!!+t!]!$!!.Z!A!"LG&K!@Is!!&J!A!$6k&J!A!"LG&K!@Is!!&J!A!$Aa&J!A!"LG&K!pIs!!&J!q!'Aa2c!Q!$
+LG+5!Q!6LG)1!]!'LG)1!`I}!!3E"+!$!!+t!]!-!!+t!Q!'LG+5!Q!6LG)1"/!'6k)1!`ItAa)1"rIs!!DF!Q!$Aa+t!Q!$Aa)1!]!$!!;U"+!$!!+t!]!$!"1@!Q!$AaDF!Q!$6k+5!Q!'Aa2c!Q!$LG+5!Q!$Aa*S!Q!-LG+5!Q!6LG)1"/!'6k)1!`ItAa)1!`Is!!%)$'!$Ab1@!Q!'Aa2c!Q!3Aa1A1q%"!Q!3Aa)1!`ItAa)1"BIs
+!!&J!A!$Aa&J!A!"LG&K!pIs!!&J!A!"LG&K!@Is!!*S!]!"LG&K!`It!!3E"+!$!!+t!]!$!!6j!A!"LG&K!]!"LG&K!@Is!!+5!@Is!!&J!A!$Aa.Z!A!"LG&K!@Is!!+5!Q!'Aa2c!Q!$LG+5!Q!*LG&K!9!*LG)1!]!'LG)1!`It!!+t"#!'Aa2c!Q!$LG+5"#!$LG)1!`It!!4&!]!$!!<6!A!"6k<6!Q!'Aa2c!Q!$LG+5!Q!(LG&K
+!@Is!!&J!A!"LG&K!@Is!!+t!Q!$Aa+t!Q!$Aa)1!]!$!!;U"+!$!!+t!]!$!!>z!A!*LG)1!]!-LG)1!Y!$Aa)1"/!'6k)1!`ItAa)1!]!$6k)1#4ItAa)1"rIs!!<6!Q!'Aa2c!Q!$LG+5!Q!$LG)1#a!$!!+5!pIs!!.Z!A!"LG&K!@Is!!+t!Q!'Aa2c!Q!3Aa1A7]%"!Q!3Aa)1!`ItAa)1"BIs!!&J!A!$Aa&J!A!"LG&K!pIs!!&J
+!A!"LG&K!@Is!!+5"bIt!!3E"+!$!!+t!]!$!!6j!A!"LG&K!]!"LG&K!@Is!!.Z!A!"LG&K!]!%LG&K!@Is!!&J!A!$Aa)1"/!'6k)1!`ItAa)1"2Is!!%)!A!"6k&K!9!#!!%)!`It!!+5"2It!!+t!Q!$LG1A"/!'6k)1!`ItAa1A!`It!!+t!Q!'LG+5!Q!$LG&K!9!#!!%)!A!"6k&K!9!'LG)1"/!'6k)1!`ItAa)1!pIs!!&J!A!"
+LG&K!@Is!!&J!A!"LG&K!`It!!+5!`It!!+5!Q!$Aa)1"_!'6k)1!`ItAa)1"BIs!!&J!A!"LG&K!@Is!!+t!Q!$AaDF!Q!$6k+5!Q!'Aa2c!Q!$LG+5!Q!$Aa*S!Q!-LG+5!Q!%LG&K!@Is!!&J!A!"LG&K"2It!!3E"+!$!!+t!]!'!!3E!@Is!!&J!A!$LG3E!Q!6LG)1"/!'6k)1$3!'!*Ir5Y)1$3!$!!+t!]!$!!6j!A!"LG&K!]!"
+LG&K!@Is!!.Z!A!"LG&K!@Is!!&J!A!-LG)1"/!'6k)1!`ItAa)1"BIs!!&J!A!$Aa*S!@Is!!&J!A!"LG&K!@Is!!+5!@Is!!&J!A!%LG&K!@Iv!!3E"+!$!!+t!]!$!!+t!A!"6k&K!9!#!!%)!A!"6k&K!9!$LG)1!]!'LG)1!`It!!+t"#!'Aa2c!Q!$LG+5"#!$LG)1!`It!!4&!]!$!!+t!A!"6k&K!9!#!!%)!A!"6k&K!9!$LG)1
+"/!'6k)1!`ItAa)1"BIs!!&J!A!"LG&K!@Is!!&J!A!$LG)1!]!$LG)1!]!$!!+5!Q!*Aa2c!Q!$LG+5!Q!%LG&K!@Is!!&J!A!"LG&K!@Is!!+t!Q!$AaDF!Q!$6k+5!Q!'Aa2c!Q!$LG+5!Q!$Aa*S!Q!-LG+5!Q!%LG&K!@Is!!&J!A!"LG&K!@Is!!+t!Q!'Aa2c!Q!$LG+5!Q!'Aa)0!1!*LG)1"/!$!!&J!A!"LG&K!pIs!!&J!A!$
+LG)1"/!'6k)1$3!'!')25Y)1$3!$!!+t!]!$!!6j!A!"LG&K!]!$6k&J!A!"LG&K!@Is!!*S!@Is!!&J!A!$Aa<6!Q!'Aa2c!Q!$LG+5!Q!(LG&K!@Is!!+5"rIs!!&J!A!$AaLV!Q!'Aa2c!Q!$LG+5!Q!'LG&K!9!#!!%)!A!"6k&K!9!$LG)1!]!'LG)1!`It!!+t"#!'Aa2c!Q!$LG+5"#!$LG)1!`It!!4&!]!$!!+t!A!"6k&K!9!#
+!!%)!A!"6k4&!Q!'Aa2c!Q!$LG+5!Q!+LG&K#4It!!+5!`It!!+5!Q!$Aa)1"_!'6k)1!`ItAa)1"BIs!!&J!A!"LG&K!@Is!!+t!Q!$AaDF!Q!$6k+5!Q!'Aa2c!Q!$LG+5!Q!$Aa*S!Q!-LG+5!Q!%LG&K!@Is!!&J!A!"LG&K"2It!!3E"+!$!!+t!]!$!!+5!PIr!!+5!pIs!!+t!Q!$LG+5!Q!3LG)1"/!'6k)1$3!'!#>|5Y)1$3!$
+!!+t!]!$!!6j!A!"LG&K"/!.LG&K!@Is!!*S!]!"LG&K!`It!!3E"+!$!!+t!]!$!!6j!A!"LG&K"/!(LG&K!@Is!!+5#dIt!!3E"+!$!!+t!]!$!!<6!A!"6k<6!Q!$Aa4&!Q!$LG)1!`Iw!!3E"+!$!!+t!]!'!!+t!Q!$LG)1"2ItAa)1"bIs!!%)"bIt!!3E"+!$!!+t!]!$!"9P!Q!$Aa+t"S!$Aa)1"_!'6k)1!`ItAa)1"rIs!!<6
+!Q!$AaDF!Q!$6k+5!Q!'Aa2c!Q!$LG+5!Q!$Aa*S!Q!-LG+5!Q!+LG&K"bIt!!3E"+!$!!+t!]!$!!3E!PIr!!<6!Q!$LG+5!Q!"LG&K!@Is!!&J!A!%LG&K!`It!!3E"+!$!"(O"#!H!89T!"(O!Q!$LG+5!Q!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!$LG3E!`It6k&J!A!"LG&K!@Is!!4&!Q!'Aa2c!Q!$LG+5!Q!%LG&K!@Is!!&J
+!A!"LG&K"rIs!!&J!A!3LG)1"/!'6k)1!`ItAa)1$fIt!!+5"2It!!+t!Q!$LG1A"/!'6k)1!`ItAa1A!`It!!+t!Q!'LG+5!Q!6LG)1"/!'6k)1!`ItAa)1%8It!!+5!`It!!;U!Q!*Aa2c!Q!$LG+5!Q!6LG)1!]!-LG)1!Y!$Aa)1"/!'6k)1!`ItAa)1!]!$6k)1#4ItAa)1$fIt!!3E"+!$!!+t!]!$!!+5!PIr!!+5!@Is!!&J!A!$
+LG)1!`ItAa)1$6It!!3E"+!$!"(O"##R!(9T!"(O!Q!$LG+5!Q!6LG3E$fIt!!3E"+!$!!+t!]!$!$#d!Q!'Aa2c!Q!$LG+5!Q!6LG)1!]!'LG)1!`It!!+t!Q!$6k3E"+!$!!+t!]!$6k)1!`It!!+t!Q!'LG+5!Q!6LG)1"/!'6k)1!`ItAbG-!]!$LG)1!]!'LG)1"_!'6k)1!`ItAa)1$fIt!!+5#4It!!*S!Q!$6k3E"+!$!!+t!]!$
+6k)1!Y!$!!DF!]!$!"1@!Q!'Aa2c!Q!$LG+5!Q!'Aa)0!1!*LG)1"/!$!!&J!A!"LG&K!pIs!!&J!A!$LG)1"/!'6k)1$3!'!.9Q5Y)1$3!$!!+t!]!$6k)1$6IwAb)0!Q!$6k3E"+!$!!+t!]!$6k)1$6IwAb)0!Q!$6k3E"+!$!!+t!]!$6k)1$6Iw!!4&!Q!$LG)1!`It!!;U"+!$!!+t"/!$!!+t!Q!$LG)1"2Iw!")0!Q!$6k3E"+!$
+!!+t#1!$!"0_!`J"!!;U"+!$!!+t!]!$6k)1$6Iw!!DF!Q!$6kCe"+!$!!+t"_!$6k)1#4Iw!")0!Q!$6k3E"+!$!!+t!]!$6k)1"/!%LG&K!`IwAa)1$6It!!*S"/!'6k)1$3!'!,#e5Y)1$3!$!!+t"_!$6m+u!Y!-Aa2c!Q!$LG;U!Y!E!!*S#1!'6k)1!`IzAa*S#U!$Aa1A!`It!!+t!Q!$LG)1"_!'6k)1!`IwAa)1!`It!!+t!Q!$
+LG1A!]!0!!*S#1!'6k)1!`I}AbG-$c!'6k)1!`IzAa*S#U!'Aa1A"2It!!Ku"+!$!!+t#1!$!!4&"#!'AaIq!Y!-Aa2c!Q!$LG;U!Q!0Ab6k!Y!*Aa2c!Q!3Aa1A59"<!Q!3Aa)1!`JRAa2c!Q!$LJKu"+!$!!+t&g!*!!+t!Q!$LG)1"_!'6k)1!`IwAa)1!`It!!+t"S!EAa2c!Q!$LJKu"+!$!!+t'i!$!!+t!Q!0Aa2c!Q!$LGCe!Q!$
+LG)1(;!'6k)1!`I}AaIq'9!'6k)1$3!'!&>{5Y)1$3!$!!+t+q!'6k)1!`JRAa2c!Q!$LI6+#U!*Aa2c!Q!$LG3E#U!KAa2c!Q!$LJKu"+!$!!+t(;!'!!Ku"+!$!!+t#1!'!#FK"+!$!!+t+q!'6k)1$3!'!&4'5Y)1$3!$!!+t+q!'6k)1!`JRAa2c!Q!$LIFK"S!*Aa2c!Q!$LG3E"S!QAa2c!Q!$LJKu"+!$!!+t(k!$!!Ku"+!$!!+t
++q!'6k)1!`JRAa2c!Q!3Aa1A-i"<!Q!3Aa)1!`JRAa2c!Q!$LJKu"+!$!!+t+q!'6k)1!`JRAa2c!Q!$LJKu"+!$!!+t+q!'6k)1!`JRAa2c!Q!$LJKu"+!$!"(O"#!\!(9T!"(O!Q!fLG*S!Q!fLG*S!Q!fLG*S!Q!fLG*S!Q!fLG*S!Q!fLG*S!Q!fLG*S!Q!fLG*S!Q!3Aa1A']"<!Q!6Ae6k!]!i!!+5-9!$Ae6k!]!i!!+5-9!$Ae6k
+!]!i!"0_"#!,!(9T!0KuLS"DAa1A"s"<!Q#dApKu7)!'!!>{5Y)1LS#dAi%i"#!(!(<6!0Iq8O!Q
+
+.ATT
+.STATUS Use controls on window.
+.ATT_END
+.TXT 8 -3 156 0 0
+Cg a72.000000,72.000000,73
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Permite 
+"Navegar" a través del {\cf2 Electronic Book }buscando temas de interés.}
+.EQN 2 0 157 0 0
+{    9     7 0 0}{61}
+19778 272 0 0 44
+40 7 9 1 24 0 216 0 0 0 0
+!q"<$fIt!!Iq5Y<6!A!"6k&K!9!'LG)1$w"<"2Is!!%)!A!"6k&K!9!#!!%)!`It!"9Q3tLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!!"9Q3tLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!!"4'5Y4&!A!"6k&K!9!#!!%)!A!"6k+t!Q!0!(9ZLG&K!9!#!!%)"2It!!.[5Z1@!Q!&!(9fLG)1
+
+.TXT 2 4 158 0 0
+Cg a80.625000,80.625000,20
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard La {\cf2 
+línea de mensaje:}}
+.EQN 1 -4 160 0 0
+{   42   502 0 0}{61}
+19778 63392 0 0 44
+40 502 42 1 24 0 63336 0 0 0 0
+#5"<LG#d!0IqLG#d!/9Q$W"<!Q!`Aa)1LS#dApKuLS#dAk(O!A!6!(9T!$Ku!Q#dApKuLS#dApKu<c!#!"#e5Y)1"/#d!0IqLG#d!0IqG-!6!(9T!!3E!Q#dApKuLS#dApKuFG!#!">{5Y)1"/!$!0KuLS#dApKuLS!0Am#d"/!'LG&K(_"<!Q!'Aa)1:_!-!/>;#%!xAa1A$3!$!0KuLS#dAa+5!Y"}Aa+t"/!$6k+5!A!N!(9T!!3E!Q"e
+Aa)1JO!$!&>;!Q!0Aa)1LS#dApKu!]!$6v>;!`IwAa*S!]!#!$#e5Y)1"/!$!+(O!Q#XAa)1*o!$!#%i!Q!-Aa)1LS#dApKu!]!$6v>;!`IwAa*S!]!#!"DH5Y)1"/!$!"0_!Q!'Aa)1"_!$!!;U"S!-AaAa"_!$!!Ce!Q!$Aa)1"/!$!!;U!Q!*Aa9Q!]!$!"(O!Q!'AaAa"/!$!!Ce!Q!'Aa)1#1!$!!3E!Q!*Aa)1$3!$!!3E#%!'Aa)1
+#1!$!!3E!Q!-Aa)1#1!-!!Ce"S!$Aa)1"/!$!!;U#%!*Aa)1"_!$!!3E!Q!3Aa)1"_!$!!Ce!Q!$Aa9Q#1!-!"0_#U!*Aa)1"_!$!!3E!Q!'Aa)1"_!$!!Ku$W!'Aa)1"_!$!!;U!Q!'AaAa"_!$!"0_!Q!'AaAa$c!-!!3E!Q!-Aa)1!]!$!!;U!Q!$Aa)1LS"hAa*S$3!-!!+5!Q!'Aa1A!]!$!!;U!Q!'AaAa2O!$LG3E!Y!$Aa&K-I%"
+!Q!'Aa)1$c!$!!3E!Q!*Aa)1"/!$!!;U!Q!'Aa)1#1!$!!3E!Q!*Aa)1"/!$!!3E!Q!*Aa)1"/!$!!;U"#!0Aa)1"/!$!!Ce!Q!'Aa)1"/!$!!3E!Q!0Aa)1"/!$!!;U!Q!0Aa)1"/!$!!Ce!Q!'Aa)1"/!$!!3E!Q!0Aa)1"_!$!!Ce!Q!'Aa)1"_!'!!3E!Q!'Aa)1#1!$!!3E!Q!*Aa)1%5!$!!;U!Q!$Aa)1"_!'!!;U!Q!'Aa)1#1!$
+!!Ku!Q!0Aa)1"/!$!!;U!Q!'Aa)1"/!$!!3E!Q!3Aa)1%5!$!!;U!Q!'Aa)1"/!$!!Ce!Q!'Aa)1$3!$!!3E!Q!-Aa)1#a!$!!Ce!Q!'Aa)1"/!$!!3E!Q!'Aa)1LS"qAa*S#a!$!!Ce!Q!'Aa)1"/!'!!3E!Q!'Aa)1#1!$!'+5!`IwAa*S!]!#!"DH5Y)1"/!$!"0_!Q!'Aa)1"_!$!"(O!Q!'Aa)1$c!$!!;U!Q!'Aa)1"/!$!!;U!Q!'
+Aa)1#1!$!!Ku!Q!'Aa)1%5!'!!;U!Q!0Aa)1"/!$!!;U!Q!0Aa)1"/!$!"8o"#!*Aa)1#a!$!!;U!Q!6Aa)1#1!$!!3E!Q!'Aa)1#1!$!!3E!Q!*Aa)1%5!$!!;U!Q!$Aa)1"_!$!!Ce!Q!'Aa)1&7!$!!Ku!Q!'Aa)1"_!$!!3E!Q!'Aa)1"/!$!"(O!Q!9Aa)1"_!$!!3E!Q!'Aa)1$c!$!"(O!Q!'Aa)1#1!$!!Ku!Q!9Aa1A"_!$!!3E
+!Q#dAkI1!Y!0Aa)1#1!$!!3E!Q!*Aa)1"/!$!!3E!Q!-Aa)11}!$LG3E!Y!$Aa&K%9%"!Q!'Aa)1$c!$!!3E!Q!*Aa)1"_!*!!;U$'!'Aa)1"_!$!!3E!Q!'Aa)1"_!$!!3E!Q!-Aa)1#a!$!!3E$'!*Aa1A"_!$!!Ku!Q!'Aa)1"_!$!!Ku!Q!'Ab&K"_!'!!;U!Q!0Aa)1"_!3!!3E!Q!-Aa)1"/!$!!3E!Q!-Aa)1"/!$!!;U!Q!9Aa)1
+"/!$!!;U!Q!'Aa)1#1!$!!3E$'!BAa)1"/!$!!;U!Q!'Aa)1"/!$!!3E!Q!3Aa)1%5!$!!;U!Q!'Aa)1"/!3!!3E!Q!3Aa)1"/!$!!Ce!Q!0Ab&K"_!'!!;U!Q!'Aa)1LS"qAa*S#a!$!!Ce!Q!'Aa)1"_!$!!3E!Q!'Aa)1#1!$!'+5!`IwAa*S!]!#!$.\5Y)1"/!$!"0_!Q!'Aa)1"_!$!!3E!Q!3Aa)1#1!$!!3E!Q!*Aa)1"/!$!!3E
+!Q!*Aa)1"/!$!!Ce!Q!0Aa)1"/!$!!Ce!Q!*Aa1A"_!$!!Ku!Q!'Aa)1"_!$!!Ku!Q!'Aa)1#1!$!!;U"#!*Aa)1#a!$!!;U!Q!-Aa)1"/!$!!Ce!Q!'Aa)1"/!$!!Ce!Q!'Aa)1"_!$!"8o!Q!'Aa)1"_!$!!3E!Q!-Aa)1"/!$!!Ce!Q!<Aa1A"_!$!!;U!Q!'Aa)1"/!$!!3E!Q!$AaAa!]!$!"8o!Q!*Aa)1"/!$!!3E!Q!-Aa)1"/!$
+!"(O!Q!'Aa)1#1!$!!Ku!Q!-Aa)1"_!'!!;U!Q!'Aa)1LS"qAa*S$3!0!!3E!Q!*Aa)1"/!$!!3E!Q!-Aa)11}!$LG3E!Y!$Aa&K,g%"!Q!'Aa)1$c!$!!3E"#!'Aa)1"/!$!!;U!Q!'Aa)1#1!$!!3E"#!'Aa)1"/!$!!3E"#!'Aa)1"/!$!!;U"#!0Aa)1"/!$!!Ce!Q!'Aa)1"/!$!!3E!Q!0Aa)1"/!'!!3E!Q!0Aa)1"/!$!!Ce!Q!'
+Aa)1"/!$!!3E!Q!0Aa1A"/!$!!Ce!Q!'Aa)1"_!'!!3E!Q!'Aa)1#1!$!!3E"#!'Aa)1%5!$!!+5!Q!0Aa)1!]!'!!;U!Q!'Aa)1#1!$!"(O"S!0Aa1A"/!$!!3E!Q!'Aa)1"/!$!"(O$'!*Aa1A"/!$!!3E!Q!'Aa)1#1!$!!3E"#!0Aa)1"/!$!!Ce!Q!0Aa)1#1!$!!3E!Q!'Aa)1"/!$!!3E!Q#dAkI1!Y!0Aa)1#1!$!!3E!Q!*Aa)1
+"/!$!!3E!Q!-Aa)11}!$LG3E!Y!$Aa&K#5%"!Q!'Aa)1$c!$!!3E!Q!$Aa1A#1!*!!Ce#%!*Aa)1!]!-!!+5!Q!'Aa)1!]!'!!Ce"S!$Aa)1#1!*!!3E#%!'Aa)1#1!-!!Ce!Q!'Aa)1!]!'!!Ku"S!'AaAa"/!$!!Ce#%!-Aa)1!]!$!!3E#%!-Aa9Q!]!$!!3E!Q!*AaAa"_!$!!+5"#!9AaAa#a!$!!+5!Q!$Aa9Q#1!-!"(O!Q!9Aa)1
+!]!'!!;U!Q!$Ab&K#a!$!"8o!Q!$Aa1A"/!*!!3E#%!*Aa)1!]!$!!;U"S!'AaAa$c!-!!3E!Q!-Aa)1!]!$!!+5"S#dAkA!!Y!3AaAa"_!$!!;U!Q!$Aa9Q"/!-!'3E!`IwAa*S!]!#!&DG5Y)1"/!$!"0_!Q!uAa)1,s!$!$#%!Q!WAa)1)=!$!*+5!Q!uAa)1#a!$!!3E!Q!<Aa)1"/!$!"(O!Q!NAa)1)m!$!&>;!Q#dAkI1!Y!]Aa)1
+6'!$LG3E!Y!$Aa&K0o"<!Q!'Aa)1$c!$!&-y!Q!fAa)1)=!$!$3E!Q!QAa)1:/!$!&-y!Q!0Aa)1"/!$!"A!!Q!'Aa)1$3!$!#FK!Q!TAa)10K!$!0Ku>g!$6nCe!Q">Aa+t"/!$6k+5!A!b!(9T!!3E!Q!6Aa)10{!$!)%i!Q"hAa)1<3!0!!;U!Q!3Aa)1"_!$!"8o$W"hAa)1LS"zAa*S@k!$LG3E!Y!$Aa&K&["<!Q!'Aa)1LS#dApKu
+LS#dAaKu!Y"}Aa+t"/!$6k+5!A!>!(9T!!3E!Q#dApKuLS#dApKu#a#"6k+t"/!'6k&K$W"<!Q!'Aa)1LS#dApKuLS#dAnA!!A!.!(<6!0IqLG#d!0IqH_!>!(9T!!3E!Q!N6k)1(g!$!0KuLS#dApKuLS">Aa&K&["<!Q!'Aa)1!`J=6k)1!`J=6k)1LS#dApKuLS#dAhA!!A!F!(9T!!3E!Q!$LI-y"+!$!!+t'9!'6k)1LS#dApKuLS#d
+AhA!!A!F!(9T!!3E!Q!$LI-y"+!$!!+t'9!'6k)1LS#dApKuLS#dAhA!!A!J!(9T!!3E!Q!$LH(O!Q!0Aa2c!Q!$LI-y"+!$!0KuLS#dApKuLS">Aa&K'}"<!Q!'Aa)1!`J"Aa1A#a!'6k)1!`J7Aa2c!Q#dApKuLS#dApKu6'!#!#9Q5Y)1"/!$!!+t#1!3!!3E"+!$!!+t'9!'6k)1LS#dApKuLS#dAhA!!A!J!(9T!!3E!Q!$LG;U$W!'
+Aa2c!Q!$LI-y"+!$!0KuLS#dApKuLS">Aa&K'}"<!Q!'Aa)1!`I}Ab&K"/!'6k)1!`J7Aa2c!Q#dApKuLS#dApKu6'!#!#9Q5Y)1"/!$!!+t#a!'!!Ku"+!$!!+t'9!'6k)1LS#dApKuLS#dAhA!!A!J!(9T!!3E!Q!$LH(O!Q!0Aa2c!Q!$LI-y"+!$!0KuLS#dApKuLS">Aa&K'="<!Q!'Aa)1!`J7Aa2c!Q!$LI-y"+!$!0KuLS#dApKu
+LS">Aa&K'="<!Q!'Aa)1!`J7Aa2c!Q!$LI-y"+!$!0KuLS#dApKuLS">Aa&K'="<!Q!'Aa)1!`J7Aa2c!Q!$LI-y"+!$!0KuLS#dApKuLS">Aa&K&["<!Q!'Aa)1(>It6k)1(>It6k)1LS#dApKuLS#dAhA!!A!2!(9T!!3ELG#d!0IqLG#d!/!!$W"<!Q!'Aa)1LVLVLVLVLVLVLTA`!A!6!(9T!!3E!Q#dLVLVLVLVLVLVFJIs!".[5Y)1
+"/!$!0LVLVLVLVLVLVL2LG&K
+
+.ATT
+.STATUS See message line on window.
+.ATT_END
+.TXT 11 0 161 0 0
+Cg a72.000000,72.000000,143
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Al fondo de la Hoja de 
+Trabajo, mantiene un status de las operaciones de edición que \par se 
+están realizando, así como otras informaciones útiles.}
+.TXT 5 0 162 0 0
+Cg a72.000000,72.000000,78
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 
+______________________________________________________________________________
+}
+.TXT 5 0 164 0 0
+Cg a72.000000,72.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul\link3 Volver al Indice}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Indice.mcd
+.ATT_END
+.ATT
+.LINK file:C:\WINMCAD\BARCE\Indice.mcd
+.ATT_END
+.ATT
+.ATT_END
+.ATT
+.LINK file:C:\WINMCAD\BARCE\Indice.mcd
+.ATT_END
+.TXT 4 0 165 0 0
+Cg a72.000000,72.000000,12
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul Ejercitación}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Ej_edi1.mcd
+.ATT_END

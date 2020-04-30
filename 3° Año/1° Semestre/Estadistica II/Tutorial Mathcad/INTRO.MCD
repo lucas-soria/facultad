@@ -1,0 +1,109 @@
+.MCAD 304020000 1 73 104 0
+.CMD FORMAT  rd=d ct=10 im=i et=3 zt=15 pr=3 mass length time charge temperature tr=0 vm=0
+.CMD SET ORIGIN 0
+.CMD SET TOL 0.001000000000000
+.CMD SET PRNCOLWIDTH 8
+.CMD SET PRNPRECISION 4
+.CMD PRINT_SETUP 1.200000 1.052083 1.200000 1.200000 0
+.CMD HEADER_FOOTER 1 1 *empty* *empty* *empty* 0 1 *empty* *empty* *empty*
+.CMD HEADER_FOOTER_FONT fontID=14 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD HEADER_FOOTER_FONT fontID=15 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFAULT_TEXT_PARPROPS 0 0 0
+.CMD DEFINE_FONTSTYLE_NAME fontID=0 name=Variables
+.CMD DEFINE_FONTSTYLE_NAME fontID=1 name=Constants
+.CMD DEFINE_FONTSTYLE_NAME fontID=2 name=Text
+.CMD DEFINE_FONTSTYLE_NAME fontID=4 name=User^1
+.CMD DEFINE_FONTSTYLE_NAME fontID=5 name=User^2
+.CMD DEFINE_FONTSTYLE_NAME fontID=6 name=User^3
+.CMD DEFINE_FONTSTYLE_NAME fontID=7 name=User^4
+.CMD DEFINE_FONTSTYLE_NAME fontID=8 name=User^5
+.CMD DEFINE_FONTSTYLE_NAME fontID=9 name=User^6
+.CMD DEFINE_FONTSTYLE_NAME fontID=10 name=User^7
+.CMD DEFINE_FONTSTYLE fontID=0 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=1 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=2 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=4 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=5 family=Courier^New points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=6 family=System points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=7 family=Script points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=8 family=Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=9 family=Modern points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=10 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD UNITS U=1
+.CMD DIMENSIONS_ANALYSIS 0 0
+.CMD COLORTAB_ENTRY 0 0 0
+.CMD COLORTAB_ENTRY 128 0 0
+.CMD COLORTAB_ENTRY 0 128 0
+.CMD COLORTAB_ENTRY 128 128 0
+.CMD COLORTAB_ENTRY 0 0 128
+.CMD COLORTAB_ENTRY 128 0 128
+.CMD COLORTAB_ENTRY 0 128 128
+.CMD COLORTAB_ENTRY 128 128 128
+.CMD COLORTAB_ENTRY 192 192 192
+.CMD COLORTAB_ENTRY 255 0 0
+.CMD COLORTAB_ENTRY 0 255 0
+.CMD COLORTAB_ENTRY 255 255 0
+.CMD COLORTAB_ENTRY 0 0 255
+.CMD COLORTAB_ENTRY 255 0 255
+.CMD COLORTAB_ENTRY 0 255 255
+.CMD COLORTAB_ENTRY 255 255 255
+.TXT 3 2 102 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b 
+CURSO DE MATHCAD                                           Ing. JESUS 
+RUBEN AZOR MONTOYA}}
+.TXT 4 0 103 0 0
+Cg a74.000000,74.000000,12
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b INTRODUCCION
+}}
+.TXT 3 0 33 0 0
+Cg a74.000000,74.000000,309
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b 
+Mathcad es una poderosa herramienta de trabajo que permite compartir 
+en en un mis-\par mo ambiente con ecuaciones, números, textos y 
+gráficos. Su estructura "amigable per-\par mite trabajar tal como si 
+se lo hiciese con lápiz y papel.\par En cualquier lenguaje de 
+programación, una ecuación tiene una forma tal como esta:}}
+.TXT 11 15 96 0 0
+Cg a65.000000,65.000000,26
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\fs24\b 
+x**5/(27-3.4)*sqr((y+2)/4)}}
+.TXT 4 -15 97 0 0
+Cg a70.000000,70.000000,69
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b En 
+Mathcad adquiere una estructura más "amigable", como la siguiente:}}
+.EQN 6 22 99 0 1
+(({0:x}NAME)^(5))/(27-3.4)*\(({0:y}NAME+2)/(4))
+.TXT 6 -22 100 0 0
+Cg a74.000000,74.000000,516
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b Por 
+otro lado, la Hoja de Trabajo aparece ante el usuario como "con vida 
+propia", esto es modificado cualquier valor de una variable o 
+constante, todo lo que se desarrolla por de- bajo cambia en 
+consonancia. Esto es, todas las ecuaciones y gráficos se recalculan 
+con\par los nuevos valores casi instantáneamente.\par Una ventaja 
+adicional es la posibilidad de enviar la Hoja de Trabajo, tal cual se 
+elaboró,\par por medio del Correo Electrónico, así también como 
+compartirla con otros colegas si se\par "deposita" sobre un Servidor.}}
+.TXT 17 1 104 0 0
+Cg a72.000000,72.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\fs24\b
+\ul\link3 Volver al Indice}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Indice.mcd
+.ATT_END
+.ATT
+.LINK file:C:\WINMCAD\BARCE\Indice.mcd
+.ATT_END
+.ATT
+.ATT_END
+.ATT
+.LINK file:C:\WINMCAD\BARCE\Indice.mcd
+.ATT_END

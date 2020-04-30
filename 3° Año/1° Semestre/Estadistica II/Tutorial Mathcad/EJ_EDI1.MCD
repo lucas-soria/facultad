@@ -1,0 +1,588 @@
+.MCAD 304020000 1 74 153 0
+.CMD PLOTFORMAT
+0 0 1 1 1 0 0 1 1 
+0 0 1 1 1 0 0 1 1 
+0 1 0 0 1 1 NO-TRACE-STRING
+0 2 1 0 1 1 NO-TRACE-STRING
+0 3 2 0 1 1 NO-TRACE-STRING
+0 4 3 0 1 1 NO-TRACE-STRING
+0 1 4 0 1 1 NO-TRACE-STRING
+0 2 5 0 1 1 NO-TRACE-STRING
+0 3 6 0 1 1 NO-TRACE-STRING
+0 4 0 0 1 1 NO-TRACE-STRING
+0 1 1 0 1 1 NO-TRACE-STRING
+0 2 2 0 1 1 NO-TRACE-STRING
+0 3 3 0 1 1 NO-TRACE-STRING
+0 4 4 0 1 1 NO-TRACE-STRING
+0 1 5 0 1 1 NO-TRACE-STRING
+0 2 6 0 1 1 NO-TRACE-STRING
+0 3 0 0 1 1 NO-TRACE-STRING
+0 4 1 0 1 1 NO-TRACE-STRING
+0 1 1 21 15 0 0 3 
+.CMD PLOTFORMAT
+0 0 1 1 1 0 0 1 1 
+0 0 1 1 1 0 0 1 1 
+0 1 0 0 1 1 NO-TRACE-STRING
+0 2 1 0 1 1 NO-TRACE-STRING
+0 3 2 0 1 1 NO-TRACE-STRING
+0 4 3 0 1 1 NO-TRACE-STRING
+0 1 4 0 1 1 NO-TRACE-STRING
+0 2 5 0 1 1 NO-TRACE-STRING
+0 3 6 0 1 1 NO-TRACE-STRING
+0 4 0 0 1 1 NO-TRACE-STRING
+0 1 1 0 1 1 NO-TRACE-STRING
+0 2 2 0 1 1 NO-TRACE-STRING
+0 3 3 0 1 1 NO-TRACE-STRING
+0 4 4 0 1 1 NO-TRACE-STRING
+0 1 5 0 1 1 NO-TRACE-STRING
+0 2 6 0 1 1 NO-TRACE-STRING
+0 3 0 0 1 1 NO-TRACE-STRING
+0 4 1 0 1 1 NO-TRACE-STRING
+0 1 1 21 15 0 1 3 
+.CMD FORMAT  rd=d ct=10 im=i et=3 zt=15 pr=3 mass length time charge temperature tr=0 vm=0
+.CMD SET ORIGIN 0
+.CMD SET TOL 0.001000000000000
+.CMD SET PRNCOLWIDTH 8
+.CMD SET PRNPRECISION 4
+.CMD PRINT_SETUP 1.200000 0.968750 1.200000 1.200000 0
+.CMD HEADER_FOOTER 1 1 *empty* *empty* *empty* 0 1 *empty* *empty* *empty*
+.CMD HEADER_FOOTER_FONT fontID=14 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD HEADER_FOOTER_FONT fontID=15 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFAULT_TEXT_PARPROPS 0 0 0
+.CMD DEFINE_FONTSTYLE_NAME fontID=0 name=Variables
+.CMD DEFINE_FONTSTYLE_NAME fontID=1 name=Constants
+.CMD DEFINE_FONTSTYLE_NAME fontID=2 name=Text
+.CMD DEFINE_FONTSTYLE_NAME fontID=4 name=User^1
+.CMD DEFINE_FONTSTYLE_NAME fontID=5 name=User^2
+.CMD DEFINE_FONTSTYLE_NAME fontID=6 name=User^3
+.CMD DEFINE_FONTSTYLE_NAME fontID=7 name=User^4
+.CMD DEFINE_FONTSTYLE_NAME fontID=8 name=User^5
+.CMD DEFINE_FONTSTYLE_NAME fontID=9 name=User^6
+.CMD DEFINE_FONTSTYLE_NAME fontID=10 name=User^7
+.CMD DEFINE_FONTSTYLE fontID=0 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=1 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=2 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=4 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=5 family=Courier^New points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=6 family=System points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=7 family=Script points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=8 family=Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=9 family=Modern points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=10 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD UNITS U=1
+.CMD DIMENSIONS_ANALYSIS 0 0
+.CMD COLORTAB_ENTRY 0 0 0
+.CMD COLORTAB_ENTRY 128 0 0
+.CMD COLORTAB_ENTRY 0 128 0
+.CMD COLORTAB_ENTRY 128 128 0
+.CMD COLORTAB_ENTRY 0 0 128
+.CMD COLORTAB_ENTRY 128 0 128
+.CMD COLORTAB_ENTRY 0 128 128
+.CMD COLORTAB_ENTRY 128 128 128
+.CMD COLORTAB_ENTRY 192 192 192
+.CMD COLORTAB_ENTRY 255 0 0
+.CMD COLORTAB_ENTRY 0 255 0
+.CMD COLORTAB_ENTRY 255 255 0
+.CMD COLORTAB_ENTRY 0 0 255
+.CMD COLORTAB_ENTRY 255 0 255
+.CMD COLORTAB_ENTRY 0 255 255
+.CMD COLORTAB_ENTRY 255 255 255
+.TXT 3 2 151 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b 
+CURSO DE MATHCAD                                           Ing. JESUS 
+RUBEN AZOR MONTOYA}}
+.TXT 4 0 3 0 0
+Cg a72.000000,72.000000,34
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b\ul 
+RESOLVER LOS SIGUIENTES EJERCICIOS}}
+.TXT 4 0 4 0 0
+Cg a72.000000,72.000000,83
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b 1)  
+Utilizando la Paleta Matemática, transformar la siguiente estructura 
+de línea:}{\cf2  }}
+.EQN 1 0 23 0 0
+{   26    26 0 0}{61}
+19778 2136 0 0 44
+40 26 26 1 24 0 2080 0 0 0 0
+"S"<!`J[!!+t!A!(!(9T!%8/!q!*!(9T!!+t,o!&!%Iq5Y)1!`ItAa)1!PIr!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!9!&!!3E"+!&!#>{5Y)1!`ItAa)1!PIr!!&J!A!"LG>{!@I|!!&J"s!"LG&K!9!&!!3E"+!&!$4'5Y)1!`ItAa)1!PIr!!&J!A!"LG&K"/!$!!&J!A!'
+Aa)1!@Is!!3E!Q!"LG&K!9!&!!3E"+!&!$DG5Y)1!`ItAa)1!PIr!!&J!A!"LG)1!PItAa)1!@It!!)0!]!$!!&J!Q!#LG+5!Q!"LG&K!9!&!!3E"+!&!%Iq5Y)1!`ItAa)1!PIr!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!9!&!!3E"+!&!#>{5Y)1!`ItAa)1!PIr!!&J!A!"
+LG>{!@I|!!&J"s!"LG&K!9!&!!3E"+!&!$4'5Y)1!`ItAa)1!PIr!!&J!A!"LG&K"/!$!!&J!A!'Aa)1!@Is!!3E!Q!"LG&K!9!&!!3E"+!&!$DG5Y)1!`ItAa)1!PIr!!&J!A!"LG)1!PItAa)1!@It!!)0!]!$!!&J!Q!#LG+5!Q!"LG&K!9!&!!3E"+!&!%Iq5Y)1!`ItAa)1!PIr!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"
+LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!9!&!!3E"+!&!#>{5Y)1!`ItAa)1!PIr!!&J!A!"LG>{!@I|!!&J"s!"LG&K!9!&!!3E"+!&!$4'5Y)1!`ItAa)1!PIr!!&J!A!"LG&K"/!$!!&J!A!'Aa)1!@Is!!3E!Q!"LG&K!9!&!!3E"+!&!$DG5Y)1!`ItAa)1!PIr!!&J!A!"LG)1!PItAa)1!@It!!)0!]!$!!&J!Q!#LG+5!Q!"
+LG&K!9!&!!3E"+!&!%Iq5Y)1!`ItAa)1!PIr!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!9!&!!3E"+!&!%Iq5Y)1!`ItAa)1!PIr!!&J!A!"6k&K!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!"LG&K!9!&!!3E"+!&!%>{5Y)1!`ItAa)1!PIr
+!!&J!A!"6k)1!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!pIr!!&J!A!"6k.["/!'6k.['}"<!Q!$LG+5!Q!#LG#e!@Is!!%)!A!?Aa)0!1!"LG&K!9!&!!3E"+!&!%Iq5Y)1!`ItAa)1!PIr!!&J!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"LG&K!9!&!!3E"+!&!%Iq
+5Y)1!`ItAa)1!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIr!!)0!1!#LG#e!PIu!!3E"+!&!!Iq5Y)1!`IwAd!!"_!'6k.["s"<!Q!$LJKu"+!&!!>{5Y)1!`JRAa2c!q!*!(9T!%1@!Y!&!!9Q5Y+t-9!$LG&K
+
+.ATT
+.STATUS Use button on palette.
+.ATT_END
+.TXT 3 6 24 0 0
+Cg a70.625000,70.625000,17
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b 
+Paleta aritmética}}
+.TXT 4 -3 10 0 0
+Cg a72.000000,72.000000,2
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b a)}}
+.TXT 0 3 11 0 0
+Cg a69.000000,69.000000,29
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}{\f1\fcharset2\fnil Symbol;}}\plain
+\cf1\fs20 \pard {\cf2\fs24\b abs(a**3+5*(t+6)/48)*}{\cf2\f1\fs24\b p}{
+\cf2\fs24\b **(1/3)}}
+.TXT 4 -3 12 0 0
+Cg a72.000000,72.000000,26
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b b)}{
+\cf2\fs24\b  ( -b+(b**2-4*a*c)/(2*a)}}
+.TXT 5 0 13 0 0
+Cg a72.000000,72.000000,2
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b c)}}
+.TXT 0 2 153 0 0
+Cg a69.000000,69.000000,18
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\fs24\b 
+sin(4*b+5/c)**(-1)}}
+.TXT 4 -2 15 0 0
+Cg a72.000000,72.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b d) }{
+\cf2\fs24\b n!/(m!*(n-m)!}}
+.TXT 5 0 19 0 0
+Cg a72.000000,72.000000,35
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b e) }{
+\cf2\fs24\b 1-x**2/2!+x**4/4!-\par     -x**6/6!}{\cf2\b  }}
+.TXT 0 24 20 0 0
+Cg a45.000000,45.000000,103
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b\ul Nota}{
+\cf2\b : esto lo hacemos habitualmente cuando una expresión es muy 
+larga para caber a lo ancho de la hoja.}}
+.TXT 7 -27 27 0 0
+Cg a72.000000,72.000000,15
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b 2)  
+Idem para:}{\cf2  }}
+.EQN 2 0 28 0 0
+{   26    26 0 0}{61}
+19778 2136 0 0 44
+40 26 26 1 24 0 2080 0 0 0 0
+"S"<!`J[!!+t!A!(!(9T!%8/!q!*!(9T!!+t,o!&!!>{5Y)1!`JRAa2c!q!,!(9T!!+t+q!'6k.[)A"<!Q!$LG;U!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J%e!'6k.[)A"<!Q!$LG;U!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J%e!'6k.["s"<!Q!$LJKu"+!&!$#e5Y)1!`IzAa&K!@Is!!&J
+!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LHA!"+!&!$#e5Y)1!`IzAa&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LHA!"+!&!!>{5Y)1!`JRAa2c!q!N!(9T!!+t&g!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k3E"+!&!$#e5Y)1!`Ir6k&K&7!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"
+6k3E"+!&!")15Y)1!`Ir6k&K!9!#!$;U"+!&!#)15Y)1!`ItAa%)!A!"6k&K%5!#!!%)!A!"6k&K!9!6Aa2c!q!f!(9T!!+t!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K"/!#!!%)!A!"6k&K!9!#!!%)!A!"6kKu"+!&!%.[5Y)1!`Ir6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!-Aa&K!9!#!!%)
+!A!"6k&K!9!#!!%)"_!'6k.[']"<!Q!$LG;U!9!#!!%)!A!?Aa&K!9!#!!%)!A!"6k&K!9!'Aa2c!q!b!(9T!!+t!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K$3!#!!%)!A!"6k&K!9!#!!%)"/!'6k.[,g"<!Q!$LG%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!Ce!A!"6k&K!9!#!!%)!A!"6k&K
+!9!*Aa2c!q!L!(9T!!+t$3!"6k&K!9!#!!;U!A!"6k&K!9!#!!%)!A!"6k&K!9!0Aa2c!q!D!(9T!!+t$c!"6k&K!9!#!!3E!A!"6k&K!9!#!!%)$c!'6k.[#u"<!Q!$LH8o!9!#!#-y"+!&!!>{5Y)1!`JRAa2c!q!*!(9T!%1@!Y!&!!9Q5Y+t-9!$LG&K
+
+.ATT
+.STATUS Use button on palette.
+.ATT_END
+.TXT 2 6 29 0 0
+Cg a34.375000,34.375000,31
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b 
+Paleta de Evaluación y Booleana}}
+.TXT 6 -3 30 0 0
+Cg a72.000000,72.000000,71
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b a) 
+Observe y describa que ocurre cuando escribe la siguiente secuencia:}}
+.TXT 4 0 32 0 0
+Cg a69.000000,69.000000,7
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\fs28\b (2+7)/6
+}}
+.TXT 0 9 33 0 0
+Cg a60.000000,60.000000,61
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b e 
+inmediatamente selecciona el = (el simple, no el remarcado)}}
+.TXT 4 -9 35 0 0
+Cg a72.000000,72.000000,71
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b b) 
+Observe y describa que ocurre cuando escribe la siguiente secuencia:}}
+.TXT 4 0 36 0 0
+Cg a69.000000,69.000000,1
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\fs28\b x}}
+.TXT 0 3 44 0 0
+Cg a60.000000,60.000000,52
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b e 
+inmediatamente selecciona el :=  y luego tipea  8 }}
+.TXT 4 -3 41 0 0
+Cg a72.000000,72.000000,114
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b c) 
+Observe y describa que ocurre cuando a continuación de lo anterior 
+(más abajo\par     en la Hoja de Trabajo) tipea:}}
+.TXT 6 0 45 0 0
+Cg a69.000000,69.000000,1
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\fs28\b x}}
+.TXT 0 3 62 0 0
+Cg a60.000000,60.000000,61
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b e 
+inmediatamente selecciona el = (el simple, no el remarcado)}}
+.TXT 4 -3 50 0 0
+Cg a72.000000,72.000000,112
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b d) 
+Observe y describa que ocurre si la operación anterior la hace por 
+encima de la\par     expresión que tenía el :=}}
+.EQN 3 54 58 0 0
+{Microsoft_Windows 0 3581}
+{60}
+)D7A*64G&M!A!!#j!!!#!!!!#E!!!&"$2yHC(t",1x-.4M.[!!!!!!!!!!#E"c!!,;Fi"c!!!!!!!$1A!!!I!!!!%y!!!"Iq!!!"!"6k!!!!!+6u!!#3#E!!BCG-!!!!!!!!!!!!6s"C!!!!LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!LVLV
+!0LVLG!!!0LVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLG!!!0LVLG!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!6s"C!!!!LVLV6s"C
+6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C!!!!LVLV!)"C6k!!!0LVLS#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Ai"C6k!!!0LVLG"C6s!!!!#dLVKuAm#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!#dLVIq6s"C!!!!LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!LVLV!)"C6k!!!0LVLS#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Ai"C6k!!!0LVLG"C6s!!!!#dLVKuAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!#dLVIq6s"C!!!!LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!LVLV!)"C6k!!!0LVLS#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Ai"C6k!!!0LVLG"C6s!!!!#dLVKuAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am"C6s!!!!#dLVIq6s"C!!!!LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!LVLV!)"C6k!!!0LVLS#%Am#%Am#%Am#%Am#%Am#%Aa!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Ai"C6k!!!0LVLG"C6s!!!!#dLVKuAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!#dLVIq6s"C!!!!LVLVAm#%Am#%Am#%Am#%Am#%Am#%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!LVLV!)"C
+6k!!!0LVLS#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Ai"C6k!!!0LVLG"C6s!!!!#dLVKuAm#%Am#%Am#%Am#%Am#%Am!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!#dLVIq6s"C!!!!LVLVAm#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!LVLV!)"C6k!!!0LVLS#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Ai"C6k!!!0LVLG"C6s!!!!#dLVKuAm#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!#dLVIq6s"C!!!!LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!LVLV!)"C6k!!!0LVLS#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Ai"C6k!!!0LVLG"C6s!!!!#dLVKuAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!#dLVIq6s"C!!!!LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!LVLV!)"C6k!!!0LVLS#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Ai"C6k!!!0LVLG"C6s!!!!#dLVKuAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am"C6s!!!!#dLVIqLVLV!!!!LVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLV!!!!LVLV!-#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Aa#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am!!LVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLV!!!!!1.[
+!!.[!!!.!!!!.//Q,+2,-}/M-M*'!,9T!!!4L&LVC%&K!!6k@O+b!\23!1!*!!!$/-#e!!!!*c#e!!!!!a!!!!)2"C!&!!!!#%(pLHDG!q!!!!>}!!!!!$9R!!!b"u!!Ce!@!"DG!!!!!/&J%y!!!!!!'m!!!"DG!!!@!!!!!1!%!!!!!!#U!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!)!!!!"C6k"C!!!!6k"C!)"C!!"C6s!!Am#%
+!!!!LG!!LG!!!0LV!0Iq!!#d!0IqLVIq!0LVLG"3K=8787878787878746LVJ"LVLVLVLVLVLVLVLV#dLG!!!!!!!!!!!!!!!!!!#1BsK,5@5@5@5@5@5@5@46LV468787878787878786#dLN#]878787878787877}L#BsK=8787878787878746LV468787878787878786#dLN#]878787878787877}L#BsK=8787878787878746LV
+468787878787878786#W&r#]878787878787877}JW-)K=8787878787878746LV468787!!!!!!878786#dLN#]878787878787877}LVK%K=876k!!!!"K878746LV468787878787878786#dLN#]878/!!!!!)87877}LVK%K=8787878787878746LV468787878787878786#dLN#]878787878787877}LVK%K=87878787878787
+46LV468787878787878786#dLN#]878787878787877}Kp@/K=8787878787878746LV468787878787878786#dLN#]878787878787877}LVLGLVLVLVLVLVLVLVLVJ"LV8787878787878787878>LO8787878787878787879PLVLVLVLVLVLVLVLVLVLVLV!Q!!!!!!Bs!!!!!!(K#.B80*I62f+ECR!=!!4g4RAfG]
+{   38    36 0 0}
+19778 4160 0 0 44
+40 36 38 1 24 0 4104 0 0 0 0
+#U"<!Y!'!!+t/I!'6k)1!`I|!(9TLG1A0~It!!+t!Q"<3E!$!(:_!!DG5Y*S"#!$LL=Y!Q!$LGIq5Y*S"#!$LL-y"+!$!!+t#U"<!Y!'!!+t/I!'6k)1!`J"!(9T6k1A!`JgAa2c!Q!$LGIq5Y*S"#!$LL-y"+!$!!+t#U"<!Y!'!!+t/I!'6k)1!`J"!(9T6k1A!`JgAa2c!Q!$LGIq5Y*S"#!$LL-y"+!$!!+t#U"<!Y!'!!+t/I!'6k)1
+!`J"!(9T6k1A!`JgAa2c!Q!$LGIq5Y*S"#!$LL-y"+!$!!+t#U"<!Y!'!!+t/I!'6k)1!`J&!(9T6k1A!`J(Ac#e&7!'6k)1!`J"!(9T6k1A!`JgAa2c!Q!$LH)15Y*S"#!$LH0_&[!?Aa2c!Q!$LH)15Y*S"#!$LH0_&[!?Aa2c!Q!$LGIq5Y*S"#!$LL-y"+!$!!+t$7"<!Y!'!!+t$c!B!"I1"+!$!!+t#U"<!Y!'!!+t/I!'6k)1!`J"
+!(9T6k1A!`JgAa2c!Q!$LGIq5Y*S"#!$LL-y"+!$!!+t#U"<!Y!'!!+t/I!'6k)1!`J"!(9T6k1A!`JgAa2c!Q!$LGIq5Y*S"#!$LL-y"+!$!!+t#U"<!Y!'!!+t/I!'6k)1!`J"!(9T6k1A!`JgAa2c!Q!$LGIq5Y*S"#!$LL-y"+!$!!+t#U"<!Y!'!!+t/I!'6k)1!`J"!(9T6k1A!`JgAa2c!Q!$LG>{5Y+t"#!~LG)1!`It!(:_Aa)1
+5_Ce!Q"<3Q!$!(:_LJ!Q
+
+.TXT 2 -54 56 0 0
+Cg a72.000000,72.000000,68
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b e) 
+Repita la sucencia indicada por el ejercico 2-b, pero utilizando }}
+.TXT 6 0 61 0 0
+Cg a72.000000,72.000000,85
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b f) 
+Repita las sucencias indicadas en los ejercico 2-c y 2-d y describa la 
+diferencia.}}
+.TXT 15 -2 152 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b 
+CURSO DE MATHCAD                                           Ing. JESUS 
+RUBEN AZOR MONTOYA}}
+.TXT 5 -1 63 0 0
+Cg a72.000000,72.000000,15
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b 3)  
+Idem para:}{\cf2  }}
+.EQN 2 0 66 0 0
+{   27    26 0 0}{61}
+19778 2216 0 0 44
+40 26 27 1 24 0 2160 0 0 0 0
+!q"<.JIs!!9Q5Y+t-9!$LG&K"3"<!Q!i6k.["S"<!Q!$LK/}!q!0!(9T!!+t%e!$!#%i"+!&!"Iq5Y)1!`ItAa&K!@IzAa)0!1!#LG#e!]!*!"I1"+!&!".[5Y)1!`ItAa&K!@J(Aa)1&g!'6k.[&;"<!Q!$LG+5!A!"LGCe!PIr!!)0!1!$Aa)1&g!'6k.[$W"<!Q!$LG3E!A!"LH(O!Q!BAa2c!q!<!(9T!!+t"/!#!!&J#1!#LG#e!PIu
+!#%i"+!&!">{5Y)1!`IwAa&K!@J%Aa.[!@Is!!&J%e!'6k.[&;"<!Q!$LG;U!A!"LGCe!PIt!!&J"/!#!!&J%5!'6k.[&;"<!Q!$LG;U!A!"LGCe!A!"LG)1"_!#!!&J$c!'6k.[(?"<!Q!$LG+5!Q!$Aa&K!@I}Aa&K!@It!!)0!1!'Aa&K!@I}Aa)1"/!'6k.[$W"<!Q!$LG>{!@J0!!&J$'!$Aa2c!q!R!(9T!!+t!]!$!!3E!A!"LG3E
+!A!"LG+5!Q!#LG#e!PIr!!3E!A!"LG;U!Q!'Aa2c!q!B!(9T!!+t#1!#!!&J"/!#!!&J!]!$!!Ce!A!"LH(O"+!&!#9Q5Y)1!`J"Aa&K!@Is!!&J"/!$!!+5!PIr!!)0!1!'Aa&K!@J"Aa2c!q!6!(9T!!+t%e!$!!Ku!A!"LGKu"+!&!"Iq5Y)1!`J.Aa)1"/!#LG#e!PIr!!+5!A!"LGKu"+!&!".[5Y)1!`J.Aa)1#a!#!!&J#a!'6k.[
+&;"<!Q!$LHA!!Q!*Aa)0!1!#LG#e!]!#!!&J#1!'6k.[$W"<!Q!$LH8o"S!0Aa&K!@I}Aa2c!q!<!(9T!!+t%e!$!!Ce!PIr!!)0!Q!"LGCe"+!&!!>{5Y)1!`JRAa2c!q!*!(9T!%1@!Y!&!!9Q5Y+t-9!$LG&K
+
+.ATT
+.STATUS Use button on palette.
+.ATT_END
+.TXT 3 6 67 0 0
+Cg a17.375000,17.375000,18
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b 
+Paleta de Gráficos}}
+.EQN 0 20 77 0 0
+{Microsoft_Windows 0 2973}
+{60}
+)D:$*69q&M!A!!#j!!!#!!!!#E!!!&"$2yHC(t",1x-.4M.[!!!!!!!!!!"c"C!!,;Eo"C!!!!!!!$1A!!!I!!!!%9!!!"Aa!!!"!"6k!!!!!&!)!!#3#E!!BCG-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)"C6s"C6s"C6s"C
+6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6k!!!!#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!!-#%Am#%Am#%Am#%Am#%Am#%Aa!!!-#%Am#%Am#%Aa!!!-#%Am#%Am#%Aa!!!-#%Am#%Am#%Aa!!!-#%Am#%Am#%Am#%Ai"C6k!!!!#%Am#%Am#%Am!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#%Am#%Am#%Am"C6s!!!!!!Am#%Am#%Am#%
+!!!!LG!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!!-#%Am#%Am#%Aa!!!-#%ApIq!-#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Ai"C6k!!!!#%Am#%Am!!!!!!!!#%Am#d!!#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!!!Am#%Am#%Am#%!!!!Am#%Am#%LG!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!#dAm#%Am#%Am#%Am#%6s"C!!!!!-#%Am#%Am#%Aa!!!-#%Am#%ApIq!-#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Aa!!LS#%Am#%Am#%Am#%Am#%Am#%Ai"C6k!!!!#%Am#%Am#%
+Am!!!!#%Am#%Am#%Am#d!!#%Am#%Am#%Am#%Am#%Am#%Am!!!0KuAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!!!Am#%Am#%!!!!!!!!Am#%Am#%Am#%LG!!Am#%Am#%Am#%Am#%!!#dAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!!-#%Am#%Am#%Aa!!!-#%Am#%Am#%Am#%ApIq!-#%Aa!!LS#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Ai"C6k!!!!#%Am#%Am#%Am!!!!#%Am#%Am#%Am#%Am#d!!#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!!!Am#%Am#%Am#%!!!!Am#%Am#%!!#dAm#%Am#%LG!!Am#%Am#%Am#%Am#%Am#%LG!!LG!!Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!!-#%Am#%
+Aa!!!!!!!!!!LS#%Am#%Am#%Am#%ApIq!-#%Am#%Am#%Am#%ApIq!-#%Am#%ApIq!-#%Am#%Am#%Am#%Am#%Ai"C6k!!!!#%Am#%Am#%Am!!!!#%Am#%Am#%Am#%Am#%Am#%Am#d!!#%Am#%Am#d!!#%Am#%Am#%Am#%Am#d!!#%Am#%Am#%Am#%Am"C6s!!!!!!Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%LG!!LG!!Am#%
+Am#%Am#%Am#%Am#%Am#%LG!!Am#%Am#%Am#%6s"C!!!!!-#%Am#%Am#%Aa!!!-#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Ai"C6k!!!!#%Am#%Am!!!!!!!!#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!!!Am#%
+Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!!-#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Ai"C6k!!!!#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!!0LVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLG!!!!#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1.[!!.[!!!.!!!!
+.//Q,+2,-}/M-M*'!%It!!"%L&LV=Y&K!!6k.K*q!QG~!1!*!!!$+%#e!!!!&[#e!!!!!a!!!!)2"C!&!!!!#%(sLH9Q!q!!!!>}!!!!!##f!!!b"u!!Ce!=!"9Q!!!!!/.Z%9!!!!!!'m!!!"9Q!!!=!!!!!1!%!!!!!!#%!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!)!!!!"C6k"C!!!!6k"C!)"C!!"C6s!!Am#%!!!!LG!!LG!!
+!0LV!0Iq!!#d!0IqLVIq!0LVLG!!!!!!!!!!!!!!!!!0LVFr5@5@5@5@5@5@5@5@#dLVLO878787878787877}LVLVK=8787878787878746LVLV8787"K6s8/87"K86#dLVLO8/!!!!!!!!!!"K7}LVL55Q6w87878787878746LVLV87"O878787878786#dLVLO6k8w87878787877}LVLVK=6s8w8787878G8746LVLV87"KC-87878G
+8786#dLTHG8/87C-878G87877}LVLVK=!)8;878G87878746LVLV87"K8;8G87878786#dLVLO8/878w878787877}LVLVK=6s8G8w878{878746LVFr8/"[87C-8;8;8786#dLVLO8/8787C-C-8;877}LVLVK=6s8787Cm878;8746LVLV87"K878787878786#dLVLO6k8787878787877}LVL55Q6s87878787878746LVLV87878787
+87878786#dLVLO878787878787877}LVLVK=8787878787878746LVLVLVLVLVLVLVLVLVLV#dLTHG8787878787878787LVLVK=878787878787878>LVLV!Q!!!!!!*c6JL7&J7l!"!/LV@}6HKCLV*c,4!!&J*c,6L7&J7l+6!0LV@}6HKDLV
+{   35    32 0 0}
+19778 3416 0 0 44
+40 32 35 1 24 0 3360 0 0 0 0
+!Q"<1A!&!(:P6k)1!q"<0w!$!!4'5^6+"+!$!!4'5^6+"+!$!"4'5Z8o!Q!-Aa)1#1!$!!Ce!Q!0Aa2c!Q!,!(9]Ae&K"_!'6k)1"s"<#1!c!!;U"+!$!!Iq5YCe!Q!"LG&K,s!'6k)1$W"<#1!$!!+5!@Is!!&J!A!`Aa2c!Q!6!(9ZAa1A!]!"LG&K!@Is!$Ku"+!$!"4'5YCe!Q!*Aa&J!A!KAa&K!@J"Aa2c!Q!8!(9]Aa)1"_!"LG&K
+(;!#!!&J#a!'6k)1$w"<#1!$!!;U!@Is!#-y!A!"LH0_"+!$!"4'5YCe!Q!-Aa&J!A!9Aa&K!@J1Aa2c!Q!<!(9ZAa1A#1!"LG&K#a!#!!&J!A!"LI-y"+!$!">{5YCe!Q!0Aa&J!A!"LG&K!]!#!!&J(k!'6k)1%Y"<#1!$!!Ku!@Is!!&J!A!$Aa&K!@J@Aa2c!Q!6!(9]Aa)1#a!"LG&K!@Is!$+5"+!$!#.[5YCe!Q!*Aa&K!@IzAa&J
+!A!3Aa&J!A!"LG&K!@Is!"0_"+!$!"Iq5Y;U"C!"LH(O!@Is!!Ku!@Is!!;U!@Is!"(O"+!$!"DG5YCe!Q!9Aa&J!A!*Aa&J!A!0Aa&J!A!0Aa2c!Q!>!(9]Aa)1%5!"LG&K"_!"LG&K#a!"LG&K#a!'6k)1&{"<#1!$!"A!!@Is!!&J!A!"LG&K$c!"LG&K!@Is!!;U"+!$!!>{5YCe!Q!iAa2c!Q!,!(9ZAa1A-E!'6k)1"s"<#1!$!%8o
+"+!$!!>{5YCe!Q!iAa2c!Q!(!(:JAa2c!Q!(!(:JAa2c!Q!(!(:JAa2c!Q!&!(:PLG)1!q"<0~It!!)15_#%!Q"<1M!Q
+
+.TXT 4 -23 71 0 0
+Cg a72.000000,72.000000,26
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b a) 
+Qué le sugiere el ícono}}
+.TXT 0 29 79 0 0
+Cg a40.000000,40.000000,1
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b ?}}
+.EQN 2 -6 92 0 0
+{Microsoft_Windows 0 2461}
+{60}
+)D$;*F7-&M!A!!#j!!!#!!!!#E!!!&"$2yHC(t",1x-.4M.[!!!!!!!!!!!a"3!!,;E'"3!!!!!!!$1A!!!I!!!!%)!!!"9Q!!!"!"6k!!!!!!6r!!#3#E!!BCG-!!!!!!!!!!!!6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C!!!!Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!!!!!!!!!!!!!!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%6s"C!!!!Am#%Am#%Am#%Am#%Am#%!!!!!!!!Am#%Am#%!)!!Am#%Am#%Am#%!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%Am#%Am#%!!!!Am#%!!#dAm#%Am#%!)!!Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%Am#%!!!!Am#%!!#dAm#%Am#%Am#%!)!!Am#%
+Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%!!!!Am#%!!#dAm#%Am#%Am#%Am#%!)!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%!!!!Am#%!!#dAm#%Am#%Am#%Am#%!)!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%6s"C!!!!Am#%!!!!
+Am#%!!!!Am#%Am#%Am#%Am#%Am#%!)!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%6s"C!!!!Am#%!!!!Am#%!!#dAm#%Am#%Am#%Am#%Am#%!)!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%6s"C!!!!Am#%!!!!!)!!!!#d!)!!!)!!!)!!!)!!!)!!!!#d!!#d!!#d!)!!!)!!!)!!!)!!!)!!
+!)!!!!!!Am#%Am#%Am#%6s"C!!!!Am#%!!!!Am#%!!#dAm#%Am#%Am#%Am#%!!#d!)!!Am#%Am#%!!#dAm#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%6s"C!!!!Am#%!!!!Am#%!!#dAm#%Am#%Am#%Am#%Am#%!!#dAm#%Am#%Am#%!!#dAm#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%6s"C!!!!Am#%!!!!Am#%Am#%!!#dAm#%Am#%Am#%
+Am#%!)!!Am#%Am#%Am#%!!#dAm#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%6s"C!!!!Am#%Am#%!!!!Am#%!!#dAm#%Am#%Am#%Am#%!)!!Am#%Am#%Am#%!!#dAm#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%!!!!Am#%Am#%!!#d!!#dAm#%Am#%!)!!Am#%Am#%!!#dAm#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%6s"C
+!!!!Am#%Am#%Am#%!!!!Am#%Am#%Am#%!!#d!!#d!!#d!!#d!!#dAm#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%!)!!Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%Am#%Am#%Am#%!!!!!!!!Am#%Am#%!)!!Am#%Am#%Am#%!!!!
+!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!!!!!!!!!!!!!!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!LVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLV
+LVLVLVLVLVLV!!!!!!!"!q!!!q!!!!DG!!!n,l,X,{:?,l!j,L+u)q)1!,&GLVIy!A!!"C!U!UIt'PG.!!9Q!!+f!!!!!!#<!!!!!!!%!!!!!Q#m!!.[!!!-!O6j%)!&!!!!"s&K!!!!EY!!!%#p&K#1!"9Q%)!!!!!!HNJ+!!!!!!!I!!!!%)!!!"9Q!!!"!!+u!!!!!#Ab!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!6k!!6k!!!)"C!)!!
+!!"C!)!!6s!!!)"C6k#%Am!!!!#d!!#d!!!!LVIqLG!!!0IqLG#dLG!!LVLV!(5@5@5@5@5@5@5@4/878787878787874/878787878787874/8787!!!!8787874/876k8187!)87874/87"L81878/87874/8/8G818787"K874/6s:{8187876s874/6s:{8187876s874/"C878187878/874/"L878187878/874/!J&m&t;'&m&k87
+4/"L878A88878/874/"L878887:{8/874/"K:{8187:{8/874/6s:{8187:{6s874/6s8H8188876s874/8/87;.;-87"K874/87"K81878/87874/876k8187!)87874/8787!!!!8787874/878787878787874/878787878787874/8787878787878746LVLVLVLVLVLVLVIq)1!!!!!0LVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLV
+LVLVK8!Q
+{   32    31 0 0}
+19778 3128 0 0 44
+40 31 32 1 24 0 3072 0 0 0 0
+!q"<0G!'!!4'5^-y"+!'!!4'5^-y"+!'!!4'5^-y"+!'!!>{5ZA!%)!BAa2c"#!8!(9cAa9Q"_!"!!%)!1!-Aa1A%e!'6k1A%y"<#a!$!!3E!A!"LG;U!1!"6k#e$3!'!"0_"+!'!"DG5YKu!Q!'Aa&K!@IzAa#e!9!"!"(O"#!6Aa2c"#!B!(9]Aa)1!]!#!!&J!A!"LGCe!1!"6k#e%5!$!"(O"+!'!"DG5Y;U!Q!$Aa&K!@J%Aa#e!9!"
+!"A!!Q!0Aa2c"#!>!(9ZAa)1!]!#!!&J$3!"!!%)!1!<Aa)1#a!'6k1A%y"<"_!$!!+5!A!"LH(O!1!"6k#e%e!$!!Ku"+!'!">{5Y+5"#!$Aa)1$c!"!!%)!1!?Aa1A"_!'6k1A%y"<!]!'!!+5!A!"LH0_!1!"6k#e&7!'!!;U"+!'!&>{5Y+5"3!"6k)1!@Ir!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!Q!"LG&K!@Is!!&J!A!"
+LG#e!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!(!!;U"+!'!#>{5Y+5"#!$Aa&K!@J"Aa&K!@Is!!&J!1!"6k#e"_!#!!&J$3!'!!;U"+!'!#>{5Y+5"#!$Aa&K!@J"Aa&K!@Is!!&J!1!"6k#e"_!#!!&J$3!'!!;U"+!'!##e5Y+5"#!$Aa&K!@J(Aa&K!@I}Aa&K!@J"Aa1A"_!'6k1A&{"<!]!'!!3E!A!"LH(O!1!"6k#e#1!#!!&J
+#a!'!!;U"+!'!#)15Y;U!Q!$Aa&K!@J%Aa#e!9!"!!Ce!A!"LGCe!Q!0Aa2c"#!L!(9ZAa)1"/!#!!&J!A!"LG&K!@IzAa#e!9!"!!;U!A!"LGKu!Q!0Aa2c"#!L!(9ZAa)1"/!#!!&J!A!"LG&K!@IzAa#e!9!"!!;U!A!"LGKu!Q!0Aa2c"#!N!(9]Aa)1#1!#!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J#a!$!"(O"+!'!"4'5YKu
+!Q!3Aa#e!9!"!"(O"#!6Aa2c"#!8!(9cAa9Q"_!"!!%)!1!-Aa1A%e!'6k1A$w"<$3!*!!;U!1!"6k#e#1!'!"A!"+!'!!>{5ZA!%)!BAa2c"#!(!(:GAa2c"#!(!(:GAa2c"#!(!(:GAa2c"#!(!(:GAa2c"#!&!(:MLG1A
+
+.TXT 4 -23 88 0 0
+Cg a72.000000,72.000000,26
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b b) 
+Qué le sugiere el ícono}}
+.TXT 0 29 89 0 0
+Cg a40.000000,40.000000,1
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b ?}}
+.TXT 5 -32 95 0 0
+Cg a72.000000,72.000000,15
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b 4)  
+Idem para:}{\cf2  }}
+.EQN 3 0 93 0 0
+{   26    26 0 0}{61}
+19778 2136 0 0 44
+40 26 26 1 24 0 2080 0 0 0 0
+"S"<!`J[!!+t!A!(!(9T!%8/!q!*!(9T!!+t,o!&!!>{5Y)1!`JRAa2c!q!,!(9T!!+t+q!'6k.[$7"<!Q!$LG3E"S!?Aa9Q"_!'6k.[$7"<!Q!$LG3E!Q!KAa)1"_!'6k.[$7"<!Q!$LG3E!Q!KAa)1"_!'6k.[)A"<!Q!$LG3E!Q!'Aa&K!@Is!!&J"/!"6k&K!9!#!!3E!A!"LG&K!@IwAa)1"_!'6k.[)A"<!Q!$LG3E!Q!'Aa&K!@Is
+!!&J"/!"6k&K!9!#!!3E!A!"LG&K!@IwAa)1"_!'6k.[$7"<!Q!$LG3E!Q!KAa)1"_!'6k.[$7"<!Q!$LG3E!Q!KAa)1"_!'6k.[)A"<!Q!$LG3E!Q!'Aa%)!A!"6k&K"/!"6k&K!9!#!!3E!A!"LG&K!@IwAa)1"_!'6k.[)A"<!Q!$LG3E!Q!'Aa%)!A!"6k&K"/!"6k&K!9!#!!3E!A!"LG&K!@IwAa)1"_!'6k.[$7"<!Q!$LG3E!Q!K
+Aa)1"_!'6k.[$7"<!Q!$LG3E!Q!KAa)1"_!'6k.[)A"<!Q!$LG3E!Q!'Aa&K!@Is!!&J"/!"6k&K!9!#!!3E!A!"LG&K!@IwAa)1"_!'6k.[)A"<!Q!$LG3E!Q!'Aa&K!@Is!!&J"/!"6k&K!9!#!!3E!A!"LG&K!@IwAa)1"_!'6k.[$7"<!Q!$LG3E!Q!KAa)1"_!'6k.[$7"<!Q!$LG3E!Q!KAa)1"_!'6k.[$7"<!Q!$LG3E"S!?Aa9Q
+"_!'6k.["s"<!Q!$LJKu"+!&!!>{5Y)1!`JRAa2c!q!,!(9T!!+t+q!'6k.["S"<!Q!fLG*S!q!*!(9TLK6k!`Is!$!Q
+
+.ATT
+.STATUS Use button on palette.
+.ATT_END
+.TXT 3 6 94 0 0
+Cg a48.625000,48.625000,29
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b 
+Paleta de Vectores y Matrices}}
+.EQN 2 19 107 0 0
+{Microsoft_Windows 0 3069}
+{60}
+)T:&*&7-&M!A!!#j!!!#!!!!#E!!!&"$2yHC(t",1x-.4M.[!!!!!!!!!!!A"S!!,;DY"S!!!!!!!$1A!!!I!!!!%i!!!">{!!!"!"6k!!!!!.Ai!!#3#E!!BCG-!!!!!!!!!!!!Am#%LVLV6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C!!!!Am#%Am#%
+LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVAm#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVAm#%Am#%Am#%!!!!!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%!!!!!!!!!!!!Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVAm#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVAm#%Am#%Am#%!!!!Am#%!!!!!!!!Am#%Am#%!!!!!!!!Am#%Am#%!!!!!!!!Am#%Am#%!!!!Am#%Am#%
+Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVAm#%Am#%Am#%!!!!Am#%!!!!!!!!Am#%Am#%!!!!!!!!Am#%Am#%!!!!!!!!Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%6s"C!!!!LVLVAm#%LVLVAm#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%6s"C!!!!!!!!Am#%
+LVLVAm#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%6s"C!!!!6s"CAm#%LVLVAm#%Am#%Am#%!!!!Am#%!!!!!!!!Am#%Am#%!!!!!!!!Am#%Am#%!!!!!!!!Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVAm#%Am#%Am#%!!!!Am#%!!!!
+!!!!Am#%Am#%!!!!!!!!Am#%Am#%!!!!!!!!Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVAm#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVAm#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVAm#%Am#%Am#%!!!!Am#%!!!!!!!!Am#%Am#%!!!!!!!!Am#%Am#%!!!!!!!!Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVAm#%Am#%Am#%!!!!Am#%!!!!!!!!Am#%Am#%!!!!!!!!Am#%Am#%!!!!!!!!Am#%Am#%!!!!Am#%Am#%
+Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVAm#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVAm#%Am#%Am#%!!!!!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!!!!!!!!!Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%
+LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVAm#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!Am#%Am#%LVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLV!!!!Am#%Am#%!!#dAm#%Am#%Am#%Am#%!)!!Am#%Am#%Am#%!!#dAm#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!!!!!!!!!!!!!!!!"!q!!!q!!!!DG!!!n,l,X,{:?,l!j,L+u;u)1!(DCLVK=!A!!"C"a!Y+x$k1B!!9Q!!)d!1!!!!!:!1!!!!!%!!!!!Q#m!!.[
+!!!-!O1@%i!&!!!!"s&K!!!!%9#e!%#p&K#1!">{%i!!!!!!H.J/!!!!!!!I!!!!%i!!!">{!!!"!!+u!!!!!,!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!6k!!6k!!!)"C!)!!!!"C!)!!6s!!!)"C6k#%Am!!!!#d!!#d!!!!LVIqLG!!!0IqLG#dLG!!LVLV!)K,5@5@5@5@5@5@5@4/Ci-H8787878787878786"C!!9I8787878787
+87877}6k!)K=878787878787874/!!"R8787878787878786"C!!9I8/!)87878/!)877}8{,_K=6s87878787"K874/!!"R87"C"K!)6k8/8786"C!!9I8/6k8/"K!)6s877}Iq!)K=6s87878787"K874'!!"R87"K8787878/8786"?BG9I8/6k8/"K!)6s877}6k!)K=6s!)6k8/"K"K874/!!"R87"K8787878/8786"C!!9I8/8787
+87876s877}6k!)K=6s!)6k8/"K"K874/Ci-H87"C"K!)6k8/8786"C!!9I8/878787876s877}6k!)K=6k"K87876k"K874/!!"R8787878787878786"C!!9I878787878787877}8{,_K=878787878787874/!!"R8787878787878786"C!!9I878787878787877}6k!)LVLVLG88877588876s!!"K87878787878787878;BG8787
+878787878787876k!!)1!!!!!0K+1F3mD5)0LLJqB#6k7KAy/22n4i,;/uEE
+{   34    35 0 0}
+19778 3728 0 0 44
+40 35 34 1 24 0 3672 0 0 0 0
+#5"<!]!'LL=Y!Q!$Aa)1#U"<!]!'LL-y"+!$!!+5!Q!0!(9TAa4&/I!'6k)1!]!$!!Iq5Y+5"2JgAa2c!Q!$Aa)1#U"<!]!'LL-y"+!$!!+5!Q!0!(9TAa4&/I!'6k)1!]!$!"4'5Y+5"2IzAaAa&g!-!"(O"+!$!!+5!Q!8!(9TAa4&"_!-!#%i#%!3Aa2c!Q!$Aa)1$w"<!]!'LG;U"#!QAa)1$3!'6k)1!]!$!#)15Y+5"2IzAa1A!]!'
+!!;U"#!*Aa1A"_!$!"(O"+!$!!+5!Q!D!(9TAa4&"_!'!!+5"#!*Aa1A"_!'!!;U!Q!3Aa2c!Q!$LG)1$7"<!]!'LG;U"#!QAa)1$3!'6k9Q$7"<!]!'LG;U"#!QAa)1$3!'6k9Q$w"<!]!'LG;U"#!QAa)1$3!'6k)1!Y!$!#)15Y+5"2IzAa1A!]!'!!;U"#!*Aa1A"_!$!"(O"+!$!!+5!Q!D!(9TAa4&"_!'!!+5"#!*Aa1A"_!'!!;U
+!Q!3Aa2c!Q!$Aa)1$w"<!]!'LG;U"#!QAa)1$3!'6k)1!]!$!"4'5Y+5"2IzAa1A)=!$!"(O"+!$!!+5!Q!8!(9TAa4&"_!'!$#%!Q!3Aa2c!Q!$Aa)1&{"<!]!'LG;U"#!$Aa1A"_!'!!;U"#!*Aa)1$3!'6k)1!]!$!#)15Y+5"2IzAa1A!]!'!!;U"#!*Aa1A"_!$!"(O"+!$!!+5!Q!8!(9TAa4&"_!'!$#%!Q!3Aa2c!Q!$Aa)1$w"<
+!]!'LG;U"#!QAa)1$3!'6k)1!]!$!"4'5Y+5"2IzAaAa&g!-!"(O"+!$!!+5!Q!0!(9TAa4&/I!'6k)1!]!$!!Iq5Y+5"2JgAa2c!Q!$Aa)1#U"<!]!'LL-y"+!$!!+5!Q!0!(9TAa4&/I!'6k)1!]!$!!Iq5Y+5"2JgAa2c!Q!$Aa)1#U"<!]!'LL-y"+!$!!+5!Q!L!(9TAbIp"#!'Aa&K!@J"Aa#e!9!#!!%)!1!*Aa&K!@Is!!&J#a!$
+!!+5!Q!&!(:\Aa)1!q"<3!!$!!.[5_;U!Q!Q
+
+.EQN 1 34 112 0 0
+({3,3}ö1ö4ö5ö4ö5ö9ö6ö3ö2)
+.TXT 3 -56 103 0 0
+Cg a72.000000,72.000000,26
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b a) 
+Qué le sugiere el ícono}}
+.TXT 0 29 104 0 0
+Cg a40.000000,40.000000,1
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b ?}}
+.TXT 4 -29 111 0 0
+Cg a72.000000,72.000000,121
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b b) 
+Rellene la matriz que aparece con números en cada lugar indicado 
+(cuando apa-\par     rezca el box elija la opción }{\cf2\b\ul C}{\cf2
+\b reate)}}
+.TXT 6 0 113 0 0
+Cg a69.000000,69.000000,114
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b c) 
+Clique en uno de los paréntesis (verá que la matríz queda circudada en 
+azul).   \par     Aplique luego el ícono}{\cf2\fs28\b  M}{\cf2\fs28\b
+\up T}{\cf2\fs28\b .}}
+.TXT 8 -3 119 0 0
+Cg a72.000000,72.000000,15
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b 5)  
+Idem para:}{\cf2  }}
+.EQN 2 1 122 0 0
+{   26    26 0 0}{61}
+19778 2136 0 0 44
+40 26 26 1 24 0 2080 0 0 0 0
+"S"<!`J[!!+t!A!(!(9T!%8/!q!*!(9T!!+t,o!&!!>{5Y)1!`JRAa2c!q!6!(9T!!+t"/!"6k&K!9!#!$+5"+!&!$DG5Y)1!`ItAa%)!A!$Aa%)!A!"6k&K"/!#!!%)!A!"6k&K!9!#!!%)!A!"6k+5!A!"6k3E!A!"6kCe"+!&!#DG5Y)1!`IzAa%)!A!"6k&K"/!#!!%)"/!#!!%)"_!#!!%)!]!#!!%)#1!'6k.[']"<!Q!$LG;U!9!#
+!!%)!A!'Aa&K!9!'Aa&K!9!-Aa&K!9!0Aa2c!q!H!(9T!!+t"_!"6k&K!9!#!!;U!A!"6k3E!A!"6k;U!A!"6kKu"+!&!$#e5Y)1!`IzAa%)!A!"6k&K#1!#!!%)!A!"6k&K!9!'Aa&K!9!#!!%)!A!"6kCe"+!&!">{5Y)1!`IzAa%)!A!"6k&K$3!#!!%)%e!'6k.[%Y"<!Q!$LG;U!9!#!!%)!A!6Aa&K!9!9Aa2c!q!h!(9T!!+t"_!"
+6k&K!9!#!!3E!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!%)"/!'6k.[&;"<!Q!$LG;U!9!#!!%)!A!6Aa&K!9!#!!%)$c!'6k.[&["<!Q!$LG;U!9!#!!%)!A!6Aa&K!9!$Aa&K!9!3Aa2c!q!R!(9T!!+t"_!"6k&K!9!#!!;U!A!"6k&K!9!#!!%)!A!"6k&K!9!'Aa&K!9!0Aa2c!q!L!(9T!!+t
+"_!"6k&K!9!#!!;U!A!"6k3E!A!"6k;U!A!"6k&K!9!-Aa2c!q!N!(9T!!+t"_!"6k&K!9!#!!;U!A!"6k3E!A!"6k;U!A!"6k+5!A!"6k;U"+!&!#DG5Y)1!`IzAa%)!A!"6k&K#1!#!!%)"/!#!!%)"/!#!!%)!]!#!!%)"_!'6k.[)a"<!Q!$LG;U!9!#!!%)!A!0Aa&K!9!#!!%)!A!"6k+5!A!"6k&K!9!$Aa&K!9!*Aa2c!q!>!(9T
+!!+t#1!"6k&K!]!"6k&K#a!#!!%)%5!'6k.[$w"<!Q!$LGKu!9!#!"0_!A!"6l0_"+!&!".[5Y)1!`J7Aa&K!9!#!!%)$c!'6k.["s"<!Q!$LJKu"+!&!!9Q5Y)1,vIt6k.["S"<!`J[!!+t!A!Q
+
+.ATT
+.STATUS Use button on palette.
+.ATT_END
+.TXT 3 6 123 0 0
+Cg a48.625000,48.625000,17
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b 
+Paleta de Cálculo}}
+.EQN 1 19 138 0 0
+{Microsoft_Windows 0 2461}
+{60}
+)T1z*6&k&M!A!!#j!!!#!!!!#E!!!&"$2yHC(t",1x-.4M.[!!!!!!!!!!!a"3!!,;E'"3!!!!!!!$1A!!!I!!!!$w!!!"9Q!!!"!"6k!!!!!!6r!!#3#E!!BCG-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!6s"C6s"C6s"C6s"C6s"C
+6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%!!!!Am#%!!!!!!!!!!!!Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%!!!!!!!!Am#%Am#%!!!!
+!!!!!!!!Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%
+Am#%Am#%Am#%Am#%!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+!!!!Am#%Am#%Am#%Am#%Am#%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%!!!!Am#%!!!!Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%!!!!Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!!!!!!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%!!!!!!!"!q!!!q!!!!DG!!!n,l,X,{:?,l!j,L+u%I)1!,&GLVIy!A!!"C!;!UItJw+v!!9Q!!+f!!!!!!#<!!!!!!!%!!!!!Q#m!!.[!!!-!O6j$w!&!!!!"s&K!!!!EY!!!%#p&K#1!"9Q$w!!!!!!HNJ*!!!!!!!I!!!!$w!!!"9Q!!!"!!+u!!!!!#Ab!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!6k!!6k!!!)"C!)!!
+!!"C!)!!6s!!!)"C6k#%Am!!!!#d!!#d!!!!LVIqLG!!!0IqLG#dLG!!LVLV!!!!!!!!!!!!!!!!!X5@5@5@5@5@5@5@6c878787878787879I878787878787879I878/6s!!8/87879I878/6s878/87879I878/"K!!8/87879I878787878787879I876k!!!!!!87879I878/"K876k87879I8787!)878/87879I87876k87878787
+9I87878/"K8787879I87878/"K8787879I87876k878787879I8787!)878/87879I878/"K876k87879I876k!!!!!!87879I878787878787879I87876s"C8787879I87876s"C8787879I87876k!)8787879I878787878787879I878787878787879I878787878787879A)1!!!!!0LVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLV
+LVLVLJ!Q
+{   32    30 0 0}
+19778 3000 0 0 44
+40 30 32 1 24 0 2944 0 0 0 0
+!Q"<0_!&!(:M6k&K!q"<0G!#!!.[5^>;!A!&!(:MAa&K$W"<%5!$!!+5"#!$AaAa"_!$!"A!!A!2!(9iAa)1!]!'!"8o!Q!<Aa&K#u"<%5!$!!+5"#!9Aa)1%e!#!"#e5Z8o"#!*AaAa"_!$!"A!!A!&!(:MAa&K"S"<$c!K!"A!!A!*!(9fAc<7%e!#!!DG5Z8o"#!9Aa9Q%e!#!!DG5ZA!"S!9Aa)1%e!#!!9Q5ZI1"S!TAa&K"S"<'9!'
+!$#%!A!*!(9uAa1A)=!#!!9Q5[-y"#!QAa&K"S"<&7!*!$+5!A!.!(9lAa9Q%5!$!"A!!A!.!(9iAa1A%5!*!"A!!A!.!(9iAa1A%5!*!"A!!A!*!(9fAc<7%e!#!!.[5^>;!A!2!(9oAa1A!]!$!!3E!Q!HAa&K#u"<&7!'!!+5!Q!'Aa)1'i!#!"#e5ZI1"#!$Aa)1"/!$!#6+!A!*!(9oAb&K(;!#!!.[5^>;!A!&!(:MAa&K!q"<0K!#
+!!.[5^>;!A!Q
+
+.TXT 4 -22 131 0 0
+Cg a72.000000,72.000000,26
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b a) 
+Qué le sugiere el ícono}}
+.TXT 0 29 132 0 0
+Cg a40.000000,40.000000,1
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b ?}}
+.EQN 2 -7 140 0 0
+{Microsoft_Windows 0 2781}
+{60}
+*&4W*%!A&M!A!!#j!!!#!!!!#E!!!&"$2yHC(t",1x-.4M.[!!!!!!!!!!!A"C!!,;DM"C!!!!!!!$1A!!!I!!!!%I!!!"9Q!!!"!"6k!!!!!.!(!!#3#E!!BCG-!!!!!!!!!!!!LVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLVLV!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!0LVLO"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6s"C6k!!!!!!LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!!!#dLVKuAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!!!!0LVLS#%Am#%Am#%Am#%Am#%Am#%Am#%Aa!!!-#%Am#%Aa!!!!!!!!!!!-#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Ai"C6k!!!!!!LVLVAm#%Am#%Am#%Am#%Am#%Am#%!!!!!!!!!!!!Am#%!!!!Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!!!#dLVKuAm#%Am#%Am#%Am#%Am#%Am!!!!#%Am!!!!#%Am!!!!!!!!!!!!#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!!!!0LVLS#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Aa!!!-#%Am#%Am#%Aa!!!-#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Ai"C6k!!!!!!LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%!!!!!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!!!#dLVKuAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am!!!!#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!!!!0LVLS#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Aa!!!-#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Ai"C6k!!!!!!LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+6s"C!!!!!!#dLVKuAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am!!!!#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!!!!0LVLS#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Aa!!!-#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Ai"C6k!!!!!!LVLVAm#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!!!#dLVKuAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am!!!!#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!!!!0LVLS#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Aa!!!-#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%Am#%Am#%Ai"C6k!!!!!!LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!Am#%Am#%Am#%!!!!!!!!!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!!!#dLVKuAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am!!!!#%Am#%Am#%Am!!!!#%Am!!!!#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!!!
+!0LVLS#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Aa!!!-#%Aa!!!-#%Aa!!!!!!!!!!!-#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Ai"C6k!!!!!!LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%!!!!!!!!!!!!Am#%!!!!Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%6s"C!!!!!!#dLVKuAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am!!!!#%Am#%Am!!!!#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am"C6s!!!!!!!0LVLS#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Ai"C6k!!!!!!LVLVAm#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%Am#%
+Am#%Am#%Am#%Am#%Am#%6s"C!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#j!!!&!!!!#5!!!%E./A$M-MBH._:6/=",!Q!!?<DFLM6m!!!)!'9T.K*I,g#e"S!!!S)2!!!!!!9R!!!!!!+u!!!$!16k!q!!!!AcHNJ-!!.[!!!,!A!!!!!*!1!!,'?=!-Aa%9!;!!!!!!#LLH<7!!!!!#6k!!!;!!!!%9!!!!#e!a!!!!!!9Q#e
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"C!!"C!!!!6s!!6k!!!)!!6k"C6k!!6s"C!-#%Aa!!!0Iq!0Iq!!#dLG#d!!!!LG#d!0LV!!#dLVIqLVLVLVLVLVLVLVLVIu+y,w!!!!!!!!!!!!!!!!!1"\G$5@5@5@5@5@5@5@59#w>%K=878787878787874'!e228787878787878786!>;.</8787"K!!8787877})c>%K=876k"C6s878787
+4+,]2R8787"C6k"K878786#1879I87876s8/8787877}!!87K=8787"C!)8787874-2I2R87878/8787878786!2#v&C87876s878787877}8787K=8787"K878787874-2I2R87878/8787878786!2#v&C87876s878787877}!!!!K=8787"K878787874+,[,f87878/8787878786!2#v&C87876s878787877}!!!!K=8787"K6k"K
+87874+,[,f87878/87"C878786!2#v&C87876s"C!)87877}!!!!K=8787!!6s8787874+,[,f878787"K"K878786!!!!#]878787878787877}!!!!K=878787878787874+,[,W)1!!!!!(--2yH6&QEJ4M523gG-.!/c4i"01X'T2yGM
+{   32    33 0 0}
+19778 3256 0 0 44
+40 33 32 1 24 0 3200 0 0 0 0
+!q"<1PIu!!)15_+u!Q"<2#!(!(9TLLEi!a!*!(9TLL6+"+!%!!9Q5Y+t/y!'6k+u#u"<!`J.Aa)1"_!-!#-y"+!%!"#e5Y+t%e!$!!;U#%!EAa2c!a!6!(9TLH8o#%!$Aa)1"/!$!#-y"+!%!".[5Y+t%5!$!!+5"#!$AaAa'9!'6k+u#u"<!`J1Aa1A#1!$!#-y"+!%!"#e5Y+t&7!'!!Ce!Q!EAa2c!a!2!(9TLHI1"#!$AaAa'9!'6k+u
+#5"<!`J1Aa1A)m!'6k+u#5"<!`J1Aa1A)m!'6k+u#5"<!`J1Aa1A)m!'6k+u#5"<!`J1Aa1A)m!'6k+u#5"<!`J1Aa1A)m!'6k+u#5"<!`J1Aa1A)m!'6k+u#5"<!`J1Aa1A)m!'6k+u#5"<!`J1Aa1A)m!'6k+u#5"<!`J1Aa1A)m!'6k+u#5"<!`J1Aa1A)m!'6k+u#u"<!`J1Aa1A#1!*!"I1"+!%!".[5Y+t&7!'!!Ce!Q!$Aa)1&7!'
+6k+u$W"<!`J1Aa1A#1!$!!+5!Q!?Aa2c!a!6!(9TLHI1"#!$Aa)1"/!*!"I1"+!%!"#e5Y+t&7!-!!3E!Q!EAa2c!a!2!(9TLI-y!Q!*Aa)1'9!'6k+u"S"<!`JjAa2c!a!*!(9TLL6+"+!%!!9Q5Y+t/y!'6k+u
+
+.TXT 4 -22 134 0 0
+Cg a72.000000,72.000000,26
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b b) 
+Qué le sugiere el ícono}}
+.TXT 0 29 135 0 0
+Cg a40.000000,40.000000,1
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b ?}}
+.TXT 4 -33 143 0 0
+Cg a72.000000,72.000000,36
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b 6) 
+Qué utilidad puede encontrarle a:}}
+.EQN 2 1 144 0 0
+{   26    26 0 0}{61}
+19778 2136 0 0 44
+40 26 26 1 24 0 2080 0 0 0 0
+"S"<!`J[!!+t!A!(!(9T!%8/!q!*!(9T!!+t,o!&!!>{5Y)1!`JRAa2c!q!,!(9T!!+t+q!'6k.["s"<!Q!$LJKu"+!&!".[5Y)1!`J4Aa&K!9!#!!%)%5!'6k.[$W"<!Q!$LI%i!A!"6k&K!9!9Aa2c!q!F!(9T!!+t&g!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!-Aa2c!q!h!(9T!!+t"/!"6k&K!9!#!!%)!A!"6k&K!]!"6k&K!9!#
+!!%)!A!$Aa&K!9!#!!%)!A!"6k&K!9!$Aa&K!9!#!!%)"_!'6k.[*C"<!Q!$LG+5!9!#!!%)!A!'Aa%)!A!"6k&K!9!#!!Ce!A!"6k&K!9!*Aa&K!9!#!!%)"/!'6k.[)a"<!Q!$LG+5!9!#!!%)!A!*Aa%)!A!"6k&K#1!#!!%)!A!"6k;U!A!"6k&K!9!'Aa2c!q!X!(9T!!+t!]!"6k&K!9!#!!;U!9!#!!%)!A!"6k&K"_!#!!%)!A!"
+6k;U!A!"6k&K!9!'Aa2c!q!\!(9T!!+t!]!"6k&K!9!#!!;U!9!#!!%)!A!"6k&K!9!#!!3E!A!"6k&K!9!*Aa&K!9!#!!%)"/!'6k.[+e"<!Q!$LG3E!9!#!!%)!A!$Aa%)!A!"6k&K!]!"6k&K!9!#!!;U!A!"6k&K!9!#!!%)!A!"6k&K!9!*Aa2c!q!\!(9T!!+t"_!"6k&K!9!#!!%)!A!"6k&K!]!"6k&K!9!#!!;U!A!"6k&K!9!'
+Aa&K!9!#!!%)"/!'6k.[%Y"<!Q!$LI6+!A!"6k&K!9!*Aa&K!9!'Aa2c!q!<!(9T!!+t(;!#!!%)!A!"6k3E!A!"6k3E"+!&!"DG5Y)1!`J@Aa&K!9!#!!%)!A!"6k&K!9!'Aa2c!q!,!(9T!!+t+q!'6k.["s"<!Q!$LJKu"+!&!!>{5Y)1!`JRAa2c!q!,!(9T!!+t+q!'6k.["s"<!Q!$LJKu"+!&!!9Q5Y)1,vIt6k.["S"<!`J[!!+t
+!A!Q
+
+.ATT
+.STATUS Use button on palette.
+.ATT_END
+.TXT 3 6 145 0 0
+Cg a62.625000,62.625000,24
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b 
+Paleta de Letras Griegas}}
+.TXT 0 23 146 0 0
+Cg a40.000000,40.000000,1
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\b ?}}
+.TXT 6 -28 149 0 0
+Cg a70.000000,70.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\fs24\b
+\ul\link3 Volver al Indice}}
+.ATT
+.LINK file:C:\RUBEN\WINMCAD\BARCE\INDICE.MCD
+.ATT_END
+.TXT 5 0 150 0 0
+Cg a70.000000,70.000000,14
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20 \pard {\cf2\fs24\b
+\ul Volver al Tema}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Edicion.mcd
+.ATT_END

@@ -1,0 +1,192 @@
+.MCAD 304020000 1 74 493 0
+.CMD FORMAT  rd=d ct=10 im=i et=3 zt=15 pr=3 mass length time charge temperature tr=0 vm=0
+.CMD SET ORIGIN 0
+.CMD SET TOL 0.001000000000000
+.CMD SET PRNCOLWIDTH 8
+.CMD SET PRNPRECISION 4
+.CMD PRINT_SETUP 1.200000 0.968750 1.200000 1.200000 0
+.CMD HEADER_FOOTER 1 1 *empty* *empty* *empty* 0 1 *empty* *empty* *empty*
+.CMD HEADER_FOOTER_FONT fontID=14 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD HEADER_FOOTER_FONT fontID=15 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFAULT_TEXT_PARPROPS 0 0 0
+.CMD DEFINE_FONTSTYLE_NAME fontID=0 name=Variables
+.CMD DEFINE_FONTSTYLE_NAME fontID=1 name=Constants
+.CMD DEFINE_FONTSTYLE_NAME fontID=2 name=Text
+.CMD DEFINE_FONTSTYLE_NAME fontID=4 name=User^1
+.CMD DEFINE_FONTSTYLE_NAME fontID=5 name=User^2
+.CMD DEFINE_FONTSTYLE_NAME fontID=6 name=User^3
+.CMD DEFINE_FONTSTYLE_NAME fontID=7 name=User^4
+.CMD DEFINE_FONTSTYLE_NAME fontID=8 name=User^5
+.CMD DEFINE_FONTSTYLE_NAME fontID=9 name=User^6
+.CMD DEFINE_FONTSTYLE_NAME fontID=10 name=User^7
+.CMD DEFINE_FONTSTYLE fontID=0 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=1 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=2 family=Arial points=10 bold=1 italic=0 underline=0 colrid=13
+.CMD DEFINE_FONTSTYLE fontID=4 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=5 family=Courier^New points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=6 family=System points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=7 family=Script points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=8 family=Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=9 family=Modern points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=10 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD UNITS U=1
+.CMD DIMENSIONS_ANALYSIS 0 0
+.CMD COLORTAB_ENTRY 0 0 0
+.CMD COLORTAB_ENTRY 128 0 0
+.CMD COLORTAB_ENTRY 0 128 0
+.CMD COLORTAB_ENTRY 128 128 0
+.CMD COLORTAB_ENTRY 0 0 128
+.CMD COLORTAB_ENTRY 128 0 128
+.CMD COLORTAB_ENTRY 0 128 128
+.CMD COLORTAB_ENTRY 128 128 128
+.CMD COLORTAB_ENTRY 192 192 192
+.CMD COLORTAB_ENTRY 255 0 0
+.CMD COLORTAB_ENTRY 0 255 0
+.CMD COLORTAB_ENTRY 255 255 0
+.CMD COLORTAB_ENTRY 0 0 255
+.CMD COLORTAB_ENTRY 255 0 255
+.CMD COLORTAB_ENTRY 0 255 255
+.CMD COLORTAB_ENTRY 255 255 255
+.TXT 5 6 482 0 0
+Cg a71.000000,71.000000,76
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\fs32 
+Bienvenidos al curso de "}{\cf2\fs32 HERRAMIENTAS COMPUTACIONALES PARA 
+CIENCIAS EXACTAS"}}
+.TXT 10 3 489 0 0
+Cg a64.250000,64.250000,76
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\fs48      Facultad 
+de Ingeniería}{\fs48 \par \par }{\fs48 UNIVERSIDAD DE MENDOZA}{\fs48 
+\par \par     }{\fs48                1997}}
+.TXT 26 -6 451 0 0
+Cg a82.625000,82.625000,309
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\fs24 \tab Este Curso 
+está diseñado para el dictado a través de Internet del \par Taller de 
+Herramientas Computacionales, asignatura curricular de la Facul-\par 
+tad de Ingeniería de la Universidad de Mendoza.\par \tab El software a 
+utilizarse es Mathcad 6.0 que se adapta específica-\par mente a su 
+manipulación directa en la Red de Redes.}}
+.EQN 12 0 452 0 0
+{   12    12 0 0}{61}
+19778 488 0 0 44
+40 12 12 1 24 0 432 0 0 0 0
+!Q"<'<J,!(9]LG%)!A!"6k&K!9!#!!%)!A!"6k&K"bJ6!(9XLG&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!4&'="1LVLVLVLV6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!LVLV'="1LVLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!LVLV'="1LVLVLG!!LG!!LG!!LG!!LG!!6k!!6k!!6k!!6k!!6k!!LVLV'="1
+LVLVLG!!LG!!LG!!LG!!LG!!LG!!6k!!6k!!6k!!6k!!LVLV&{"<!pIs!!&J!A!"LG&K"BIs!!&J!A!"6k&K!9!#!!%)!A!$LI)15Y6j!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"6k&K"2J6!(9XLG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!4&$7"<#DIs!!&J!A!"LG&K!@Is!!DF!Q"<'<JC
+
+.TXT 2 4 453 0 0
+Cg a83.375000,83.375000,27
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\fs24\ul\link1 
+Ventajas del uso de Mathcad}}
+.ATT
+.ATT_END
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Intro.mcd
+.ATT_END
+.EQN 2 -4 458 0 0
+{   12    12 0 0}{61}
+19778 488 0 0 44
+40 12 12 1 24 0 432 0 0 0 0
+!Q"<'<J,!(9]LG%)!A!"6k&K!9!#!!%)!A!"6k&K"bJ6!(9XLG&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!4&'="1LVLVLVLV6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!LVLV'="1LVLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!LVLV'="1LVLVLG!!LG!!LG!!LG!!LG!!6k!!6k!!6k!!6k!!6k!!LVLV'="1
+LVLVLG!!LG!!LG!!LG!!LG!!LG!!6k!!6k!!6k!!6k!!LVLV&{"<!pIs!!&J!A!"LG&K"BIs!!&J!A!"6k&K!9!#!!%)!A!$LI)15Y6j!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"6k&K"2J6!(9XLG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!4&$7"<#DIs!!&J!A!"LG&K!@Is!!DF!Q"<'<JC
+
+.TXT 2 4 459 0 0
+Cg a83.375000,83.375000,30
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\fs24\ul Edición de 
+una Hoja de Trabajo}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Edicion.mcd
+.ATT_END
+.EQN 2 -4 462 0 0
+{   12    12 0 0}{61}
+19778 488 0 0 44
+40 12 12 1 24 0 432 0 0 0 0
+!Q"<'<J,!(9]LG%)!A!"6k&K!9!#!!%)!A!"6k&K"bJ6!(9XLG&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!4&'="1LVLVLVLV6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!LVLV'="1LVLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!LVLV'="1LVLVLG!!LG!!LG!!LG!!LG!!6k!!6k!!6k!!6k!!6k!!LVLV'="1
+LVLVLG!!LG!!LG!!LG!!LG!!LG!!6k!!6k!!6k!!6k!!LVLV&{"<!pIs!!&J!A!"LG&K"BIs!!&J!A!"6k&K!9!#!!%)!A!$LI)15Y6j!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"6k&K"2J6!(9XLG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!4&$7"<#DIs!!&J!A!"LG&K!@Is!!DF!Q"<'<JC
+
+.TXT 2 4 463 0 0
+Cg a83.375000,83.375000,22
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\fs24\ul Operaciones 
+Esenciales}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Opera.mcd
+.ATT_END
+.EQN 3 -4 471 0 0
+{   12    12 0 0}{61}
+19778 488 0 0 44
+40 12 12 1 24 0 432 0 0 0 0
+!Q"<'<J,!(9]LG%)!A!"6k&K!9!#!!%)!A!"6k&K"bJ6!(9XLG&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!4&'="1LVLVLVLV6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!LVLV'="1LVLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!LVLV'="1LVLVLG!!LG!!LG!!LG!!LG!!6k!!6k!!6k!!6k!!6k!!LVLV'="1
+LVLVLG!!LG!!LG!!LG!!LG!!LG!!6k!!6k!!6k!!6k!!LVLV&{"<!pIs!!&J!A!"LG&K"BIs!!&J!A!"6k&K!9!#!!%)!A!$LI)15Y6j!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"6k&K"2J6!(9XLG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!4&$7"<#DIs!!&J!A!"LG&K!@Is!!DF!Q"<'<JC
+
+.TXT 2 4 472 0 0
+Cg a70.000000,70.000000,19
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\fs24\ul Matrices y Vectores}
+}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Matriz.mcd
+.ATT_END
+.EQN 3 -4 467 0 0
+{   12    12 0 0}{61}
+19778 488 0 0 44
+40 12 12 1 24 0 432 0 0 0 0
+!Q"<'<J,!(9]LG%)!A!"6k&K!9!#!!%)!A!"6k&K"bJ6!(9XLG&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!4&'="1LVLVLVLV6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!LVLV'="1LVLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!LVLV'="1LVLVLG!!LG!!LG!!LG!!LG!!6k!!6k!!6k!!6k!!6k!!LVLV'="1
+LVLVLG!!LG!!LG!!LG!!LG!!LG!!6k!!6k!!6k!!6k!!LVLV&{"<!pIs!!&J!A!"LG&K"BIs!!&J!A!"6k&K!9!#!!%)!A!$LI)15Y6j!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"6k&K"2J6!(9XLG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!4&$7"<#DIs!!&J!A!"LG&K!@Is!!DF!Q"<'<JC
+
+.TXT 2 4 468 0 0
+Cg a70.000000,70.000000,17
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\fs24\ul Números Complejos}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Comple.mcd
+.ATT_END
+.EQN 3 -4 475 0 0
+{   12    12 0 0}{61}
+19778 488 0 0 44
+40 12 12 1 24 0 432 0 0 0 0
+!Q"<'<J,!(9]LG%)!A!"6k&K!9!#!!%)!A!"6k&K"bJ6!(9XLG&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!4&'="1LVLVLVLV6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!LVLV'="1LVLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!LVLV'="1LVLVLG!!LG!!LG!!LG!!LG!!6k!!6k!!6k!!6k!!6k!!LVLV'="1
+LVLVLG!!LG!!LG!!LG!!LG!!LG!!6k!!6k!!6k!!6k!!LVLV&{"<!pIs!!&J!A!"LG&K"BIs!!&J!A!"6k&K!9!#!!%)!A!$LI)15Y6j!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"6k&K"2J6!(9XLG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!4&$7"<#DIs!!&J!A!"LG&K!@Is!!DF!Q"<'<JC
+
+.TXT 2 4 476 0 0
+Cg a70.000000,70.000000,20
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\fs24\ul Procesador Simbólico
+}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Simbol.mcd
+.ATT_END
+.EQN 3 -4 479 0 0
+{   12    12 0 0}{61}
+19778 488 0 0 44
+40 12 12 1 24 0 432 0 0 0 0
+!Q"<'<J,!(9]LG%)!A!"6k&K!9!#!!%)!A!"6k&K"bJ6!(9XLG&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!4&'="1LVLVLVLV6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!LVLV'="1LVLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!LVLV'="1LVLVLG!!LG!!LG!!LG!!LG!!6k!!6k!!6k!!6k!!6k!!LVLV'="1
+LVLVLG!!LG!!LG!!LG!!LG!!LG!!6k!!6k!!6k!!6k!!LVLV&{"<!pIs!!&J!A!"LG&K"BIs!!&J!A!"6k&K!9!#!!%)!A!$LI)15Y6j!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"6k&K"2J6!(9XLG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!4&$7"<#DIs!!&J!A!"LG&K!@Is!!DF!Q"<'<JC
+
+.TXT 2 4 480 0 0
+Cg a70.000000,70.000000,31
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\fs24\ul Sistemas de 
+ecuaciones Lineales}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Ecuacion.mcd
+.ATT_END
+.EQN 3 -4 492 0 0
+{   12    12 0 0}{61}
+19778 488 0 0 44
+40 12 12 1 24 0 432 0 0 0 0
+!Q"<'<J,!(9]LG%)!A!"6k&K!9!#!!%)!A!"6k&K"bJ6!(9XLG&K!9!#!!%)!A!"6k&K!9!#!!%)!A!"6k&K!9!#!!4&'="1LVLVLVLV6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!LVLV'="1LVLVLG!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!6k!!LVLV'="1LVLVLG!!LG!!LG!!LG!!LG!!6k!!6k!!6k!!6k!!6k!!LVLV'="1
+LVLVLG!!LG!!LG!!LG!!LG!!LG!!6k!!6k!!6k!!6k!!LVLV&{"<!pIs!!&J!A!"LG&K"BIs!!&J!A!"6k&K!9!#!!%)!A!$LI)15Y6j!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"6k&K"2J6!(9XLG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!4&$7"<#DIs!!&J!A!"LG&K!@Is!!DF!Q"<'<JC
+
+.TXT 2 4 493 0 0
+Cg a70.000000,70.000000,8
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\fs24\ul Unidades}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Unidad.mcd
+.ATT_END
+.TXT 80 -6 244 0 0
+C x1,1,0,0

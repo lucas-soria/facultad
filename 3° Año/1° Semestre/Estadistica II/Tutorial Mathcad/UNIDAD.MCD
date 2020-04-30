@@ -1,0 +1,319 @@
+.MCAD 304020000 1 71 159 0
+.CMD FORMAT  rd=d ct=10 im=i et=3 zt=15 pr=3 mass length time charge temperature tr=0 vm=0
+.CMD SET ORIGIN 0
+.CMD SET TOL 0.001000000000000
+.CMD SET PRNCOLWIDTH 8
+.CMD SET PRNPRECISION 4
+.CMD PRINT_SETUP 1.200000 1.218750 1.200000 1.200000 0
+.CMD HEADER_FOOTER 1 1 *empty* *empty* *empty* 0 1 *empty* *empty* *empty*
+.CMD HEADER_FOOTER_FONT fontID=14 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD HEADER_FOOTER_FONT fontID=15 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFAULT_TEXT_PARPROPS 0 0 0
+.CMD DEFINE_FONTSTYLE_NAME fontID=0 name=Variables
+.CMD DEFINE_FONTSTYLE_NAME fontID=1 name=Constants
+.CMD DEFINE_FONTSTYLE_NAME fontID=2 name=Text
+.CMD DEFINE_FONTSTYLE_NAME fontID=4 name=User^1
+.CMD DEFINE_FONTSTYLE_NAME fontID=5 name=User^2
+.CMD DEFINE_FONTSTYLE_NAME fontID=6 name=User^3
+.CMD DEFINE_FONTSTYLE_NAME fontID=7 name=User^4
+.CMD DEFINE_FONTSTYLE_NAME fontID=8 name=User^5
+.CMD DEFINE_FONTSTYLE_NAME fontID=9 name=User^6
+.CMD DEFINE_FONTSTYLE_NAME fontID=10 name=User^7
+.CMD DEFINE_FONTSTYLE fontID=0 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=1 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=2 family=Arial points=10 bold=1 italic=0 underline=0 colrid=13
+.CMD DEFINE_FONTSTYLE fontID=4 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=5 family=Courier^New points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=6 family=System points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=7 family=Script points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=8 family=Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=9 family=Modern points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=10 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD UNITS U=1
+.CMD DIMENSIONS_ANALYSIS 0 0
+.CMD COLORTAB_ENTRY 0 0 0
+.CMD COLORTAB_ENTRY 128 0 0
+.CMD COLORTAB_ENTRY 0 128 0
+.CMD COLORTAB_ENTRY 128 128 0
+.CMD COLORTAB_ENTRY 0 0 128
+.CMD COLORTAB_ENTRY 128 0 128
+.CMD COLORTAB_ENTRY 0 128 128
+.CMD COLORTAB_ENTRY 128 128 128
+.CMD COLORTAB_ENTRY 192 192 192
+.CMD COLORTAB_ENTRY 255 0 0
+.CMD COLORTAB_ENTRY 0 255 0
+.CMD COLORTAB_ENTRY 255 255 0
+.CMD COLORTAB_ENTRY 0 0 255
+.CMD COLORTAB_ENTRY 255 0 255
+.CMD COLORTAB_ENTRY 0 255 255
+.CMD COLORTAB_ENTRY 255 255 255
+.TXT 2 2 99 0 0
+Cg a72.000000,72.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 4 0 100 0 0
+Cg a58.000000,58.000000,15
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\ul U N I D A D E S}}
+.TXT 3 0 101 0 0
+Cg a72.000000,72.000000,304
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard \par Para trabajar con 
+un sistema de unidades se deben definir las unidades básicas en fun-
+\par ción  de  las  magnitudes fundamentales, esto es la masa, el 
+tiempo y la longitud, y la carga eléctrica. \par \par Mathcad 
+incorpora tres sistemas de unidades a saber:\par \par        1) MKS
+\par \par         2) cgs\par \par         3) U.S Customary}
+.TXT 27 20 102 0 0
+Cg a52.000000,52.000000,23
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\fs24 (}VER APENDICE 
+AL FINAL{\fs24 )}}
+.TXT 5 -20 103 0 0
+Cg a72.000000,72.000000,94
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Se podría definir como 
+una unidad derivada de potencia al CABALLO DE VAPOR del siguiente modo:}
+.EQN 7 0 104 0 1
+{0:CV}NAME:75*{0:kgf}NAME*({0:m}NAME)/({0:sec}NAME)
+.TXT 0 28 105 0 0
+Cg a41.000000,41.000000,10
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard definición}
+.EQN 6 -28 106 0 1
+1*{0:CV}NAME={0}?_n_u_l_l_
+.TXT 0 33 107 0 0
+Cg a39.000000,39.000000,40
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard expresión en función 
+de unidades básicas}
+.TXT 4 -33 108 0 0
+Cg a72.000000,72.000000,109
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard A modo de ejemplo, 
+considérese la necesidad de calcular la fuerza  a  partir de los datos 
+masa y aceleración:}
+.EQN 6 0 109 0 1
+{0:masa}NAME:10*{0:kg}NAME
+.TXT 0 21 110 0 0
+Cg a48.000000,48.000000,15
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard masa del cuerpo}
+.EQN 5 -21 111 0 1
+{0:acel}NAME:2*({0:m}NAME)/(({0:sec}NAME)^(2))
+.TXT 0 21 112 0 0
+Cg a48.000000,48.000000,11
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard aceleración}
+.EQN 6 -21 113 0 1
+{0:F}NAME:{0:masa}NAME*{0:acel}NAME
+.TXT 0 21 114 0 0
+Cg a48.000000,48.000000,20
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard cálculo de la fuerza}
+.TXT 5 -22 115 0 0
+Cg a73.000000,73.000000,60
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard   Si se solicita el 
+valor de F, se teclea F=, lo que arroja:}
+.EQN 5 1 116 0 1
+{0:F}NAME={0}?_n_u_l_l_
+.TXT 0 26 117 0 0
+Cg a69.000000,69.000000,50
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard se ve que F esta 
+indicada en las unidades básicas.}
+.TXT 4 -26 118 0 0
+Cg a72.000000,72.000000,191
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Si se desea calcular 
+su correspondiente unidad derivada (en este caso Newtons), en el 
+"cuadradito"  que queda a continuación de las unidades básicas 
+anteriores, se imprime \par la palabra {\fs24 newton}:}
+.EQN 9 0 119 0 1
+{0:F}NAME={0}?{0:newton}NAME
+.TXT 0 21 120 0 0
+Cg a48.000000,48.000000,15
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard resultado final}
+.TXT 9 -21 124 0 0
+Cg a72.000000,72.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 5 0 153 0 0
+Cg a72.000000,72.000000,134
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Si se desea obtener el 
+resultado en kiogramos-fuerza (unidad básica del Sistema Técnico), en 
+el "cuadradito se imprime la palabra {\fs24 kgf}:}
+.EQN 7 0 154 0 1
+{0:F}NAME={0}?{0:kgf}NAME
+.TXT 0 21 155 0 0
+Cg a48.000000,48.000000,26
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard resultado final (20/9.807)}
+.TXT 5 -21 125 0 0
+Cg a73.000000,73.000000,55
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Con esta técnica se 
+facilita la conversión de unidades:}
+.EQN 4 0 126 0 1
+1*{0:CV}NAME={0}?{0:kW}NAME
+.TXT 0 37 127 0 0
+Cg a32.000000,32.000000,15
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CV a kilovatios}
+.EQN 4 -37 128 0 1
+1*{0:CV}NAME={0}?{0:hp}NAME
+.TXT 0 37 129 0 0
+Cg a32.000000,32.000000,23
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CV a caballos de fuerza}
+.EQN 5 -37 130 0 1
+1*{0:CV}NAME={0}?{0:kgf}NAME*({0:m}NAME)/({0:sec}NAME)
+.TXT 0 37 131 0 0
+Cg a32.000000,32.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CV a kgf * m/seg}
+.TXT 5 0 132 0 0
+Cg a32.000000,32.000000,12
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CV a erg/seg}
+.EQN 1 -37 133 0 1
+1*{0:CV}NAME={0}?({0:erg}NAME)/({0:sec}NAME)
+.EQN 6 0 134 0 1
+1*{0:CV}NAME={0}?({0:joule}NAME)/({0:sec}NAME)
+.TXT 0 37 135 0 0
+Cg a32.000000,32.000000,22
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CV a joule/seg o vatio}
+.TXT 7 -37 136 0 0
+Cg a72.000000,72.000000,1039
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\ul APENDIC}{\ul E}
+\par \par {\ul Unidades MKS} \par \par Las siguientes unidades 
+estádisponibles por omisión cuando se elige MKS desde la caja de 
+Diálogos {\i Units}.\par \par acre   \tab acre (superficie)                   
+               \par amp   \tab amperio (corriente eléctrica)               
+\par atm   \tab atmósfera (presión)                            \par 
+BTU   \tab British Termal (cantidad de calor)       \par cal    \tab 
+caloría (cantidad de calor)                  \par cm   \tab centímetro 
+(longitud)                           \par coul   \tab coulomb (carga 
+eléctrica)                   \par day   \tab día (tiempo)                     
+                   \par deg   \tab grado sexagesimal (angular)                
+         \par dyne   \tab dina (fuerza)                                       
+ \par erg   \tab ergio (trabajo)                                     
+\par farad   \tab faradio (capacidad eléctrica)               \par 
+fl_oz   \tab onza fluída (volumen)                           \par ft   
+\tab pié (longitud)                                       \par g   
+\tab aceleración de la gravedad (aceleración)             \par gal   
+\tab galón (volumen)                                   }
+.TXT 54 0 156 0 0
+Cg a72.000000,72.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 5 0 147 0 0
+Cg a72.000000,72.000000,538
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard gm   \tab gramo (masa)        
+                              \par hectare\tab hectárea (superficie)          
+                  \par henry   \tab henrio (inductancia)                      
+        \par hp   \tab Caballo de Fuerza (potencia)        \par \pard 
+hr   \tab hora (tiempo)                                       \par in   
+\tab pulgada (longitud)                                 \par in_Hg   
+\tab pulgada de mercurio (presión)              \par joule   \tab 
+joule (trabajo)                                       \par kcal   \tab 
+kilocaloría (cantidad de calor)               \par kg   \tab kilogramo 
+(masa)         }
+.TXT 20 0 148 0 0
+Cg a72.000000,72.000000,154
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard kgf   \tab 
+kilogramo-fuerza (fuerza)                     \par km   \tab kilómetro 
+(longitud)                               \par kph   \tab kilómetro por 
+hora (velocidad)     }
+.TXT 7 0 140 0 0
+Cg a72.000000,72.000000,635
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard kW         kilovatio 
+(potencia)\par lb           libra (masa)\par lbf          libra fuerza 
+(fuerza\}\par liter        litro (capacidad)\par m           metro 
+(longitud)\par mi          milla (longitud)\par min        minuto 
+(tiempo)\par mL         mililitro (capacidad)\par mm        milímetro 
+(longitud)\par mph       millas/hora (velocidad)\par newton   newton 
+(fuerza)\par oersted  oersted (intensidad de campo magnético)\par ohm       
+ohm (resistencia eléctrica\par oz          onza (masa)\par Pa          
+pascal (presión)\par poise      poiselle (viscosidad)\par psi          
+libra/pulg. cuad. (presión)\par rad         radián (angular)\par sec         
+segundo (tiempo)\par siemens   siemens (conductancia)}
+.TXT 40 0 141 0 0
+Cg a72.000000,72.000000,372
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard slug        slug 
+(masa)\par stokes    stokes (viscosidad)\par tesla       tesla 
+(Inducción magnética)\par ton         tonelada (masa)\par tonne     
+tonelada métrica (masa)\par torr         torricelli (presión)\par volt        
+ voltio (tensión eléctrica)\par watt        vatio (potencia)\par weber     
+weber (flujo magnético)\par yd           yarda (longitud)                     
+  \par yr            año (tiempo)}
+.TXT 31 0 157 0 0
+Cg a72.000000,72.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 5 0 142 0 0
+Cg a72.000000,72.000000,149
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\ul Unidades CGS} 
+\par \par Las siguientes unidades, {\ul distintas} de las del listado 
+anterior, están disponibles cuando se elige CGS desde la Caja de 
+Diálogos {\i Units}.}
+.TXT 12 0 143 0 0
+Cg a72.000000,72.000000,547
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard c_             número 
+de velocidad de la luz (adimensional)\par c            velocidad de la 
+luz (velocidad) \par statamp            statamperio (corriente 
+eléctrica)\par statcoul            statcoulomb (carga eléctrica)\par 
+statfarad          statfaradio (capacidad eléctrica\par stathenry          
+stathenrio (inductancia) \par statohm            statohm (resistencia 
+eléctrica)\par statseimens       statseimens (velocidad)\par stattesla        
+    stattesla (inducción magnética)\par statvolt             statvolt 
+(tensión eléctrica)\par statweber         statweber (flujo magnético)}
+.TXT 25 0 144 0 0
+Cg a72.000000,72.000000,54
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard No están disponibles: 
+oersted, siemens, tesla y weber.}
+.TXT 3 0 145 0 0
+Cg a72.000000,72.000000,57
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\ul Unidades US Customary}
+: presenta el mismo listado que MKS.}
+.TXT 6 0 158 0 0
+Cg a72.000000,72.000000,12
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul Ejercitación}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Ej_uni.mcd
+.ATT_END
+.TXT 5 0 159 0 0
+Cg a72.000000,72.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul\link3 Volver al Indice}}
+.ATT
+.LINK file:C:\RUBEN\WINMCAD\BARCE\INDICE.MCD
+.ATT_END
+.ATT
+.LINK file:C:\WINMCAD\BARCE\Indice.mcd
+.ATT_END
+.ATT
+.ATT_END
+.ATT
+.LINK file:C:\WINMCAD\BARCE\Indice.mcd
+.ATT_END

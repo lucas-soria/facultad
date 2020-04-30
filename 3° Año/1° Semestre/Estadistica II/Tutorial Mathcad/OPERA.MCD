@@ -1,0 +1,430 @@
+.MCAD 304020000 1 71 168 0
+.CMD FORMAT  rd=d ct=10 im=i et=3 zt=15 pr=3 mass length time charge temperature tr=0 vm=0
+.CMD SET ORIGIN 0
+.CMD SET TOL 0.001000000000000
+.CMD SET PRNCOLWIDTH 8
+.CMD SET PRNPRECISION 4
+.CMD PRINT_SETUP 1.200000 1.218750 1.200000 1.200000 0
+.CMD HEADER_FOOTER 1 1 *empty* *empty* *empty* 0 1 *empty* *empty* *empty*
+.CMD HEADER_FOOTER_FONT fontID=14 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD HEADER_FOOTER_FONT fontID=15 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFAULT_TEXT_PARPROPS 0 0 0
+.CMD DEFINE_FONTSTYLE_NAME fontID=0 name=Variables
+.CMD DEFINE_FONTSTYLE_NAME fontID=1 name=Constants
+.CMD DEFINE_FONTSTYLE_NAME fontID=2 name=Text
+.CMD DEFINE_FONTSTYLE_NAME fontID=4 name=User^1
+.CMD DEFINE_FONTSTYLE_NAME fontID=5 name=User^2
+.CMD DEFINE_FONTSTYLE_NAME fontID=6 name=User^3
+.CMD DEFINE_FONTSTYLE_NAME fontID=7 name=User^4
+.CMD DEFINE_FONTSTYLE_NAME fontID=8 name=User^5
+.CMD DEFINE_FONTSTYLE_NAME fontID=9 name=User^6
+.CMD DEFINE_FONTSTYLE_NAME fontID=10 name=User^7
+.CMD DEFINE_FONTSTYLE fontID=0 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=1 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=2 family=Arial points=10 bold=1 italic=0 underline=0 colrid=13
+.CMD DEFINE_FONTSTYLE fontID=4 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=5 family=Courier^New points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=6 family=System points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=7 family=Script points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=8 family=Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=9 family=Modern points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=10 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD UNITS U=1
+.CMD DIMENSIONS_ANALYSIS 0 0
+.CMD COLORTAB_ENTRY 0 0 0
+.CMD COLORTAB_ENTRY 128 0 0
+.CMD COLORTAB_ENTRY 0 128 0
+.CMD COLORTAB_ENTRY 128 128 0
+.CMD COLORTAB_ENTRY 0 0 128
+.CMD COLORTAB_ENTRY 128 0 128
+.CMD COLORTAB_ENTRY 0 128 128
+.CMD COLORTAB_ENTRY 128 128 128
+.CMD COLORTAB_ENTRY 192 192 192
+.CMD COLORTAB_ENTRY 255 0 0
+.CMD COLORTAB_ENTRY 0 255 0
+.CMD COLORTAB_ENTRY 255 255 0
+.CMD COLORTAB_ENTRY 0 0 255
+.CMD COLORTAB_ENTRY 255 0 255
+.CMD COLORTAB_ENTRY 0 255 255
+.CMD COLORTAB_ENTRY 255 255 255
+.TXT 2 3 164 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 5 1 9 0 0
+Cg a73.000000,73.000000,22
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\fs24\ul Operaciones 
+Esenciales}}
+.TXT 5 -1 8 0 0
+Cg a72.250000,72.250000,785
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Se puede 
+trabajar en dos modos de cálculo, AUTOMATICO  Y  MANUAL, en el primero 
+a medida que se indica una operación, se realiza  automáticamente. En 
+el segundo, para que ello ocurra debe presionarse F9.\par \par El 
+default es el Modo Automático, sin embargo se puede pasar a Manual 
+conmutando la entrada {\cf2 Automatic Mode} del {\cf2  }Menú {\cf2  
+Math }(para volver a Automático se repite la misma secuencia, un tilde 
+sobre la entrada indica que se está en este modo o no).{\fs24 \par 
+\par }Un operador muy utilizado es el de asignación ,{\cf2 ( := )}, el 
+cual se establece  con  la sola o- presión de la tecla correspondiente 
+a los dos puntos{\cf2  ( : )}. También se puede seleccionar de la 
+Paleta de Evaluación y Booleana.\par \par Existe una gran diferencia 
+entre los operadores ' {\cf2 =} ' y ' {\cf2 :=} ' que se pueden 
+observar en los siguientes ejemplos:}
+.EQN 33 0 20 0 1
+4*(8)/(7)={0}?_n_u_l_l_
+.TXT 0 15 21 0 0
+Cg a37.250000,37.250000,37
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard en este caso se 
+resuelve la operación}
+.TXT 6 0 23 0 0
+Cg a52.250000,52.250000,71
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard en cambio aquí se 
+resuelve  y el resultado se asigna a la variable 'a'.}
+.EQN 1 -15 22 0 1
+{0:a}NAME:(8)/(3)
+.TXT 8 0 7 0 0
+Cg a72.250000,72.250000,317
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Para 
+insertar textos basta con apretar la doble comilla  ( {\cf2 "} )  y 
+luego teclar el texto. Una vez finalizado, se sale cliqueando en 
+cualquier zona fuera del texto.\par \par Si se necesita que una 
+variable tome valores desde  uno {\cf2 inicial} a uno  {\cf2 final} 
+con un incre- mento (o decremento) constante, se procede del siguiente modo:}
+.EQN 12 0 33 0 1
+{0:t}NAME:0;50
+.TXT 0 20 34 0 0
+Cg a39.250000,39.250000,47
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Esto significa t 
+variando de 0 a 50 de 1 en 1.{\fs24  }}
+.EQN 4 -20 35 0 1
+{0:i}NAME:3,6;18
+.TXT 0 20 37 0 0
+Cg a54.000000,54.000000,47
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Esto significa i 
+variando de 3 a 18 de 3 en 3.{\fs24  }}
+.EQN 4 -20 39 0 1
+{0:j}NAME:2,1;-10
+.TXT 0 20 40 0 0
+Cg a54.000000,54.000000,50
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Esto significa j 
+variando de 2 a -10 de -1 en -1.{\fs24  }}
+.TXT 4 -20 45 0 0
+Cg a74.000000,74.000000,368
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Obsérvese 
+la estructura de la expresión de la derecha. Tiene en general tres 
+parámetros \par en el siguiente orden:\par \par \tab i) El valor 
+inicial de la serie\par \tab ii) El segundo valor de la serie [el 
+incremento o decremento surge de la diferen- \tab cia entre ii) e i)]. 
+Si este valor no se indica, por omisión el segundo de la serie es \tab 
+el primero {\cf2 más 1.\par }\pard \tab iii) El valor final de la serie}
+.TXT 22 0 165 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 6 0 46 0 0
+Cg a74.000000,74.000000,275
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard El signo '  {
+\cf2 ..} ' se obtiene con la sola opresión de la  tecla punto y coma 
+('  {\cf2 ;} '). O bien, desde la Paleta de Vectores y Matrices (ícono  {
+\cf2 m..n}).\par \par \pard Si que quisiera observar una 'tabla' de 
+los valores  que  toma la variable i, se teclea el nombre de la 
+variable  y  el '  = '.}
+.EQN 12 0 47 0 1
+{0:i}NAME=
+.TXT 24 0 48 0 0
+Cg a72.000000,72.000000,23
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\fs24\ul Funciones y 
+Graficación}}
+.TXT 8 -1 49 0 0
+Cg a71.250000,71.250000,73
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard  Se puede definir y 
+graficar una función procediendo  del siguiente modo:}
+.EQN 4 1 63 0 1
+{0:t}NAME:0;360
+.TXT 0 25 64 0 0
+Cg a36.250000,36.250000,36
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard se elige un rango para 
+la variable t}
+.EQN 5 -25 66 0 1
+{0:f}NAME({0:t}NAME):{0:sin}NAME({0:\p}NAME*({0:t}NAME)/(180))
+.TXT 0 25 67 0 0
+Cg a20.250000,20.250000,20
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard se define la función}
+.TXT 7 -25 68 0 0
+Cg a71.750000,71.750000,798
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}{\f1\fcharset2\fnil Symbol;}}\plain
+\cf1\fs20\b \pard El modo de lograr {\f1 p} (así como otras letras 
+griegas) es apretando la letra latina correspon- diente (en este caso 
+p) y luego pulsando Ctrl+g. O desplegando la Paleta de Letras Grie- 
+gas y seleccionándola.\par \par En cambio, para escribir una letra 
+griega en un texto, se debe seleccionar la correspon- diente letra 
+latina con el mouse y en la Ventana de los Fonts seleccionar {\cf2 Symbol}
+.\par \par {\f1 p }es una constante predefinida  por  el sistema y su 
+valor es el tradicional (3.1415...).\par \par Si se quiere graficar, 
+existen varias alternativas que cumplen con el mismo cometido:\par 
+\par \tab i) se oprime la tecla @\par \tab ii) del Menú {\cf2 Graphics }
+se selecciona{\cf2  realte X-Y Plot\par \tab }iii) se selecciona en la 
+Paleta  de Gráficos el primero de los íconos.\par \par en todos los 
+casos aparece en pantalla el formato de graficos  para funciones en el 
+pla- no.}
+.EQN 32 16 73 0 0
+_n_u_l_l_
+.TXT 6 -16 166 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 5 0 75 0 0
+Cg a74.000000,74.000000,473
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard A partir de allí, se 
+deben rellenar los cuadraditos  centrales de cada uno de los ejes con 
+la función [ f(t) en este caso] y la variable independiente (t). Para 
+alcanzar dichos cuadraditos se deben cliquear en cada uno de ellos.
+\par Obsérvese que nada se ha dicho respecto de los cuadraditos 
+extremos, que si se dejan li- bres el propio sistema los llenará. No 
+obstante podría hacerlo el usuario.\par \par Finalmente, cliqueando  
+fuera  del  gráfico, aparecerá representada la función:}
+.EQN 14 10 78 0 0
+&&(_n_u_l_l_&_n_u_l_l_)&{0:f}NAME({0:t}NAME)@&&(_n_u_l_l_&_n_u_l_l_)&{0:t}NAME
+0 0 1 1 1 0 0 1 1 
+0 0 1 1 1 0 0 1 1 
+0 1 0 0 1 1 NO-TRACE-STRING
+0 2 1 0 1 1 NO-TRACE-STRING
+0 3 2 0 1 1 NO-TRACE-STRING
+0 4 3 0 1 1 NO-TRACE-STRING
+0 1 4 0 1 1 NO-TRACE-STRING
+0 2 5 0 1 1 NO-TRACE-STRING
+0 3 6 0 1 1 NO-TRACE-STRING
+0 4 0 0 1 1 NO-TRACE-STRING
+0 1 1 0 1 1 NO-TRACE-STRING
+0 2 2 0 1 1 NO-TRACE-STRING
+0 3 3 0 1 1 NO-TRACE-STRING
+0 4 4 0 1 1 NO-TRACE-STRING
+0 1 5 0 1 1 NO-TRACE-STRING
+0 2 6 0 1 1 NO-TRACE-STRING
+0 3 0 0 1 1 NO-TRACE-STRING
+0 4 1 0 1 1 NO-TRACE-STRING
+0 1 1 21 15 12 0 3 
+.TXT 26 -10 79 0 0
+Cg a74.000000,74.000000,877
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Se pueden 
+alterar varias características correspondientes al gráfico  cliqueando 
+dentro \par del mismo hasta que aparezca un recuadro, luego es posible 
+lograr distintas performan-\par ces seleccionando desde la barra {\cf2 
+Graphics}  la opcion {\cf2 X-Y Plot Format}.\par \par La Caja que se 
+presenta es bastante compleja y sólo se analizarán, por ahora, algunas 
+características destacadas.\par \par En la primera faceta (de cuatros 
+prosibles: X-Y Axes, Traces, Labels, Defaults) se activa \par {\cf2 
+Show Markers,} que se puede adjudicar tanto al eje X como al Y del 
+gráfico. Esta alterna-\par tiva implica que los valores extremos de 
+los ejes pueden ser establecidos por el usuario, quitándole esta 
+prerrogativa al sistema.\par \par Esto es útil en el caso de funciones 
+que presentan discontinuidades y también para lograr \par una especie 
+de "zoom" en un gráfico determinado.\par \par Como ejemplo, obsérvese 
+lo que ocurre con la función tangente.}
+.EQN 34 0 83 0 1
+{0:t}NAME:0;360
+.TXT 0 25 84 0 0
+Cg a36.250000,36.250000,36
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard se elige un rango para 
+la variable t}
+.EQN 5 -25 85 0 1
+{0:f}NAME({0:t}NAME):{0:tan}NAME({0:\p}NAME*({0:t}NAME)/(180))
+.TXT 0 25 86 0 0
+Cg a20.250000,20.250000,20
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard se define la función}
+.TXT 7 -25 88 0 0
+Cg a74.000000,74.000000,113
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Se indicarán dos 
+gráficos, el de arriba con los "markers" seleccionados por el sistema, 
+el \par abajo por el usuario:}
+.TXT 12 0 167 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.EQN 3 -2 90 0 0
+&&(_n_u_l_l_&_n_u_l_l_)&{0:f}NAME({0:t}NAME)@&&(_n_u_l_l_&_n_u_l_l_)&{0:t}NAME
+0 0 1 1 1 0 0 1 1 
+0 0 1 1 1 0 0 1 1 
+0 1 0 0 1 1 NO-TRACE-STRING
+0 2 1 0 1 1 NO-TRACE-STRING
+0 3 2 0 1 1 NO-TRACE-STRING
+0 4 3 0 1 1 NO-TRACE-STRING
+0 1 4 0 1 1 NO-TRACE-STRING
+0 2 5 0 1 1 NO-TRACE-STRING
+0 3 6 0 1 1 NO-TRACE-STRING
+0 4 0 0 1 1 NO-TRACE-STRING
+0 1 1 0 1 1 NO-TRACE-STRING
+0 2 2 0 1 1 NO-TRACE-STRING
+0 3 3 0 1 1 NO-TRACE-STRING
+0 4 4 0 1 1 NO-TRACE-STRING
+0 1 5 0 1 1 NO-TRACE-STRING
+0 2 6 0 1 1 NO-TRACE-STRING
+0 3 0 0 1 1 NO-TRACE-STRING
+0 4 1 0 1 1 NO-TRACE-STRING
+0 1 1 36 18 12 0 3 
+.EQN 27 8 100 0 0
+5&-5&(_n_u_l_l_&_n_u_l_l_)&{0:f}NAME({0:t}NAME)@&&(_n_u_l_l_&_n_u_l_l_)&{0:t}NAME
+0 0 1 1 1 0 1 1 1 
+0 0 1 1 1 0 1 1 1 
+0 1 0 0 1 1 NO-TRACE-STRING
+0 2 1 0 1 1 NO-TRACE-STRING
+0 3 2 0 1 1 NO-TRACE-STRING
+0 4 3 0 1 1 NO-TRACE-STRING
+0 1 4 0 1 1 NO-TRACE-STRING
+0 2 5 0 1 1 NO-TRACE-STRING
+0 3 6 0 1 1 NO-TRACE-STRING
+0 4 0 0 1 1 NO-TRACE-STRING
+0 1 1 0 1 1 NO-TRACE-STRING
+0 2 2 0 1 1 NO-TRACE-STRING
+0 3 3 0 1 1 NO-TRACE-STRING
+0 4 4 0 1 1 NO-TRACE-STRING
+0 1 5 0 1 1 NO-TRACE-STRING
+0 2 6 0 1 1 NO-TRACE-STRING
+0 3 0 0 1 1 NO-TRACE-STRING
+0 4 1 0 1 1 NO-TRACE-STRING
+0 1 1 36 18 12 0 3 Representación de la Tangente
+.TXT 32 -5 82 0 0
+Cg a73.000000,73.000000,830
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Se han 
+agregado tres características. La primera, se ha modificado el alto y 
+el ancho del \par gráfico, esto a partir de las propiedades inherentes 
+a Windows: se arrastra el mouse hasta circundar con un cuadro de 
+puntos al gráfico y posteriormente se "tira" de la línea punte- ada 
+inferior y/o derecha hasta alcanzar el tamaño que se desee. Del mismo 
+modo, es po- sible "transportar" el gráfico a cualquier zona de la 
+Hoja.\par \par La segunda característica, se han seleccionado como 
+extremos del eje Y, los valores -5 y\par 5 (previo habilitación de {
+\cf2 Show Markers} en la caja de formatos).\par \par La tercera 
+característica, es la de colocar un título al gráfico. Para hacer el 
+del ejemplo, \par se siguió la secuencia indicada para el formato de 
+gráficos, pero seleccionando de la parte superior de la caja {\cf2 
+Labels }y escribiendo en {\cf2 Tittle} el título deseado.}
+.TXT 26 0 101 0 0
+Cg a73.000000,73.000000,29
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\ul Formato Numérico 
+y Constantes}}
+.TXT 4 0 123 0 0
+Cg a73.000000,73.000000,283
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Tambien se pueden 
+alterar características  del  formato  numérico tales  como la base 
+del sistema de numeración (por omisión el sistema pone  decimal, d), 
+precision de los resul- tados (tres cifras fraccionarias, por 
+omision), simbolo de la unidad imaginaria (i por omi- sión), etc. }
+.TXT 11 0 168 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 5 0 124 0 0
+Cg a73.000000,73.000000,303
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}{\f1\fcharset2\fnil Symbol;}}\plain
+\cf1\fs20\b \pard Para  establecer  estos  cambios se debe seleccionar 
+de la barra {\cf2 Math}, la opción  {\cf2  Numerical Format...} y 
+proceder en cosecuencia.\par \pard      Del mismo modo que en el caso 
+de {\f1 p}, existen otras  constantes importantes prede- finidas. 
+Algunas se detallan a continuacion (los valores indicados son los de omisión):
+}
+.TXT 12 18 127 0 0
+Cg a52.750000,52.750000,174
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\ul infinito}. Si 
+bien es una  magnitud  finita, para los cálculos prác- ticos  se 
+comporta como infinita. Se logra clickeando en el icono 
+correspondiente de la Paleta aritmética.}
+.EQN 2 -18 128 0 1
+{0:\¥}NAME={0}?_n_u_l_l_
+.EQN 6 0 132 0 1
+{0:%}NAME={0}?_n_u_l_l_
+.TXT 0 18 133 0 0
+Cg a55.000000,55.000000,45
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\ul porciento}. Se 
+usa como el multiplicador 0.01.}
+.TXT 4 0 149 0 0
+Cg a52.875000,52.875000,100
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\ul tolerancia numérica}
+. Controla la precisión con la cual son evaluadas las derivadas y las 
+integrales.}
+.EQN 1 -18 142 0 1
+{0:TOL}NAME={0}?_n_u_l_l_
+.TXT 5 18 148 0 0
+Cg a51.250000,51.250000,78
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\ul origen de arreglos}
+. Especifica  el  índice  del primer elemento de un arreglo.}
+.EQN 1 -18 146 0 1
+{0:ORIGIN}NAME={0}?_n_u_l_l_
+.EQN 4 0 152 0 1
+{0:e}NAME={0}?_n_u_l_l_
+.TXT 0 18 153 0 0
+Cg a55.000000,55.000000,32
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard base de los logaritmos 
+naturales}
+.EQN 5 -18 156 0 1
+{0:g}NAME={0}?_n_u_l_l_
+.TXT 0 24 157 0 0
+Cg a49.000000,49.000000,27
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard aceleración de la gravedad.}
+.TXT 5 -24 158 0 0
+Cg a71.250000,71.250000,201
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Estas constantes se 
+mantienen siempre y  cuando no  sea  alterada su asignación por parte 
+del usuario, en caso contrario tomarán el  valor de la última 
+asignación (la inme- diata superior en la Hoja). }
+.TXT 9 0 159 0 0
+Cg a72.000000,72.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul\link3 Volver al Indice}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Indice.mcd
+.ATT_END
+.ATT
+.LINK file:C:\WINMCAD\BARCE\Indice.mcd
+.ATT_END
+.ATT
+.ATT_END
+.ATT
+.LINK file:C:\WINMCAD\BARCE\Indice.mcd
+.ATT_END
+.TXT 4 0 163 0 0
+Cg a72.000000,72.000000,12
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul Ejercitación}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Ej_opera.mcd
+.ATT_END

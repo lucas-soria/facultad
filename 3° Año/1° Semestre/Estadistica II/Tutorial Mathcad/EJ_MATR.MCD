@@ -1,0 +1,134 @@
+.MCAD 304020000 1 71 21 0
+.CMD FORMAT  rd=d ct=10 im=i et=3 zt=15 pr=3 mass length time charge temperature tr=0 vm=1
+.CMD SET ORIGIN 0
+.CMD SET TOL 0.001000000000000
+.CMD SET PRNCOLWIDTH 8
+.CMD SET PRNPRECISION 4
+.CMD PRINT_SETUP 1.200000 1.218750 0.000000 0.000000 0
+.CMD HEADER_FOOTER 1 1 *empty* *empty* *empty* 0 1 *empty* *empty* *empty*
+.CMD HEADER_FOOTER_FONT fontID=14 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD HEADER_FOOTER_FONT fontID=15 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFAULT_TEXT_PARPROPS 0 0 0
+.CMD DEFINE_FONTSTYLE_NAME fontID=0 name=Variables
+.CMD DEFINE_FONTSTYLE_NAME fontID=1 name=Constants
+.CMD DEFINE_FONTSTYLE_NAME fontID=2 name=Text
+.CMD DEFINE_FONTSTYLE_NAME fontID=4 name=User^1
+.CMD DEFINE_FONTSTYLE_NAME fontID=5 name=User^2
+.CMD DEFINE_FONTSTYLE_NAME fontID=6 name=User^3
+.CMD DEFINE_FONTSTYLE_NAME fontID=7 name=User^4
+.CMD DEFINE_FONTSTYLE_NAME fontID=8 name=User^5
+.CMD DEFINE_FONTSTYLE_NAME fontID=9 name=User^6
+.CMD DEFINE_FONTSTYLE_NAME fontID=10 name=User^7
+.CMD DEFINE_FONTSTYLE fontID=0 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=1 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=2 family=Arial points=10 bold=1 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=4 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=5 family=Courier^New points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=6 family=System points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=7 family=Script points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=8 family=Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=9 family=Modern points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=10 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD UNITS U=1
+.CMD DIMENSIONS_ANALYSIS 0 0
+.CMD COLORTAB_ENTRY 0 0 0
+.CMD COLORTAB_ENTRY 128 0 0
+.CMD COLORTAB_ENTRY 0 128 0
+.CMD COLORTAB_ENTRY 128 128 0
+.CMD COLORTAB_ENTRY 0 0 128
+.CMD COLORTAB_ENTRY 128 0 128
+.CMD COLORTAB_ENTRY 0 128 128
+.CMD COLORTAB_ENTRY 128 128 128
+.CMD COLORTAB_ENTRY 192 192 192
+.CMD COLORTAB_ENTRY 255 0 0
+.CMD COLORTAB_ENTRY 0 255 0
+.CMD COLORTAB_ENTRY 255 255 0
+.CMD COLORTAB_ENTRY 0 0 255
+.CMD COLORTAB_ENTRY 255 0 255
+.CMD COLORTAB_ENTRY 0 255 255
+.CMD COLORTAB_ENTRY 255 255 255
+.TXT 3 3 1 0 0
+Cg a72.000000,72.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2 
+CURSO DE MATHCAD                                           Ing. JESUS 
+RUBEN AZOR MONTOYA}}
+.TXT 4 0 2 0 0
+Cg a72.000000,72.000000,35
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}{\f1\fcharset0\fnil Times New Roman;}}
+\plain\cf1\fs20\b \pard {\cf2\ul RESOLVER LOS SIGUIENTES EJERCICIOS}{
+\cf2\f1\ul \par }}
+.TXT 5 0 3 0 0
+Cg a71.000000,71.000000,56
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2 1 - 
+Hallar los determinantes de las siguientes matrices:}}
+.TXT 6 2 4 0 0
+Cg a69.000000,69.000000,3
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2 a) }}
+.EQN 0 5 5 0 1
+({2,2}ö-2ö9ö6ö-6)
+.TXT 0 23 6 0 0
+Cg a41.000000,41.000000,2
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2 b)}}
+.EQN 1 5 7 0 1
+({3,3}ö5ö0ö3ö-4ö6ö2ö5ö-5ö2)
+.TXT 8 -35 8 0 0
+Cg a19.000000,19.000000,10
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2 2 - Dadas:}}
+.EQN 7 4 9 0 1
+{0:M1}NAME:({3,3}ö5ö0ö3ö-4ö6ö2ö5ö-5ö2)
+.EQN 0 25 10 0 1
+{0:V1}NAME:({3,1}ö2ö-6ö5)
+.EQN 0 16 11 0 1
+{0:M2}NAME:({3,3}ö-9ö6ö2ö9ö0ö3ö-2ö9ö5)
+.TXT 8 -45 12 0 0
+Cg a71.000000,71.000000,47
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2 
+Hallar las siguientes operaciones con matrices:}}
+.TXT 4 3 13 0 0
+Cg a68.000000,68.000000,13
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2 a)    
+M1 * V1}}
+.TXT 5 0 14 0 0
+Cg a68.000000,68.000000,13
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2 b)    
+M1 + M2}}
+.TXT 5 0 15 0 0
+Cg a68.000000,68.000000,13
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2 c)    
+M1 * V1}}
+.TXT 4 -3 16 0 0
+Cg a61.750000,61.750000,85
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2 3 - 
+Resolver el siguiente sistema de ecuaciones aplicando el método de 
+determinantes:}}
+.EQN 6 3 17 0 1
+2*{0:x0}NAME+3*{0:x1}NAME-4*{0:x2}NAME÷10
+.EQN 4 0 18 0 1
+7*{0:x0}NAME+5*{0:x1}NAME-2*{0:x2}NAME÷1
+.EQN 4 0 19 0 1
+-5*{0:x0}NAME+2*{0:x1}NAME-3*{0:x2}NAME÷12
+.TXT 4 -3 20 0 0
+Cg a71.000000,71.000000,139
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green0\blue255;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2 4 - 
+Hallar la matriz ampliada (es decir con la última columna igual a los 
+términos independientes) de las ecuaciones del ejercicio anterior}}
+.TXT 7 0 21 0 0
+Cg a70.000000,70.000000,14
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue128;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul Volver al Tema}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Matriz.mcd
+.ATT_END

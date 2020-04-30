@@ -1,0 +1,70 @@
+1 - realize un programa utilizando el módulo getopt o argparse que haga calculos matemáticos:
+    Justifique el uso del módulo utilizado 
+
+Ejemplo de funcionamiento
+
+# ./calculo.py -h
+Usage: ./calculo.py [s|r|m|d] -t type arg1 arg2  
+
+Mandatory ad excluyent arguments are [s|r|m|d]
+  -s, --suma         suma arg1 + arg2
+  -r, --resta        resta arg1 + arg2
+  -m, --multi        multiplica arg1 * arg2
+  -d, --divi         divide arg1 / arg2 
+  -t 		     tipo de numeros
+
+type  value:
+   int
+   float
+   real
+
+   -h, --help       print this help
+
+2 - Realice un programa que utilice el módulo getopt o argparse para tomar argumentos, el programa deberá crear un hijo (usando fork()) que tome dichos argumentos y realice una potencia entre ellos. Adicionalmente debe tener la opción verbosa que muestre los argumentos ingresados y la opción help o ayuda que explique que argumentos espera el programa.
+
+Argumentos necesarios
+	-v verboso
+	-h,--help ayuda
+	-n base
+	-m exponente
+
+Ejemplo de funcionamiento
+
+# ./fork_argumentos_getopt.py -h
+# ./fork_argumentos_getopt.py --help 
+
+Ayuda: Los argumentos validos son -v (verboso) -n (base) -m (exponente)
+
+# ./fork_argumentos_getopt.py -v -n 2 -m 3
+
+...Modo verboso...
+Argumentos ingresados:  [('-v', ''), ('-n', '2'), ('-m', '3')]
+PID padre 14488
+Creando hijo
+PID hijo: 14489 potencia: 8 creado por: 14488
+
+
+3 - Modifique el programa anterior para poder crear múltiples hijos ingresando un argumento -c que indique la cantidad de hijos que se crearán, la base será una constante y el exponente ya no se ingresará por argumento si no que cada hijo deberá pedirlos por teclado (usando input/raw_input por ej). 
+
+Ejemplo de funcionamiento
+
+# ./fork_argumentos_getopt_multiple.py -v -c 2
+
+...Modo verboso...
+Argumentos ingresados:  [('-v', ''), ('-c', '2')]
+Ingrese el exponente: 2
+PID hijo: 14555 potencia: 4
+Ingrese el exponente: 3
+PID hijo: 14558 potencia: 8 
+PID padre 14555
+
+4 -  Describa el funcionamiento del siguiente programa:
+
+import os
+
+while True:
+    pid = os.fork()
+    if pid == 0:
+        print pid
+    else:
+        continue

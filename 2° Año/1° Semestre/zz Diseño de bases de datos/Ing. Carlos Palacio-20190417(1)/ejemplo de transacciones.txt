@@ -1,0 +1,62 @@
+Crear las siguientes tablas:
+cobranzas;
+  idcobranza int(11) NOT NULL AUTO_INCREMENT,
+  fecha date DEFAULT NULL,
+  terminal char(5) DEFAULT NULL,
+  cajero char(5) DEFAULT NULL,
+  importe decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (idcobranza)
+
+
+resumen;
+  idresumen int(11) NOT NULL AUTO_INCREMENT,
+  fecha date DEFAULT NULL,
+  cantidad int(11) DEFAULT NULL,
+  PRIMARY KEY (idresumen)
+
+borrar los contenidos;
+delete from cobranza;
+delete from resumen;
+agregar una fila a resumen;
+insert into resumen values(1,CURDATE(),0);
+
+ver contenidos;
+select * from resumen;
+select * from cobranza;
+
+llamado al procedure con datos corretos;
+call transaction_pa_err('RT998','2300',3400); #transaccion inmediata - commit
+ver contenidos.
+
+llamado al procedure con datos incorretos;
+call transaction_pa_err('RT998121212','2300',3400); #transaccion con error - rollback
+ver contenidos.
+
+============================================================================
+Store procedure:
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `transaction_pa_err`( in `terminal` char(5), in `cajero` char(5),in `importe` decimal(10,0))
+BEGIN
+
+DECLARE exit handler for sqlexception
+  BEGIN
+    -- ERROR
+  SELECT 'Error de exception' AS resultado;  
+  ROLLBACK;
+END;
+
+DECLARE exit handler for sqlwarning
+ BEGIN
+    -- WARNING
+ SELECT 'Error de warning' AS resultado;    
+ ROLLBACK;
+END;
+
+START TRANSACTION;
+   insert into cobranza(fecha,terminal,cajero,importe) values (CURDATE(),terminal,cajero,importe);
+   update resumen set cantidad=cantidad+1 where idresumen=1;
+   #select sleep(30)
+COMMIT;
+   SELECT 'Exito'  AS resultado;
+END
+=================================================================================

@@ -1,0 +1,152 @@
+.MCAD 304020000 1 74 93 0
+.CMD FORMAT  rd=d ct=10 im=i et=3 zt=15 pr=3 mass length time charge temperature tr=0 vm=0
+.CMD SET ORIGIN 0
+.CMD SET TOL 0.001000000000000
+.CMD SET PRNCOLWIDTH 8
+.CMD SET PRNPRECISION 4
+.CMD PRINT_SETUP 1.200000 0.968750 1.200000 1.200000 0
+.CMD HEADER_FOOTER 1 1 *empty* *empty* *empty* 0 1 *empty* *empty* *empty*
+.CMD HEADER_FOOTER_FONT fontID=14 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD HEADER_FOOTER_FONT fontID=15 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFAULT_TEXT_PARPROPS 0 0 0
+.CMD DEFINE_FONTSTYLE_NAME fontID=0 name=Variables
+.CMD DEFINE_FONTSTYLE_NAME fontID=1 name=Constants
+.CMD DEFINE_FONTSTYLE_NAME fontID=2 name=Text
+.CMD DEFINE_FONTSTYLE_NAME fontID=4 name=User^1
+.CMD DEFINE_FONTSTYLE_NAME fontID=5 name=User^2
+.CMD DEFINE_FONTSTYLE_NAME fontID=6 name=User^3
+.CMD DEFINE_FONTSTYLE_NAME fontID=7 name=User^4
+.CMD DEFINE_FONTSTYLE_NAME fontID=8 name=User^5
+.CMD DEFINE_FONTSTYLE_NAME fontID=9 name=User^6
+.CMD DEFINE_FONTSTYLE_NAME fontID=10 name=User^7
+.CMD DEFINE_FONTSTYLE fontID=0 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=1 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=2 family=Arial points=10 bold=1 italic=0 underline=0 colrid=13
+.CMD DEFINE_FONTSTYLE fontID=4 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=5 family=Courier^New points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=6 family=System points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=7 family=Script points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=8 family=Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=9 family=Modern points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=10 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD UNITS U=1
+.CMD DIMENSIONS_ANALYSIS 0 0
+.CMD COLORTAB_ENTRY 0 0 0
+.CMD COLORTAB_ENTRY 128 0 0
+.CMD COLORTAB_ENTRY 0 128 0
+.CMD COLORTAB_ENTRY 128 128 0
+.CMD COLORTAB_ENTRY 0 0 128
+.CMD COLORTAB_ENTRY 128 0 128
+.CMD COLORTAB_ENTRY 0 128 128
+.CMD COLORTAB_ENTRY 128 128 128
+.CMD COLORTAB_ENTRY 192 192 192
+.CMD COLORTAB_ENTRY 255 0 0
+.CMD COLORTAB_ENTRY 0 255 0
+.CMD COLORTAB_ENTRY 255 255 0
+.CMD COLORTAB_ENTRY 0 0 255
+.CMD COLORTAB_ENTRY 255 0 255
+.CMD COLORTAB_ENTRY 0 255 255
+.CMD COLORTAB_ENTRY 255 255 255
+.TXT 4 3 59 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 4 0 61 0 0
+Cg a72.000000,72.000000,34
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\ul RESOLVER LOS 
+SIGUIENTES EJERCICIOS}}
+.TXT 4 0 47 0 0
+Cg a80.000000,80.000000,274
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 1 - Hallar las raíces 
+n-ésimas de los siguientes complejos y representarlas gráficamente:
+\par \par      a) - 4 + 5i                       n=10\par \par      b) 
+- 8  (se puede interpretar como - 8 + 0i)              n=8\par \par      
+c) - 6i  (se puede interpretar como 0 - 6i)                 n = 6}
+.TXT 18 0 48 0 0
+Cg a80.000000,80.000000,131
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard b - Hallar los 
+logarítmos naturales de los  siguientes  complejos  y  representar 
+gráfica-\par mente siete de los infinitos resultados:}
+.TXT 7 3 49 0 0
+Cg a77.000000,77.000000,11
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard a) - 4 + 5i}
+.TXT 4 0 50 0 0
+Cg a77.000000,77.000000,15
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard b) - 8\par \par c) - 6i}
+.TXT 9 -3 51 0 0
+Cg a80.000000,80.000000,203
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 3 - Hallar  (mediante  
+el procesador simbólico) una expresión para la raíz cuadrada  de \par 
+un complejo en forma binómica (a + bi) y corroborar si evaluada en los 
+siguientes casos \par los resultados coinciden:}
+.TXT 9 3 52 0 0
+Cg a77.000000,77.000000,11
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 1) - 4 + 5i}
+.TXT 4 0 53 0 0
+Cg a77.000000,77.000000,6
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 2) - 8}
+.TXT 5 0 54 0 0
+Cg a77.000000,77.000000,52
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Nota: Si aparece la 
+expresión csgn{\i (x) }cambiarla por:}
+.EQN 4 0 80 0 1
+{0:csgn}NAME({0:x}NAME)÷{0:if}NAME({0:Re}NAME({0:x}NAME){56}0,2*{0:\F}NAME({0:Re}NAME({0:x}NAME))-1,2*{0:\F}NAME({0:Im}NAME({0:x}NAME))-1)
+.TXT 4 0 82 0 0
+Cg a71.000000,71.000000,78
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}{\f1\fcharset2\fnil Symbol;}}\plain\cf1\fs20\b 
+\pard donde {\f1 F}(x) es es la función escalón, vale 0 para x<0 y 1 
+para todo otro valor.}
+.TXT 5 -3 55 0 0
+Cg a80.000000,80.000000,207
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 4 - Hallar (mediante 
+el procesador simbólico) una expresión para la raíz cuadrada  de un 
+\par complejo en forma polar (r * exp(i * z)) y corroborar si evaluada 
+en los siguientes casos  \par los resultados coinciden:}
+.TXT 9 3 93 0 0
+Cg a77.000000,77.000000,11
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard a) - 4 + 5i}
+.TXT 4 0 57 0 0
+Cg a77.000000,77.000000,6
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard b) - 8}
+.TXT 4 0 84 0 0
+Cg a77.000000,77.000000,52
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Nota: Si aparece la 
+expresión csgn{\i (x) }cambiarla por:}
+.EQN 4 0 85 0 1
+{0:csgn}NAME({0:x}NAME)÷{0:if}NAME({0:Re}NAME({0:x}NAME){56}0,2*{0:\F}NAME({0:Re}NAME({0:x}NAME))-1,2*{0:\F}NAME({0:Im}NAME({0:x}NAME))-1)
+.TXT 4 -2 86 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 5 0 91 0 0
+Cg a73.000000,73.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul\link3 Volver al Indice}}
+.ATT
+.LINK file:C:\RUBEN\WINMCAD\BARCE\INDICE.MCD
+.ATT_END
+.TXT 5 0 92 0 0
+Cg a73.000000,73.000000,14
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul Volver al Tema}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Comple.mcd
+.ATT_END

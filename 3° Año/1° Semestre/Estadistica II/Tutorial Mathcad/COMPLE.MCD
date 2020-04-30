@@ -1,0 +1,514 @@
+.MCAD 304020000 1 73 189 0
+.CMD FORMAT  rd=d ct=56 im=i et=3 zt=15 pr=3 mass length time charge temperature tr=0 vm=1
+.CMD SET ORIGIN 0
+.CMD SET TOL 0.001000000000000
+.CMD SET PRNCOLWIDTH 8
+.CMD SET PRNPRECISION 4
+.CMD PRINT_SETUP 1.200000 1.052083 0.000000 0.000000 0
+.CMD HEADER_FOOTER 1 1 *empty* *empty* *empty* 0 1 *empty* *empty* *empty*
+.CMD HEADER_FOOTER_FONT fontID=14 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD HEADER_FOOTER_FONT fontID=15 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFAULT_TEXT_PARPROPS 0 0 0
+.CMD DEFINE_FONTSTYLE_NAME fontID=0 name=Variables
+.CMD DEFINE_FONTSTYLE_NAME fontID=1 name=Constants
+.CMD DEFINE_FONTSTYLE_NAME fontID=2 name=Text
+.CMD DEFINE_FONTSTYLE_NAME fontID=4 name=User^1
+.CMD DEFINE_FONTSTYLE_NAME fontID=5 name=User^2
+.CMD DEFINE_FONTSTYLE_NAME fontID=6 name=User^3
+.CMD DEFINE_FONTSTYLE_NAME fontID=7 name=User^4
+.CMD DEFINE_FONTSTYLE_NAME fontID=8 name=User^5
+.CMD DEFINE_FONTSTYLE_NAME fontID=9 name=User^6
+.CMD DEFINE_FONTSTYLE_NAME fontID=10 name=User^7
+.CMD DEFINE_FONTSTYLE fontID=0 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=1 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=2 family=Arial points=10 bold=1 italic=0 underline=0 colrid=13
+.CMD DEFINE_FONTSTYLE fontID=4 family=MS^Sans^Serif points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=5 family=Courier points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=6 family=System points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=7 family=Script points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=8 family=Terminal points=2 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=9 family=Modern points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=10 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD UNITS U=1
+.CMD DIMENSIONS_ANALYSIS 0 0
+.CMD COLORTAB_ENTRY 0 0 0
+.CMD COLORTAB_ENTRY 128 0 0
+.CMD COLORTAB_ENTRY 0 128 0
+.CMD COLORTAB_ENTRY 128 128 0
+.CMD COLORTAB_ENTRY 0 0 128
+.CMD COLORTAB_ENTRY 128 0 128
+.CMD COLORTAB_ENTRY 0 128 128
+.CMD COLORTAB_ENTRY 128 128 128
+.CMD COLORTAB_ENTRY 192 192 192
+.CMD COLORTAB_ENTRY 255 0 0
+.CMD COLORTAB_ENTRY 0 255 0
+.CMD COLORTAB_ENTRY 255 255 0
+.CMD COLORTAB_ENTRY 0 0 255
+.CMD COLORTAB_ENTRY 255 0 255
+.CMD COLORTAB_ENTRY 0 255 255
+.CMD COLORTAB_ENTRY 255 255 255
+.TXT 2 3 184 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 5 0 17 0 0
+Cg a73.000000,73.000000,41
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard NUMEROS COMPLEJOS, 
+OPERADORES Y FUNCIONES}
+.TXT 5 0 18 0 0
+Cg a71.625000,71.625000,123
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Se puede trabajar con 
+números imaginarios  del  mismo modo en que se lo hace a través de la 
+matemática formal. Por ejemplo:}
+.EQN 7 0 19 0 1
+((3+5i))^(4)={0}?_n_u_l_l_
+.TXT 5 0 108 0 0
+Cg a73.000000,73.000000,295
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}{\f1\fcharset0\fnil Times New Roman;}}
+\plain\cf1\fs20\b \pard Se puede utilizar como unidad imaginaria tanto 
+la i como la j, para ello se selecciona la opción correspondiente en 
+el menú  {\cf2 Math} eligiendo posteriormente {\cf2 Numerical Format}{
+\i .\par }{\f1\i \par }En  matemática se usa habitualmente  i  y en 
+electricidad-electrónica la  j, aquí se privilegiará la notación matemática.}
+.TXT 12 0 20 0 0
+Cg a62.250000,62.250000,66
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Existen operaciones 
+con complejos y funciones como las siguientes:}
+.EQN 4 0 109 0 1
+{0:\a\1}NAME:-3+4i
+.TXT 0 22 121 0 0
+Cg a62.000000,62.000000,15
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard primer complejo}
+.EQN 5 -22 111 0 1
+{0:\a\2}NAME:2+1i
+.TXT 0 22 122 0 0
+Cg a62.000000,62.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard segundo complejo}
+.EQN 5 -22 113 0 1
+{0:\a\1}NAME+{0:\a\2}NAME={0}?_n_u_l_l_
+.TXT 0 22 123 0 0
+Cg a62.000000,62.000000,4
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard suma}
+.EQN 5 -22 115 0 1
+{0:\a\1}NAME*{0:\a\2}NAME={0}?_n_u_l_l_
+.TXT 0 22 124 0 0
+Cg a62.000000,62.000000,8
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard producto}
+.EQN 5 -22 21 0 1
+{0:Re}NAME(3+5i)={0}?_n_u_l_l_
+.TXT 0 22 22 0 0
+Cg a42.125000,42.125000,43
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard parte real (respete 
+mayúculas y minúsculas)}
+.EQN 5 -22 23 0 1
+{0:Im}NAME(3+5i)={0}?_n_u_l_l_
+.TXT 0 22 24 0 0
+Cg a16.250000,16.250000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard parte imaginaria}
+.EQN 5 -22 25 0 1
+{0:arg}NAME(3+5i)={0}?_n_u_l_l_
+.TXT 0 22 26 0 0
+Cg a47.625000,47.625000,92
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard argumento  del  
+complejo (ángulo, en radianes, que forma el radio vector con el 
+semieje +x).}
+.EQN 6 -22 27 0 1
+|(3+5i)={0}?_n_u_l_l_
+.TXT 0 22 28 0 0
+Cg a44.250000,44.250000,23
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard magnitud  del complejo.}
+.TXT 4 0 31 0 0
+Cg a45.125000,45.125000,19
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard complejo conjugado.}
+.EQN 1 -22 29 0 1
+((3+5i))]={0}?_n_u_l_l_
+.TXT 4 0 32 0 0
+Cg a74.000000,74.000000,80
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Nota: Para 
+"sobreiluminar" una ecuación o igualdad, seleccione {\cf2 Math, Highligtht.}}
+.TXT 3 0 33 0 0
+Cg a73.000000,73.000000,82
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard A partir de estas 
+alternativas se pueden plantear operaciones como las siguientes:}
+.TXT 4 0 127 0 0
+Cg a73.000000,73.000000,26
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard a) Radicación de Complejos}
+.TXT 4 2 128 0 0
+Cg a73.000000,73.000000,399
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard El caso de la 
+radicación de complejos ofrece alternativas variadas que pueden ser  
+\par fácilmente  resueltas a través de Mathcad, pero sin olvidar 
+conceptos muy importantes \par que se refieren a esta operación.\par 
+\par La raiz  n-ésima de un complejo tiene n soluciones. Cuando se 
+intenta realizar esta  \par operación  por medio de Mathcad se obtiene 
+sólo una, de modo que las n-1 restantes deben ser reconstruídas.}
+.TXT 16 0 131 0 0
+Cg a83.000000,83.000000,92
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Un  complejo  en  
+forma  exponencial, del modo más general, tiene la siguiente \par 
+estructura: }
+.EQN 6 0 132 0 1
+{0:\a}NAME({0:\r}NAME,{0:\f}NAME,{0:k}NAME):{0:\r}NAME*{0:exp}NAME(({0:\f}NAME+2*{0:k}NAME*{0:\p}NAME)*1i)
+.TXT 0 34 133 0 0
+Cg a46.000000,46.000000,14
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard con  k  entero}
+.TXT 9 -35 185 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 6 1 134 0 0
+Cg a83.000000,83.000000,171
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard La raíz es otro 
+complejo en forma exponencial, r, cuyo módulo es la raíz n-ésima  del 
+\par módulo del radicando y cuyo argumento es el argumento del 
+radicando dividido por n: }
+.EQN 11 0 136 0 1
+{0:r}NAME({0:\r}NAME,{0:\f}NAME,{0:k}NAME,{0:n}NAME):({0:\r}NAME)^((1)/({0:n}NAME))*{0:exp}NAME((({0:\f}NAME+2*{0:k}NAME*{0:\p}NAME)*1i)/({0:n}NAME))
+.TXT 7 0 137 0 0
+Cg a83.000000,83.000000,58
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Para el caso de una 
+raíz de índice 7, del complejo 3 + 4i:}
+.EQN 5 0 138 0 1
+{0:\b}NAME:3+4i
+.TXT 0 18 139 0 0
+Cg a61.000000,61.000000,20
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard complejo considerado}
+.EQN 4 -18 140 0 1
+{0:\r}NAME:|({0:\b}NAME)
+.TXT 0 18 141 0 0
+Cg a16.000000,16.000000,6
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard módulo}
+.EQN 4 -18 142 0 1
+{0:\f}NAME:{0:arg}NAME({0:\b}NAME)
+.TXT 0 18 143 0 0
+Cg a61.000000,61.000000,9
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard argumento}
+.EQN 4 -18 144 0 1
+{0:n}NAME:7
+.TXT 0 18 145 0 0
+Cg a61.000000,61.000000,17
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard índice de la raíz}
+.EQN 4 -18 146 0 1
+{0:k}NAME:0;{0:n}NAME-1
+.TXT 0 18 147 0 0
+Cg a61.000000,61.000000,23
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard rango de variación de k}
+.EQN 4 -18 148 0 1
+({0:r}NAME)[({0:k}NAME):{0:r}NAME({0:\r}NAME,{0:\f}NAME,{0:k}NAME,{0:n}NAME)
+.TXT 0 18 149 0 0
+Cg a61.000000,61.000000,10
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard radicación}
+.EQN 16 -18 150 0 1
+{0:r}NAME={0}?_n_u_l_l_
+.TXT 0 22 151 0 0
+Cg a61.000000,61.000000,53
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard vector de complejos 
+que contiene las siete soluciones}
+.EQN 18 -22 153 0 1
+((({0:r}NAME)[(0)))^(7)={0}?_n_u_l_l_
+.EQN 0 17 154 0 1
+((({0:r}NAME)[(5)))^(7)={0}?_n_u_l_l_
+.TXT 0 20 155 0 0
+Cg a42.000000,42.000000,22
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard algunas verificaciones}
+.TXT 6 -37 152 0 0
+Cg a71.000000,71.000000,190
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Según la teoría, las 
+raíces aparecen en el plano complejo sobre una circunferencia de \par 
+radio igual a la raíz (séptima en este caso) del módulo del complejo, 
+todas ellas igualmente espaciadas}
+.EQN 13 0 156 0 1
+{0:x}NAME:-({0:\r}NAME)^((1)/(7)),-({0:\r}NAME)^((1)/(7))+.01;({0:\r}NAME)^((1)/(7))
+.TXT 0 23 157 0 0
+Cg a56.000000,56.000000,46
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard rango de variación de 
+x para la circunferencia}
+.EQN 10 -22 83 0 1
+{0:f1}NAME({0:x}NAME):\(((({0:\r}NAME)^((1)/(7))))^(2)-({0:x}NAME)^(2))
+.TXT 0 23 84 0 0
+Cg a56.000000,56.000000,50
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Ecuación de la parte 
+superior de la circunferencia}
+.TXT 12 -25 186 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.EQN 11 2 85 0 1
+{0:f2}NAME({0:x}NAME):-\(((({0:\r}NAME)^((1)/(7))))^(2)-({0:x}NAME)^(2))
+.TXT 0 23 86 0 0
+Cg a56.000000,56.000000,29
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Ecuación de la parte inferior}
+.TXT 5 -23 159 0 0
+Cg a82.000000,82.000000,272
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Distribución de las 
+siete raíces:\par Nota: El siguiente gráfico se obtuvo recortando el 
+logrado con Mathcad y pegándolo\par en Pbrush. Finalmente en este 
+último se dieron los detalles complementarios.\par Este no es un 
+gráfico "vivo" que cambie con los valores superiores de la Hoja.}
+.EQN 13 7 160 0 0
+{  229   318 0 0}{61}
+19778 218980 0 0 44
+40 318 229 1 24 0 218924 0 0 0 0
+"s"<LVLVLVLVA@Is!!>{5hLVLVLVLRG,!A!,!(<6LVLVLVKrLG&K"s"<LVLVLVLVA@Is!!>{5hLVLVLVLRG,!A!,!(<6LVLVLVKrLG&K"s"<LVLVLVLVA@Is!!>{5hLVLVLVLRG,!A!,!(<6LVLVLVKrLG&K"s"<LVLVLVLVA@Is!!>{5hLVLVLVLRG,!A!,!(<6LVLVLVKrLG&K"s"<LVLVLVLVA@Is!!>{5hLVLVLVLRG,!A!,!(<6LVLV
+LVKrLG&K"s"<LVLVLVLVA@Is!!>{5hLVLVLVLRG,!A!,!(<6LVLVLVKrLG&K$7"<LVLVLH9P!Q!'LG)1LVKNLG&K$7"<LVLVLH9P!Q!$LG)1LVKQLG&K#U"<LVLVLH9P"##dLPLV!A!0!(<6LVLV%8Iw!0LV<6Is!"9Q5hLVJ"It!"9P!Q!*LG)1!`It!0LV;dIs!"DG5hLVJ"It!"9P!Q!*LG)1"2It!!4&!Q#dLP#d!A!R!(<6LS<6"S!$
+LG1A"2Iw!!4&!Q!-LG1A#4It!!4&!Q!0LG)1"bIw!!+t"##dLN9P!A!R!(<6LSDF!Q!'LG)1"2It!!4&!Q!$LG)1#4It!!LV!Q!'LG)1&:It!!+t!Q#dLNA`!A!J!(<6LSDF!Q!'LG)1"2It!!DF!Q!-LG)1#dIt!!+t"#!BLG)1LVK3LG&K'="<LVL#LG)1!`It!!<6#%!$LG)1#4It!!LV!Q!KLG)1LVK3LG&K(_"<LVL#LG9Q"bIt!!4&
+!Q!$LG)1#4It!!+t!Q!*LG)1'lIt!!+t!Q#dLNA`!A!N!(<6LSDF!Q!'LG)1"bIw!!4&!Q!*LG)1!`Iw!!<6!Q!ELG1A!`Iw!0LV5XIs!"9Q5hLVCtIt!!4&!Q!6LG)1&:It!0LV>:Is!"9Q5hLVCtIt!!4&!Q!9LG)1%8It!0LV>jIs!".[5hLVCDI}!"A`!Q!9LG)1LVKcLG&K"s"<LVLVLVLVA@Is!!>{5hLVLVLVLRG,!A!,!(<6LVLV
+LVKrLG&K"s"<LVLVLVLVA@Is!!>{5hLVLVLVLRG,!A!,!(<6LVLVLVKrLG&K"s"<LVLVLVLVA@Is!!>{5hLVLVLVLRG,!A!,!(<6LVLVLVKrLG&K%Y"<LVJ+LGAa5(Iz!'<6"#";LG9Q4VI}!+A`!A!H!(<6LH9P!Q!'LG)15XIt!'<6!Q!'LG)15XIt!(1@!Q!'LG)1>:Is!"Iq5hLV%8It!)&J!Q",LG)1"2It!(9P!Q"8LG)1?lIs!"Iq
+5hLV%hIt!(Ip!Q",LG)1"2It!(9P!Q";LG)1?<Is!#4'5hLV!`J%!!<6!Q"#LH&K"bIt!'<6!Q!'LG)15XIt!(A`!Q"qLG&K&;"<LVJ4LG)15XIt!'<6!Q!'LG)15XIt!(Ip!Q"nLG&K&;"<LVJ4LG)15XIt!'<6!Q!'LG)15XIt!(Ip!Q"nLG&K']"<LVJ+LG)1"2It!(1@"#",LG)1"2It!(1@"#"8LG)1"2It!+A`!A!>!(<-LGAa%8Iw
+!(A`!Q"/LG1A6*It!(9P"#"qLG&K#u"<K$It!!4&!Q#dLVLV@nIs!!DG5h4&!Q#dLVLVBBIs!!DG5h<6!Q#dLVLVApIs!")15g&J$'!*LG)1"bLV!0Aa@>Is!#9Q5hLV!Q!'LG)16*Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!J!(<6LG)1"2It!(A`!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K(_"<K$It!!4&!Q!'
+LG)16*Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!J!(<0LG1A"bIt!(A`!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K']"<LVIzLG)16*Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!H!(<6LG<6!Q">LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1">LG)1@>Is!#4'5hLV"bIt!(A`!1!"LG#e6*Ir!!&J!1">LG#e
+!@Ir!(A`!Q"zLG&K']"<LVIzLG)16*Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!H!(<6LG<6!Q">LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1">LG)1@>Is!#4'5hLV"bIt!(A`!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K']"<LVIzLG)16*Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!H!(<6LG<6!Q">LG#e
+!@Ir!(A`!1!"LG#e6*Ir!!&J!1">LG)1@>Is!#4'5hLV"bIt!(A`!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K']"<LVIzLG)16*Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!H!(<6LG<6!Q">LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1">LG)1@>Is!$)15hLV"bIt!(A`!1!"LG#e(nIt!!<6!Q!<LG9Q%hIr!!&J!1">
+LG#e!@Ir!(A`!Q"zLG&K*C"<LVIzLG)16*Ir!!&J!1!NLG)1"2It!"A`!Q!*LG)1%8Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K*C"<LVIzLG)16*Ir!!&J!1!NLG)1!`It!"A`"#!*LG)1%8Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K*C"<LVIzLG)16*Ir!!&J!1!NLG)1!`It!!<6$'!0LG)1%8Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K)a"<
+LVIzLG)16*Ir!!&J!1!NLG1A&jIt!!<6!Q!9LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!T!(<6LG<6!Q">LG#e!@Ir!#G,!Q!$LG)1&:I}!"A`!1!"LG#e6*Ir!!&J!1">LG)1@>Is!$4'5hLV"bIt!(A`!1!"LG#e(nIt!!4&"#!$LH&K!`It!#.Z!1!"LG#e6*Ir!!&J!1">LG)1@>Is!#Iq5hLV"bIt!(A`!1!"LG#e(nIt!#.Z!Q!ELG#e
+!@Ir!(A`!1!"LG#e6*It!,6j!A!P!(<6LG<6!Q">LG#e!@Ir!#G,!Q!HLGAa%8Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K)a"<LVIzLG)16*Ir!!&J!1!NLG)1-xIr!!&J!1"5LG)1"2Ir!!&J!a!<LG9Q/LIt!,6j!A!P!(<6LG<6!Q">LG#e!@Ir!(A`!1!"LG#e4VIt!!4&!Q!<LG)1"bIt!&&J!Q"zLG&K*C"<LVIzLG)16*Ir!!&J!1"/
+LG&K#DIr!!&J!1"5LG)1!`Iu!!&J!1!<LG)1"bIt!&&J!Q"zLG&K+e"<LVIzLG)16*Ir!!&J!1",LG&K!pIs!!>z!1!"LG#e4VIt!!+t!a!"LG#e"2J%!!+t!Q!*LG)1.zIt!,6j!A!\!(<6LG<6!Q">LG#e!@Ir!'4&!A!+LG&K"BIr!!&J!1"5LG1A!`Ir!!&J!1!<LG)1"bIt!&&J!Q"zLG&K/-"<LVIzLG)16*Ir!!&J!1"!LG&K!@Is
+!!&J!A!.LG&K!@Is!!&J!A!"LG&K#DIs!!&J!A!"LG&K!@Is!&>z!Q!$LG+u!@Ir!"A`#%!uLG)1@>Is!%)15hLV"bIt!(A`!1!"LG#e10Is!!4&!A!+LG&K"BIr!!&J!1!FLG&K!@Is!%9P!Q!'LG1A!`J%!!+t!Q!~LG)1@>Is!%>{5hLV"bIt!(A`!1!"LG#e.*Is!!&J!A!"LG&K$fIs!!.Z!A!+LG#e!@Ir!#9P!A!iLG)1"2Ir!!&J
+!1!<LG)1"bIt!&&J!Q"zLG&K+e"<LVIzLG)16*Ir!!&J!1"/LG&K#DIr!!&J!1!XLG&K!@Is!$4&!Q!'LG#e!@Ir!"Ip!Q!'LG)1.zIt!,6j!A!`!(<6LG<6!Q">LG#e!@Ir!$>z!A!"LG&K+DIr!!&J!1!^LG&K!@Is!$#d!Q!'LG#e!@Ir!#&J"#!uLG)1@>Is!#>{5hLV"bIt!(A`!1!"LG#e*RIs!%)0!1!"LG#e6*Ir!!&J!1">LG)1
+@>Is!$#e5h<6"S!'LG)16*Ir!!&J!1">LG#e!@Ir!%DF!A!"LG&K(>Ir!!&J!1">LG)1@>Is!$.[5hDF!Q!*LG)16*Ir!!&J!1!ILG&K.zIr!!&J!1!pLG&K!@Is!#6j!1!"LG#e6*It!,6j!A!^!(<3LG)1"bIt!")0!Q!*LG)1&jIt!$4&!1!"LG#e'LIs!!&J!A!rLG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!Z!(<3LG)1"bIt!")0!Q!'
+LG)1'<It!$4&!1!"LG#e6*Ir!!&J!1!|LG&K&:Ir!!&J!1">LG)1@>Is!)DI5g&J$'!*LG)1"bIu!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Iv!!&J!q!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J$G!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is
+!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Ir!!&J!A!"LG&K!`Ir!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K
+!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG#e!@It!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"
+LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Iu!,6j!A"0!(:oLG&K!@Is!!&J!A!"LG&K#DIs!!&J!A!"LG&K!@Is!!G,!A!"LG&K-xIt!!<6!Q!3LG)1!`It
+!!<6$'!$LG)1"2It!$4&!1!"LG#e%HIs!'#d!1!"LG#e1`Is!"9P!1!"LG#e6*It!,6j!A!Z!(<3LG)1"bIt!")0"#!BLG)1"2It!$4&!1!"LG#e6*Ir!!&J!1"2LG&K"rIr!!&J!1">LG)1@>Is!%#e5h<6"#!*LG)1$6It!!+t!Q!BLG)1!`It!$4&!1!"LG#e6*Ir!!&J!1"-LG+u!pIs!!6j!1!"LG#e6*It!,6j!A!r!(<3LG)1"bIt
+!")0!Q!'LG1A!`J%!!4&!Q!$LG)1*BIr!!&J!1!.LG&K!@Is!'<6!1!"LG#e3$Is!!)0!A!'LG&K!pIr!!&J!1">LG)1@>Is!$Iq5hLV"bIt!")0!Q!KLG1A*BIr!!&J!1!+LG&K4&Ir!!&J!1")LG&K"RIs!!4&!A!"LG#e!@Ir!(A`!Q"zLG&K+E"<;4It!"A`!Q!oLG)1$6It!#G,!Q!WLG#e!@Ir!(A`!1!"LG#e3$Is!!>z!A!%LG#e
+!@Ir!(A`!Q"zLG&K+E"<;4It!"A`!Q!oLG)1$6It!#G,!Q!WLG#e!@Ir!(A`!1!"LG#e3TIs!!.Z!A!(LG#e!@Ir!(A`!Q"zLG&K,'"<6ZIw!!+t#%!$LG)1"bIw!!+t"#!*LG)1-xIt!(A`!1!"LG#e6*Ir!!&J!1"2LG&K"RIt!!&J!1">LG)1@>Is!$DG5`Ip!Q!'LG)1"2It!!+t!Q!-LG)1!`It!!DF!Q!lLG)15(Is!!1@!A">LG#e
+!@Ir!(DF!A">LG)1@>Is!$9Q5`Ip!Q!'LG)1#4It!!LV!Q!0LG)1-xIt!()0!A!&LG&K!@Is!(A`!1!"LG#e6:Is!(A`!Q"zLG&K*c"<6ZIt!!<6!Q!*LG)1#dIt!!LV!Q!lLG)14&Is!!>z!A"?LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!b!(:qLG)1#4It!!4&!Q!-LG)1!`It!!DF!Q!lLG)13TIs!!G,!1!"LG)15hIr!!&J!1">LG#e
+!@Ir!(A`!Q"zLG&K,'"<6*Iz!!DF!Q!$LG)1"bIw!!+t"#!*LG)1-xIt!'LV!A!#LG&K"2Is!(DF!1!"LG#e6*Ir!!&J!1">LG)1@>Is!%#e5`Ip!Q!0LG)1!`It!#&J!Q!lLG)14fIs!!+t!A!"LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1!(LG&K4VIt!,6j!A!f!(:qLG)1"2It!!4&!Q!'LG)1%hIt!%Ip!Q"3LG&K!`Is!!.Z!1!"LG#e
+6*Ir!!&J!1">LG#e!@Ir!!>z!A"2LG)1@>Is!$DG5a&J!Q!'LG1A"bIt!"A`!Q!oLG)16*Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e"rIs!!&J!A"/LG)1@>Is!#4'5hLV"bIt!(A`!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K']"<LVIzLG)16*Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!L!(<6LG<6!Q"-LG&K#dIr
+!!&J!1">LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!P!(<6LG<6!Q"*LG&K$6Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e#tIs!'<6!Q"zLG&K)!"<LVIzLG)12bIs!")0!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!"+t!A")LG)1@>Is!#>{5hLV"bIt!(A`!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!"+t!A")LG)1@>Is!#4'5hLV"bIt!(A`!1!"LG#e
+6*Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K(_"<LVIzLG)16*Ir!!&J!1"&LG#e!I!6LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!L!(<6LG<6!Q"'LG&K$fIr!!&J!1">LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!P!(<6LG<6!Q"$LG&K%8Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e%HIs!'#d!Q"zLG&K/M"<6:Is!!&J!A!"LG&K!@Is!!G,!A!"
+LG&K!@Is!!&J!A!.LG&K!@Is!&6j!Q"$LG&K%8Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e%HIs!'#d!Q"zLG&K(?"<LVIzLG)16*Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e%HIs!'#d!Q"zLG&K']"<LVIzLG)16*Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!H!(<6LG<6!Q">LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1">LG)1@>Is
+!#>{5hLV"bIt!&Ip!A!<LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1">LG)1@>Is!$.[5b<6!Q!<LG)1.JIt!&Ip!A!<LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1!=LG&K0~It!,6j!A!V!(;.LG)1%hIt!%Ip!Q"!LG&K%hIr!!&J!1">LG#e!@Ir!(A`!1!"LG#e%xIs!&G,!Q"zLG&K,'"<6ZIw!!4&"S!$LG)1"bIw!!+t"#!*LG)1-xIt!(A`
+!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!"LV!A!{LG)1@>Is!$DG5`Ip!Q!-LG)1"2It!!DF!Q!$LG)1#4It!%A`!Q">LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1">LG)1@>Is!$DG5`Ip!Q!-LG)1"2It!!LV!Q!0LG)1)pIw!")0!Q">LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1">LG)1@>Is!%.[5`Ip!Q!-LG)1"2It!!LV!Q!0LG)1)@It!!4&
+!Q!0LG)10^Is!"Ip!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K-I"<6ZIt!!DF!Q!'LG)1#4It!!+t!Q!-LG)1)@It!!4&!Q!0LG)10^Is!"Ip!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K-I"<6*Iz!!<6!Q!'LG)1"bIw!!+t"#!*LG)1)@It!!4&!Q!0LG)10^Is!"Ip!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!(A`!Q"z
+LG&KA1'f6ZIt!!DF!Q!'LG)1&jIt!$#d!Q!'LG)1#dIu!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Ir!!&J!Q!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is
+!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K
+!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"
+LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG+u@>Is!%#e5`Ip!Q!*LG1A"bIt!"A`!Q!TLG)1"2It!!LV!Q!|LG&K&:Ir!!&J!1">LG#e!@Ir
+!(A`!1!"LG#e6*It!,6j!A!b!(:tLG)1"bIt!!<6!Q!<LG)1)pIt!!4&!Q!0LG)10^Is!"Ip!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K)A"<IPIt!!4&!Q!0LG)110Is!"A`!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K(_"<J"Iw!")0!Q">LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1!<LG&K10It!,6j!A!P!(<6LG<6
+!Q">LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1!9LG&K!pIs!&A`!Q"zLG&K)!"<LVIzLG)16*Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e$fIs!!9P!a!yLG)1@>Is!%)15hLV"bIt!&Ip!A!<LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1!3LG&K"RIs!!4&!A!4LG)1"bIt!"Ip!Q!3LG)1@>Is!%4'5hLV"bIt!&Ip!A!<LG#e!@Ir!(A`!1!"LG#e
+6*Ir!!&J!1!6LG&K""Is!!+t!A!7LG)1"2It!"Ip!Q!$LG)1#dIt!,6j!A!d!(<6LG<6!Q"!LG&K%hIr!!&J!1">LG#e!@Ir!(A`!1!"LG#e%8Is!!.Z!A!:LG)1!`It!"Ip!Q!*LG)1#4It!,6j!A!^!(;+LG&K46It!(A`!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!$<6!Q!$LG)1"bJ%!!+t!Q!*LG)1#4It!,6j!A!Z!(;(LG&K!pIs!'G,
+!Q">LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1!ZLG1A&jIt!!<6!Q!-LG)1@>Is!%#e5b#d!A!+LG&K34It!(A`!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!"<6!A!?LG)1!`It!"Ip!Q!*LG)1#4It!,6j!A!j!(;"LG&K#tIs!'6j!Q"$LG+u$vIr!!&J!1">LG#e!@Ir!(A`!1!"LG#e%HIs!"Ip!Q!'LG1A!`J%!!+t!Q!*LG)1#4It!,6j!A!r
+!(;%LG&K"rIs!'>z!Q!9LG)1"bIt!"A`"S!7LG&K!`Is!"+t!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!"<6!A!?LG)1'<It!!<6!Q!-LG)1@>Is!&.[5b+t!A!%LG&K3dIt!"9P!Q!'LG)1%hIt!!<6!Q!0LG&K""Is!!+t!A!1LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1!ZLG)1'lIt!!+t!Q!0LG)1@>Is!%9Q5b4&!A"3LG)1%8It!!+t!Q!?
+LG)1"bIt!!DF!A!1LG&K#DIr!!&J!1">LG#e!@Ir!(A`!1!"LG#e*rIt!#>z!Q!3LG)1@>Is!$Iq5hLV"bIt!"9P!Q!$LG)1"bJ%!!LV!Q!0LG&K"rIs!"#d!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K*C"<LVIzLG)1%8Iw!#G,!Q!3LG&K%HIr!!&J!1">LG#e!@Ir!(A`!1!"LG#e$FIs!'4&!Q"zLG&K+e"<LVIzLG)1%8It
+!!+t!Q!ELG1A%8Is!!)0!A!3LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1!4LG&K2RIt!,6j!A!j!(;aLG)1"2It!$#d!Q!9LG)1"2Iw!!+t$'!$LG)1"bIt!"<6!A!3LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1!1LG&K3$It!,6j!A!^!(;aLG)1!`It!$+t!Q!9LG)1'<It!!<6!Q!=LG&K#dIr!!&J!1">LG#e!@Ir!(A`!1!"LG#e6*It!,6j
+!A!V!(;aLG1A*BIt!"9P!Q!HLG)1"2It!#G,!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K)A"<CtIw!$4&!Q!9LG)1(>Iw!$#d!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K+E"<=8It!"9P!Q!*LG)1!`It!$+t!Q">LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1!+LG&K!@Is!'DF!Q"zLG&K+E"<=8It!"9P!Q!*LG)1"2It
+!$#d!Q"3LG&K"bIr!!&J!1">LG#e!@Ir!(A`!1!"LG#e"rIs!'LV!Q"zLG&K.+"<6ZIz!!+t!Q!'LG)1"2It!!+t!Q!-LG1A#4It!!4&!Q!ZLG)14fIs!!4&!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!!6j!A"5LG)1@>Is!%9Q5a&J!Q!'LG)1"2It!!4&!Q!$LG)1#4It!!LV!Q!'LG)1*rIt!(+t!A!'LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J
+!1">LG)1@>Is!%.[5a&J!Q!'LG)1"2It!!4&!Q!$LG)1#4It!!LV!Q!$LG1A*rIt!(A`!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K,'"<7,It!!4&!Q!'LG)1"2It!!+t!Q!-LG)1#dIt!%)0!Q">LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1">LG)1@>Is!%#e5a&J!Q!'LG)1"2It!!4&!Q!$LG)1#4It!!+t!Q!*LG)1,FIt!(<6
+!A!"LG&K6*Ir!!&J!1"?LG&K6*It!,6j!A!^!(:tLG)1!`It!!+t"#!$LG1A"2It!!<6!Q!$LG1A"bIt!%)0!Q"?LG&K6*Ir!!&J!1"?LG&K6*It!,6j!A!R!(:tLG)1&:It!"Ip!Q!cLG)16*Ir!!&J!1">LG#e!@Ir!(<6!Q!"LG#e6*It!,6j!A!R!(:tLG)1&jIt!"9P!Q!fLG)16*Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e6*It!,6j
+!A!R!(:qLG9Q&:It!"9P!Q!fLG)16*Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!P!(<6LG<6!Q">LG#e!@Ir!!>z!A"2LG#e!@Ir!(#d!A!*LG#e!@Ir!(A`!Q"zLG&K*#"<J"Iz!!LV!Q">LG#e!@Ir!!G,!A!"LG&K3$Ir!!&J!1"0LG&K#4Ir!!&J!1">LG)1@>Is!#DG5h+t!Q!3LG)16*Ir!!&J!1">LG#e!@Ir!'>z!A!0
+LG#e!@Ir!(A`!Q"zLG&K'}"<JRIt!")0!Q">LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1">LG)1@>Is!$#e5h+t!Q!3LG)16*Ir!!&J!1!:LG&K1PIr!!&J!1"$LG&K%8Ir!!&J!1">LG)1@>Is!+9S5h+t!Q!3LG+u!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"
+LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!1!"LG&K!@Is!!+t!1!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J
+!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!Q!"LG#e!@Is
+!!&J!A!"LG&K!@Ir!!&J!Q!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K
+!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!a"zLG&K*#"<JRIt!")0!Q">LG#e!@Ir!(A`!1!"LG#e-xIs!!.Z!A!)LG&K&:Ir!!&J!1">LG)1@>Is!$.[5h+t!Q!3LG)16*Ir!!&J!1!FLG&K!@Is!&&J!1!"LG#e-HIs!$&J!1!"LG#e6*It!,6j!A!^!(<'LG1A$6It!(A`!1!"LG#e'|Is!&&J!1!"LG#e,vIs!!9P!A!"LG&K
+!`Is!#)0!1!"LG#e6*It!,6j!A!Z!(<*LG)1$6It!(A`!1!"LG#e,vIs!$.Z!1!"LG#e.*Is!!&J!A!$LG&K'LIr!!&J!1">LG)1@>Is!$>{5hLV"bIt!(A`!1!"LG#e*RIs!!<6!A!%LG&K)PIr!!&J!1!lLG&K!pIs!#9P!1!"LG#e6*It!,6j!A!`!(<6LG<6!Q">LG#e!@Ir!$>z!A!"LG+u"rIs!#Ip!1!"LG#e+TIs!!&J!A!-LG&K
+(NIr!!&J!1">LG)1@>Is!$4'5hLV"bIt!(A`!1!"LG#e+DIs!"#d!A!LLG#e!@Ir!$6j!A!"LG&K+tIr!!&J!1">LG)1@>Is!$>{5hLV"bIt!(A`!1!"LG#e+tIs!!A`!A!"LG&K!@Is!#6j!1!"LG#e'|Is!&&J!1!"LG#e6*It!,6j!A!\!(<6LG<6!Q">LG#e!@Ir!%)0!A!%LG&K$VIs!"A`!1!"LG#e'LIs!!&J!A!rLG#e!@Ir!(A`
+!Q"zLG&K/m"<LVIzLG)16*Ir!!&J!1!fLG&K%(Is!!&J!A!"LG&K#DIs!!&J!A!"LG&K!@Is!!G,!A!"LG&K!@Is!!&J!A!uLG)1"bIu!!&J!1!?LG)10NIt!,6j!A!T!(<6LG<6!Q">LG#e!@Ir!(A`!1!"LG#e3TIt!!4&!Q!$LG#e!@Ir!"Ip!Q!{LG)1@>Is!$)15hLV"bIt!(A`!1!"LG#e6*Ir!!&J!1"/LG)1!`It!!4&!1!"LG#e
+&:It!&>z!Q"zLG&K+e"<LVIzLG)16*Ir!!&J!1!BLG)1"bIt!"9P#U!ELG#e!@Ir!'DF!Q!$LG)1"2Ir!!&J$7!-LG)10NIt!,6j!A!\!(<6LG<6!Q">LG#e!@Ir!#&J!Q!'LG)1%hIt!$#d!1!"LG#e3TIw!!<6!1!"LG#e&:It!&>z!Q"zLG&K+e"<LVIzLG)16*Ir!!&J!1!BLG)1!`It!#&J!Q!NLG#e!@Ir!'DF!Q!$LG)1"2Ir!!&J
+!1!?LG)10NIt!,6j!A!d!(<6LG<6!Q">LG#e!@Ir!#&J!Q!$LG)1"bJ%!!<6!Q!KLG#e!@Ir!'DF!Q!'LG4'!@J&!!4&!Q!$LG)10NIt!,6j!A!X!(<6LG<6!Q">LG#e!@Ir!#&J"#!KLG)1'lIr!!&J!1"/LG)1#4Ir!!&J!1!<LG1A0NIt!,6j!A!\!(<6LG<6!Q">LG#e!@Ir!#&J!Q!$LG)1'lIt!#6j!1!"LG#e3TIt!!DF!1!"LG#e
+&:It!&>z!Q"zLG&K+e"<LVIzLG)16*Ir!!&J!1!BLG)1"2Iw!!+t$'!0LG)1'<Ir!!&J!1"/LG)1#4Ir!!&J!1!?LG)10NIt!,6j!A!T!(<6LG<6!Q">LG#e!@Ir!#&J!Q!ELG)1"bIt!#.Z!1!"LG#e6*Ir!!&J!1">LG)1@>Is!$)15hLV"bIt!(A`!1!"LG#e&jIt!#.Z!Q!*LG)1'<Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K)!"<LVIz
+LG)16*Ir!!&J!1!BLG)1'lIz!#6j!1!"LG#e6*Ir!!&J!1">LG)1@>Is!#4'5hLV"bIt!(A`!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K']"<LVIzLG)16*Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!H!(<6LG<6!Q">LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1">LG)1@>Is!#4'5hLV"bIt!(A`!1!"LG#e6*Ir!!&J
+!1">LG#e!@Ir!(A`!Q"zLG&K']"<LVIzLG)16*Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!H!(<6LG<6!Q">LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1">LG)1@>Is!#4'5hLV"bIt!(A`!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K']"<LVIzLG)16*Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!H!(<6LG<6
+!Q">LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1">LG)1@>Is!#4'5hLV"bIt!(A`!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K']"<LVIzLG)16*Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!H!(<6LG<6!Q">LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1">LG)1@>Is!#4'5hLV"bIt!(A`!1!"LG#e6*Ir!!&J!1">LG#e!@Ir
+!(A`!Q"zLG&K'}"<IPI}!!LV!Q">LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1">LG)1@>Is!#DG5gG,!Q!'LG)1#dIt!(A`!1!"LG#e6*Ir!!&J!1">LG#e!@Ir!(A`!Q"zLG&K'}"<IPIt!"9P!Q">LG#e!@Ir!(A`!1!"LG#e6*Ir!!&J!1">LG)1@>Is!#9Q5h#d!Q!6LG)16*Ir!!&J!1">LG#e!@Ir!(A`!1!"LG#e6*It!,6j!A!0!(<*
+LG)1$6LV!0Aa@>Is!!DG5h4&!Q#dLVLVBBIs!!DG5h4&!Q#dLVLVBBIs!"#e5gG,!Q!'LG)1LVLVLS+t!A!.!(<'LG1ALVLVLS4&!A!,!(<6LVLVLVKrLG&K"s"<LVLVLVLVA@Is!!>{5hLVLVLVLRG,!A!,!(<6LVLVLVKrLG&K"s"<LVLVLVLVA@Is!!>{5hLVLVLVLRG,!A!,!(<6LVLVLVKrLG&K"s"<LVLVLVLVA@Is!!>{5hLVLVLV
+LRG,!A!,!(<6LVLVLVKrLG&K
+
+.TXT 33 -9 165 0 0
+Cg a73.000000,73.000000,29
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard b) Logaritmación de Complejos}
+.TXT 4 2 162 0 0
+Cg a70.000000,70.000000,275
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Para el caso del 
+logaritmo natural de un complejo, la situacion es semejante a la  
+radicacion, solo que en este caso los complejos resultantes son 
+infinitos y ubicados sobre una recta perpendicular al eje real, de 
+valor igual al logaritmo natural del modulo del logaritmando.}
+.EQN 10 0 168 0 1
+{0:\a}NAME({0:\r}NAME,{0:\f}NAME,{0:k}NAME):{0:\r}NAME*{0:exp}NAME(({0:\f}NAME+2*{0:k}NAME*{0:\p}NAME)*1i)
+.TXT 0 34 169 0 0
+Cg a46.000000,46.000000,14
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard con  k  entero}
+.TXT 5 -34 170 0 0
+Cg a83.000000,83.000000,179
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}{\f1\fcharset0\fnil MS Sans Serif;}}\plain\cf1
+\fs20\b \pard El  logaritmo natural es otro complejo en forma binomica,{
+\f1  l}, cuya parte real es el \par logaritmo natural del logaritmando  
+y cuya parte imaginaria es el argumento del \par logaritmando: }
+.EQN 11 0 171 0 1
+{0:l}NAME({0:\r}NAME,{0:\f}NAME,{0:k}NAME):{0:ln}NAME({0:\r}NAME)+({0:\f}NAME+2*{0:k}NAME*{0:\p}NAME)*1i
+.TXT 5 0 172 0 0
+Cg a83.000000,83.000000,54
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Para el ejemplo 
+considerado en la radicación (3 + 4i):}
+.EQN 4 0 173 0 1
+{0:k}NAME:-2;2
+.TXT 0 23 174 0 0
+Cg a57.000000,57.000000,12
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard cinco raices}
+.EQN 4 -23 175 0 1
+({0:l}NAME)[({0:k}NAME+2):{0:l}NAME({0:\r}NAME,{0:\f}NAME,{0:k}NAME)
+.TXT 0 23 176 0 0
+Cg a57.000000,57.000000,13
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard logaritmación}
+.TXT 20 -25 187 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 12 29 178 0 0
+Cg a61.000000,61.000000,68
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard vector de complejos 
+que contiene cinco de las \par infinitas  soluciones}
+.EQN 1 -26 177 0 1
+{0:l}NAME={0}?_n_u_l_l_
+.EQN 12 0 179 0 1
+{0:exp}NAME(({0:l}NAME)[(0))={0}?_n_u_l_l_
+.EQN 0 21 180 0 1
+{0:exp}NAME(({0:l}NAME)[(3))={0}?_n_u_l_l_
+.TXT 0 21 181 0 0
+Cg a38.000000,38.000000,14
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard verificaciones}
+.TXT 5 -42 182 0 0
+Cg a82.000000,82.000000,81
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Distribución de cinco 
+de las infinitas raíces:\par Nota: Gráfico terminado con Pbrush}
+.EQN 9 4 183 0 0
+{  243   385 0 0}{61}
+19778 280964 0 0 44
+40 385 243 1 24 0 280908 0 0 0 0
+#5"<LVLVLVLVLVK<LG#e#5"<LVLVLVLVLVK<LG#e#5"<LVLVLVLVLVK<LG#e#5"<LVLVLVLVLVK<LG#e#5"<LVLVLVLVLVK<LG#e#5"<LVLVLVLVLVK<LG#e#5"<LVLVLVLVLVK<LG#e#5"<LVLVLVLVLVK<LG#e#5"<LVLVLVLVLVK<LG#e#5"<LVLVLVLVLVK<LG#e#5"<LVLVLVLVLVK<LG#e$w"<LVLVLO&J!Q!'LG)1&:I}!0LVDFIr
+!">{5hLVLVK6LG)1!`It!#&J!Q!'LG)1LVL&LG#e$w"<LVLVLO&J"#!3LG)1#dIt!0LVExIr!"4'5hLVLVK6LG1A$6It!")0!Q#dLT1@!1!D!(<6LVLV0~It!"1@!Q!*LG)1!`It!!<6#U!0LG)1LVL)LG#e&{"<LVLVLLG,!Q!6LG)1"bIt!!4&!Q!-LG)1%8It!0LVDFIr!#Iq5hLVLVJILG9Q!`Iw!!4&"#!'LG)1#4It!!DF!Q!'LG)1
+$fIt!"9P!Q#dLSLV!1!T!(<6LVLV*rIt!!4&!Q!'LG)1"2It!!+t!Q!-LG)1#4It!!4&!Q!HLG)1"2It!0LVDFIr!#>{5hLVLVJLLG)1"2It!!4&!Q!-LG)1#4It!!DF!Q!$LG1A(>Iw!0LVDvIr!#.[5hLVLVJLLG)1!`It!!<6#%!$LG)1#4It!!DF!Q#dLVLV#4Ir!#.[5hLVLVJLLG9Q"bIt!!4&!Q!$LG)1#4It!!DF!Q#dLVLV#4Ir
+!#.[5hLVLVJLLG)1"2It!!<6"#!'LG)1#4It!!DF!Q#dLVLV#4Ir!##e5hLVLVJLLG)1"2It!"1@!Q!-LG)1#4It!0LVLVI}LG#e&["<LVLVLJ<6!Q!'LG)1%8It!!<6!Q!*LG)1LVLVLGLV!1!>!(<6LVLV*BI}!"A`!Q!'LG1A"bIt!0LVLVJ"LG#e#5"<LVLVLVLVLVK<LG#e#5"<LVLVLVLVLVK<LG#e#5"<LVLVLVLVLVK<LG#e#5"<
+LVLVLVLVLVK<LG#e#5"<LVLVLVLVLVK<LG#e#5"<LVLVLVLVLVK<LG#e#5"<LVLVLVLVLVK<LG#e#5"<LVLVLVLVLVK<LG#e#5"<LVLVLVLVLVK<LG#e'}"<IPIw!,.Z"#!'LG)1"2Iw!,6j"S"tLG9Q!`It!!4&"#"wLGAa5(Ir!$.[5g>z!Q!'LG)1>jIt!!4&!Q!*LG)1"2It!,6j!Q"zLG)1#4It!!4&!Q"tLG)1"2It!(1@!1!J!(<!
+LG)1"2It!+Ip!Q!'LG)1$6It!,6j!Q"zLG)1$fIt!,&J!Q"ALG#e'}"<H~It!!4&!Q"qLG)1"2It!")0!Q"zLG)1@>It!"1@!Q"wLG)16*Ir!$#e5g>z!Q!'LG)1>jIt!!4&!Q!*LG)1"2It!,6j!Q"zLG)1#4It!!4&!Q"zLG)15XIr!#9Q5g>z!Q!'LG)1>jIt!!4&!Q!*LG9Q@nIt!,6j!Q!-LG9QA@It!(1@!1!J!(<!LG)1"2It!+Ip
+!Q!'LG)1"bIt!-#d!Q"zLG)1#4It!-+t!Q"8LG#e(_"<H~It!!4&!Q"qLG)1"2It!!<6!Q#"LG1A?lIw!!DF!Q"}LG)1"2It!(1@!1!J!(;[LGAa"2Iw!!LV"#"wLG1A#4I}!,6j!Q"zLG)1#4I}!,.Z"#";LG#e%Y"<BrIt!!4&!Q!$LG)1"2It!0LVLVLVLQ1@!1!8!(;[LG)1#4It!!4&!Q#dLVLVLVKZLG#e$w"<CDIt!!<6!Q!'LG)1
+LVLVLVLV=8Ir!##e5d&J$'!*LG)1"2It!!4&!Q!'LVIqLG#[!"Ip"S"DLG#e*c"<DFIt!!+t!Q!'LG)1"2It!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!+)0#%!'LG1A"bIt!)&J!1!b!(;dLG)1!`It!!4&!Q!'LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e<fIt!!4&!Q!$LG)1"2It!!4&!Q"DLG#e,'"<BrIt!!4&!Q!$LG)1"2It
+!!4&!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1"eLG)1#4It!!4&!Q!'LG)17,Ir!$9Q5e<6"#!*LG1A"bIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!+1@!Q!*LG)1"2It!!4&!Q"DLG#e*#"<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!*#d#U!*LG)1"2It!!4&!Q!'LG)17,Ir!$#e5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr
+!!&J!1"nLG)1!`It!!4&!Q!'LG)17,Ir!$#e5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1"nLG)1!`It!!4&!Q!'LG)17,Ir!$.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1"eLG)1"2It!!+t!Q!'LG)1"2It!)&J!1!N!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e=8Iw!!<6"#!*LG)17,Ir!#.[5g6j!Q#(LG#e
+!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j
+!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir
+!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(
+LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr
+!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#>{5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!NLG&K!9"VLG)17,Ir!#.[5g6j!Q#(LG#e!@Ir
+!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#9Q5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!HLG&K;DIt!)&J!1!N!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'<Is!!.Z!A"ZLG)17,Ir!$9Q5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!BLG&K"rIs!#9P!Q!'LG)1(nJ"!#.Z!Q"DLG#e+E"<HNIt!-+t!1!"LG#e
+BBIr!!&J!1#(LG#e!@Ir!"Ip!A!(LG&K"BIs!#1@!Q!$LG)1)pIt!#G,!Q"DLG#e,'"<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#&J!A!%LG&K!pIs!#9P"#!0LGIq#4Iz!!4&!Q!KLG)17,Ir!$9Q5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!ELG&K!@Is!!&J!A!LLG9Q*rIt!#6j!Q"DLG#e*c"<HNIt!-+t!1!"LG#e
+BBIr!!&J!1#(LG#e!@Ir!#6j!A!OLG)1"2It!!<6#U!BLG)1'<It!)&J!1!R!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e/|It!$4&!Q!*LG)1'<It!)&J!1!N!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e/|It!$<6"S!HLG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#9Q5g6j!Q#(
+LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!HLG&K;DIt!)&J!1!J!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'lIs!*>z!Q"DLG#e'}"<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#6j!A"]LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J
+!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#9Q5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!HLG&K;DIt!)&J!1!J!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'lIs!*>z!Q"DLG#e'}"<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#6j!A"]LG)17,Ir!#.[5g6j!Q#(LG#e
+!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#9Q5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!HLG&K;DIt!)&J!1!J!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'lIs!*>z!Q"D
+LG#e'}"<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#6j!A"]LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!$#e5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!xLG)1"2It!$4&!Q!HLG)17,Ir!$#e5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!xLG)1!`It!$<6!Q!HLG)17,Ir!$9Q
+5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!HLG&K(~Iw!!LV#U!-LG9Q"bIt!#6j!Q"DLG#e)A"<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#6j!A!OLG9Q*rIt!#6j!Q"DLG#e,'"<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#.Z!A!"LG&K!@Is!#A`!Q!'LG)1"bJ"!"9P"S!HLG)17,Ir!$.[5g6j!Q#(LG#e!@Ir
+!-+t!1!"LG#eBBIr!!&J!1!BLG&K"rIs!#9P!Q!`LG)1'lIt!)&J!1!V!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e&:Is!"#d!A!FLG)1+tIt!#6j!Q"DLG#e(_"<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#&J!A!+LG&K:BIt!)&J!1!R!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'<Is!!&J!A!"LG&K:rIt
+!)&J!1!J!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'lIs!*>z!Q"DLG#e'}"<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#6j!A"]LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"
+LG#eBBIr!!&J!1#(LG)17,Ir!#9Q5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!HLG&K;DIt!)&J!1!N!(:2LG&K=HIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#6j!A"]LG)17,Ir!$#e5\DF!A!%LG&K<vIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#6j!A"]LG)17,Ir!#DG5\<6!A!+LG&K<FIt!-+t!1!"LG#eBBIr!!&J
+!1#(LG#e!@Ir!-+t!Q"DLG#e/M"<'<Is!!&J!A!"LG&K!@Is!!6j!A!%LG&K!@Is!!&J!A!"LG&K!@Is!!>z!A!"LG&K9@It!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!-+t!Q"DLG#e(_"<*rIs!!>z!A"cLG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#eBBIt!)&J!1!R!(:/LG&K!pIs!++t!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J
+!1!HLG&K;DIt!)&J!1!N!(:2LG&K=HIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#6j!A"]LG)17,Ir!#9Q5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!HLG&K;DIt!)&J!1!F!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#eBBIt!)&J!1!F!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#eBBIt!)&J!1!R!(:eLG)1
+"2It!"Ip#%!`LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#eBBIt!)&J!1!Z!(:eLG)1!`It!#&J!Q!'LG)1+tIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#6j!A"]LG)17,Ir!$9Q5`)0"#!3LG)1#dIt!$#d"#!3LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'lIs!*>z!Q"DLG#e+E"<4VIw!")0!Q!3LG)1(>It!!4&!Q!0LG)1
+BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'lIs!*>z!Q"DLG#e,g"<.JIt!"1@!Q!*LG)1!`It!!<6#U!0LG)1'lIt!!4&!Q!0LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#eBBIt!)&J!1!f!(:ALG)1$fIt!!<6!Q!'LG)1#4It!"9P!Q!ELG)1"2It!!LV!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!&._5[6j"S!$LG)1
+"2It!!4&!Q!$LG)1#4It!!DF!Q!'LG)1$fIt!"9P!Q!ELG)1"2It!!LV!a!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"
+LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J
+!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is
+!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K
+!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG#e!`Ir!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"
+LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Is!!&J!A!"LG&K!@Iu!)&J!1"(!(9{LG)1"2It!!4&!Q!'LG)1!`It!!DF!Q!-LG)1"2It
+!#6j!Q!'LG)1'<It!!4&!Q!0LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'lIs!#9P!Q!'LG)1'lIz!$4&!Q"DLG#e3U"<(>It!!4&!Q!'LG)1"2It!!+t!Q!-LG)1#4It!!+t"#!KLG1A'lIt!!4&!Q!0LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'<Is!!&J!A!"LG&K'LIt!!+t!Q!HLG)1"bIt!$+t!Q"DLG#e23"<(>It!!4&
+!Q!'LG)1"2It!!+t!Q!-LG)1#4It!'#d!Q!'LG)1#dIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#&J!A!%LG&K!pIs!#)0"#!0LGIq#4It!!<6!Q!TLG)17,Ir!&9Q5[>z!Q!'LG)1"2It!!4&!Q!$LG)1#4It!!DF!Q"&LG1A$6It!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!"Ip!A!1LG&K&JIz!#6j!Q!*LG)1)pIt!)&J!1!~!(9{
+LG)1!`It!!+t"#!$LG1A"2It!!DF!Q!-LG)16*It!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#&J!A!+LG&K&zIt!!4&!Q!*LGIq#4It!!<6!Q!TLG)17,Ir!%9Q5[>z!Q!?LG)1#4It!!DF!Q">LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'<Is!!.Z!A!FLG)1(nIt!!<6!Q!TLG)17,Ir!%#e5[>z!Q!BLG)1"bIt!!<6!Q"ALG)1
+BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'lIs!#9P!Q!QLG9Q*BIt!)&J!1!Z!(9xLG9Q&:It!!4&"#!*LG)16ZIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#6j!A"]LG)17,Ir!#9Q5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!HLG&K;DIt!)&J!1!F!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#eBBIt!)&J!1!F!(;|
+LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#eBBIt!)&J!1!F!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#eBBIt!)&J!1!J!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'lIs!*>z!Q"DLG#e'}"<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#6j!A"]LG)17,Ir!#9Q5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J
+!1!HLG&K;DIt!)&J!1!F!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#eBBIt!)&J!1!F!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#eBBIt!)&J!1!F!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#eBBIt!)&J!1!J!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'lIs!*>z!Q"DLG#e'}"<HNIt!-+t!1!"LG#e
+BBIr!!&J!1#(LG#e!@Ir!#6j!A"]LG)17,Ir!#9Q5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!HLG&K;DIt!)&J!1!F!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#eBBIt!)&J!1!F!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#eBBIt!)&J!1!F!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#eBBIt!)&J!1!J
+!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'lIs!*>z!Q"DLG#e'}"<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#6j!A"]LG)17,Ir!#9Q5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!HLG&K;DIt!)&J!1!R!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e.JIt!!4&!Q!NLG)1*rIt!)&J!1!R!(;|LG)1BBIr
+!!&J!1#(LG#e!@Ir!-+t!1!"LG#e.JIt!!+t!Q!QLG)1*rIt!)&J!1!R!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e.JIw!!LV#U!6LG)1*rIt!)&J!1!Z!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'<Is!!&J!A!"LG&K&zIz!$#d!Q!ZLG)17,Ir!%#e5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!BLG&K!pIs
+!!.Z!A!@LG)1"2It!!<6#U!0LG9Q*rIt!)&J!1!Z!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e&:Is!!6j!A!(LG&K%xIt!$4&!Q!ZLG)17,Ir!$.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!BLG&K"rIs!"LV!Q!WLG)1*rIt!)&J!1!N!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'<Is!!.Z!A"ZLG)17,Ir
+!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#9Q5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!HLG&K;DIt!)&J!1!J!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'lIs!*>z!Q"DLG#e'}"<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#6j!A"]LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"
+LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#9Q5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!HLG&K;DIt!)&J!1!J!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'lIs!*>z!Q"DLG#e'}"<HNIt
+!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#6j!A"]LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#9Q5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!HLG&K
+;DIt!)&J!1!J!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'lIs!*>z!Q"DLG#e'}"<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#6j!A"]LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t
+!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#9Q5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!HLG&K;DIt!)&J!1!J!(;|LG)1BBIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e'lIs!*>z!Q"DLG#e'}"<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#6j!A"]LG)17,Ir!#.[5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir
+!$#e5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!xLG)1"2It!#.Z#U!NLG)17,Ir!$9Q5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!ELG&K!pIs!#A`!Q!$LG)1(>It!$4&!Q"DLG#e+E"<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!#&J!A!%LG&K!pIs!#9P"#!0LGIq$6It!$+t!Q"DLG#e*#"<HNIt!-+t!1!"LG#e
+BBIr!!&J!1#(LG#e!@Ir!"Ip!A!1LG&K'LIz!$#d!Q!QLG)17,Ir!$DG5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!BLG&K"rIs!#9P!Q!'LG)1"bJ"!"9P!Q!NLG)17,Ir!$9Q5g6j!Q#(LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1!ELG+5!`It!#>z!Q!NLG)1"bIt!#G,!Q"DLG#e)A"<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e
+!@Ir!#6j!A!OLG)1)@Iz!$#d!Q"DLG#e'="<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!-+t!Q"DLG#e'="<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!-+t!Q"DLG#e'="<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!-+t!Q"DLG#e'="<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!-+t!Q"DLG#e'="<HNIt!-+t
+!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!-+t!Q"DLG#e'="<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!-+t!Q"DLG#e'="<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!-+t!Q"DLG#e'="<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!-+t!Q"DLG#e'="<HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!-+t!Q"DLG#e'="<
+HNIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!-+t!Q"DLG#e'}"<*BIr!!'mLVK*LG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#)15hLV>jIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#eBBIt!)&J!1!F!(<$LG1A@nIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#eBBIt!)&J!1!J!(<!LG)1"2It!,6j!1!"LG#eBBIr!!&J!1#(LG#e!@Ir
+!-+t!Q"DLG#e'}"<H~It!!4&!Q"zLG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#9Q5g>z!Q!'LG)1@>Ir!!&J!1#(LG#e!@Ir!-+t!1!"LG#eBBIt!)&J!1!J!(<!LG)1"2It!,6j!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!-+t!Q"DLG#e'}"<H~It!!4&!Q"zLG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#9Q5g>z!Q!'
+LG)1@>Ir!!&J!1#(LG#e!@Ir!-+t!1!"LG#eBBIt!)&J!1!J!(<!LG)1"2It!,6j!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!-+t!Q"DLG#e'="<IPIw!,>z!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!-+t!Q"DLG#e&{"<LVKcLG#e!@Ir!-+t!1!"LG#eBBIr!!&J!1#(LG)17,Ir!#9Q5dG,#%!'LG1AExIr!!&J!1#(LG#e!@Ir!-+t!1!"LG#e
+BBIt!)&J!1!V!(;RLG)1"2It!!+t!Q!'LG)1#dIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!-+t!Q"DLG#e)A"<A@It!!DF!Q!'LG)1#dIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!-+t!Q"DLG#e)!"<ApIt!!<6!Q!'LG)1#dIt!-+t!1!"LG#eBBIr!!&J!1#(LG#e!@Ir!0LV-HIr!">{5e+t!Q!'LG)1"2It!!LVLG#d!0Iq%Y"G
+LG#e$w"<BrIt!!+t!Q!'LG)1LVLVLVLV>jIr!"4'5e4&!Q!$LG)1"2It!0LVLVLVLQIp!1!<!(;RLG)1"2It!!+t!Q!'LG)1LVLVLVLV>jIr!")15e#d"#!*LG1ALVLVLVLV?<Ir!!DG5hLVLVLVLVLV8.Ir!!DG5hLVLVLVLVLV8.Ir!!DG5hLVLVLVLVLV8.Ir!!DG5hLVLVLVLVLV8.Ir!!DG5hLVLVLVLVLV8.Ir!!DG5hLVLVLVLVLV
+8.Ir!!DG5hLVLVLVLVLV8.Ir!$!Q
+
+.TXT 34 -8 188 0 0
+Cg a72.000000,72.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul\link3 Volver al Indice}}
+.ATT
+.LINK file:C:\RUBEN\WINMCAD\BARCE\INDICE.MCD
+.ATT_END
+.ATT
+.LINK file:C:\WINMCAD\BARCE\Indice.mcd
+.ATT_END
+.ATT
+.ATT_END
+.ATT
+.LINK file:C:\WINMCAD\BARCE\Indice.mcd
+.ATT_END
+.TXT 5 0 189 0 0
+Cg a70.000000,70.000000,12
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul\link3 Ejercitación}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Ej_compl.mcd
+.ATT_END

@@ -1,0 +1,34 @@
+SimuProc 1.4 - Vlaye
+1ba
+23
+
+
+
+04000
+
+10BX,AX
+
+40000
+A que numero desea hallarle la Paridad?
+10CX,D
+
+15AX,1
+
+367
+
+08BX
+
+294
+
+03000
+
+41000
+La Paridad de Dicho numero es:
+99000
+
+
+
+
+
+10000
+

@@ -1,0 +1,158 @@
+.MCAD 304020000 1 71 44 0
+.CMD FORMAT  rd=d ct=10 im=i et=3 zt=15 pr=3 mass length time charge temperature tr=0 vm=0
+.CMD SET ORIGIN 0
+.CMD SET TOL 0.001000000000000
+.CMD SET PRNCOLWIDTH 8
+.CMD SET PRNPRECISION 4
+.CMD PRINT_SETUP 1.200000 1.218750 1.200000 1.200000 0
+.CMD HEADER_FOOTER 1 1 *empty* *empty* *empty* 0 1 *empty* *empty* *empty*
+.CMD HEADER_FOOTER_FONT fontID=14 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD HEADER_FOOTER_FONT fontID=15 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFAULT_TEXT_PARPROPS 0 0 0
+.CMD DEFINE_FONTSTYLE_NAME fontID=0 name=Variables
+.CMD DEFINE_FONTSTYLE_NAME fontID=1 name=Constants
+.CMD DEFINE_FONTSTYLE_NAME fontID=2 name=Text
+.CMD DEFINE_FONTSTYLE_NAME fontID=4 name=User^1
+.CMD DEFINE_FONTSTYLE_NAME fontID=5 name=User^2
+.CMD DEFINE_FONTSTYLE_NAME fontID=6 name=User^3
+.CMD DEFINE_FONTSTYLE_NAME fontID=7 name=User^4
+.CMD DEFINE_FONTSTYLE_NAME fontID=8 name=User^5
+.CMD DEFINE_FONTSTYLE_NAME fontID=9 name=User^6
+.CMD DEFINE_FONTSTYLE_NAME fontID=10 name=User^7
+.CMD DEFINE_FONTSTYLE fontID=0 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=1 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=2 family=Arial points=10 bold=1 italic=0 underline=0 colrid=13
+.CMD DEFINE_FONTSTYLE fontID=4 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=5 family=Courier^New points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=6 family=System points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=7 family=Script points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=8 family=Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=9 family=Modern points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=10 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD UNITS U=1
+.CMD DIMENSIONS_ANALYSIS 0 0
+.CMD COLORTAB_ENTRY 0 0 0
+.CMD COLORTAB_ENTRY 128 0 0
+.CMD COLORTAB_ENTRY 0 128 0
+.CMD COLORTAB_ENTRY 128 128 0
+.CMD COLORTAB_ENTRY 0 0 128
+.CMD COLORTAB_ENTRY 128 0 128
+.CMD COLORTAB_ENTRY 0 128 128
+.CMD COLORTAB_ENTRY 128 128 128
+.CMD COLORTAB_ENTRY 192 192 192
+.CMD COLORTAB_ENTRY 255 0 0
+.CMD COLORTAB_ENTRY 0 255 0
+.CMD COLORTAB_ENTRY 255 255 0
+.CMD COLORTAB_ENTRY 0 0 255
+.CMD COLORTAB_ENTRY 255 0 255
+.CMD COLORTAB_ENTRY 0 255 255
+.CMD COLORTAB_ENTRY 255 255 255
+.TXT 2 2 18 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 4 0 19 0 0
+Cg a72.000000,72.000000,34
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\ul RESOLVER LOS 
+SIGUIENTES EJERCICIOS}}
+.TXT 3 0 20 0 0
+Cg a81.000000,81.000000,229
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}{\f1\fcharset0\fnil Helv;}}\plain\cf1\fs20\b 
+\pard {\f1 1 -}Dados los vectores \par \par                     A = 
+3*i + 2*j - 3*k ,\par                     B = -2*i + 3*j - 8*k ,\par          
+           C = 5*i - 8*j + 0*k, {\fs24 \par }\par Hallar los 
+siguientes  productos vectoriales, usando el procesador simbólico:}
+.TXT 16 4 21 0 0
+Cg a78.000000,78.000000,38
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 1.a )  A x B\par 1.b )  
+B x C\par 1.c )  A x C}
+.TXT 7 -4 22 0 0
+Cg a46.500000,46.500000,50
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}{\f1\fcharset0\fnil Helv;}}\plain\cf1\fs20\b 
+\pard {\f1 2 -}Hallar las raíces de las siguientes ecuaciones:}
+.TXT 4 4 23 0 0
+Cg a68.000000,68.000000,4
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 2.a)}
+.EQN 0 7 24 0 1
+({0:x}NAME)^(2)+{0:x}NAME+1
+.TXT 5 -7 25 0 0
+Cg a68.000000,68.000000,4
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 2.b)}
+.EQN 0 7 26 0 1
+({0:x}NAME)^(4)-3*({0:x}NAME)^(2)+2
+.TXT 4 -11 27 0 0
+Cg a80.000000,80.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}{\f1\fcharset0\fnil Helv;}}\plain\cf1\fs20\b 
+\pard {\f1 3 - }Factorear:{\fs24   }}
+.TXT 4 4 28 0 0
+Cg a68.000000,68.000000,4
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 3.a)}
+.EQN 0 6 29 0 1
+({0:x}NAME)^(4)-81
+.TXT 5 -6 30 0 0
+Cg a68.000000,68.000000,5
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 3.b) }
+.EQN 0 6 31 0 1
+({0:x}NAME)^(3)-125
+.TXT 3 -10 32 0 0
+Cg a80.000000,80.000000,13
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}{\f1\fcharset0\fnil Helv;}}\plain\cf1\fs20\b 
+\pard {\f1 4 - Expandir:}}
+.TXT 4 4 33 0 0
+Cg a68.000000,68.000000,4
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 4.a)}
+.EQN 0 6 34 0 1
+(({0:x}NAME)^(4)-81)*(({0:x}NAME)^(3)+{0:x}NAME)*({0:x}NAME+1)
+.TXT 5 -6 35 0 0
+Cg a68.000000,68.000000,4
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 4.b)}
+.EQN 0 6 36 0 1
+(({0:x}NAME)^(3)-125*{0:y}NAME)*({0:x}NAME-3*{0:y}NAME)
+.TXT 5 -10 37 0 0
+Cg a72.000000,72.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}{\f1\fcharset0\fnil Helv;}}\plain\cf1\fs20\b 
+\pard {\f1 5 -} Simplificar:}
+.TXT 6 4 40 0 0
+Cg a68.000000,68.000000,4
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}{\f1\fcharset0\fnil Helv;}}\plain\cf1\fs20\b 
+\pard 5.{\f1 a)}}
+.EQN 0 7 39 0 1
+((({0:x}NAME)^(3)-({0:y}NAME)^(3)))/({0:a}NAME*{0:b}NAME)*((({0:a}NAME)^(2)*{0:b}NAME-({0:b}NAME)^(2)*{0:a}NAME))/((({0:x}NAME)^(2)+{0:x}NAME*{0:y}NAME+({0:y}NAME)^(2)))*({0:z}NAME)/((({0:a}NAME)^(2)-2*{0:a}NAME*{0:b}NAME+({0:b}NAME)^(2)))
+.TXT 9 -7 41 0 0
+Cg a77.000000,77.000000,5
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}{\f1\fcharset0\fnil Helv;}}\plain\cf1\fs20\b 
+\pard 5.{\f1 b)}{\f1\fs24  }}
+.EQN 0 7 42 0 1
+(({0:a}NAME+{0:b}NAME)/({0:a}NAME-{0:b}NAME)-(({0:a}NAME-{0:b}NAME))/(({0:a}NAME+{0:b}NAME)))*({0:a}NAME-{0:b}NAME)/(6*{0:a}NAME*{0:b}NAME)
+.TXT 8 -9 43 0 0
+Cg a73.000000,73.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul\link3 Volver al Indice}}
+.ATT
+.LINK file:C:\RUBEN\WINMCAD\BARCE\INDICE.MCD
+.ATT_END
+.TXT 5 0 44 0 0
+Cg a73.000000,73.000000,14
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul Volver al Tema}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Simbol.mcd
+.ATT_END

@@ -1,0 +1,5 @@
+`fecha` char(10) 
+  `sucursal` decimal(10,0) 
+  `terminal` decimal(10,0) 
+  `producto` varchar(45) 
+  `cantidad` decimal(10,0)

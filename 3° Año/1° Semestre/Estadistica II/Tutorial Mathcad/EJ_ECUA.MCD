@@ -1,0 +1,219 @@
+.MCAD 304020000 1 71 51 0
+.CMD PLOTFORMAT
+0 0 1 1 1 0 0 1 1 
+0 0 1 1 1 0 0 1 1 
+0 1 0 0 1 1 NO-TRACE-STRING
+0 2 1 0 1 1 NO-TRACE-STRING
+0 3 2 0 1 1 NO-TRACE-STRING
+0 4 3 0 1 1 NO-TRACE-STRING
+0 1 4 0 1 1 NO-TRACE-STRING
+0 2 5 0 1 1 NO-TRACE-STRING
+0 3 6 0 1 1 NO-TRACE-STRING
+0 4 0 0 1 1 NO-TRACE-STRING
+0 1 1 0 1 1 NO-TRACE-STRING
+0 2 2 0 1 1 NO-TRACE-STRING
+0 3 3 0 1 1 NO-TRACE-STRING
+0 4 4 0 1 1 NO-TRACE-STRING
+0 1 5 0 1 1 NO-TRACE-STRING
+0 2 6 0 1 1 NO-TRACE-STRING
+0 3 0 0 1 1 NO-TRACE-STRING
+0 4 1 0 1 1 NO-TRACE-STRING
+0 1 1 21 15 0 0 3 
+.CMD FORMAT  rd=d ct=10 im=i et=3 zt=15 pr=3 mass length time charge temperature tr=0 vm=0
+.CMD SET ORIGIN 0
+.CMD SET TOL 0.001000000000000
+.CMD SET PRNCOLWIDTH 8
+.CMD SET PRNPRECISION 4
+.CMD PRINT_SETUP 1.200000 1.218750 1.200000 1.200000 0
+.CMD HEADER_FOOTER 1 1 *empty* *empty* *empty* 0 1 *empty* *empty* *empty*
+.CMD HEADER_FOOTER_FONT fontID=14 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD HEADER_FOOTER_FONT fontID=15 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFAULT_TEXT_PARPROPS 0 0 0
+.CMD DEFINE_FONTSTYLE_NAME fontID=0 name=Variables
+.CMD DEFINE_FONTSTYLE_NAME fontID=1 name=Constants
+.CMD DEFINE_FONTSTYLE_NAME fontID=2 name=Text
+.CMD DEFINE_FONTSTYLE_NAME fontID=4 name=User^1
+.CMD DEFINE_FONTSTYLE_NAME fontID=5 name=User^2
+.CMD DEFINE_FONTSTYLE_NAME fontID=6 name=User^3
+.CMD DEFINE_FONTSTYLE_NAME fontID=7 name=User^4
+.CMD DEFINE_FONTSTYLE_NAME fontID=8 name=User^5
+.CMD DEFINE_FONTSTYLE_NAME fontID=9 name=User^6
+.CMD DEFINE_FONTSTYLE_NAME fontID=10 name=User^7
+.CMD DEFINE_FONTSTYLE fontID=0 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=1 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=2 family=Arial points=10 bold=1 italic=0 underline=0 colrid=13
+.CMD DEFINE_FONTSTYLE fontID=4 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=5 family=Courier^New points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=6 family=System points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=7 family=Script points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=8 family=Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=9 family=Modern points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=10 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD UNITS U=1
+.CMD DIMENSIONS_ANALYSIS 0 0
+.CMD COLORTAB_ENTRY 0 0 0
+.CMD COLORTAB_ENTRY 128 0 0
+.CMD COLORTAB_ENTRY 0 128 0
+.CMD COLORTAB_ENTRY 128 128 0
+.CMD COLORTAB_ENTRY 0 0 128
+.CMD COLORTAB_ENTRY 128 0 128
+.CMD COLORTAB_ENTRY 0 128 128
+.CMD COLORTAB_ENTRY 128 128 128
+.CMD COLORTAB_ENTRY 192 192 192
+.CMD COLORTAB_ENTRY 255 0 0
+.CMD COLORTAB_ENTRY 0 255 0
+.CMD COLORTAB_ENTRY 255 255 0
+.CMD COLORTAB_ENTRY 0 0 255
+.CMD COLORTAB_ENTRY 255 0 255
+.CMD COLORTAB_ENTRY 0 255 255
+.CMD COLORTAB_ENTRY 255 255 255
+.TXT 3 3 7 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 4 0 8 0 0
+Cg a72.000000,72.000000,34
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\ul RESOLVER LOS 
+SIGUIENTES EJERCICIOS}}
+.TXT 4 0 9 0 0
+Cg a71.000000,71.000000,167
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 1 - Plantear dos 
+sistemas de ecuaciones lineales con coeficientes reales (uno con n=4 y 
+el otro con n=5) y resolverlos conforme a lo expresado en la parte 
+explicativa.}
+.TXT 6 0 19 0 0
+Cg a71.000000,71.000000,142
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 2- Se pueden extender 
+los conceptos a sistemas de ecuaciones no lineales?. Verifique\par la 
+aseveración positiva si se tiene el siguiente sistema:}
+.EQN 5 0 20 0 0
+{0:x}NAME+1÷{0:y}NAME
+.TXT 0 12 22 0 0
+Cg a59.000000,59.000000,21
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard ecuación de una recta}
+.EQN 4 -12 21 0 0
+({0:x}NAME)^(2)+({0:y}NAME)^(2)÷4
+.TXT 0 12 23 0 0
+Cg a59.000000,59.000000,30
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard ecuación de una circunferencia
+}
+.TXT 5 -12 24 0 0
+Cg a71.000000,71.000000,187
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard 3 - En base al 
+ejercicio anterior, encontrar los puntos de intersección de la 
+circunferen-\par cia y la recta.Verificar gráficamente aplicando 
+Mathcad.\par \par Nota: genere las siguientes funciones:}
+.EQN 10 0 38 0 1
+{0:y1}NAME({0:x}NAME):{0:x}NAME+1
+.TXT 0 20 39 0 0
+Cg a51.000000,51.000000,5
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard recta}
+.TXT 5 0 42 0 0
+Cg a51.000000,51.000000,27
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard semicircunferencia superior}
+.EQN 1 -20 41 0 1
+{0:y2}NAME({0:x}NAME):\(4-({0:x}NAME)^(2))
+.TXT 5 20 45 0 0
+Cg a51.000000,51.000000,27
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard semicircunferencia inferior}
+.EQN 1 -20 44 0 1
+{0:y3}NAME({0:x}NAME):-\(4-({0:x}NAME)^(2))
+.TXT 5 0 46 0 0
+Cg a71.000000,71.000000,99
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard y represéntelas todas 
+juntas en un sólo gráfico. No olvide dar el rango de valores a la\par 
+variable x.}
+.TXT 5 0 47 0 0
+Cg a71.000000,71.000000,172
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\fs24 4} - Plantear  
+dos  sistemas de ecuaciones lineales con coeficientes complejos (uno 
+con n=4 y el otro con n=5) y resolverlos conforme a lo expresado en la 
+parte explicativa.}
+.TXT 8 1 48 0 0
+Cg a72.000000,72.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul\link3 Volver al Indice}}
+.ATT
+.ATT_END
+.ATT
+.LINK file:C:\WINMCAD\BARCE\Indice.mcd
+.ATT_END
+.ATT
+.ATT_END
+.ATT
+.LINK file:C:\WINMCAD\BARCE\Indice.mcd
+.ATT_END
+.TXT 5 0 49 0 0
+Cg a70.000000,70.000000,14
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul Volver al Tema}}
+.ATT
+.LINK file:C:\WINMCAD\BARCE\ecuacion.MCD
+.ATT_END
+.EQN 35 5 15 0 0
+{0:x}NAME:1
+.EQN 0 11 16 0 0
+{0:y}NAME:2
+.EQN 4 -11 10 0 0
+{0:Given}NAME
+.EQN 4 1 32 0 0
+{0:x}NAME+1÷{0:y}NAME
+.EQN 5 -1 12 0 0
+({0:x}NAME)^(2)+({0:y}NAME)^(2)÷4
+.EQN 5 0 14 0 0
+{0:s}NAME:{0:Find}NAME({0:x}NAME,{0:y}NAME)
+.EQN 2 24 18 0 0
+{0:s}NAME={0}?_n_u_l_l_
+.EQN 11 -26 30 0 0
+{0:x}NAME:-4,-3.9;4
+.EQN 6 6 31 0 0
+2&-2&(_n_u_l_l_&_n_u_l_l_)&{0:y1}NAME({0:x}NAME),{0:y2}NAME({0:x}NAME),{0:y3}NAME({0:x}NAME)@2&-2&(_n_u_l_l_&_n_u_l_l_)&{0:x}NAME
+0 0 1 1 1 0 1 1 1 
+0 0 1 1 1 0 1 1 1 
+0 1 0 0 1 1 NO-TRACE-STRING
+0 2 1 0 1 1 NO-TRACE-STRING
+0 3 2 0 1 1 NO-TRACE-STRING
+0 4 3 0 1 1 NO-TRACE-STRING
+0 1 4 0 1 1 NO-TRACE-STRING
+0 2 5 0 1 1 NO-TRACE-STRING
+0 3 6 0 1 1 NO-TRACE-STRING
+0 4 0 0 1 1 NO-TRACE-STRING
+0 1 1 0 1 1 NO-TRACE-STRING
+0 2 2 0 1 1 NO-TRACE-STRING
+0 3 3 0 1 1 NO-TRACE-STRING
+0 4 4 0 1 1 NO-TRACE-STRING
+0 1 5 0 1 1 NO-TRACE-STRING
+0 2 6 0 1 1 NO-TRACE-STRING
+0 3 0 0 1 1 NO-TRACE-STRING
+0 4 1 0 1 1 NO-TRACE-STRING
+0 1 1 21 18 12 0 3 
+.TXT 29 -8 50 0 0
+Cg a73.000000,73.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul\link3 Volver al Indice}}
+.ATT
+.LINK file:C:\RUBEN\WINMCAD\BARCE\INDICE.MCD
+.ATT_END
+.TXT 5 0 51 0 0
+Cg a73.000000,73.000000,14
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul Volver al Tema}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Ecuacion.mcd
+.ATT_END

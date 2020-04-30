@@ -1,0 +1,280 @@
+.MCAD 304020000 1 71 126 0
+.CMD FORMAT  rd=d ct=10 im=i et=3 zt=15 pr=3 mass length time charge temperature tr=0 vm=0
+.CMD SET ORIGIN 0
+.CMD SET TOL 0.001000000000000
+.CMD SET PRNCOLWIDTH 8
+.CMD SET PRNPRECISION 4
+.CMD PRINT_SETUP 1.200000 1.218750 1.200000 1.200000 0
+.CMD HEADER_FOOTER 1 1 *empty* *empty* *empty* 0 1 *empty* *empty* *empty*
+.CMD HEADER_FOOTER_FONT fontID=14 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD HEADER_FOOTER_FONT fontID=15 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFAULT_TEXT_PARPROPS 0 0 0
+.CMD DEFINE_FONTSTYLE_NAME fontID=0 name=Variables
+.CMD DEFINE_FONTSTYLE_NAME fontID=1 name=Constants
+.CMD DEFINE_FONTSTYLE_NAME fontID=2 name=Text
+.CMD DEFINE_FONTSTYLE_NAME fontID=4 name=User^1
+.CMD DEFINE_FONTSTYLE_NAME fontID=5 name=User^2
+.CMD DEFINE_FONTSTYLE_NAME fontID=6 name=User^3
+.CMD DEFINE_FONTSTYLE_NAME fontID=7 name=User^4
+.CMD DEFINE_FONTSTYLE_NAME fontID=8 name=User^5
+.CMD DEFINE_FONTSTYLE_NAME fontID=9 name=User^6
+.CMD DEFINE_FONTSTYLE_NAME fontID=10 name=User^7
+.CMD DEFINE_FONTSTYLE fontID=0 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=1 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=2 family=Arial points=10 bold=1 italic=0 underline=0 colrid=13
+.CMD DEFINE_FONTSTYLE fontID=4 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=5 family=Courier^New points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=6 family=System points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=7 family=Script points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=8 family=Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=9 family=Modern points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=10 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD UNITS U=1
+.CMD DIMENSIONS_ANALYSIS 0 0
+.CMD COLORTAB_ENTRY 0 0 0
+.CMD COLORTAB_ENTRY 128 0 0
+.CMD COLORTAB_ENTRY 0 128 0
+.CMD COLORTAB_ENTRY 128 128 0
+.CMD COLORTAB_ENTRY 0 0 128
+.CMD COLORTAB_ENTRY 128 0 128
+.CMD COLORTAB_ENTRY 0 128 128
+.CMD COLORTAB_ENTRY 128 128 128
+.CMD COLORTAB_ENTRY 192 192 192
+.CMD COLORTAB_ENTRY 255 0 0
+.CMD COLORTAB_ENTRY 0 255 0
+.CMD COLORTAB_ENTRY 255 255 0
+.CMD COLORTAB_ENTRY 0 0 255
+.CMD COLORTAB_ENTRY 255 0 255
+.CMD COLORTAB_ENTRY 0 255 255
+.CMD COLORTAB_ENTRY 255 255 255
+.TXT 3 3 60 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 4 0 61 0 0
+Cg a60.000000,60.000000,31
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard SISTEMAS DE ECUACIONES 
+LINEALES}
+.TXT 4 0 64 0 0
+Cg a68.875000,68.875000,139
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Es posible 
+resolver fácilmente, a través de Mathcad, un sistema de n ecuaciones 
+con n incógnitas valiéndose de las sentencias {\cf2 Given}{\i  y }{\cf2 Find.}
+}
+.TXT 5 0 67 0 0
+Cg a70.375000,70.375000,155
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard En todos los casos es 
+necesario encabezar los cálculos con valores de intento para las 
+incógnitas, ya que el sistema trabaja mediante un proceso iterativo.}
+.TXT 6 0 68 0 0
+Cg a74.000000,74.000000,53
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard A modo de ejemplo, 
+considérese el siguiente problema:}
+.EQN 4 0 69 0 1
+{0:x0}NAME:2
+.EQN 0 14 70 0 1
+{0:x1}NAME:5
+.EQN 0 14 71 0 1
+{0:x2}NAME:4
+.TXT 0 11 72 0 0
+Cg a32.000000,32.000000,18
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard valores de intento}
+.EQN 4 -39 73 0 0
+{0:Given}NAME
+.TXT 0 14 74 0 0
+Cg a57.000000,57.000000,67
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Esta¨"partícula" es 
+esencial indicarla antes de expresar el sistema}
+.EQN 4 -14 75 0 1
+2*{0:x0}NAME+3*{0:x1}NAME-4*{0:x2}NAME÷10
+.TXT 0 22 76 0 0
+Cg a47.125000,47.125000,56
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard primera ecuación 
+(obsérvese el "igual" con detenimiento)}
+.EQN 4 -22 77 0 1
+7*{0:x0}NAME+5*{0:x1}NAME-2*{0:x2}NAME÷1
+.TXT 0 22 79 0 0
+Cg a45.000000,45.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard segunda ecuación}
+.EQN 4 -22 80 0 1
+-5*{0:x0}NAME+2*{0:x1}NAME-3*{0:x2}NAME÷12
+.TXT 0 22 81 0 0
+Cg a45.000000,45.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard tercera ecuación}
+.EQN 5 -22 82 0 1
+{0:x}NAME:{0:Find}NAME({0:x0}NAME,{0:x1}NAME,{0:x2}NAME)
+.TXT 0 22 83 0 0
+Cg a49.000000,49.000000,51
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Al igual que el Given, 
+esta "partícula" es esencial}
+.TXT 5 -22 84 0 0
+Cg a54.625000,54.625000,53
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard El vector x contendrá 
+el valor de las tres incógnitas}
+.EQN 5 0 85 0 1
+({0:x}NAME){51}={0}?_n_u_l_l_
+.TXT 0 26 86 0 0
+Cg a45.000000,45.000000,9
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard resultado}
+.TXT 5 -26 87 0 0
+Cg a71.000000,71.000000,196
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Nótese que se ha 
+indicado el vector traspuesto. En realidad, la solución es un vector 
+columna, sólo que por razones de espacio puede ser conveniente (como 
+en este caso) expresarlo con vector fila.}
+.TXT 7 0 88 0 0
+Cg a68.625000,68.625000,212
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Es posible trabajar en 
+forma matricial para resolver el sistema, para  ello  se deben 
+considerar una matriz (llamada de los coeficientes) y dos vectores (el 
+de los términos independientes y el de las incógnitas):}
+.TXT 11 22 90 0 0
+Cg a38.000000,38.000000,26
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard matriz de los coeficientes}
+.EQN 1 -22 89 0 1
+{0:A}NAME:({3,3}ö-3ö-2ö-4ö2ö5ö3ö-5ö7ö2)
+.EQN 12 0 92 0 1
+{0:i}NAME:({3,1}ö12ö1ö10)
+.TXT 0 21 93 0 0
+Cg a38.000000,38.000000,33
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard vector de términos 
+independientes}
+.TXT 14 -21 94 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.EQN 6 0 95 0 1
+{0:x}NAME:({0:A}NAME)^(-1)*{0:i}NAME
+.TXT 0 20 96 0 0
+Cg a38.000000,38.000000,21
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard vector de incógnitas{
+\fs24  }}
+.EQN 6 -20 97 0 1
+({0:x}NAME){51}={0}?_n_u_l_l_
+.TXT 0 33 98 0 0
+Cg a38.000000,38.000000,20
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard solución del sistema}
+.TXT 6 -33 99 0 0
+Cg a75.000000,75.000000,136
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Si se ha trabajado 
+correctamente, las soluciones deben verificar ecuación por ecuación 
+cuado sean sustituídas en cada una de las mismas:}
+.EQN 6 0 100 0 1
+2*({0:x}NAME)[(0)+3*({0:x}NAME)[(1)-4*({0:x}NAME)[(2)={0}?_n_u_l_l_
+.EQN 4 0 101 0 1
+7*({0:x}NAME)[(0)+5*({0:x}NAME)[(1)-2*({0:x}NAME)[(2)={0}?_n_u_l_l_
+.TXT 0 27 103 0 0
+Cg a41.000000,41.000000,12
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard verificación}
+.EQN 4 -27 102 0 1
+-5*({0:x}NAME)[(0)+2*({0:x}NAME)[(1)-3*({0:x}NAME)[(2)={0}?_n_u_l_l_
+.TXT 6 0 104 0 0
+Cg a75.000000,75.000000,153
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard También es posible 
+resolver un sistema de ecuaciones lineales con coeficientes \par 
+complejos, para ello es necesario plantear valores de intentos complejos:}
+.EQN 6 0 105 0 1
+{0:x0}NAME:2-3*1i
+.EQN 0 15 106 0 1
+{0:x1}NAME:-2-2*1i
+.EQN 0 16 107 0 1
+{0:x2}NAME:5-3*1i
+.TXT 0 13 108 0 0
+Cg a28.000000,28.000000,18
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard valores de intento}
+.EQN 4 -44 109 0 0
+{0:Given}NAME
+.EQN 4 0 110 0 1
+(4-3*1i)*{0:x0}NAME+(-2+3*1i)*{0:x1}NAME-(2-5*1i)*{0:x2}NAME÷(-3-3*1i)
+.EQN 5 0 111 0 1
+(6+2*1i)*{0:x0}NAME+(6+7*1i)*{0:x1}NAME-(-8+4*1i)*{0:x2}NAME÷(6+2*1i)
+.EQN 5 0 112 0 1
+(-1+2*1i)*{0:x0}NAME+(4+5*1i)*{0:x1}NAME-(-2-8*1i)*{0:x2}NAME÷(6-3*1i)
+.EQN 4 0 113 0 1
+{0:x}NAME:{0:Find}NAME({0:x0}NAME,{0:x1}NAME,{0:x2}NAME)
+.EQN 6 0 114 0 1
+({0:x}NAME){51}={0}?_n_u_l_l_
+.TXT 6 0 115 0 0
+Cg a75.000000,75.000000,31
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Del mismo modo, 
+matricialmente:}
+.EQN 8 0 116 0 0
+{0:A}NAME:({3,3}ö-(-2-8*1i)ö-(-8+4*1i)ö-(2-5*1i)ö4+5*1iö6+7*1iö-2+3*1iö-1+2*1iö6+2*1iö4-3*1i)
+.TXT 0 34 117 0 0
+Cg a38.000000,38.000000,26
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard matriz de los coeficientes}
+.TXT 17 -34 118 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.EQN 8 0 119 0 1
+{0:i}NAME:({3,1}ö6-3*1iö6+2*1iö-3-3*1i)
+.TXT 0 25 120 0 0
+Cg a46.000000,46.000000,33
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard vector de términos 
+independientes}
+.EQN 9 -25 121 0 1
+{0:x}NAME:({0:A}NAME)^(-1)*{0:i}NAME
+.TXT 0 25 122 0 0
+Cg a38.000000,38.000000,21
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard vector de incógnitas{
+\fs24  }}
+.TXT 4 28 124 0 0
+Cg a25.000000,25.000000,8
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard solución}
+.EQN 1 -53 123 0 1
+({0:x}NAME){51}={0}?_n_u_l_l_
+.TXT 5 0 125 0 0
+Cg a72.000000,72.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul\link3 Volver al Indice}}
+.ATT
+.LINK file:C:\RUBEN\WINMCAD\BARCE\INDICE.MCD
+.ATT_END
+.ATT
+.LINK file:C:\WINMCAD\BARCE\Indice.mcd
+.ATT_END
+.ATT
+.ATT_END
+.ATT
+.LINK file:C:\WINMCAD\BARCE\Indice.mcd
+.ATT_END
+.TXT 4 0 126 0 0
+Cg a72.000000,72.000000,12
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul Ejercitación}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Ej_ecua.mcd
+.ATT_END

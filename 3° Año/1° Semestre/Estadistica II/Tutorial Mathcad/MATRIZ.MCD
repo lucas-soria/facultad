@@ -1,0 +1,247 @@
+.MCAD 304020000 1 74 131 0
+.CMD FORMAT  rd=d ct=10 im=i et=3 zt=15 pr=3 mass length time charge temperature tr=0 vm=0
+.CMD SET ORIGIN 0
+.CMD SET TOL 0.001000000000000
+.CMD SET PRNCOLWIDTH 8
+.CMD SET PRNPRECISION 4
+.CMD PRINT_SETUP 1.200000 0.968750 1.200000 1.200000 0
+.CMD HEADER_FOOTER 1 1 *empty* *empty* *empty* 0 1 *empty* *empty* *empty*
+.CMD HEADER_FOOTER_FONT fontID=14 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD HEADER_FOOTER_FONT fontID=15 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFAULT_TEXT_PARPROPS 0 0 0
+.CMD DEFINE_FONTSTYLE_NAME fontID=0 name=Variables
+.CMD DEFINE_FONTSTYLE_NAME fontID=1 name=Constants
+.CMD DEFINE_FONTSTYLE_NAME fontID=2 name=Text
+.CMD DEFINE_FONTSTYLE_NAME fontID=4 name=User^1
+.CMD DEFINE_FONTSTYLE_NAME fontID=5 name=User^2
+.CMD DEFINE_FONTSTYLE_NAME fontID=6 name=User^3
+.CMD DEFINE_FONTSTYLE_NAME fontID=7 name=User^4
+.CMD DEFINE_FONTSTYLE_NAME fontID=8 name=User^5
+.CMD DEFINE_FONTSTYLE_NAME fontID=9 name=User^6
+.CMD DEFINE_FONTSTYLE_NAME fontID=10 name=User^7
+.CMD DEFINE_FONTSTYLE fontID=0 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=1 family=Times^New^Roman points=12 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=2 family=Arial points=10 bold=1 italic=0 underline=0 colrid=13
+.CMD DEFINE_FONTSTYLE fontID=4 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=5 family=Courier^New points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=6 family=System points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=7 family=Script points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=8 family=Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=9 family=Modern points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=10 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD UNITS U=1
+.CMD DIMENSIONS_ANALYSIS 0 0
+.CMD COLORTAB_ENTRY 0 0 0
+.CMD COLORTAB_ENTRY 128 0 0
+.CMD COLORTAB_ENTRY 0 128 0
+.CMD COLORTAB_ENTRY 128 128 0
+.CMD COLORTAB_ENTRY 0 0 128
+.CMD COLORTAB_ENTRY 128 0 128
+.CMD COLORTAB_ENTRY 0 128 128
+.CMD COLORTAB_ENTRY 128 128 128
+.CMD COLORTAB_ENTRY 192 192 192
+.CMD COLORTAB_ENTRY 255 0 0
+.CMD COLORTAB_ENTRY 0 255 0
+.CMD COLORTAB_ENTRY 255 255 0
+.CMD COLORTAB_ENTRY 0 0 255
+.CMD COLORTAB_ENTRY 255 0 255
+.CMD COLORTAB_ENTRY 0 255 255
+.CMD COLORTAB_ENTRY 255 255 255
+.TXT 3 3 59 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 4 0 60 0 0
+Cg a71.250000,71.250000,451
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard VECTORES Y 
+MATRICES\par \par Para crear un vector o una matriz se pulsa 
+selecciona la {\cf2 Paleta de Vectores y Matrices}{\cf2 ,} con  lo  
+cual aparece en una ventana  la propuesta para seleccionar  tamaño. En 
+este punto se dimensiona la matriz o el vector indicando  la cantidad 
+de filas y luego la de columnas.\par \par Se rellena cliqueando en el 
+"cuadradito" correspondiente. También, para pasar de un elemento a 
+otro, se puede hacer uso de la tecla 'Tab'.\par \par A modo de ejemplo:}
+.EQN 27 0 62 0 1
+{0:S}NAME:({3,2}ö2ö1ö62ö5ö3ö1)
+.TXT 0 18 63 0 0
+Cg a56.000000,56.000000,37
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Matriz de tres filas 
+por dos columnas}
+.EQN 9 -18 64 0 1
+{0:s1}NAME:({1,3}ö9ö-7ö2)
+.TXT 0 18 66 0 0
+Cg a56.000000,56.000000,29
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Vector fila de tres elementos}
+.TXT 5 -18 67 0 0
+Cg a74.000000,74.000000,684
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Cada 
+elemento de la matriz (o vector) queda identificado por dos subíndices 
+(el primero indicando la fila y el segundo la columna, en el caso de 
+la matriz) o uno (en el caso del vector) que definen unívocamente su 
+posición.\par \par Hay dos alternativas de comenzar la numeración de 
+filas o columas a saber:\par \par \tab i) Desde cero (Omisión, el soft 
+arranca así)\par \par \tab ii) Desde cualquier valor (Esto se logra 
+desde el Menú {\cf2 Math }seleccionado \par \tab {\cf2 Buil-In 
+Variables }y aquí cambiando {\cf2  Origen }por el número deseado.\par 
+\par \pard En el caso de la matriz S  del ejemplo, se trata de una del 
+tipo bidimensional. Luego  el  elemento  5 queda identificado por la 
+fila 2 y la columna 0 (si se está en la Omisión), por \par lo tanto:}
+.EQN 30 0 69 0 1
+({0:S}NAME)[(2,0)={0}?_n_u_l_l_
+.TXT 5 0 71 0 0
+Cg a72.250000,72.250000,100
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard A  partir de aqui es 
+posible operar con matrices o vectores  como se hace formalmente.\par 
+\par Por ejemplo:}
+.EQN 12 0 72 0 1
+4*{0:S}NAME={0}?_n_u_l_l_
+.EQN 0 23 73 0 1
+{0:S}NAME+{0:S}NAME={0}?_n_u_l_l_
+.TXT 12 -23 74 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.TXT 4 0 75 0 0
+Cg a74.000000,74.000000,104
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Es posible cambiar 
+cualquier elemento de una matriz (o vector) haciendo la correspon- 
+diente asignación:}
+.EQN 6 0 76 0 1
+({0:S}NAME)[(2,0):-9
+.TXT 0 15 77 0 0
+Cg a59.000000,59.000000,50
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Produce el cambio del 
+"5" (previo) al - 9 (actual)}
+.TXT 5 -15 78 0 0
+Cg a74.000000,74.000000,27
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Esto se ve a 
+continuación: }
+.EQN 7 0 80 0 1
+{0:S}NAME={0}?_n_u_l_l_
+.TXT 8 0 81 0 0
+Cg a74.000000,74.000000,281
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red128\green0\blue0;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Para 
+lograr el subindice se puede seleccionar el icono correspondiente en 
+la {\cf2 Paleta de Vectores y Matrices. }O bien, de modo rápido, 
+siguiendo la secuencia:\par \par      - Pulsar S\par      - Pulsar ' [ 
+'\par      - Pulsar ' ( ' ;  ' 2 ' ;  ' , ' ; ' 0 ' ; ' ) ' ; ' = '
+\par \par para lograr el {\cf2 S}{\cf2\dn 2,0}{\cf2 .}     }
+.TXT 18 0 83 0 0
+Cg a73.000000,73.000000,70
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard FUNCIONES MATRICIALES 
+Y VECTORIALES\par \par Dados la matriz S y el vector s2:}
+.EQN 13 0 116 0 1
+{0:S}NAME:({3,3}ö5ö6ö-3ö2+5*1iö3ö5ö89ö5ö4)
+.EQN 0 41 111 0 1
+{0:s2}NAME:({3,1}ö-9ö3ö5)
+.EQN 10 -41 85 0 1
+{0:rows}NAME({0:S}NAME)={0}?_n_u_l_l_
+.TXT 0 18 104 0 0
+Cg a21.250000,21.250000,21
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Número de filas de S.}
+.EQN 4 -18 105 0 1
+{0:cols}NAME({0:S}NAME)={0}?_n_u_l_l_
+.TXT 0 18 108 0 0
+Cg a23.250000,23.250000,24
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Número de columnas de S.}
+.EQN 4 -18 90 0 1
+{0:length}NAME({0:s2}NAME)={0}?_n_u_l_l_
+.TXT 0 18 113 0 0
+Cg a54.375000,54.375000,67
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Número de elementos 
+del vector s2 (sólo se aplica a vector columna)}
+.EQN 8 -18 92 0 1
+{0:last}NAME({0:s2}NAME)={0}?_n_u_l_l_
+.TXT 0 18 114 0 0
+Cg a31.250000,31.250000,32
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Indice del último 
+elemento de s2}
+.EQN 5 -18 94 0 1
+{0:max}NAME({0:S}NAME)={0}?_n_u_l_l_
+.TXT 0 21 95 0 0
+Cg a48.500000,48.500000,151
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard El mayor de los 
+elementos de  M. Si  M  está compuesta por  elementos  complejos, 
+retorna la máxima parte  real más i veces la máxima parte imaginaria.}
+.TXT 11 -21 115 0 0
+Cg a71.000000,71.000000,88
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard CURSO DE MATHCAD              
+                             Ing. JESUS RUBEN AZOR MONTOYA}
+.EQN 5 0 96 0 1
+{0:min}NAME({0:S}NAME)={0}?_n_u_l_l_
+.TXT 0 21 97 0 0
+Cg a48.750000,48.750000,152
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard El menor de los 
+elementos de  M. Si  M  esta compuesta por  elementos  complejos, 
+retorna la mínima parte real más  i  veces la mínima parte imaginaria{
+\fs24 .}}
+.TXT 9 0 98 0 0
+Cg a46.625000,46.625000,64
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Para un  entero  
+positivo  n, retorna una matriz identidad n x n}
+.EQN 2 -21 99 0 1
+{0:identity}NAME(2)={0}?_n_u_l_l_
+.EQN 7 0 100 0 1
+{0:tr}NAME({0:S}NAME)={0}?_n_u_l_l_
+.TXT 0 21 101 0 0
+Cg a49.250000,49.250000,84
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Retorna la suma de  
+los  elementos de la matriz principal de M (traza de la matriz).}
+.TXT 7 18 118 0 0
+Cg a31.750000,31.750000,72
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Combina dos arreglos 
+en uno.\par M y C deben tener el mismo número de filas.}
+.EQN 4 -39 103 0 1
+{0:augment}NAME({0:S}NAME,{0:s2}NAME)={0}?_n_u_l_l_
+.TXT 9 0 119 0 0
+Cg a74.000000,74.000000,99
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;}{\fonttbl{\f0
+\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard Existen muchas otras 
+funciones, pero debido a su complejidad serán vistas en un curso\par 
+más avanzado.}
+.TXT 7 0 130 0 0
+Cg a72.000000,72.000000,16
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul\link3 Volver al Indice}}
+.ATT
+.LINK file:C:\RUBEN\WINMCAD\BARCE\INDICE.MCD
+.ATT_END
+.ATT
+.LINK file:C:\WINMCAD\BARCE\Indice.mcd
+.ATT_END
+.ATT
+.ATT_END
+.ATT
+.LINK file:C:\WINMCAD\BARCE\Indice.mcd
+.ATT_END
+.TXT 5 0 131 0 0
+Cg a70.000000,70.000000,12
+{\rtf\ansi \deff0{\colortbl;\red0\green0\blue255;\red0\green128\blue128;}{
+\fonttbl{\f0\fcharset0\fnil Arial;}}\plain\cf1\fs20\b \pard {\cf2\fs24
+\ul\link3 Ejercitación}}
+.ATT
+.LINK file:C:\Ruben\WINMCAD\BARCE\Ej_matr.mcd
+.ATT_END

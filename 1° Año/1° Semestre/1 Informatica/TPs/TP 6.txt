@@ -1,0 +1,154 @@
+1)
+Inicio
+	Enteros: numero[10], aux, i, j
+	numero = {10, 2, -11, 7, -8, 1, 5, 3, 8, 2}
+	aux = 0
+	Para i=0 hasta 9
+		Para j=0 hasta (9-i)
+			Si (numero[j] > numero[j+1]) entonces
+				aux = numero[j]
+				numero[j] = numero[j+1]
+				numero[j+1] = aux
+			FinSi
+		FinPara
+	FinPara
+	Imprimir ("Segun el metodo de la burbuja, el vector ordenado quedaria...")
+	Para i=0 hasta 9
+		Imprimir ( numero[i] )
+	FinPara
+Fin
+
+
+
+
+
+Inicio
+	Enteros: numero[10], pos, i, j, valormenor
+	valormenor = 0
+	pos = 0
+	numero = {10, 2, -11, 7, -8, 1, 5, 3, 8, 2}
+	Para i=0 hasta 9-1
+		valormenor = numero[i]
+		pos = i
+		Para j=(i+1) hasta 9
+			Si (numero[j] < valormenor) entonces
+				valormenor = numero[j]
+				pos = j
+			FinSi
+		FinPara
+		numero[pos] = numero [i]
+		numero[i] = valormenor
+	FinPara
+	Imprimir ("Segun el metodo de seleccion, el vector ordenado quedaria...")
+	Para i=0 hasta 9
+		Imprimir ( numero[i] )
+	FinPara
+Fin
+
+
+
+
+
+Inicio
+	Enteros: numero[10], i, j, aux
+	aux = 0
+	numero = {10, 2, -11, 7, -8, 1, 5, 3, 8, 2}	
+	Para i=1 hasta 9
+		aux = numero[i]
+		j = i-1
+		Mientras (j >= 1  AND  aux < numero[j]) hacer
+			numero[j+1] = numero[j]
+			j = j-1
+		FinMientras
+		numero[j+1] = aux
+	FinPara
+	Imprimir ("Segun el metodo de insercion, el vector ordenado quedaria...")
+	Para i=0 hasta 9
+		Imprimir ( numero[i] )
+	FinPara
+Fin
+
+
+
+
+4)
+Inicio
+	Entero: A[10], B[10], C[10], i, j, valormenor, pos
+	Imprimir ("Ingrese los valores del vector A")
+	Para i=0 hasta 9
+		Leer A[i]
+	FinPara
+	Imprimir ("Ingrese los valores del vector B")
+	Para i=0 hasta 9 
+		Leer B[i]
+	FinPara
+	Para i=0 hasta 9
+		Si (A[i] > B[i]) entonces
+			C[i] = A[i]-B[i]
+		Sino
+			C[i] = A[i]+B[i]
+		FinSi
+	FinPara
+	Imprimir ("El vector A es: ")
+	Para i=0 hasta 9
+		Imprimir ( A[i] )
+	FinPara
+	Imprimir ("El vector B es: ")
+	Para i=0 hasta 9
+		Imprimir ( B[i] )
+	FinPara
+	Imprimir ("El vector C resulto ser: ")
+	Para i=0 hasta 9
+		Imprimir ( C[i] )
+	FinPara
+	Para i=0 hasta 9-1
+		valormenor = C[i]
+		pos = i
+		Para j=(i+1) hasta 9
+			Si (C[j] < valormenor) entoces
+				valormenor = C[j]
+				pos = j
+			FinSi
+		FinPara
+		C[pos] = C[i]
+		C[i] = valormenor
+	FinPara
+	Imprimir ("El vector C ordenado de menor a mayor queda: ")
+	Para i=0 hasta 9 
+		Imprimir ( C[i] )
+	FinPara
+Fin
+
+
+
+
+
+
+
+7)
+Inicio
+	Entero: A[20], B[20], i, aux, j
+	aux = 0
+	Imprimir ("Ingrese los numeros del vector A")
+	Para i=0 hasta 19
+		Leer A[i]
+	FinPara
+	Para i=0 hasta 19
+		Para j=0 hasta (20-i)
+			Si (A[j] > A[j+1]) entonces
+				B[j] = A[j]-A[j+1]
+				aux = A[j]
+				A[j] = A[j+1]
+				A[j+1] = aux
+			FinSi
+		FinPara
+	FinPara
+	Imprimir ("El vector A ordenado queda asi: ")
+	Para i=0 hasta 19
+		Imprimir ( A[i] )
+	FinPara
+	Imprimir ("El vector B resulto ser: ")
+	Para i=0 hasta 19
+		Imprimir ( B[i] )
+	FinPara
+Fin
