@@ -1,0 +1,94 @@
+Simplify your Python loops
+
+If you’re like most programmers, you know that, eventually, once you have an array, you’re gonna have to write a loop. Most of the time, this is fine and dandy, but sometimes you just don’t want to take up the multiple lines required to write out the full for loop for some simple thing. Thankfully, Python realizes this and gives us an awesome tool to use in these situations. That tool is known as a list comprehension.
+
+What the heck is that?
+
+List comprehensions are lists that generate themselves with an internal for loop. They’re a very common feature in Python and they look something like:
+
+[thing for thing in list_of_things]
+
+Now that I’ve confused you even more, let’s step back. A list has multiple things in it, but it’s defined by being between square brackets. Let’s say I want to have a function that doubles the values all of the items in a list of numbers. First, let me set up a list of numbers.
+
+my_list = [21, 2, 93]
+
+Now let’s make the function. We’ll call it list_doubler since that’s what it does and it will take an argument that’ll be the list we’re going to double.
+
+def list_doubler(lst):
+    doubled = []
+    for num in lst:
+        doubled.append(num*2)
+    return doubled
+
+Calling this function would get us a new list with doubled items.
+
+my_doubled_list = list_doubler(lst)
+
+my_doubled_list would now have the values 42, 4, and 186. This function is simple and achieves what we want pretty simply, but it’s also five lines, counting the definition line, has a variable that we do nothing but append to and finally return. The only real working part of the function is the for loop. The for loop isn’t doing much, either, just multiplying a number by 2. This is an excellent candidate for making into a list comp.
+Building the list comprehension
+
+Let’s keep it as a function we’ll call. We just want to simplify the inside. First, since list comprehensions create lists, and lists can be assigned to variables, let’s keep doubled but put the list comprehension on the righthand side of it.
+
+doubled = [thing for thing in list_of_things]
+
+OK, so we need to fill out the right hand side. Just like normal for loops, which the righthand side of the comprehension looks exactly like, we have to name the things in our loop. First, let’s name each thing and we’ll also use the list variable that’s getting passed in.
+
+doubled = [thing for num in lst]
+
+This won’t actually work yet since thing isn’t a…thing. In our original function, we did num * 2, so let’s do that again where we have thing right now.
+
+doubled = [num * 2 for num in lst]
+
+Whatever is before the for is what actually gets added to the list. Finally, we should return our new list.
+
+def list_doubler(lst):
+    doubled = [num * 2 for num in lst]
+    return doubled
+
+Let’s test it out.
+
+my_doubled_list = list_doubler([12, 4, 202])
+
+And, yep, my_doubled_list has the expected values of 24, 8, and 404. Great, looks like it worked! But, since we’re creating and immediately returning a variable, let’s just return the list comprehension directly.
+
+def list_doubler(lst):
+    return [num * 2 for num in lst]
+
+OK, great, but why would I want to use this?
+
+List comprehensions are great to use when you want to save some space. They’re also handy when you just need to process a list quickly to do some repetitive work on that list. They’re also really useful if you learn about functional programming, but that’s a topic for a later course (hint hint).
+
+But if all you could do is work straight through a list, list comprehensions wouldn’t be all that useful. Thankfully, they can be used with conditions.
+Everything’s conditional
+
+Let’s make a new function that only gives us the long words in a list. We’ll say that any word over 5 letters long is a long word. Let’s write it out longhand first.
+
+def long_words(lst):
+    words = []
+    for word in lst:
+        if len(word) > 5:
+           words.append(word)
+    return words
+
+We make a variable to hold our words, loop through all of the words in our list, and then check the length of each word. If it’s bigger than 5, we add the word to the list and then, finally, we send the list back out. Let’s give it a try.
+
+long_words(['blog', 'Treehouse', 'Python', 'hi']) gives back ['Treehouse', 'Python']. That’s exactly what we’d expect.
+
+Alright, let’s rewrite it to a list comprehension. First, let’s build what we already know.
+
+def long_words(lst):
+    return [word for word in lst]
+
+That gives us back all of our words, though, not just the ones that are more than 5 letters long. We add the conditional statement to the end of the for loop.
+
+def long_words(lst):
+    return [word for word in lst if len(word) > 5]
+
+So we used the same exact if condition but we tucked it into the end of the list comprehension. It uses the same variable name that we use for the things in the list, too.
+
+OK, let’s try out this version. long_words(['list', 'comprehension', 'Treehouse', 'Ken']) gives back ['comprehension', 'Treehouse'].
+Where to from here?
+
+Hopefully this shows you a handy way to reduce the amount of code you have to write to get some straightforward work done on your lists. Try to keep your list comprehensions short and the if conditions simple; it’s really easy to see list comprehensions as a solution to all of your problems and make them into giant complicated messes.
+
+If this has whetted your appetite, see if you can figure out how to do dictionary comprehensions on your own. They use dict constructors, {:} instead, but they’re fairly similar. You can also do set comprehensions. Also, look into functional programming in Python if you’re feeling brave. I won’t promise that it’ll all make sense right away, but combining functional programming with dict, set, and list comprehensions opens up a gigantic world of useful and utilitarian code for you.

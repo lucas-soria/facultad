@@ -1,0 +1,284 @@
+Practica persona – 1 sola clase
+
+Persona.py:
+class Persona:
+def __init__(self, nombre, apellido):
+self.nombre = nombre
+self.apellido = apellido
+
+def get_nombre(self):
+return self.nombre
+def get_apellido(self):
+return self.apellido
+def set_nombre(self, nombre):
+self.nombre = nombre
+def set_apellido(self, apellido):
+self.apellido = apellido
+
+Main.py:
+import Persona
+persona1 = Persona.Persona("Lucas", "Soria")
+persona2 = Persona.Persona("Tomas", "Mercado")
+print("Listado de personas : \n")
+print("El nombre es ", persona1.get_nombre())
+print("El apellido es ", persona1.get_apellido())
+print("\nEl nombre es ", persona2.get_nombre())
+print("El apellido es ", persona2.get_apellido())
+
+Practica asociación – 2 clases asociadas
+
+Persona.py:
+class Persona:
+	def __init__(self, nombre, apellido):
+		self.nombre = nombre
+		self.apellido = apellido
+
+	def get_refDomicilio(self):
+		return self.refDomicilio
+def set_refDomicilio(self, refDomicilio):
+self.refDomicilio = refDomicilio
+def get_nombre(self):
+return self.nombre
+def get_apellido(self):
+return self.apellido
+def set_nombre(self, nombre):
+self.nombre = nombre
+def set_apellido(self, apellido):
+self.apellido = apellido
+
+
+Domicilio.py:
+class Domicilio:
+def __init__(self, calle, numero):
+self.calle = calle
+self.numero = numero
+
+def get_calle(self):
+return self.calle
+def get_numero(self):
+return self.numero
+def set_calle(self, calle):
+self.calle = calle 
+def set_numero(self, numero):
+self.numero = numero
+
+Index.py:
+import Persona
+import Domicilio
+persona1 = Persona.Persona("Lucas", "Soria")
+domicilio1 = Domicilio.Domicilio("Pinzon", 276)
+persona1.set_refDomicilio(domicilio1)
+print("Nombre: ", persona1.get_nombre())
+print("Apellido: ", persona1.get_apellido())
+print(“Vive en la calle: ”, persona1.get_refDomicilio().get_calle())
+print(“A la altura: ”, persona1.get_refDomicilio().get_numero())
+
+Herencia – 1 superclase y 2 clases hijas
+
+Persona.py:
+class Persona:
+def __init__(self, nombre, apellido):
+self.nombre = nombre
+self.apellido = apellido
+
+def get_nombre(self):
+return self.nombre
+def get_apellido(self):
+return self.apellido
+def set_nombre(self, nombre):
+self.nombre = nombre
+def set_apellido(self, apellido):
+self.apellido = apellido
+
+
+Profesor.py:
+import Persona
+class Profesor(Persona.Persona):
+def __init__(self, nombre, apellido, cantHijos, titulo) :
+Persona.Persona.__init__(self, nombre, apellido)
+self.cantHijos = cantHijos
+self.titulo = titulo
+
+def get_cantHijos(self):
+return self.cantHijos
+def set_cantHijos(self, cantHijos):
+self.cantHijos = cantHijos
+def get_titulo(self):
+return self.titulo
+def set_titulo(self, titulo):
+self.titulo = titulo
+
+Alumno.py:
+import Persona
+class Alumno(Persona.Persona):
+def __init__(self, nombre, apellido, legajo):
+Persona.Persona.__init__(self, nombre, apellido)
+self.legajo = legajo
+
+def get_legajo(self):
+return self.legajo
+def set_legajo(self, legajo):
+self.legajo = legajo
+
+Index.py:
+import Persona
+import Alumno
+import Profesor
+alumno1 = Alumno.Alumno("Lucas", "Soria", 58156)
+profesor1 = Profesor.Profesor("Alberto", "Cortez", 5, "licenciado")
+print("Alumno: \n")
+print("Nombre: ", alumno1.get_nombre())
+print("Apellido: ", alumno1.get_apellido())
+print("Legajo: ",  alumno1.get_legajo())
+print("\nProfesor: \n")
+print("Nombre: ", profesor1.get_nombre())
+print("Apellido: ", profesor1.get_apellido())
+print(“Cantidad hijos: ”, profesor1.get_cantHijos())
+print(“Titulo: ”, profesor1.get_titulo())
+
+Interfaz
+
+Interfazjpa.py:
+class InterfazJPA:
+def __init__(self):
+pass
+
+def guardar(self): 
+pass
+def elimanar(self):
+pass
+def buscar(self):
+pass
+Hibernate.py:
+import Interfazjpa
+class Hibernate(Interfazjpa.InterfazJPA):
+def __init__(self):
+Interfazjpa.InterfazJPA.__init__(self)
+
+def buscar(self):
+print("busco en la forma de hibernate")
+def eliminar(self):
+print("elimino en la forma de hibernate”)
+
+
+Eclipcelink.py:
+import Interfazjpa
+class EclipseLink(Interfazjpa.InterfazJPA):
+def __init__(self):
+Interfazjpa.InterfazJPA.__init__(self)
+
+def buscar(self):
+print("busco en la forma de eclipselink")
+def eliminar(self):
+print("elimino en la forma de eclipselink")
+def guardar(self):
+print("guardo en la forma de eclipselink")
+
+Index.py:
+import Interfazjpa 
+import Hibernate 
+import Eclipcelink 
+hibernate1 = Hibernate.Hibernate() 
+hibernate1.buscar()
+hibernate1.eliminar()
+hibernate1.guardar()
+eclipselink1 = Eclipcelink.EclipseLink()
+eclipselink1.buscar()
+eclipselink1.eliminar()
+eclipselink1.guardar()
+
+Composición entre 2 clases
+
+Persona.py:
+import Domicilio
+class Persona:
+def __init__(self, nombre, apellido, calle, numero):
+self.nombre = nombre
+self.apellido = apellido
+self.refDomicilio = Domicilio.Domicilio(calle, numero)
+
+def get_refDomicilio(self):
+return self.refDomicilio
+def set_refDomicilio(self, refDomicilio):
+self.refDomicilio = refDomicilio
+def get_nombre(self):
+return self.nombre
+def get_apellido(self):
+return self.apellido
+def set_nombre(self, nombre):
+self.nombre = nombre
+def set_apellido(self, apellido):
+self.apellido = apellido
+
+
+Domicilio.py:
+class Domicilio:
+def __init__(self, calle, numero):
+self.calle = calle
+self.numero = numero
+
+def get_calle(self):
+return self.calle
+def get_numero(self):
+return self.numero
+def set_calle(self, calle):
+self.calle = calle
+def set_numero(self, numero):
+self.numero = numero
+
+Index.py:
+import Persona
+import Domicilio
+persona1 = Persona.Persona("Lucas", "Soria", "Pinzon", 276)
+print("Nombre: ", persona1.get_nombre())
+print("Apellido: ", persona1.get_apellido())
+print("Calle: ", persona1.get_refDomicilio().get_calle())
+print("Numero: ", persona1.get_refDomicilio().get_numero())
+
+Agregación entre 2 clases
+
+Persona.py:
+class Persona:
+def __init__(self, nombre, apellido):
+self.nombre = nombre
+self.apellido = apellido
+
+def get_refDomicilio(self):
+return self.refDomicilio
+def agregar(self, ref_domicilio):
+self.refDomicilio = ref_domicilio
+def get_nombre(self):
+return self.nombre
+def get_apellido(self):
+return self.apellido
+def set_nombre(self, nombre):
+self.nombre = nombre
+def set_apellido(self, apellido):
+self.apellido = apellido
+
+
+Domicilio.py:
+class Domicilio:
+def __init__(self, calle, numero):
+self.calle = calle
+self.numero = numero
+
+def get_calle(self):
+return self.calle
+def get_numero(self):
+return self.numero
+def set_calle(self, calle):
+self.calle = calle
+def set_numero(self, numero):
+self.numero = numero
+
+Index.py:
+import Persona 
+import Domicilio
+persona1 = Persona.Persona("Lucas", "Soria")
+domicilio1 = Domicilio.Domicilio("Pinzon", 276)
+persona1.agregar(domicilio1)
+print("Nombre: ", persona1.get_nombre())
+print("Apellido: ", persona1.get_apellido())
+print("Calle: ", persona1.get_refDomicilio().get_calle())
+print("Numero: ", persona1.get_refDomicilio().get_numero())
