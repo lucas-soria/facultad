@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Caracteristicas de una clase concreta:
 Se puede intanciar objetos de ella.
 Solameente tiene metodos concretos.
@@ -14,4 +15,22 @@ Y sus métodos pueden ser concretos o abstracto.
 
 Las interfaces:
 Tienen solo metodos abstractos.
+=======
+Caracteristicas de una clase concreta:
+Se puede intanciar objetos de ella.
+Solameente tiene metodos concretos.
+Puede tener atributos y/o constantes.
+Siempre en una clase concreta se estila a que los atributos tengan visibilidad privada.
+
+
+Clases Abstracta:
+Nombre en italica.
+Debo protegerla de la siguiente manera:
+Puede tener atributos y constantes.
+Y sus métodos pueden ser concretos o abstracto.
+
+
+Las interfaces:
+Tienen solo metodos abstractos.
+>>>>>>> cd82d7ef3ebd9fc6534019218f4129b6a3b6b88b
 Pero no tiene atributos.
