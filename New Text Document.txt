@@ -1,0 +1,17 @@
+Caracteristicas de una clase concreta:
+Se puede intanciar objetos de ella.
+Solameente tiene metodos concretos.
+Puede tener atributos y/o constantes.
+Siempre en una clase concreta se estila a que los atributos tengan visibilidad privada.
+
+
+Clases Abstracta:
+Nombre en italica.
+Debo protegerla de la siguiente manera:
+Puede tener atributos y constantes.
+Y sus métodos pueden ser concretos o abstracto.
+
+
+Las interfaces:
+Tienen solo metodos abstractos.
+Pero no tiene atributos.
