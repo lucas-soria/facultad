@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pandemia Covid-19</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- import the webpage's stylesheet -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <header class="fondos">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light bg-dark navbar navbar-dark "
+        >
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_branimir-balogovic-faiqrv7fge0-unsplash.jpg?v=1588692801974"
+              class="rounded-circle"
+              width="60"
+              height="60"
+              alt=""
+            />
+          </a>
+          <ul class="nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Inicio </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('contacto') }}">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+  
+      <div
+        class="cover d-flex justify-content-center align-items-center flex-column"
+        style="background-image: url(https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_ja-ma--goux23dnks-unsplash.jpg?v=1588798048599);"
+      >
+        <h1>
+          Defendete del Covid-19
+        </h1>
+        <p class="tapanutri">Se recomienda el consumo de productos frescos y de estacion lo menos industrilaizados posibles.La gran cantidad de aditivos que estso presentan pueden jugarle encontra a nusetras celulas debilitando el sistema inmune</p>
+
+
+      </div>
+
+      <h2> <u>Informacion sobre los Macro-Nutrientes </u></h2>
+    <section>
+
+
+
+        <ul class="list-unstyled">
+            <li class="media">
+              <img src="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_jo-sonn-zefy-ocuhv8-unsplash_1.jpg?v=1588951101652" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Vitaminas y Minerales</h5>
+                Son los suplementos necesarios para todas las reacciones enizmaticas y metabolicas del organizmo.Sin ellas presentariamos diversas fallas funiconales.la vitamica C por ejemplo se carcterija ¡ vel metus scelerisque ante sollicitudin. Crasmentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+            <li class="media my-4">
+              <img src="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_jez-timms-dvrxfih42d0-unsplash%20(1).jpg?v=1588951425926" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Proteinas</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+            <li class="media">
+              <img src="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_wesual-click-rswz-p9fbq4-unsplash.jpg?v=1588950353912" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Carbohidratos</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+            <li class="media">
+                <img src="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_thought-catalog-emx1ej1bcgu-unsplash.jpg?v=1588950576105" class="mr-3" alt="...">
+                <div class="media-body">
+                  <h5 class="mt-0 mb-1">Grasas Saludables</h5>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                </div>
+              </li>
+          </ul>
+    </section>
+
+        
+       
+<h2> Lista de Compras Inteligente </h2>
+<image>  </image>
+
+        <dl>
+            <dt>Frutas y Verduras</dt>
+            <dd>Frutas : citricos , manzana ,banana ,kiwi ,pera,arandoanos ,frutos rojos higos
+                Verduras: hojas verdes,tomate ,pimientos ,remolacha,pepino ,bernejena calbaza 
+            </dd>
+            <dt>Carnes y Lacteos</dt>
+            <dd> Animales: pechuga de pollo ,pescado , carne para mileanesas , cortes para guisos
+                 Vegetales: soja, tofu ,seitan ,temphe ,quinoa ,lentejas garbazos
+            </dd>
+            <dt>Cereales y legumbres</dt>
+            <dd>Harina integral y blanca, legumbres,arroz,pastas ,cerelaes, tuberuclos </dd>
+            <dt>Grasas Saludables </dt>
+            <dd> aceite de oliva, frutos secos,semillas,palta 
+          </dl>
+              
+          <section class="footer">
+        <div>
+          <!--Pie de pagina-->
+          <p style="color:cornsilk"; background="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_viktor-forgacs-fcdqdjum6b4-unsplash.jpg?v=1588799035102">Para mas informacion no dude en contactarse</p>
+          <a href="/contacto" class=" volver btn btn-danger shadow">Contacto</a>
+        </div>
+      </section>
+    </div>
+  </body>
+    </html>
+    
+  

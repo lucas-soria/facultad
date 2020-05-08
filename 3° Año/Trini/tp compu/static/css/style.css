@@ -1,0 +1,96 @@
+/* CSS files add styling rules to your content */
+.nav{
+  background-color: tan;
+}
+body {
+  margin: 0em;
+}
+
+.fondo{
+  background-color: grey;
+}
+.cover {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-color:pink;
+  background-blend-mode: darken;
+  color: white;
+}
+.portadai{
+  background-color:whitesmoke;
+
+}
+.titulo{
+  color:whitesmoke;
+}
+.card {
+  border: 0 !important;
+}
+.card-title {
+  min-height: 3rem;
+}
+.card-text {
+  min-height: 10rem;
+}
+
+.card-img {
+  height: 10rem;
+  width: auto;
+  object-fit: cover;
+}
+
+.especial{
+  min-height: 10rem;
+  color:  black;
+  font-family: "Homer Simpson UI";
+  font-size: 20px;
+  font-weight: bolder;
+
+}
+.intro1{
+  font: caption;
+  font-family: fantasy;
+}
+
+.list-group{
+  font: caption;
+  font-family: fantasy;
+}
+.list-group-item{
+
+  font-family: cursive;
+  font: menu;
+}
+
+.footer{
+  background-image:  url("https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_viktor-forgacs-fcdqdjum6b4-unsplash.jpg?v=1588799035102");
+  background-color:silver;
+  min-height: 10rem;
+  color: white;
+  font-family: "Homer Simpson UI";
+  font-size: 20px;
+  font-weight: bolder;
+
+}
+  .introsalud{
+    font-size: medium;
+    text-align: left;
+    font-style: italic;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+  }
+  .tapanutri{
+    font-size: medium;
+    text-align: left;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color:black;
+
+
+  }
+  .cartasalud{
+    background-color: thistle;
+  }
+  .fondos{
+    background-color:pink;
+  }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pandemia Covid-19</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- import the webpage's stylesheet -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <header class="fondos">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light bg-dark navbar navbar-dark "
+        >
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_branimir-balogovic-faiqrv7fge0-unsplash.jpg?v=1588692801974"
+              class="rounded-circle"
+              width="60"
+              height="60"
+              alt=""
+            />
+          </a>
+          <ul class="nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Inicio </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('contacto') }}">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+        <div
+        class="cover d-flex justify-content-center align-items-center flex-column"
+        style="background-image: url(https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_kelly-sikkema-be6k8sqt2fq-unsplash.jpg?v=1588798361384);"
+      >
+        <h1>
+          A Moverse en casa 
+        </h1>
+        <p class="tapanutri">Explora las actividades que te proponemos para moverte en casa</p>
+      </header>
+  
+
+
+<section>
+<h3> <u>Sitios recomedados</u></h3>
+<p class="tapanutri"> Aqui te recomednamos algunos sitios que podes visitar para insipirarte y poder entrnar de manera mas personalizada:<br>
+<p>Gym Virtual</p><a href="http://gymvirtual.com/">Ir</a>
+<p>Runtastic-Addidas </p><a href="https://www.runtastic.com/blog/es/entrenar-en-casa-sin-equipamiento/" ></a>Ir</a>
+<p> Mi gimasio en casa</p><a href="https://migymencasa.com/" >Ir</a>
+</section>
+
+
+      </div>
+      <section class="footer">
+        <div>
+          <!--Pie de pagina-->
+          <p style="color:cornsilk"; background="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_viktor-forgacs-fcdqdjum6b4-unsplash.jpg?v=1588799035102">Para mas informacion no dude en contactarse</p>
+          <a href="/contacto" class=" volver btn btn-danger shadow">Contacto</a>
+        </div>
+      </section>
+      </body>
+    </div>
+    </html>
+    

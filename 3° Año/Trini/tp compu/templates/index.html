@@ -1,106 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <title>Seasons in Bariloche</title>
+  <head>
+    <title>Pandemia Covid-19</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="./style.css" />
-</head>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <header class="cover"> 
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light bg-dark navbar navbar-dark "
+      >
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_branimir-balogovic-faiqrv7fge0-unsplash.jpg?v=1588692801974"
+            class="rounded-circle"
+            width="60"
+            height="60"
+            alt=""
+          />
+        </a>
+        <ul class="nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Inicio </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('contacto') }}">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+  
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-dark navbar navbar-dark ">
-            <a class="navbar-brand" href="#">Inicio</a>
-            <ul class="nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Quienes somos </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Ayuda</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="cover d-flex justify-content-center align-items-center flex-column">
-            <h1>
-                Bariloche-Patagonia Argentina
-            </h1>
-            <p>
-                <button class="btn btn-danger
-                         ">
-                    Descubre
-                </button>
-                Tu lugar en el mundo
-            </p>
+      </section>
+      <div 
+        class="cover d-flex justify-content-center align-items-center flex-column"
+        style="background-image: url(https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_tonik-haz3tnzqp6w-unsplash.jpg?v=1588771272557);"
+      >
+        <h1>
+          Corona virus 2020
+        </h1>
+        <div class="titulo">
+          <p>
+            La infromacion necesaria para sobrevivir la cuarentena
+          </p>
         </div>
+       
+      </div>
     </header>
     <section>
-        <div class="container mt-5 mb-5">
-            <div class="row justify-content-start">
-                <div class="col-12 col-sm-6 mt-2">
-                    <div class="card">
-                        <img src="https://cdn.glitch.com/84964c4a-9d94-430f-b896-28dc1b38ed59%2Frsz_federico-persiani-ssg2iisn6a8-unsplash.jpg?v=1587468585762"
-                            class="card-img card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">Invierno</h5>
-                            <p class="card-text">
-                                Te invitamos a desubirir el invierno en la Patagonia.
-                            </p>
-                            <a href="#" class="btn btn-primary">Entrar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 mt-2">
-                    <div class="card" >
-                        <img src="https://cdn.glitch.com/84964c4a-9d94-430f-b896-28dc1b38ed59%2Frsz_romina-farias-zoavih2eexq-unsplash.jpg?v=1587469221368"
-                            class=" card-img card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">Primavera</h5>
-                            <p class="card-text">
-                                Te invitamos a desubirir la primavera en la Patagonia.
-                            </p>
-                            <a href="#" class="btn btn-primary">Entrar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 mt-2">
-                    <div class="card" >
-                        <img src="https://cdn.glitch.com/84964c4a-9d94-430f-b896-28dc1b38ed59%2Frsz_todd-cravens--n3dv1qwhuo-unsplash.jpg?v=1587471708415"
-                            class="card-img card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">Otoño</h5>
-                            <p class="card-text">
-                                Te invitamos a desubirir el otoño en la Patagonia.
-                            </p>
-                            <a href="#" class="btn btn-primary">Entrar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6   mt-2">
-                    <div class="card">
-                        <img src="https://cdn.glitch.com/84964c4a-9d94-430f-b896-28dc1b38ed59%2Frsz_claudio-antonelli-9ceci5jrge4-unsplash.jpg?v=1587472711261"
-                            class="card-img card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">Verano</h5>
-                            <p class="card-text">
-                                Te invitamos a desubirir el Verano en la Patagonia.
-                            </p>
-                            <a href="#" class="btn btn-primary">Entrar</a>
-                        </div>
-                    </div>
-                </div>
+      <div class="container mt-5 mb-5">
+        <div class="row justify-content-start">
+          <div class="col-12 col-sm-6 mt-2">
+            <div class="card">
+              <img
+                src="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_1cdc-w9keokhajkw-unsplash.jpg?v=1588691997173"
+                class="card-img card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Para los amantes de la Ciencia</h5>
+                <p class="card-text">
+                  Informate sobre los avances y novedades de la ciencia de la
+                  lucha contra el virus
+                </p>
+                <a href="{{ url_for('informacionc') }}" class="btn btn-primary"
+                  >Entrar</a
+                >
+              </div>
             </div>
-        </div>
-    </section>
-</body>
+          </div>
+          <div class="col-12 col-sm-6 mt-2">
+            <div class="card">
+              <img
+                src="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_jamie-street-tb5a-qti6xg-unsplash.jpg?v=1588692229998"
+                class=" card-img card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Salud en casa</h5>
+                <p class="card-text">
+                  Lista de compras inteligentes,ejercicio y recomendaciones para
+                  cuidar tu salud
+                </p>
+                <a href="{{ url_for('salud') }}" class="btn btn-primary"
+                  >Entrar</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 mt-2">
+            <div class="card">
+              <img
+                src="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_dhaya-eddine-bentaleb-16daxpx-l8i-unsplash.jpg?v=1588691591064"
+                class="card-img card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Manual Practico</h5>
+                <p class="card-text">
+                  Informate de sintomas y protocolos de seguridad e higiene
+                </p>
+                <a href="{{ url_for('manualp') }}" class="btn btn-primary"
+                  >Entrar</a
+                >
+              </div>
+            </div>
+          </div>
 
+          <div class="col-12 col-sm-6   mt-2">
+            <div class="card">
+              <img
+                src="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_sincerely-media-z4tapic0li0-unsplash.jpg?v=1588772887768"
+                class="card-img card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cuidemos la mente</h5>
+                <p class="card-text">
+                  Tips y expereincias para sobrellevar la cuarentena
+                </p>
+                <a href="{{ url_for('psico') }}" class="btn btn-primary"
+                  >Entrar</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+    <div>
+      <!--Pie de pagina-->
+      <p style="color:cornsilk"; background="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_viktor-forgacs-fcdqdjum6b4-unsplash.jpg?v=1588799035102">Para mas informacion no dude en contactarse</p>
+      <a href="/contacto" class=" volver btn btn-danger shadow">Contacto</a>
+    </div>
+  </section>
+  </body>
+</div>
 </html>
+
+
+
+
+
+

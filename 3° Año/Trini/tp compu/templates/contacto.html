@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contacto</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- import the webpage's stylesheet -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light bg-dark navbar navbar-dark "
+        >
+          <a class="navbar-brand" href="#">
+            <img src="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_branimir-balogovic-faiqrv7fge0-unsplash.jpg?v=1588692801974" class="rounded-circle" width="60" height="60" alt=""> 
+          </a>
+          <ul class="nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Inicio </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('contacto') }}">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+        <div
+          class="cover d-flex justify-content-center align-items-center flex-column"
+          style="background-image: url(https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_martin-sanchez-ktmlsiscl7y-unsplash.jpg?v=1588770050773);"
+        >
+          <h1>
+        
+          </h1>
+        </div>
+      </header>
+      <section>
+          <p class="contacto">
+           Trinidad Gonzalez Padin: 2944581418<br/>
+              
+          <img src="https://image.shutterstock.com/image-photo/kazan-russia-october-27-2016-260nw-506008927.jpg" class="rounded-circle" width="60" height="60" alt=""> 
+              Instagram: @trinigonzalezpadin
+          </p>
+
+    
+      </section>
+    </body>

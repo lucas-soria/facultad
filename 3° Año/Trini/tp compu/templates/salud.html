@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Salud en casa</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- import the webpage's stylesheet -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <header class="fondos">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light bg-dark navbar navbar-dark "
+      >
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_branimir-balogovic-faiqrv7fge0-unsplash.jpg?v=1588692801974"
+            class="rounded-circle"
+            width="60"
+            height="60"
+            alt=""
+          />
+        </a>
+        <ul class="nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Inicio </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('contacto') }}">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div
+      class="cover d-flex justify-content-center align-items-center flex-column"
+      style="background-image: url(https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_jamie-street-tb5a-qti6xg-unsplash.jpg?v=1588692229998);"
+    >
+      <h1>
+        Salud en casa
+      </h1>
+    </div>
+    <p style="border: ridge blue 2px,"  class="introsalud">
+      <u > Sistema inmune:</u>
+      Se trata de nuestro ejercito de batalla frente a la invasion de agentes infecciosos.Las celulas de la sangre reaccionan de manera super especifica y organizada para dar respuesta a un agente patogeno.EN este caso debemos manetener nuestro sistema inume activo para estar preparados para la posible entrada del virus y que esta respuesta sea la mas eficiente posible.Numerosos estudios demuestran que una alimentacion saludable es la clave para potenicar al meximo nustro sistema de defensas.
+      Ademas de tener que contar con una dieta balanceada existen "super alimentos" naturales que son indispensables para situaciones como la actual. </p>
+      <p style="border: ridge blue 2px,"  class="introsalud">
+        <u > Actividad Física:</u>
+        El conjunto de reacciones metabolicas asociadas al funcionamiento del orgamismo se vera potenciado cuando un indic¡viduo goze de buena salud.Para ello resulta de vital importancia la actividad fisica.La organizacion mundial de la salud recomienda oxigenar y mover el cuarpo al menos 30 minutos al dia.El ejericio previene enfermedades cardio vasuclaes , reduce la hiper tension y los niveles de colesteroi "malo LDL.Tambien libera grantidad de endorfinas que tieenen efectos de placer y eufroia en el cererbro causando sencaion de bien estar en el individuo facotr de gran importanica en la situacion actual. </p>
+    <section class="cartasalud">
+    <div class="container mt-5 mb-5">
+      <div class="row justify-content-start">
+        <div class="col-12 col-sm-6 mt-2">
+          <div class="card">
+            <img
+              src="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_ja-ma--goux23dnks-unsplash.jpg?v=1588798048599"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Lista de Compras inteligente </h5>
+              <p class="card-text">
+                Todo lo que debes tener para reforzar el sistema inmune
+              </p>
+              <a href="{{ url_for('listasuper') }}" class="btn btn-primary"
+                >Ir</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 mt-2">
+          <div class="card">
+            <img
+              src="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_kelly-sikkema-be6k8sqt2fq-unsplash.jpg?v=1588798361384"
+              class=" card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Entrenamiento</h5>
+              <p class="card-text">
+                Ideas para entrenar en casa
+              </p>
+              <a href="{{ url_for('entrenamiento') }}" class="btn btn-primary"
+                >Ir</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <div>
+          <!--Pie de pagina-->
+          <p style="color:cornsilk"; background="https://cdn.glitch.com/94b1782f-485d-4be9-be6b-b48fefbcb22b%2Frsz_viktor-forgacs-fcdqdjum6b4-unsplash.jpg?v=1588799035102">Para mas informacion no dude en contactarse</p>
+          <a href="/contacto" class=" volver btn btn-danger shadow">Contacto</a>
+        </div>
+      </section>
+
+     
+  </body>
+</html>
+
