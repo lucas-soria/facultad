@@ -1,0 +1,141 @@
+name,Region,Last Update,Confirmed,Deaths,Recovered
+Hubei,Mainland China,2020-03-06 02:00:00,67592,2931,41966
+Guangdong,Mainland China,2020-03-06 02:00:00,1351,7,1209
+Henan,Mainland China,2020-03-06 01:29:39,1272,22,1241
+Zhejiang,Mainland China,2020-03-06 01:29:39,1215,1,1141
+Hunan,Mainland China,2020-03-06 01:29:39,1018,4,946
+Anhui,Mainland China,2020-03-05 04:33:02,990,6,970
+Jiangxi,Mainland China,2020-03-06 01:29:39,935,1,908
+Shandong,Mainland China,2020-03-06 00:33:02,758,6,602
+Jiangsu,Mainland China,2020-03-06 01:29:39,631,0,588
+Chongqing,Mainland China,2020-03-05 23:23:02,576,6,512
+Sichuan,Mainland China,2020-03-06 01:29:39,539,3,428
+Heilongjiang,Mainland China,2020-03-06 00:13:06,481,13,380
+Beijing,Mainland China,2020-03-06 00:43:03,422,8,298
+Shanghai,Mainland China,2020-03-05 06:23:06,339,3,303
+Hebei,Mainland China,2020-03-05 14:53:03,318,6,304
+Fujian,Mainland China,2020-03-06 00:33:02,296,1,278
+Guangxi,Mainland China,2020-03-06 00:33:02,252,2,217
+Shaanxi,Mainland China,2020-03-05 06:03:08,245,1,224
+Yunnan,Mainland China,2020-03-03 03:43:02,174,2,169
+Hainan,Mainland China,2020-03-05 06:13:10,168,6,158
+Guizhou,Mainland China,2020-03-02 01:13:06,146,2,114
+Tianjin,Mainland China,2020-03-05 03:33:27,136,3,128
+Shanxi,Mainland China,2020-03-05 14:53:03,133,0,126
+Liaoning,Mainland China,2020-03-03 14:33:03,125,1,106
+Hong Kong,Hong Kong,2020-03-06 01:53:03,105,2,46
+Jilin,Mainland China,2020-03-05 14:53:03,93,1,88
+Gansu,Mainland China,2020-03-05 15:13:13,102,2,87
+Xinjiang Uygur,Mainland China,2020-03-05 06:03:08,76,3,70
+Nei Mongol,Mainland China,2020-03-05 23:53:01,75,1,65
+Ningxia,Mainland China,2020-03-04 01:33:07,75,0,69
+Taiwan,Taiwan,2020-03-05 14:53:03,44,1,12
+Qinghai,Mainland China,2020-02-21 04:43:02,18,0,18
+Macau,Macau,2020-03-03 12:33:02,10,0,9
+Xizang,Mainland China,2020-02-12 06:43:02,1,0,1
+Saint Barthelemy,Saint Barthelemy,2020-03-04 03:00:00,3,0,0
+Faroe Islands,Faroe Islands,2020-03-04 13:00:00,1,0,0
+Gibraltar,Gibraltar,2020-03-04 14:00:00,1,0,0
+South Korea,South Korea,2020-03-06 02:00:00,6284,42,135
+Italy,Italy,2020-03-05 19:00:00,3858,148,414
+Iran,Iran,2020-03-05 11:00:00,3513,108,739
+Others,Japan (Diamond Princess),2020-03-03 03:00:00,706,6,10
+Germany,Germany,2020-03-05 19:00:00,560,0,16
+France,France,2020-03-05,423,7,12
+Japan,Japan,2020-03-06 02:00:00,359,6,48
+Spain,Spain,2020-03-06 01:00:00,282,3,2
+Switzerland,Switzerland,2020-03-06 00:43:03,119,1,3
+Singapore,Singapore,2020-03-05 15:00:00,117,0,81
+United Kingdom,United Kingdom,2020-03-06 02:00:00,116,1,8
+Netherlands,Netherlands,2020-03-05 15:00:00,82,0,0
+Sweden,Sweden,2020-03-05 19:00:00,94,0,0
+Norway,Norway,2020-03-06 02:00:00,91,0,0
+Kuwait,Kuwait,2020-03-05 11:00:00,58,0,0
+Australia,Australia,2020-03-05 07:30:00,58,2,21
+Bahrain,Bahrain,2020-03-05 16:30:00,55,0,0
+Belgium,Belgium,2020-03-05 12:30:00,50,0,1
+Malaysia,Malaysia,2020-03-04 08:30:00,50,0,21
+Thailand,Thailand,2020-03-05 12:30:00,47,1,31
+Austria,Austria,2020-03-06 02:00:00,43,0,0
+Iraq,Iraq,2020-03-04 22:30:00,35,2,0
+Canada,Canada,2020-03-06 02:00:00,37,0,6
+Iceland,Iceland,2020-03-05 12:30:00,34,0,0
+Greece,Greece,2020-03-05 15:00:00,31,0,0
+India,India,2020-03-05 11:00:00,30,0,3
+United Arab Emirates,United Arab Emirates,2020-03-06 02:00:00,29,0,5
+San Marino,San Marino,2020-03-05 16:45:00,21,1,0
+Algeria,Algeria,2020-03-04 21:00:00,17,0,0
+Lebanon,Lebanon,2020-03-05 20:30:00,16,0,1
+Vietnam,Vietnam,2020-02-25 14:00:00,16,0,16
+Oman,Oman,2020-03-05 20:30:00,16,0,2
+Israel,Israel,2020-03-04 18:00:00,16,0,2
+Denmark,Denmark,2020-03-05 12:30:00,15,0,0
+Ecuador,Ecuador,2020-03-05 18:30:00,13,0,0
+Finland,Finland,2020-03-05 12:30:00,12,0,1
+Croatia,Croatia,2020-03-04 22:30:00,10,0,0
+Qatar,Qatar,2020-03-03 23:00:00,8,0,0
+Czech Republic,Czech Republic,2020-03-05 18:00:00,12,0,0
+Portugal,Portugal,2020-03-05 12:30:00,8,0,0
+Belarus,Belarus,2020-03-04 09:00:00,6,0,0
+Romania,Romania,2020-03-04 15:00:00,6,0,0
+Ireland,Ireland,2020-03-05 12:30:00,6,0,0
+Azerbaijan,Azerbaijan,2020-03-05 15:00:00,6,0,0
+Mexico,Mexico,2020-03-01 20:00:00,5,0,0
+Pakistan,Pakistan,2020-03-03 16:00:00,5,0,0
+Saudi Arabia,Saudi Arabia,2020-03-05 15:00:00,5,0,0
+New Zealand,New Zealand,2020-03-06 02:00:00,4,0,0
+Brazil,Brazil,2020-03-05 20:00:00,8,0,0
+Russia,Russia,2020-03-05 12:30:00,4,0,2
+Palestine,Palestine,2020-03-05 12:00:00,4,0,0
+Georgia (country),Georgia,2020-03-05 12:30:00,4,0,0
+Philippines,Philippines,2020-02-12 07:43:02,3,1,1
+Chile,Chile,2020-03-05 22:00:00,4,0,0
+Egypt,Egypt,2020-03-05 15:00:00,3,0,0
+Indonesia,Indonesia,2020-03-02 12:00:00,2,0,0
+Senegal,Senegal,2020-03-04 20:00:00,4,0,0
+Cambodia,Cambodia,2020-02-12 07:43:02,1,0,1
+Nepal,Nepal,2020-02-12 14:43:03,1,0,1
+Sri Lanka,Sri Lanka,2020-02-08 03:43:03,1,0,1
+Afghanistan,Afghanistan,2020-02-24 12:00:00,1,0,0
+North Macedonia,North Macedonia,2020-02-26 21:00:00,1,0,0
+Estonia,Estonia,2020-03-05 14:00:00,3,0,0
+Nigeria,Nigeria,2020-02-28 02:00:00,1,0,0
+Lithuania,Lithuania,2020-02-28 11:00:00,1,0,0
+Monaco,Monaco,2020-02-28 23:30:00,1,0,0
+Luxembourg,Luxembourg,2020-03-06 02:00:00,2,0,0
+Dominican Republic,Dominican Republic,2020-03-01 19:00:00,1,0,0
+Armenia,Armenia,2020-03-01 19:00:00,1,0,0
+Andorra,Andorra,2020-03-02 12:00:00,1,0,0
+Jordan,Jordan,2020-03-02 13:22:00,1,0,0
+Tunisia,Tunisia,2020-03-02 16:00:00,1,0,0
+Latvia,Latvia,2020-03-02 17:00:00,1,0,0
+Morocco,Morocco,2020-03-05 14:00:00,2,0,0
+Ukraine,Ukraine,2020-03-03 10:00:00,1,0,0
+Argentina,Argentina,2020-03-05 23:40:00,2,0,0
+Liechtenstein,Liechtenstein,2020-03-03 22:00:00,1,0,0
+Poland,Poland,2020-03-04 08:00:00,1,0,0
+Hungary,Hungary,2020-03-04 19:40:00,2,0,0
+Slovenia,Slovenia,2020-03-05 18:00:00,2,0,0
+Bosnia and Herzegovina,Bosnia and Herzegovina,2020-03-05 18:00:00,2,0,0
+South Africa,South Africa,2020-03-05 12:25:00,1,0,0
+Costa Rica,Costa Rica,2020-03-06 01:29:39,1,0,0
+Unknown location US,USA (all are repatriated cases),2020-03-02 17:00:00,48,0,0
+California,USA,2020-03-05 23:30:00,49,1,2
+Washington,USA,2020-03-05 20:00:00,75,11,1
+Illinois,USA,2020-03-05 19:00:00,5,0,2
+Texas,USA,2020-03-05 21:45:00,3,0,0
+Arizona,USA,2020-03-03 22:00:00,2,0,1
+Massachusetts,USA,2020-03-06 03:00:00,4,0,0
+Wisconsin,USA,2020-02-05 21:53:00,1,0,0
+Oregon,USA,2020-03-02 18:30:00,3,0,0
+Rhode Island,USA,2020-03-02 22:00:00,2,0,0
+New York,USA,2020-03-05 19:00:00,22,0,0
+Florida,USA,2020-03-05 17:00:00,4,0,0
+New Hampshire,USA,2020-03-04 03:00:00,2,0,0
+Georgia,USA,2020-03-03 03:00:00,2,0,0
+North Carolina,USA,2020-03-03 21:00:00,1,0,0
+New Jersey,USA,2020-03-05 21:45:00,2,0,0
+Tennessee,USA,2020-03-05 15:00:00,1,0,0
+Nevada,USA,2020-03-05 17:00:00,1,0,0
+Colorado,USA,2020-03-06 03:00:00,2,0,0
+Maryland,USA,2020-03-05 23:30:00,3,0,0

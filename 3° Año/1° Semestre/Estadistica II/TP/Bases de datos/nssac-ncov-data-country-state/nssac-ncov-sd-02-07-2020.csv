@@ -1,0 +1,65 @@
+name,Region,Last Update,Confirmed,Deaths,Recovered
+Hubei,Mainland China,2020-02-07 14:03:00,22112,618,867
+Guangdong,Mainland China,2020-02-07 10:13:00,1034,1,88
+Zhejiang,Mainland China,2020-02-07 11:33:00,1006,0,123
+Henan,Mainland China,2020-02-07 14:03:00,914,3,86
+Hunan,Mainland China,2020-02-07 11:33:00,772,0,112
+Anhui,Mainland China,2020-02-07 05:13:00,665,0,47
+Jiangxi,Mainland China,2020-02-07 01:23:00,661,0,45
+Chongqing,Mainland China,2020-02-07 12:03:00,415,2,31
+Jiangsu,Mainland China,2020-02-07 14:03:00,408,0,43
+Shandong,Mainland China,2020-02-07 11:33:00,386,0,37
+Sichuan,Mainland China,2020-02-07 08:23:00,344,1,42
+Beijing,Mainland China,2020-02-07 03:23:00,297,1,33
+Heilongjiang,Mainland China,2020-02-07 07:43:00,277,3,12
+Shanghai,Mainland China,2020-02-07 06:14:00,277,1,30
+Fujian,Mainland China,2020-02-07 13:23:00,224,0,20
+Shaanxi,Mainland China,2020-02-07 08:23:00,184,0,17
+Guangxi,Mainland China,2020-02-07 00:33:00,172,0,17
+Hebei,Mainland China,2020-02-07 12:03:00,172,1,22
+Yunnan,Mainland China,2020-02-07 23:23:00,138,0,12
+Hainan,Mainland China,2020-02-07 12:33:00,117,2,10
+Liaoning,Mainland China,2020-02-07 15:33:00,99,0,7
+Shanxi,Mainland China,2020-02-07 12:33:00,96,0,15
+Guizhou,Mainland China,2020-02-07 11:13:00,81,1,6
+Tianjin,Mainland China,2020-02-07 05:43:00,81,1,2
+Gansu,Mainland China,2020-02-07 02:33:00,67,0,9
+Jilin,Mainland China,2020-02-07 00:43:00,65,1,4
+Nei Mongol,Mainland China,2020-02-07 11:13:00,50,0,5
+Ningxia,Mainland China,2020-02-07 11:13:00,43,0,5
+Xinjiang Uygur,Mainland China,2020-02-07 01:43:00,39,0,0
+Singapore,Singapore,2020-02-07 03:03:00,30,0,0
+Hong Kong,Hong Kong,2020-02-07 11:53:00,25,1,0
+Others,Japan (Diamond Princess),2020-02-07 04:13:00,61,0,0
+Japan,Japan,2020-02-07 04:13:00,25,0,1
+Thailand,Thailand,2020-02-04 15:33:00,25,0,5
+South Korea,South Korea,2020-02-07 03:03:00,24,0,1
+Qinghai,Mainland China,2020-02-06 02:13:00,18,0,3
+Taiwan,Taiwan,2020-02-06 15:03:00,16,0,1
+Australia,Australia,2020-02-07 01:03:00,15,0,2
+Germany,Germany,2020-02-07 16:33:00,13,0,0
+Malaysia,Malaysia,2020-02-07 09:13:00,12,0,1
+Macau,Macau,2020-02-06 14:23:00,10,0,1
+Vietnam,Vietnam,2020-02-06 01:13:00,10,0,1
+Canada,Canada,2020-02-07 05:43:00,7,0,0
+France,France,2020-02-01 01:52:00,6,0,0
+United Arab Emirates,United Arab Emirates,2020-02-02 05:43:00,5,0,0
+India,India,2020-02-03 21:43:00,3,0,0
+Italy,Italy,2020-02-07 17:53:00,3,0,0
+Philippines,Philippines,2020-02-07 16:43:00,3,1,0
+United Kingdom,United Kingdom,2020-02-07 18:33:00,3,0,0
+California,USA,2020-02-03 03:53:00,6,0,0
+Illinois,USA,2020-02-01 19:43:00,2,0,0
+Russia,Russia,2020-01-31 16:13:00,2,0,0
+Arizona,USA,2020-02-01 19:43:00,1,0,0
+Belgium,Belgium,2020-02-04 15:43:00,1,0,0
+Cambodia,Cambodia,2020-01-31 08:15:00,1,0,0
+Finland,Finland,2020-01-31 08:15:00,1,0,0
+Massachusetts,USA,2020-02-01 19:43:00,1,0,0
+Nepal,Nepal,2020-01-31 08:15:00,1,0,0
+Spain,Spain,2020-02-01 23:43:00,1,0,0
+Sri Lanka,Sri Lanka,2020-01-31 08:15:00,1,0,0
+Sweden,Sweden,2020-02-01 02:13:00,1,0,0
+Xizang,Mainland China,2020-02-01 01:52:00,1,0,0
+Washington,USA,2020-02-01 19:43:00,1,0,0
+Wisconsin,USA,2020-02-05 21:53:00,1,0,0

@@ -1,0 +1,99 @@
+name,Region,Last Update,Confirmed,Deaths,Recovered
+Hubei,Mainland China,2020-02-29 02:00:00,66337,2727,28895
+Guangdong,Mainland China,2020-02-29 02:00:00,1349,7,972
+Henan,Mainland China,2020-02-29 02:00:00,1272,21,1161
+Zhejiang,Mainland China,2020-02-29 02:00:00,1205,1,987
+Hunan,Mainland China,2020-02-29 02:00:00,1018,4,841
+Anhui,Mainland China,2020-02-29 02:00:00,990,6,868
+Jiangxi,Mainland China,2020-02-29 02:00:00,935,1,811
+Shandong,Mainland China,2020-02-29 02:00:00,756,6,411
+Jiangsu,Mainland China,2020-02-29 02:00:00,631,0,519
+Chongqing,Mainland China,2020-02-29 02:00:00,576,6,422
+Sichuan,Mainland China,2020-02-29 02:00:00,538,3,350
+Heilongjiang,Mainland China,2020-02-29 02:00:00,480,13,295
+Beijing,Mainland China,2020-02-28 02:00:00,410,7,257
+Shanghai,Mainland China,2020-02-28 14:00:00,337,3,279
+Hebei,Mainland China,2020-02-29 02:00:00,318,6,277
+Fujian,Mainland China,2020-02-29 02:00:00,296,1,241
+Guangxi,Mainland China,2020-02-29 02:00:00,252,2,172
+Shaanxi,Mainland China,2020-02-29 02:00:00,245,1,200
+Yunnan,Mainland China,2020-02-28 14:00:00,174,2,156
+Hainan,Mainland China,2020-02-29 02:00:00,168,5,136
+Guizhou,Mainland China,2020-02-27 03:00:00,146,2,112
+Tianjin,Mainland China,2020-02-28 14:00:00,136,3,105
+Shanxi,Mainland China,2020-02-28 22:00:00,133,0,112
+Liaoning,Mainland China,2020-02-28 02:00:00,121,1,93
+Hong Kong,Hong Kong,2020-02-29 04:01:00,94,2,30
+Jilin,Mainland China,2020-02-29 02:00:00,93,1,73
+Gansu,Mainland China,2020-02-27 14:30:00,91,2,82
+Xinjiang Uygur,Mainland China,2020-02-29 02:00:00,76,3,52
+Nei Mongol,Mainland China,2020-02-29 02:00:00,75,0,46
+Ningxia,Mainland China,2020-02-29 02:00:00,73,0,68
+Taiwan,Taiwan,2020-02-29 02:00:00,34,1,9
+Qinghai,Mainland China,2020-02-21 03:00:00,18,0,18
+Macau,Macau,2020-02-28 02:00:00,10,0,8
+Xizang,Mainland China,2020-02-12 06:43:02,1,0,1
+South Korea,South Korea,2020-02-29 01:30:00,2931,16,24
+Others,Japan (Diamond Princess),2020-02-28 22:00:00,705,6,10
+Japan,Japan,2020-02-28 19:30:00,233,5,32
+Italy,Italy,2020-02-28 22:00:00,889,21,46
+Iran,Iran,2020-02-28 11:00:00,388,34,49
+Singapore,Singapore,2020-02-29 01:30:00,96,0,66
+Germany,Germany,2020-02-28 18:00:00,70,0,14
+France,France,2020-02-28 22:00:00,57,2,11
+Kuwait,Kuwait,2020-02-28 15:00:00,45,0,0
+Thailand,Thailand,2020-02-28 19:30:00,41,0,28
+Bahrain,Bahrain,2020-02-28 18:00:00,38,0,0
+Malaysia,Malaysia,2020-02-28 15:00:00,25,0,15
+Spain,Spain,2020-02-28 19:00:00,32,0,2
+Australia,Australia,2020-02-28 15:00:00,24,0,15
+United Arab Emirates,United Arab Emirates,2020-02-27 19:30:00,19,0,5
+United Kingdom,United Kingdom,2020-02-29 01:30:00,20,0,8
+Vietnam,Vietnam,2020-02-25 14:00:00,16,0,16
+Canada,Canada,2020-02-29 01:30:00,15,0,4
+Switzerland,Switzerland,2020-02-29 02:00:00,15,0,0
+Sweden,Sweden,2020-02-28 22:00:00,11,0,0
+Israel,Israel,2020-02-28 19:30:00,7,0,2
+Iraq,Iraq,2020-02-28 22:00:00,8,0,0
+Oman,Oman,2020-02-27 19:30:00,6,0,0
+Austria,Austria,2020-02-28 15:00:00,5,0,0
+Greece,Greece,2020-02-28 15:00:00,4,0,0
+Norway,Norway,2020-02-28 20:00:00,6,0,0
+Romania,Romania,2020-02-28 15:00:00,3,0,0
+Philippines,Philippines,2020-02-12 07:43:02,3,1,1
+Croatia,Croatia,2020-02-28 19:00:00,5,0,0
+Lebanon,Lebanon,2020-02-27 19:30:00,3,0,0
+India,India,2020-02-18 15:00:00,3,0,3
+Finland,Finland,2020-02-28 22:00:00,3,0,1
+Georgia (country),Georgia,2020-02-28 15:00:00,2,0,0
+Russia,Russia,2020-02-12 14:43:03,2,0,2
+Netherlands,Netherlands,2020-02-28 15:00:00,2,0,0
+Pakistan,Pakistan,2020-02-26 21:00:00,2,0,0
+Belgium,Belgium,2020-02-18 15:00:00,1,0,1
+Cambodia,Cambodia,2020-02-12 07:43:02,1,0,1
+Nepal,Nepal,2020-02-12 14:43:03,1,0,1
+Sri Lanka,Sri Lanka,2020-02-08 03:43:03,1,0,1
+Egypt,Egypt,2020-02-14 21:00:00,1,0,0
+Afghanistan,Afghanistan,2020-02-24 12:00:00,1,0,0
+Algeria,Algeria,2020-02-26 00:00:00,1,0,0
+Brazil,Brazil,2020-02-26 14:00:00,1,0,0
+North Macedonia,North Macedonia,2020-02-26 21:00:00,1,0,0
+Denmark,Denmark,2020-02-27 14:30:00,1,0,0
+Estonia,Estonia,2020-02-27 14:30:00,1,0,0
+San Marino,San Marino,2020-02-27 21:00:00,1,0,0
+Nigeria,Nigeria,2020-02-28 02:00:00,1,0,0
+Belarus,Belarus,2020-02-28 11:00:00,1,0,0
+Lithuania,Lithuania,2020-02-28 11:00:00,1,0,0
+New Zealand,New Zealand,2020-02-28 11:00:00,1,0,0
+Mexico,Mexico,2020-02-28 15:00:00,2,0,0
+Azerbaijan,Azerbaijan,2020-02-28 15:00:00,1,0,0
+Monaco,Monaco,2020-02-28 23:30:00,1,0,0
+Iceland,Iceland,2020-02-28 18:00:00,1,0,0
+Unknown location US,USA (all are repatriated cases),2020-02-28 22:00:00,44,0,0
+California,USA,2020-02-29 01:00:00,12,0,2
+Illinois,USA,2020-02-09 19:03:03,2,0,2
+Arizona,USA,2020-02-25 21:00:00,1,0,1
+Massachusetts,USA,2020-02-01 19:43:00,1,0,0
+Washington,USA,2020-02-29 04:00:00,3,0,1
+Wisconsin,USA,2020-02-05 21:53:00,1,0,0
+Oregon,USA,2020-02-29 02:30:00,1,0,0

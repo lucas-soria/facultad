@@ -1,0 +1,70 @@
+name,Region,Last Update,Confirmed,Deaths,Recovered
+Hubei,Mainland China,2020-02-22 02:00:00,63454,2250,13557
+Guangdong,Mainland China,2020-02-22 02:00:00,1339,5,720
+Henan,Mainland China,2020-02-22 02:00:00,1270,19,802
+Zhejiang,Mainland China,2020-02-22 02:00:00,1205,1,694
+Hunan,Mainland China,2020-02-22 02:00:00,1013,4,670
+Anhui,Mainland China,2020-02-22 02:00:00,989,6,620
+Jiangxi,Mainland China,2020-02-22 02:00:00,934,1,544
+Shandong,Mainland China,2020-02-22 02:00:00,750,4,293
+Jiangsu,Mainland China,2020-02-22 02:00:00,631,0,387
+Chongqing,Mainland China,2020-02-22 02:00:00,572,6,316
+Sichuan,Mainland China,2020-02-22 02:00:00,526,3,242
+Heilongjiang,Mainland China,2020-02-22 02:00:00,479,12,183
+Beijing,Mainland China,2020-02-22 02:00:00,399,4,178
+Shanghai,Mainland China,2020-02-22 03:00:00,334,3,227
+Hebei,Mainland China,2020-02-22 02:00:00,309,6,184
+Fujian,Mainland China,2020-02-22 02:00:00,293,1,150
+Guangxi,Mainland China,2020-02-22 02:00:00,249,2,99
+Shaanxi,Mainland China,2020-02-22 02:00:00,245,1,140
+Yunnan,Mainland China,2020-02-21 15:00:00,174,2,96
+Hainan,Mainland China,2020-02-22 02:00:00,168,4,96
+Guizhou,Mainland China,2020-02-22 02:00:00,146,2,90
+Tianjin,Mainland China,2020-02-22 03:00:00,135,3,64
+Shanxi,Mainland China,2020-02-22 02:00:00,132,0,78
+Liaoning,Mainland China,2020-02-22 02:00:00,121,1,66
+Gansu,Mainland China,2020-02-21 15:00:00,91,2,76
+Jilin,Mainland China,2020-02-22 02:00:00,91,1,46
+Xinjiang Uygur,Mainland China,2020-02-22 02:00:00,76,2,24
+Nei Mongol,Mainland China,2020-02-22 02:00:00,75,0,22
+Ningxia,Mainland China,2020-02-22 02:00:00,71,0,48
+Hong Kong,Hong Kong,2020-02-22 02:00:00,68,2,6
+Taiwan,Taiwan,2020-02-21 15:00:00,26,1,2
+Qinghai,Mainland China,2020-02-21 03:00:00,18,0,18
+Macau,Macau,2020-02-20 03:00:00,10,0,6
+Xizang,Mainland China,2020-02-12 06:43:02,1,0,1
+Others,Japan (Diamond Princess),2020-02-22 02:00:00,634,2,0
+Japan,Japan,2020-02-22 02:00:00,105,1,22
+South Korea,South Korea,2020-02-22 02:00:00,346,2,12
+Singapore,Singapore,2020-02-21 15:00:00,85,0,37
+Thailand,Thailand,2020-02-21 15:00:00,35,0,17
+Malaysia,Malaysia,2020-02-19 15:00:00,22,0,15
+Italy,Italy,2020-02-22 03:00:00,20,1,0
+Iran,Iran,2020-02-21 15:00:00,18,4,0
+Australia,Australia,2020-02-21 15:00:00,17,0,8
+Vietnam,Vietnam,2020-02-21 15:00:00,16,0,15
+Germany,Germany,2020-02-19 00:30:00,16,0,7
+France,France,2020-02-16 03:25:00,12,1,4
+United Kingdom,United Kingdom,2020-02-16 03:25:00,9,0,8
+United Arab Emirates,United Arab Emirates,2020-02-22 02:00:00,11,0,4
+Canada,Canada,2020-02-21 15:00:00,8,0,3
+India,India,2020-02-18 15:00:00,3,0,3
+Philippines,Philippines,2020-02-12 07:43:02,3,1,1
+Russia,Russia,2020-02-12 14:43:03,2,0,2
+Spain,Spain,2020-02-09 20:33:03,2,0,0
+Belgium,Belgium,2020-02-18 15:00:00,1,0,1
+Cambodia,Cambodia,2020-02-12 07:43:02,1,0,1
+Finland,Finland,2020-02-12 00:03:12,1,0,1
+Nepal,Nepal,2020-02-12 14:43:03,1,0,1
+Sri Lanka,Sri Lanka,2020-02-08 03:43:03,1,0,1
+Sweden,Sweden,2020-02-01 02:13:26,1,0,0
+Egypt,Egypt,2020-02-14 21:00:00,1,0,0
+Israel,Israel,2020-02-21 15:00:00,1,0,0
+Lebanon,Lebanon,2020-02-21 15:00:00,1,0,0
+Unknown location US,USA (all are repatriated cases),2020-02-21 20:00:00,18,0,0
+California,USA,2020-02-22 02:00:00,10,0,2
+Illinois,USA,2020-02-09 19:03:03,2,0,2
+Arizona,USA,2020-02-01 19:43:00,1,0,0
+Massachusetts,USA,2020-02-01 19:43:00,1,0,0
+Washington,USA,2020-02-09 07:03:00,1,0,1
+Wisconsin,USA,2020-02-05 21:53:00,1,0,0

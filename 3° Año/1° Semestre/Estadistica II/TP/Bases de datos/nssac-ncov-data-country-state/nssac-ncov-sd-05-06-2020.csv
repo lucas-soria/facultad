@@ -1,0 +1,302 @@
+name,Region,Last Update,Confirmed,Deaths,Recovered
+Hubei,Mainland China,2020-05-07 03:00:00,68128,4512,63616
+Guangdong,Mainland China,2020-05-07 03:00:00,1589,8,1575
+Henan,Mainland China,2020-05-07 03:00:00,1276,22,1254
+Zhejiang,Mainland China,2020-05-07 03:00:00,1268,1,1267
+Hong Kong,Hong Kong,2020-05-07 03:00:00,1044,4,944
+Hunan,Mainland China,2020-05-07 03:00:00,1019,4,1015
+Anhui,Mainland China,2020-05-07 03:00:00,991,6,985
+Jiangxi,Mainland China,2020-05-07 03:00:00,937,1,936
+Heilongjiang,Mainland China,2020-05-07 03:00:00,944,13,793
+Shandong,Mainland China,2020-05-07 03:00:00,788,7,775
+Jiangsu,Mainland China,2020-05-07 03:00:00,653,0,651
+Chongqing,Mainland China,2020-05-07 03:00:00,579,6,573
+Beijing,Mainland China,2020-05-07 03:00:00,593,9,557
+Shanghai,Mainland China,2020-05-07 03:00:00,657,7,623
+Sichuan,Mainland China,2020-05-07 03:00:00,561,3,558
+Taiwan,Taiwan,2020-05-07 03:00:00,440,6,347
+Fujian,Mainland China,2020-05-07 03:00:00,356,1,354
+Hebei,Mainland China,2020-05-07 03:00:00,328,6,320
+Shaanxi,Mainland China,2020-05-07 03:00:00,308,3,266
+Guangxi,Mainland China,2020-05-07 03:00:00,254,2,252
+Nei Mongol,Mainland China,2020-05-07 03:00:00,201,1,171
+Shanxi,Mainland China,2020-05-07 03:00:00,198,0,194
+Tianjin,Mainland China,2020-05-07 03:00:00,190,3,186
+Yunnan,Mainland China,2020-05-07 03:00:00,185,2,181
+Hainan,Mainland China,2020-05-07 03:00:00,168,6,162
+Guizhou,Mainland China,2020-05-07 03:00:00,147,2,145
+Liaoning,Mainland China,2020-05-07 03:00:00,146,2,144
+Gansu,Mainland China,2020-05-07 03:00:00,139,2,137
+Jilin,Mainland China,2020-05-07 03:00:00,112,1,103
+Xinjiang Uygur,Mainland China,2020-05-07 03:00:00,76,3,73
+Ningxia,Mainland China,2020-05-07 03:00:00,75,0,75
+Macau,Macau,2020-05-07 03:00:00,45,0,40
+Qinghai,Mainland China,2020-05-07 03:00:00,18,0,18
+Xizang,Mainland China,2020-05-07 03:00:00,1,0,1
+Comoros,Comoros,2020-05-07 03:00:00,8,1,0
+Tajikistan,Tajikistan,2020-05-07 03:00:00,379,8,0
+Yemen,Yemen,2020-05-07 03:00:00,25,5,1
+Sao Tome and Principe,Sao Tome and Principe,2020-05-07 03:00:00,174,3,4
+Saint Pierre and Miquelon,Saint Pierre and Miquelon,2020-05-07 03:00:00,1,0,0
+South Sudan,South Sudan,2020-05-07 03:00:00,58,0,0
+Falkland Islands (Islas Malvinas),Falkland Islands (Islas Malvinas),2020-04-05 20:00:00,2,0,0
+Malawi,Malawi,2020-05-07 03:00:00,43,3,9
+Burundi,Burundi,2020-05-07 03:00:00,15,1,7
+Sierra Leone,Sierra Leone,2020-05-07 03:00:00,225,14,54
+Botswana,Botswana,2020-05-07 03:00:00,23,1,8
+Anguilla,Anguilla,2020-05-07 03:00:00,3,0,3
+Saint Barthelemy,Saint Barthelemy,2020-05-07 03:00:00,6,0,6
+Bermuda,Bermuda,2020-05-07 03:00:00,118,7,59
+Faroe Islands,Faroe Islands,2020-05-07 03:00:00,187,0,185
+Gibraltar,Gibraltar,2020-05-07 03:00:00,144,0,136
+Isle of Man,Isle of Man,2020-05-07 03:00:00,327,23,271
+Saint Martin,Saint Martin,2020-05-07 03:00:00,38,3,29
+Montserrat,Montserrat,2020-05-07 03:00:00,11,1,7
+Mayotte,Mayotte,2020-05-07 03:00:00,739,9,352
+New Caledonia,New Caledonia,2020-05-07 03:00:00,18,0,18
+Sint Maarten,Sint Maarten,2020-05-07 03:00:00,76,14,44
+Turks and Caicos Islands,Turks and Caicos Islands,2020-05-07 03:00:00,12,1,6
+Republic of the Congo,Republic of the Congo,2020-05-07 03:00:00,264,10,30
+Angola,Angola,2020-05-07 03:00:00,36,2,11
+Benin,Benin,2020-05-07 03:00:00,96,2,50
+Bahamas,Bahamas,2020-05-07 03:00:00,92,11,26
+Belize,Belize,2020-05-07 03:00:00,18,2,16
+Barbados,Barbados,2020-05-07 03:00:00,82,7,47
+Central African Republic,Central African Republic,2020-05-07 03:00:00,94,0,10
+Cabo Verde,Cabo Verde,2020-05-07 03:00:00,191,2,38
+Djibouti,Djibouti,2020-05-07 03:00:00,1124,3,755
+Dominica,Dominica,2020-05-07 03:00:00,16,0,14
+Eritrea,Eritrea,2020-05-07 03:00:00,39,0,30
+Fiji,Fiji,2020-05-07 03:00:00,18,0,14
+Gambia,Gambia,2020-05-07 03:00:00,17,1,9
+Guinea-Bissau,Guinea-Bissau,2020-05-07 03:00:00,475,2,24
+Equatorial Guinea,Equatorial Guinea,2020-05-07 03:00:00,439,4,13
+Grenada,Grenada,2020-05-07 03:00:00,21,0,13
+Haiti,Haiti,2020-05-07 03:00:00,101,12,10
+Kyrgyzstan,Kyrgyzstan,2020-05-07 03:00:00,871,12,614
+Saint Kitts and Nevis,Saint Kitts and Nevis,2020-05-07 03:00:00,15,0,12
+Laos,Laos,2020-05-07 03:00:00,19,0,9
+Liberia,Liberia,2020-05-07 03:00:00,178,20,75
+Libya,Libya,2020-05-03 12:00:00,63,3,24
+Madagascar,Madagascar,2020-05-07 03:00:00,158,0,101
+Mali,Mali,2020-05-07 03:00:00,631,32,261
+Montenegro,Montenegro,2020-05-07 03:00:00,324,8,261
+Mozambique,Mozambique,2020-05-07 03:00:00,81,0,21
+Mauritius,Mauritius,2020-04-27 17:00:00,334,9,302
+Niger,Niger,2020-05-07 03:00:00,770,38,561
+Nicaragua,Nicaragua,2020-05-07 03:00:00,16,5,7
+Papua New Guinea,Papua New Guinea,2020-05-07 03:00:00,8,0,8
+El Salvador,El Salvador,2020-05-07 03:00:00,633,15,219
+Somalia,Somalia,2020-05-07 03:00:00,873,39,87
+Kosovo,Kosovo,2020-05-07 03:00:00,856,26,490
+Syria,Syria,2020-05-07 03:00:00,45,3,27
+Chad,Chad,2020-05-07 03:00:00,170,17,43
+Timor-Leste,Timor-Leste,2020-05-07 03:00:00,24,0,20
+Tanzania,Tanzania,2020-05-07 03:00:00,480,16,167
+Uganda,Uganda,2020-05-07 03:00:00,100,0,55
+Zambia,Zambia,2020-05-07 03:00:00,146,4,101
+Zimbabwe,Zimbabwe,2020-05-02 01:00:00,40,4,5
+Spain,Spain,2020-05-06 17:00:00,253682,25857,159359
+United Kingdom,United Kingdom,2020-05-06 17:00:00,202355,30150,926
+France,France,2020-05-06,137150,25809,53972
+Russia,Russia,2020-05-07 03:00:00,165929,1537,21327
+Turkey,Turkey,2020-05-07 03:00:00,131744,3584,78202
+Iran,Iran,2020-05-07 03:00:00,101650,6418,81587
+Netherlands,Netherlands,2020-05-07 03:00:00,41319,5204,6
+Switzerland,Switzerland,2020-05-07 03:00:00,30060,1805,25700
+Portugal,Portugal,2020-05-07 03:00:00,26182,1089,2076
+Ecuador,Ecuador,2020-05-07 03:00:00,27940,1618,3433
+Saudi Arabia,Saudi Arabia,2020-05-07 03:00:00,31938,209,6783
+Sweden,Sweden,2020-05-07 03:00:00,23918,2941,4074
+Ireland,Ireland,2020-05-07 03:00:00,22248,1375,17110
+Mexico,Mexico,2020-05-07 03:00:00,27634,2704,17781
+Pakistan,Pakistan,2020-05-07 03:00:00,24073,564,6464
+Singapore,Singapore,2020-05-07 03:00:00,20198,20,1634
+Israel,Israel,2020-05-06 19:00:00,16314,238,10527
+Japan,Japan,2020-05-07 03:00:00,15253,556,4496
+Belarus,Belarus,2020-05-07 03:00:00,19255,112,4388
+Norway,Norway,2020-05-07 03:00:00,7996,216,32
+Australia,Australia,2020-05-07 03:00:00,6894,97,6031
+Denmark,Denmark,2020-05-07 03:00:00,9938,506,7493
+Malaysia,Malaysia,2020-05-07 03:00:00,6428,107,4702
+Czech Republic,Czech Republic,2020-05-07 03:00:00,7974,262,4205
+Luxembourg,Luxembourg,2020-05-07 03:00:00,3851,98,3452
+Thailand,Thailand,2020-05-07 03:00:00,2989,55,2761
+Finland,Finland,2020-05-07 03:00:00,5573,252,3500
+Others,Japan (Diamond Princess),2020-03-03 03:00:00,706,6,10
+Poland,Poland,2020-05-07 03:00:00,14740,733,4655
+Iceland,Iceland,2020-05-07 03:00:00,1799,10,1750
+Indonesia,Indonesia,2020-05-07 03:00:00,12438,895,2317
+Romania,Romania,2020-05-07 03:00:00,14107,864,5788
+Qatar,Qatar,2020-05-07 03:00:00,17972,12,2070
+Philippines,Philippines,2020-05-07 03:00:00,10004,658,1506
+Slovenia,Slovenia,2020-05-07 03:00:00,1448,99,246
+South Africa,South Africa,2020-05-07 03:00:00,7808,153,3153
+Estonia,Estonia,2020-05-07 03:00:00,1713,55,264
+Bahrain,Bahrain,2020-05-07 03:00:00,3934,8,1860
+Egypt,Egypt,2020-05-07 03:00:00,7588,469,1815
+Croatia,Croatia,2020-05-07 03:00:00,2119,85,1601
+Panama,Panama,2020-05-07 03:00:00,7731,218,859
+Lebanon,Lebanon,2020-05-07 03:00:00,750,25,206
+Iraq,Iraq,2020-05-07 03:00:00,2480,102,1602
+Serbia,Serbia,2020-05-07 03:00:00,9791,203,1971
+Dominican Republic,Dominican Republic,2020-05-07 03:00:00,8807,362,1960
+Algeria,Algeria,2020-05-07 03:00:00,4997,476,2197
+Armenia,Armenia,2020-05-07 03:00:00,2782,40,1135
+Kuwait,Kuwait,2020-05-07 03:00:00,6289,42,2219
+Bulgaria,Bulgaria,2020-05-07 03:00:00,1778,84,360
+Slovakia,Slovakia,2020-05-07 03:00:00,1429,25,762
+San Marino,San Marino,2020-05-07 03:00:00,608,41,97
+United Arab Emirates,United Arab Emirates,2020-05-07 03:00:00,15738,157,3359
+Latvia,Latvia,2020-05-07 03:00:00,900,17,464
+Uruguay,Uruguay,2020-05-07 03:00:00,673,17,486
+Hungary,Hungary,2020-05-07 03:00:00,3111,373,759
+Lithuania,Lithuania,2020-04-27 11:00:00,1449,41,474
+Costa Rica,Costa Rica,2020-05-07 03:00:00,761,6,428
+North Macedonia,North Macedonia,2020-05-07 03:00:00,1539,88,1057
+Vietnam,Vietnam,2020-05-07 03:00:00,271,0,232
+Andorra,Andorra,2020-05-07 03:00:00,751,46,521
+Morocco,Morocco,2020-05-07 03:00:00,5408,183,2017
+Jordan,Jordan,2020-05-07 03:00:00,473,9,377
+Cyprus,Cyprus,2020-05-07 03:00:00,883,15,296
+Moldova,Moldova,2020-05-07 03:00:00,4476,143,1658
+Bosnia and Herzegovina,Bosnia and Herzegovina,2020-05-07 03:00:00,1987,86,928
+Malta,Malta,2020-05-07 03:00:00,484,5,407
+Albania,Albania,2020-05-07 03:00:00,832,31,595
+Brunei,Brunei,2020-05-07 03:00:00,139,1,131
+Cambodia,Cambodia,2020-05-07 03:00:00,122,0,120
+Sri Lanka,Sri Lanka,2020-05-07 03:00:00,797,9,215
+Tunisia,Tunisia,2020-05-07 03:00:00,1025,43,591
+Burkina Faso,Burkina Faso,2020-05-07 03:00:00,729,48,555
+Venezuela,Venezuela,2020-05-07 03:00:00,379,10,176
+New Zealand,New Zealand,2020-05-07 03:00:00,1489,21,1332
+Azerbaijan,Azerbaijan,2020-05-07 03:00:00,2127,28,1536
+Kazakhstan,Kazakhstan,2020-05-07 03:00:00,4422,30,1408
+Senegal,Senegal,2020-05-07 03:00:00,1433,12,493
+Guadeloupe,Guadeloupe,2020-05-07 03:00:00,152,13,104
+Oman,Oman,2020-05-07 03:00:00,2903,13,888
+Georgia (country),Georgia,2020-05-07 03:00:00,610,9,269
+Trinidad and Tobago,Trinidad and Tobago,2020-05-07 03:00:00,116,8,103
+Ukraine,Ukraine,2020-05-07 03:00:00,13184,327,2097
+Reunion,Reunion,2020-05-07 03:00:00,425,0,300
+Uzbekistan,Uzbekistan,2020-05-07 03:00:00,2233,10,1577
+Cameroon,Cameroon,2020-05-07 03:00:00,2265,108,1000
+Martinique,Martinique,2020-05-07 03:00:00,182,14,83
+Liechtenstein,Liechtenstein,2020-05-07 03:00:00,82,1,55
+Afghanistan,Afghanistan,2020-05-07 03:00:00,3392,104,458
+Palestine,Palestine,2020-05-06 20:00:00,374,2,174
+Democratic Republic of the Congo,Democratic Republic of the Congo,2020-05-07 03:00:00,797,35,92
+Bangladesh,Bangladesh,2020-05-07 03:00:00,11719,186,1403
+Nigeria,Nigeria,2020-05-07 03:00:00,3145,103,534
+Honduras,Honduras,2020-05-07 03:00:00,1461,99,132
+Bolivia,Bolivia,2020-05-07 03:00:00,1886,91,198
+Paraguay,Paraguay,2020-05-07 03:00:00,440,10,142
+Cuba,Cuba,2020-05-07 03:00:00,1703,69,1001
+Ghana,Ghana,2020-05-07 03:00:00,3091,18,294
+French Guiana,French Guiana,2020-05-07 03:00:00,138,1,111
+Rwanda,Rwanda,2020-05-07 03:00:00,268,0,130
+Guatemala,Guatemala,2020-05-07 03:00:00,798,21,86
+Jamaica,Jamaica,2020-05-07 03:00:00,478,9,57
+Togo,Togo,2020-05-07 03:00:00,128,9,77
+Kenya,Kenya,2020-05-07 03:00:00,582,26,190
+Cote d'Ivoire,Cote d'Ivoire,2020-05-07 03:00:00,1516,18,721
+Maldives,Maldives,2020-05-06 19:00:00,618,2,20
+Monaco,Monaco,2020-05-07 03:00:00,95,4,82
+Ethiopia,Ethiopia,2020-05-07 03:00:00,162,4,93
+Mongolia,Mongolia,2020-05-07 03:00:00,41,0,13
+Guyana,Guyana,2020-05-07 03:00:00,93,10,27
+Seychelles,Seychelles,2020-05-07 03:00:00,11,0,8
+Suriname,Suriname,2020-05-07 03:00:00,10,1,9
+Gabon,Gabon,2020-05-07 03:00:00,397,6,93
+French Polynesia,French Polynesia,2020-05-07 03:00:00,60,0,54
+Namibia,Namibia,2020-05-07 03:00:00,16,0,8
+Bhutan,Bhutan,2020-05-07 03:00:00,7,0,5
+Saint Lucia,Saint Lucia,2020-05-07 03:00:00,18,0,15
+Sudan,Sudan,2020-05-07 03:00:00,852,49,80
+Nepal,Nepal,2020-05-07 03:00:00,99,0,22
+Guinea,Guinea,2020-05-07 03:00:00,1856,11,597
+Aruba,Aruba,2020-05-07 03:00:00,101,2,89
+Jersey,Jersey,2020-03-14 18:00:00,2,0,0
+Mauritania,Mauritania,2020-05-07 03:00:00,8,1,6
+Antigua and Barbuda,Antigua and Barbuda,2020-05-07 03:00:00,25,3,16
+Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,2020-05-07 03:00:00,17,0,9
+Curacao,Curacao,2020-05-07 03:00:00,16,1,13
+Greenland,Greenland,2020-05-07 03:00:00,11,0,11
+Guernsey,Guernsey,2020-03-13 13:00:00,1,0,0
+Vatican City,Vatican City,2020-05-07 03:00:00,12,0,2
+Cayman Islands,Cayman Islands,2020-05-07 03:00:00,78,1,30
+India,India,2020-05-06 22:00:00,52987,1785,15331
+Canada,Canada,2020-05-07 00:00:00,63496,4232,26993
+Italy,Italy,2020-05-06 22:00:00,214457,29684,93245
+South Korea,South Korea,2020-05-06 11:00:00,10806,255,9333
+Austria,Austria,2020-05-06 22:00:00,15650,608,13639
+Belgium,Belgium,2020-05-06 11:00:00,50781,8339,12731
+Greece,Greece,2020-05-06 20:00:00,2663,146,1442
+Chile,Chile,2020-05-06 17:00:00,23048,281,11189
+Peru,Peru,2020-05-06 21:00:00,54817,1533,17527
+Argentina,Argentina,2020-05-07 03:00:00,5208,273,1524
+Brazil,Brazil,2020-05-07 00:00:00,125218,8536,48221
+Colombia,Colombia,2020-05-07 00:00:00,8959,397,2148
+Germany,Germany,2020-05-07 00:00:00,168162,7275,137696
+New York,USA,2020-05-07 11:00:00,333576,25923,35822
+New Jersey,USA,2020-05-07 11:00:00,131890,8549,730
+Massachusetts,USA,2020-05-07 11:00:00,72025,4420,5708
+Illinois,USA,2020-05-07 11:00:00,68232,2974,715
+California,USA,2020-05-07 11:00:00,60616,2464,3975
+Pennsylvania,USA,2020-05-07 11:00:00,54800,3345,1044
+Michigan,USA,2020-05-07 11:00:00,45179,4256,15674
+Florida,USA,2020-05-07 11:00:00,38013,1539,174
+Texas,USA,2020-05-07 11:00:00,34928,954,14548
+Connecticut,USA,2020-05-07 11:00:00,30995,2718,63
+Georgia,USA,2020-05-07 11:00:00,30746,1327,340
+Louisiana,USA,2020-05-07 11:00:00,30399,2167,20316
+Maryland,USA,2020-05-07 11:00:00,28163,1437,1903
+Indiana,USA,2020-05-07 11:00:00,21870,1377,1559
+Ohio,USA,2020-05-07 11:00:00,21576,1225,448
+Virginia,USA,2020-05-07 11:00:00,20257,713,2734
+Colorado,USA,2020-05-07 11:00:00,17832,919,567
+Washington,USA,2020-05-07 11:00:00,16640,879,2095
+Tennessee,USA,2020-05-07 11:00:00,13938,239,6587
+North Carolina,USA,2020-05-07 11:00:00,13053,492,1802
+Iowa,USA,2020-05-07 11:00:00,10404,219,3803
+Veteran Affair,USA,2020-05-07 11:00:00,10225,797,0
+Rhode Island,USA,2020-05-07 11:00:00,10205,370,665
+Arizona,USA,2020-05-07 11:00:00,9707,426,6
+Missouri,USA,2020-05-07 11:00:00,9323,428,2063
+Wisconsin,USA,2020-05-07 11:00:00,8901,362,4348
+Alabama,USA,2020-05-07 11:00:00,8691,343,0
+Minnesota,USA,2020-05-07 11:00:00,8579,485,5005
+Mississippi,USA,2020-05-07 11:00:00,8424,374,4421
+US Military,USA,2020-05-07 11:00:00,7604,27,2995
+South Carolina,USA,2020-05-07 11:00:00,6936,305,3252
+Nebraska,USA,2020-05-07 11:00:00,6689,78,0
+Kansas,USA,2020-05-07 11:00:00,5993,164,1280
+Kentucky,USA,2020-05-07 11:00:00,5934,283,1675
+Delaware,USA,2020-05-07 11:00:00,5778,193,2008
+Nevada,USA,2020-05-07 11:00:00,5744,289,4199
+Utah,USA,2020-05-07 11:00:00,5595,58,1952
+District of Columbia,USA,2020-05-07 11:00:00,5461,277,808
+New Mexico,USA,2020-05-07 11:00:00,4291,169,1073
+Oklahoma,USA,2020-05-07 11:00:00,4202,253,2910
+Arkansas,USA,2020-05-07 11:00:00,3611,87,2123
+Oregon,USA,2020-05-07 11:00:00,2916,115,1125
+South Dakota,USA,2020-05-07 11:00:00,2780,29,1977
+New Hampshire,USA,2020-05-07 11:00:00,2741,92,1105
+Navajo Nation,USA,2020-05-07 11:00:00,2655,85,0
+Federal Bureau of Prisons,USA,2020-05-07 11:00:00,2465,42,710
+Idaho,USA,2020-05-07 11:00:00,2158,66,867
+Puerto Rico,USA,2020-05-07 11:00:00,1968,99,0
+North Dakota,USA,2020-05-07 11:00:00,1323,31,582
+Maine,USA,2020-05-07 11:00:00,1254,62,766
+West Virginia,USA,2020-05-07 11:00:00,1242,50,667
+Vermont,USA,2020-05-07 11:00:00,908,52,0
+Wyoming,USA,2020-05-07 11:00:00,631,7,416
+Hawaii,USA,2020-05-07 11:00:00,626,17,558
+Montana,USA,2020-05-07 11:00:00,457,16,410
+Alaska,USA,2020-05-07 11:00:00,372,10,286
+Guam,USA,2020-05-07 11:00:00,149,5,128
+Grand Princess,USA,2020-05-07 11:00:00,103,3,0
+United States Virgin Islands,USA,2020-05-07 11:00:00,66,4,51
+Diamond Princess,USA,2020-05-07 11:00:00,49,0,0
+Northern Mariana Islands,USA,2020-05-07 11:00:00,15,2,12
+Wuhan Evacuee,USA,2020-05-07 11:00:00,4,0,0

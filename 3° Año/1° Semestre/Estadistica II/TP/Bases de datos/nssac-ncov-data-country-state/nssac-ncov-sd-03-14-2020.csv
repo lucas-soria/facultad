@@ -1,0 +1,230 @@
+name,Region,Last Update,Confirmed,Deaths,Recovered
+Hubei,Mainland China,2020-03-15 02:00:00,67794,3085,54278
+Guangdong,Mainland China,2020-03-15 02:00:00,1357,8,1303
+Henan,Mainland China,2020-03-15 02:00:00,1273,22,1250
+Zhejiang,Mainland China,2020-03-15 02:00:00,1231,1,1211
+Hunan,Mainland China,2020-03-14 09:00:00,1018,4,1014
+Anhui,Mainland China,2020-03-09 01:00:00,990,6,984
+Jiangxi,Mainland China,2020-03-13 02:00:00,935,1,934
+Shandong,Mainland China,2020-03-15 02:00:00,760,7,741
+Jiangsu,Mainland China,2020-03-15 02:00:00,631,0,631
+Chongqing,Mainland China,2020-03-15 02:00:00,576,6,569
+Sichuan,Mainland China,2020-03-15 02:00:00,539,3,515
+Heilongjiang,Mainland China,2020-03-15 02:00:00,482,13,453
+Beijing,Mainland China,2020-03-15 02:00:00,442,8,353
+Shanghai,Mainland China,2020-03-15 02:00:00,353,3,324
+Hebei,Mainland China,2020-03-13 02:00:00,318,6,310
+Fujian,Mainland China,2020-03-09 01:00:00,296,1,295
+Guangxi,Mainland China,2020-03-13 02:00:00,252,2,243
+Shaanxi,Mainland China,2020-03-15 02:00:00,245,2,232
+Yunnan,Mainland China,2020-03-15 02:00:00,174,2,172
+Hainan,Mainland China,2020-03-13 02:00:00,168,6,160
+Guizhou,Mainland China,2020-03-15 02:00:00,146,2,143
+Hong Kong,Hong Kong,2020-03-15 02:00:00,141,4,81
+Tianjin,Mainland China,2020-03-13 02:00:00,136,3,132
+Shanxi,Mainland China,2020-03-15 02:00:00,133,0,133
+Gansu,Mainland China,2020-03-15 02:00:00,132,2,91
+Liaoning,Mainland China,2020-03-15 02:00:00,125,1,113
+Jilin,Mainland China,2020-03-10 02:00:00,93,1,91
+Xinjiang Uygur,Mainland China,2020-03-09 01:00:00,76,3,73
+Nei Mongol,Mainland China,2020-03-11 12:00:00,75,1,71
+Ningxia,Mainland China,2020-03-15 02:00:00,75,0,73
+Taiwan,Taiwan,2020-03-15 02:00:00,53,1,20
+Qinghai,Mainland China,2020-03-07 01:00:00,18,0,18
+Macau,Macau,2020-03-07 01:00:00,10,0,10
+Xizang,Mainland China,2020-02-12 07:00:00,1,0,1
+Italy,Italy,2020-03-14 21:00:00,21157,1441,1966
+Iran,Iran,2020-03-14 21:00:00,12729,611,2959
+South Korea,South Korea,2020-03-14 02:00:00,8086,72,510
+Spain,Spain,2020-03-15 02:00:00,6391,196,517
+Germany,Germany,2020-03-14 21:00:00,4585,9,46
+France,France,2020-03-14,4500,91,12
+Switzerland,Switzerland,2020-03-14 21:00:00,1359,13,4
+United Kingdom,United Kingdom,2020-03-14 21:00:00,1143,21,19
+Norway,Norway,2020-03-15 02:00:00,1090,3,1
+Sweden,Sweden,2020-03-15 02:00:00,961,2,1
+Netherlands,Netherlands,2020-03-15 02:00:00,959,12,2
+Denmark,Denmark,2020-03-14 23:00:00,836,1,1
+Others,Japan (Diamond Princess),2020-03-03 03:00:00,706,6,10
+Japan,Japan,2020-03-15 02:00:00,773,22,118
+Belgium,Belgium,2020-03-14 21:00:00,689,4,1
+Austria,Austria,2020-03-14 21:00:00,655,1,6
+Qatar,Qatar,2020-03-14 23:00:00,337,0,4
+Australia,Australia,2020-03-14 21:00:00,250,3,24
+Malaysia,Malaysia,2020-03-14 21:00:00,238,0,35
+Greece,Greece,2020-03-14 21:00:00,228,3,0
+Finland,Finland,2020-03-14 23:00:00,225,0,1
+Singapore,Singapore,2020-03-14 21:00:00,212,0,105
+Bahrain,Bahrain,2020-03-14 12:00:00,210,0,44
+Canada,Canada,2020-03-15 02:00:00,252,1,8
+Israel,Israel,2020-03-14 21:00:00,193,0,4
+Czech Republic,Czech Republic,2020-03-14 21:00:00,189,0,0
+Slovenia,Slovenia,2020-03-14 23:00:00,181,1,0
+Portugal,Portugal,2020-03-14 21:00:00,169,0,2
+Iceland,Iceland,2020-03-14 21:00:00,156,0,1
+Brazil,Brazil,2020-03-14 21:00:00,151,0,1
+Ireland,Ireland,2020-03-14 21:00:00,129,2,0
+Romania,Romania,2020-03-15 02:00:00,123,0,9
+Estonia,Estonia,2020-03-15 02:00:00,115,0,0
+Philippines,Philippines,2020-03-15 02:00:00,111,8,2
+Iraq,Iraq,2020-03-15 02:00:00,110,10,26
+Egypt,Egypt,2020-03-14 21:00:00,109,2,27
+Kuwait,Kuwait,2020-03-14 21:00:00,104,0,5
+Saudi Arabia,Saudi Arabia,2020-03-14 21:00:00,103,0,1
+Poland,Poland,2020-03-14 23:00:00,103,3,0
+India,India,2020-03-14 21:00:00,102,2,4
+Indonesia,Indonesia,2020-03-14 21:00:00,96,5,8
+Lebanon,Lebanon,2020-03-14 21:00:00,93,3,1
+United Arab Emirates,United Arab Emirates,2020-03-13 12:00:00,85,0,17
+Thailand,Thailand,2020-03-14 21:00:00,82,1,35
+San Marino,San Marino,2020-03-14 23:00:00,80,5,4
+Chile,Chile,2020-03-13 21:00:00,61,0,0
+Russia,Russia,2020-03-14 21:00:00,59,0,8
+Vietnam,Vietnam,2020-03-14 21:00:00,53,0,16
+Luxembourg,Luxembourg,2020-03-14 03:00:00,51,1,0
+Serbia,Serbia,2020-03-14 23:00:00,46,0,0
+Slovakia,Slovakia,2020-03-14 21:00:00,44,0,0
+Bulgaria,Bulgaria,2020-03-14 21:00:00,41,2,0
+Brunei,Brunei,2020-03-13 12:00:00,40,0,0
+Albania,Albania,2020-03-14 21:00:00,38,1,0
+Croatia,Croatia,2020-03-14 21:00:00,38,0,1
+South Africa,South Africa,2020-03-14 21:00:00,38,0,0
+Peru,Peru,2020-03-14 03:00:00,38,0,0
+Algeria,Algeria,2020-03-14 21:00:00,37,3,12
+Panama,Panama,2020-03-14 21:00:00,36,1,0
+Argentina,Argentina,2020-03-14 21:00:00,34,2,1
+Pakistan,Pakistan,2020-03-14 21:00:00,31,0,2
+Hungary,Hungary,2020-03-14 23:00:00,30,0,1
+Georgia (country),Georgia,2020-03-14 21:00:00,30,0,0
+Ecuador,Ecuador,2020-03-14 23:00:00,28,2,0
+Belarus,Belarus,2020-03-13 23:00:00,27,0,3
+Costa Rica,Costa Rica,2020-03-14 21:00:00,26,0,0
+Latvia,Latvia,2020-03-14 20:00:00,26,0,1
+Mexico,Mexico,2020-03-14 23:00:00,26,0,4
+Cyprus,Cyprus,2020-03-14 23:00:00,26,0,0
+Colombia,Colombia,2020-03-14 21:00:00,22,0,0
+Oman,Oman,2020-03-14 00:00:00,19,0,9
+Palestine,Palestine,2020-03-13 13:00:00,31,0,0
+Bosnia and Herzegovina,Bosnia and Herzegovina,2020-03-14 18:00:00,18,0,0
+Armenia,Armenia,2020-03-14 21:00:00,18,0,0
+Malta,Malta,2020-03-14 13:00:00,18,0,1
+Tunisia,Tunisia,2020-03-14 21:00:00,18,0,0
+Morocco,Morocco,2020-03-14 21:00:00,17,1,0
+Azerbaijan,Azerbaijan,2020-03-13 13:00:00,15,1,3
+North Macedonia,North Macedonia,2020-03-13 23:00:00,14,0,1
+Moldova,Moldova,2020-03-14 21:00:00,12,0,0
+Afghanistan,Afghanistan,2020-03-14 15:00:00,11,0,0
+Dominican Republic,Dominican Republic,2020-03-14 22:30:00,11,0,0
+Maldives,Maldives,2020-03-14 18:00:00,10,0,0
+Bolivia,Bolivia,2020-03-14 21:00:00,10,0,0
+Senegal,Senegal,2020-03-14 00:00:00,10,0,1
+Sri Lanka,Sri Lanka,2020-03-14 17:00:00,10,0,1
+Lithuania,Lithuania,2020-03-14 20:00:00,8,0,0
+Jamaica,Jamaica,2020-03-13 23:00:00,8,0,0
+Cambodia,Cambodia,2020-03-14 13:00:00,7,0,1
+New Zealand,New Zealand,2020-03-14 21:00:00,6,0,0
+Kazakhstan,Kazakhstan,2020-03-15 01:00:00,6,0,0
+Paraguay,Paraguay,2020-03-14 21:00:00,7,0,0
+Turkey,Turkey,2020-03-14 01:00:00,5,0,0
+Cuba,Cuba,2020-03-14 01:00:00,4,0,0
+Liechtenstein,Liechtenstein,2020-03-14 22:00:00,4,0,0
+Uruguay,Uruguay,2020-03-13 22:00:00,4,0,0
+Bangladesh,Bangladesh,2020-03-13 23:00:00,3,0,0
+Ukraine,Ukraine,2020-03-13 14:30:00,3,1,0
+Ghana,Ghana,2020-03-15 01:00:00,3,0,0
+Aruba,Aruba,2020-03-14 01:00:00,2,0,0
+Cameroon,Cameroon,2020-03-08 13:00:00,2,0,0
+Burkina Faso,Burkina Faso,2020-03-10 01:00:00,2,0,0
+Monaco,Monaco,2020-03-12 14:00:00,2,0,0
+Jersey,Jersey,2020-03-14 18:00:00,2,0,0
+Nigeria,Nigeria,2020-03-10 02:00:00,2,0,0
+Namibia,Namibia,2020-03-14 14:00:00,2,0,0
+Seychelles,Seychelles,2020-03-15 01:00:00,2,0,0
+Democratic Republic of the Congo,Democratic Republic of the Congo,2020-03-13 23:00:00,2,0,0
+Venezuela,Venezuela,2020-03-13 22:00:00,2,0,0
+Trinidad and Tobago,Trinidad and Tobago,2020-03-14 20:00:00,2,0,0
+Honduras,Honduras,2020-03-11 12:00:00,2,0,0
+Ethiopia,Ethiopia,2020-03-13 15:00:00,1,0,0
+Guatemala,Guatemala,2020-03-13 21:30:00,1,0,0
+Gabon,Gabon,2020-03-13 12:00:00,1,0,0
+Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,2020-03-14 14:00:00,1,0,0
+Kenya,Kenya,2020-03-13 12:00:00,1,0,0
+Saint Lucia,Saint Lucia,2020-03-14 14:00:00,1,0,0
+Mongolia,Mongolia,2020-03-10 02:00:00,1,0,0
+Rwanda,Rwanda,2020-03-14 14:00:00,1,0,0
+Togo,Togo,2020-03-06 16:30:00,1,0,0
+Guinea,Guinea,2020-03-13 17:00:00,1,0,0
+Andorra,Andorra,2020-03-13 23:00:00,1,0,1
+Guernsey,Guernsey,2020-03-13 14:00:00,1,0,0
+Antigua and Barbuda,Antigua and Barbuda,2020-03-13 23:00:00,1,0,0
+Curacao,Curacao,2020-03-14 14:00:00,1,0,0
+Bhutan,Bhutan,2020-03-06 11:00:00,1,0,0
+Sudan,Sudan,2020-03-13 17:00:00,1,1,0
+Nepal,Nepal,2020-02-12 14:43:03,1,0,1
+Suriname,Suriname,2020-03-14 16:33:03,1,0,0
+Cayman Islands,Cayman Islands,2020-03-13 12:00:00,1,0,0
+Cote d'Ivoire,Cote d'Ivoire,2020-03-13 23:00:00,1,0,0
+Jordan,Jordan,2020-03-14 13:00:00,1,0,1
+Mauritania,Mauritania,2020-03-14 13:00:00,1,0,0
+Guyana,Guyana,2020-03-14 23:30:00,1,1,0
+Guadeloupe,Guadeloupe,2020-03-13 12:00:00,1,0,0
+Vatican City,Vatican City,2020-03-06 16:30:00,1,0,0
+Martinique,Martinique,2020-03-14 16:00:00,9,0,0
+French Guiana,French Guiana,2020-03-07 04:00:00,5,0,0
+Reunion,Reunion,2020-03-14 22:00:00,6,0,0
+French Polynesia,French Polynesia,2020-03-14 17:00:00,3,0,0
+Washington,USA,2020-03-15 03:00:00,642,40,1
+New York,USA,2020-03-15 03:00:00,615,2,0
+California,USA,2020-03-15 03:00:00,374,5,2
+Massachusetts,USA,2020-03-15 03:00:00,138,0,1
+Florida,USA,2020-03-15 03:00:00,116,4,0
+Colorado,USA,2020-03-15 03:00:00,101,1,0
+Louisiana,USA,2020-03-15 03:00:00,77,1,0
+Georgia,USA,2020-03-15 03:00:00,75,1,0
+New Jersey,USA,2020-03-15 03:00:00,70,2,0
+Illinois,USA,2020-03-15 03:00:00,66,0,2
+Texas,USA,2020-03-15 03:00:00,63,0,0
+Pennsylvania,USA,2020-03-15 03:00:00,47,0,0
+Diamond Princess,USA,2020-03-15 03:00:00,46,0,0
+Virginia,USA,2020-03-15 03:00:00,41,1,0
+Oregon,USA,2020-03-15 03:00:00,36,1,0
+Michigan,USA,2020-03-15 03:00:00,33,0,0
+Tennessee,USA,2020-03-15 03:00:00,32,0,0
+Maryland,USA,2020-03-15 03:00:00,28,0,0
+Ohio,USA,2020-03-15 03:00:00,28,0,0
+Wisconsin,USA,2020-03-15 03:00:00,27,0,1
+North Carolina,USA,2020-03-15 03:00:00,26,0,0
+Utah,USA,2020-03-15 03:00:00,24,0,0
+Connecticut,USA,2020-03-15 03:00:00,23,0,0
+Nevada,USA,2020-03-15 03:00:00,21,0,0
+Minnesota,USA,2020-03-15 03:00:00,21,0,0
+Rhode Island,USA,2020-03-15 03:00:00,20,0,0
+Grand Princess,USA,2020-03-15 03:00:00,21,0,0
+South Carolina,USA,2020-03-15 03:00:00,19,0,0
+Iowa,USA,2020-03-15 03:00:00,18,0,0
+Kentucky,USA,2020-03-15 03:00:00,18,0,0
+Nebraska,USA,2020-03-15 03:00:00,17,0,0
+District of Columbia,USA,2020-03-15 03:00:00,16,0,0
+Indiana,USA,2020-03-15 03:00:00,16,0,0
+New Mexico,USA,2020-03-15 03:00:00,13,0,0
+Arizona,USA,2020-03-15 03:00:00,12,0,1
+Arkansas,USA,2020-03-15 03:00:00,12,0,0
+Alabama,USA,2020-03-15 03:00:00,12,0,0
+South Dakota,USA,2020-03-15 03:00:00,9,1,0
+Kansas,USA,2020-03-15 03:00:00,8,1,0
+New Hampshire,USA,2020-03-15 03:00:00,7,0,0
+Montana,USA,2020-03-15 03:00:00,7,0,0
+Maine,USA,2020-03-15 03:00:00,6,0,0
+Delaware,USA,2020-03-15 03:00:00,6,0,0
+Hawaii,USA,2020-03-15 03:00:00,6,0,0
+Mississippi,USA,2020-03-15 03:00:00,6,0,0
+Vermont,USA,2020-03-15 03:00:00,5,0,0
+Missouri,USA,2020-03-15 03:00:00,5,0,0
+Idaho,USA,2020-03-15 03:00:00,5,0,0
+Oklahoma,USA,2020-03-15 03:00:00,4,0,0
+Puerto Rico,USA,2020-03-15 03:00:00,3,0,0
+Wuhan Evacuee,USA,2020-03-15 03:00:00,3,0,0
+Wyoming,USA,2020-03-15 03:00:00,3,0,0
+North Dakota,USA,2020-03-15 03:00:00,1,0,0
+United States Virgin Islands,USA,2020-03-15 03:00:00,1,0,0
+Alaska,USA,2020-03-15 03:00:00,1,0,0

@@ -1,0 +1,300 @@
+name,Region,Last Update,Confirmed,Deaths,Recovered
+Hubei,Mainland China,2020-04-27 02:00:00,68128,4512,63616
+Guangdong,Mainland China,2020-04-29 03:00:00,1588,8,1554
+Henan,Mainland China,2020-04-14 01:00:00,1276,22,1254
+Zhejiang,Mainland China,2020-04-27 03:00:00,1268,1,1258
+Hong Kong,Hong Kong,2020-04-27 10:00:00,1037,4,772
+Hunan,Mainland China,2020-04-18 02:00:00,1019,4,1015
+Anhui,Mainland China,2020-04-24 02:00:00,991,6,985
+Jiangxi,Mainland China,2020-04-10 02:00:00,937,1,936
+Heilongjiang,Mainland China,2020-04-28 01:00:00,939,13,586
+Shandong,Mainland China,2020-04-27 01:00:00,787,7,768
+Jiangsu,Mainland China,2020-04-14 02:00:00,653,0,646
+Chongqing,Mainland China,2020-04-24 02:00:00,579,6,573
+Beijing,Mainland China,2020-04-27 03:00:00,593,9,525
+Shanghai,Mainland China,2020-04-29 03:00:00,645,7,584
+Sichuan,Mainland China,2020-04-24 02:00:00,561,3,558
+Taiwan,Taiwan,2020-04-26 08:00:00,429,6,281
+Fujian,Mainland China,2020-04-25 01:00:00,355,1,349
+Hebei,Mainland China,2020-04-25 02:00:00,328,6,318
+Shaanxi,Mainland China,2020-04-28 03:00:00,306,3,253
+Guangxi,Mainland China,2020-04-01 18:00:00,254,2,252
+Nei Mongol,Mainland China,2020-04-28 01:00:00,199,1,145
+Shanxi,Mainland China,2020-04-26 00:00:00,197,0,157
+Tianjin,Mainland China,2020-04-26 12:00:00,190,3,182
+Yunnan,Mainland China,2020-04-25 01:00:00,185,2,180
+Hainan,Mainland China,2020-03-24 05:00:00,168,6,162
+Guizhou,Mainland China,2020-04-19 01:00:00,147,2,145
+Liaoning,Mainland China,2020-04-20 01:00:00,146,2,143
+Gansu,Mainland China,2020-04-16 14:00:00,139,2,137
+Jilin,Mainland China,2020-04-27 01:00:00,110,1,99
+Xinjiang Uygur,Mainland China,2020-03-09 01:00:00,76,3,73
+Ningxia,Mainland China,2020-03-17 02:00:00,75,0,75
+Macau,Macau,2020-04-26 15:00:00,45,0,31
+Qinghai,Mainland China,2020-03-07 01:00:00,18,0,18
+Xizang,Mainland China,2020-02-23 12:00:00,1,0,1
+Yemen,Yemen,2020-04-18 00:00:00,1,0,0
+Sao Tome and Principe,Sao Tome and Principe,2020-04-28 11:00:00,8,0,4
+Saint Pierre and Miquelon,Saint Pierre and Miquelon,2020-04-18 00:00:00,1,0,0
+South Sudan,South Sudan,2020-04-29 00:00:00,34,0,0
+Falkland Islands (Islas Malvinas),Falkland Islands (Islas Malvinas),2020-04-05 20:00:00,2,0,0
+Malawi,Malawi,2020-04-27 14:00:00,36,3,4
+Burundi,Burundi,2020-04-22 10:00:00,11,1,4
+Sierra Leone,Sierra Leone,2020-04-28 16:00:00,104,4,12
+Botswana,Botswana,2020-04-29 00:00:00,23,1,0
+Anguilla,Anguilla,2020-04-02 17:00:00,3,0,0
+Saint Barthelemy,Saint Barthelemy,2020-03-30 16:00:00,6,0,1
+Bermuda,Bermuda,2020-04-28 11:00:00,110,6,44
+Faroe Islands,Faroe Islands,2020-04-23 11:00:00,187,0,178
+Gibraltar,Gibraltar,2020-04-27 01:00:00,141,0,131
+Isle of Man,Isle of Man,2020-04-28 18:00:00,309,21,252
+Saint Martin,Saint Martin,2020-04-22 03:00:00,38,2,19
+Montserrat,Montserrat,2020-04-18 00:00:00,11,0,1
+Mayotte,Mayotte,2020-04-28 13:00:00,460,4,235
+New Caledonia,New Caledonia,2020-04-02 12:00:00,18,0,1
+Sint Maarten,Sint Maarten,2020-04-28 16:00:00,75,13,33
+Turks and Caicos Islands,Turks and Caicos Islands,2020-04-27 17:00:00,12,1,5
+Republic of the Congo,Republic of the Congo,2020-04-28 11:00:00,207,8,19
+Angola,Angola,2020-04-27 20:00:00,27,2,6
+Benin,Benin,2020-04-26 21:00:00,64,1,33
+Bahamas,Bahamas,2020-04-26 21:00:00,80,11,22
+Belize,Belize,2020-04-18 00:00:00,18,2,0
+Barbados,Barbados,2020-04-28 11:00:00,80,6,39
+Central African Republic,Central African Republic,2020-04-28 11:00:00,50,0,10
+Cabo Verde,Cabo Verde,2020-04-28 13:00:00,114,1,2
+Djibouti,Djibouti,2020-04-29 00:00:00,1072,2,498
+Dominica,Dominica,2020-04-18 00:00:00,16,0,8
+Eritrea,Eritrea,2020-04-18 20:00:00,39,0,3
+Fiji,Fiji,2020-04-20 11:00:00,18,0,3
+Gambia,Gambia,2020-04-20 11:00:00,10,1,2
+Guinea-Bissau,Guinea-Bissau,2020-04-27 20:00:00,73,1,18
+Equatorial Guinea,Equatorial Guinea,2020-04-29 00:00:00,315,1,9
+Grenada,Grenada,2020-04-29 03:00:00,19,0,10
+Haiti,Haiti,2020-04-28 11:00:00,76,6,8
+Kyrgyzstan,Kyrgyzstan,2020-04-28 11:00:00,708,8,416
+Saint Kitts and Nevis,Saint Kitts and Nevis,2020-04-20 11:00:00,15,0,0
+Laos,Laos,2020-04-12 13:00:00,19,0,0
+Liberia,Liberia,2020-04-28 18:00:00,141,16,45
+Libya,Libya,2020-04-25 13:00:00,61,2,18
+Madagascar,Madagascar,2020-04-27 17:00:00,128,0,75
+Mali,Mali,2020-04-28 18:00:00,424,24,122
+Montenegro,Montenegro,2020-04-26 12:00:00,321,7,153
+Mozambique,Mozambique,2020-04-26 15:00:00,76,0,12
+Mauritius,Mauritius,2020-04-27 17:00:00,334,9,302
+Niger,Niger,2020-04-29 01:00:00,709,31,403
+Nicaragua,Nicaragua,2020-04-26 20:00:00,13,3,7
+Papua New Guinea,Papua New Guinea,2020-04-22 10:00:00,8,0,0
+El Salvador,El Salvador,2020-04-28 11:00:00,345,8,97
+Somalia,Somalia,2020-04-28 18:00:00,528,28,19
+Kosovo,Kosovo,2020-04-18 23:00:00,510,12,93
+Syria,Syria,2020-04-26 18:00:00,43,3,14
+Chad,Chad,2020-04-28 20:00:00,52,2,19
+Timor-Leste,Timor-Leste,2020-04-25 13:00:00,24,0,2
+Tanzania,Tanzania,2020-04-25 13:00:00,299,10,48
+Uganda,Uganda,2020-04-27 01:00:00,79,0,46
+Zambia,Zambia,2020-04-28 11:00:00,95,3,42
+Zimbabwe,Zimbabwe,2020-04-28 11:00:00,32,4,5
+Iran,Iran,2020-04-28 13:00:00,92584,5877,72439
+France,France,2020-04-28,129859,23660,46886
+Switzerland,Switzerland,2020-04-28 11:00:00,29264,1677,22200
+United Kingdom,United Kingdom,2020-04-28 20:00:00,162350,21745,813
+Netherlands,Netherlands,2020-04-28 18:00:00,38612,4582,6
+Norway,Norway,2020-04-29 01:00:00,7660,206,32
+Portugal,Portugal,2020-04-28 13:00:00,24322,948,1389
+Sweden,Sweden,2020-04-28 13:00:00,19621,2355,1005
+Australia,Australia,2020-04-29 01:00:00,6744,89,5661
+Denmark,Denmark,2020-04-28 11:00:00,8851,427,5959
+Malaysia,Malaysia,2020-04-28 11:00:00,5851,100,4032
+Israel,Israel,2020-04-29 00:00:00,15728,210,7746
+Turkey,Turkey,2020-04-28 18:00:00,114653,2992,38809
+Czech Republic,Czech Republic,2020-04-29 00:00:00,7504,227,2948
+Japan,Japan,2020-04-29 01:00:00,13736,394,1899
+Ireland,Ireland,2020-04-28 20:00:00,19877,1159,9233
+Pakistan,Pakistan,2020-04-28 20:00:00,14612,312,3233
+Luxembourg,Luxembourg,2020-04-28 18:00:00,3741,89,3123
+Ecuador,Ecuador,2020-04-28 20:00:00,20317,871,1557
+Thailand,Thailand,2020-04-28 11:00:00,2938,54,2652
+Finland,Finland,2020-04-28 13:00:00,4740,193,2500
+Others,Japan (Diamond Princess),2020-03-03 03:00:00,706,6,10
+Poland,Poland,2020-04-28 18:00:00,12218,596,2655
+Iceland,Iceland,2020-04-28 16:00:00,1795,10,1624
+Indonesia,Indonesia,2020-04-28 11:00:00,9511,773,1254
+Romania,Romania,2020-04-28 11:00:00,11616,650,3404
+Saudi Arabia,Saudi Arabia,2020-04-28 14:00:00,20077,152,2784
+Singapore,Singapore,2020-04-28 11:00:00,14951,14,1095
+Qatar,Qatar,2020-04-28 13:00:00,11921,10,1134
+Philippines,Philippines,2020-04-28 11:00:00,7958,530,975
+Slovenia,Slovenia,2020-04-28 11:00:00,1408,86,223
+Russia,Russia,2020-04-28 11:00:00,93558,867,8456
+South Africa,South Africa,2020-04-28 20:00:00,4996,93,2073
+Estonia,Estonia,2020-04-28 13:00:00,1660,50,240
+Bahrain,Bahrain,2020-04-29 00:00:00,2811,8,1310
+Egypt,Egypt,2020-04-28 18:00:00,5042,359,1304
+Mexico,Mexico,2020-04-29 03:00:00,16752,1569,11423
+Croatia,Croatia,2020-04-28 13:00:00,2047,63,1232
+Panama,Panama,2020-04-28 11:00:00,6021,167,455
+Lebanon,Lebanon,2020-04-28 11:00:00,717,24,145
+Iraq,Iraq,2020-04-28 18:00:00,1928,90,1319
+Serbia,Serbia,2020-04-20 23:00:00,6630,125,870
+Dominican Republic,Dominican Republic,2020-04-28 18:00:00,6416,286,1165
+Algeria,Algeria,2020-04-28 18:00:00,3649,437,1651
+Armenia,Armenia,2020-04-28 11:00:00,1867,30,866
+Kuwait,Kuwait,2020-04-28 13:00:00,3440,23,1176
+Bulgaria,Bulgaria,2020-04-28 16:00:00,1399,58,222
+Slovakia,Slovakia,2020-04-28 11:00:00,1384,20,423
+San Marino,San Marino,2020-04-29 00:00:00,553,41,64
+United Arab Emirates,United Arab Emirates,2020-04-28 11:00:00,11380,89,2181
+Latvia,Latvia,2020-04-28 11:00:00,836,13,267
+Uruguay,Uruguay,2020-04-29 03:00:00,625,15,394
+Hungary,Hungary,2020-04-28 11:00:00,2649,291,516
+Lithuania,Lithuania,2020-04-27 11:00:00,1449,41,474
+Costa Rica,Costa Rica,2020-04-29 00:00:00,705,6,306
+North Macedonia,North Macedonia,2020-04-28 14:00:00,1421,71,589
+Vietnam,Vietnam,2020-04-24 13:00:00,270,0,225
+Andorra,Andorra,2020-04-28 11:00:00,743,40,385
+Morocco,Morocco,2020-04-28 18:00:00,4252,165,778
+Jordan,Jordan,2020-04-27 17:00:00,449,7,342
+Cyprus,Cyprus,2020-04-28 16:00:00,837,15,148
+Moldova,Moldova,2020-04-28 16:00:00,3638,103,975
+Bosnia and Herzegovina,Bosnia and Herzegovina,2020-04-28 11:00:00,1585,63,682
+Malta,Malta,2020-04-28 13:00:00,458,4,303
+Albania,Albania,2020-04-28 11:00:00,750,30,431
+Brunei,Brunei,2020-04-19 12:00:00,138,1,115
+Cambodia,Cambodia,2020-04-18 00:00:00,122,0,98
+Sri Lanka,Sri Lanka,2020-04-28 18:00:00,619,7,134
+Belarus,Belarus,2020-04-28 11:00:00,12208,79,1993
+Tunisia,Tunisia,2020-04-29 00:00:00,975,40,279
+Burkina Faso,Burkina Faso,2020-04-29 00:00:00,638,42,476
+Venezuela,Venezuela,2020-04-28 11:00:00,329,10,142
+New Zealand,New Zealand,2020-04-29 03:00:00,1474,19,1229
+Azerbaijan,Azerbaijan,2020-04-28 14:00:00,1717,22,1221
+Kazakhstan,Kazakhstan,2020-04-28 20:00:00,3027,25,774
+Senegal,Senegal,2020-04-28 13:00:00,823,9,296
+Guadeloupe,Guadeloupe,2020-04-24 11:00:00,149,12,82
+Oman,Oman,2020-04-28 11:00:00,2131,10,364
+Georgia (country),Georgia,2020-04-28 11:00:00,511,6,156
+Trinidad and Tobago,Trinidad and Tobago,2020-04-27 11:00:00,116,8,58
+Ukraine,Ukraine,2020-04-28 11:00:00,9410,239,992
+Reunion,Reunion,2020-04-28 11:00:00,418,0,300
+Uzbekistan,Uzbekistan,2020-04-28 11:00:00,1939,8,909
+Cameroon,Cameroon,2020-04-28 11:00:00,1705,58,805
+Martinique,Martinique,2020-04-26 01:00:00,175,14,77
+Liechtenstein,Liechtenstein,2020-04-26 20:00:00,82,1,55
+Afghanistan,Afghanistan,2020-04-28 11:00:00,1828,58,228
+Palestine,Palestine,2020-04-28 20:00:00,343,2,92
+Democratic Republic of the Congo,Democratic Republic of the Congo,2020-04-28 11:00:00,471,30,56
+Bangladesh,Bangladesh,2020-04-28 11:00:00,6462,155,139
+Nigeria,Nigeria,2020-04-29 01:00:00,1532,44,255
+Honduras,Honduras,2020-04-28 11:00:00,702,64,79
+Bolivia,Bolivia,2020-04-28 11:00:00,1014,53,98
+Paraguay,Paraguay,2020-04-29 03:00:00,239,9,102
+Cuba,Cuba,2020-04-28 16:00:00,1437,58,575
+Ghana,Ghana,2020-04-28 20:00:00,1671,16,188
+French Guiana,French Guiana,2020-04-29 00:00:00,125,1,93
+Rwanda,Rwanda,2020-04-29 00:00:00,212,0,95
+Guatemala,Guatemala,2020-04-28 11:00:00,530,15,49
+Jamaica,Jamaica,2020-04-28 11:00:00,364,7,29
+Togo,Togo,2020-04-28 11:00:00,99,6,62
+Kenya,Kenya,2020-04-28 14:00:00,374,14,124
+Cote d'Ivoire,Cote d'Ivoire,2020-04-29 01:00:00,1183,14,525
+Maldives,Maldives,2020-04-29 00:00:00,250,0,17
+Monaco,Monaco,2020-04-27 20:00:00,95,4,42
+Ethiopia,Ethiopia,2020-04-28 11:00:00,126,3,50
+Mongolia,Mongolia,2020-04-26 12:00:00,38,0,9
+Guyana,Guyana,2020-04-26 12:00:00,74,8,12
+Seychelles,Seychelles,2020-04-06 16:00:00,11,0,0
+Suriname,Suriname,2020-04-01 11:00:00,10,0,0
+Gabon,Gabon,2020-04-29 00:00:00,238,3,53
+French Polynesia,French Polynesia,2020-04-28 11:00:00,58,0,49
+Namibia,Namibia,2020-04-18 00:00:00,16,0,4
+Bhutan,Bhutan,2020-04-23 11:00:00,7,0,3
+Saint Lucia,Saint Lucia,2020-04-10 21:00:00,15,0,1
+Sudan,Sudan,2020-04-28 16:00:00,318,22,21
+Nepal,Nepal,2020-04-28 13:00:00,54,0,16
+Guinea,Guinea,2020-04-29 00:00:00,1240,7,269
+Aruba,Aruba,2020-04-22 18:00:00,100,2,68
+Jersey,Jersey,2020-03-14 18:00:00,2,0,0
+Mauritania,Mauritania,2020-04-18 00:00:00,7,1,2
+Antigua and Barbuda,Antigua and Barbuda,2020-04-22 10:00:00,24,3,7
+Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,2020-04-27 17:00:00,15,0,5
+Curacao,Curacao,2020-04-25 13:00:00,16,1,11
+Greenland,Greenland,2020-04-04 21:00:00,11,0,3
+Guernsey,Guernsey,2020-03-13 13:00:00,1,0,0
+Vatican City,Vatican City,2020-04-28 18:00:00,10,0,2
+Cayman Islands,Cayman Islands,2020-04-25 13:00:00,70,1,8
+India,India,2020-04-29 00:00:00,31324,1008,7747
+Canada,Canada,2020-04-29 00:00:00,50026,2859,18707
+Italy,Italy,2020-04-28 17:00:00,202000,27359,68941
+South Korea,South Korea,2020-04-29 03:00:00,10761,246,8922
+Spain,Spain,2020-04-28 13:00:00,232128,23822,123903
+Austria,Austria,2020-04-28 11:00:00,15357,569,12580
+Belgium,Belgium,2020-04-28 11:00:00,47334,7331,10943
+Greece,Greece,2020-04-28 18:00:00,2566,138,577
+Chile,Chile,2020-04-28 16:00:00,14365,207,7710
+Peru,Peru,2020-04-28 21:00:00,31190,854,9179
+Argentina,Argentina,2020-04-29 02:00:00,4127,207,1162
+Brazil,Brazil,2020-04-29 02:00:00,73235,5083,32544
+Colombia,Colombia,2020-04-29 02:00:00,5949,269,1268
+Germany,Germany,2020-04-29 00:00:00,160483,6389,117400
+New York,USA,2020-04-29 03:00:00,301489,23134,32904
+New Jersey,USA,2020-04-29 03:00:00,113856,6442,730
+Massachusetts,USA,2020-04-29 03:00:00,58302,3153,1299
+Illinois,USA,2020-04-29 03:00:00,48102,2125,645
+California,USA,2020-04-29 03:00:00,46164,1864,3636
+Pennsylvania,USA,2020-04-29 03:00:00,45137,2046,765
+Michigan,USA,2020-04-29 03:00:00,39262,3568,8342
+Florida,USA,2020-04-29 03:00:00,32848,1171,174
+Louisiana,USA,2020-04-29 03:00:00,27286,1801,17303
+Texas,USA,2020-04-29 03:00:00,26357,719,9685
+Connecticut,USA,2020-04-29 03:00:00,26312,2087,63
+Georgia,USA,2020-04-29 03:00:00,24923,1036,340
+Maryland,USA,2020-04-29 03:00:00,20113,910,1263
+Ohio,USA,2020-04-29 03:00:00,16769,799,448
+Indiana,USA,2020-04-29 03:00:00,16588,901,1559
+Washington,USA,2020-04-29 03:00:00,14388,792,1851
+Virginia,USA,2020-04-29 03:00:00,14339,492,721
+Colorado,USA,2020-04-29 03:00:00,14316,736,559
+Tennessee,USA,2020-04-29 03:00:00,10052,188,4924
+North Carolina,USA,2020-04-29 03:00:00,9755,363,1709
+Rhode Island,USA,2020-04-29 03:00:00,7927,239,466
+Veteran Affair,USA,2020-04-29 03:00:00,7739,470,0
+Missouri,USA,2020-04-29 03:00:00,7450,330,1717
+Arizona,USA,2020-04-29 03:00:00,6955,275,6
+Alabama,USA,2020-04-29 03:00:00,6750,242,0
+Iowa,USA,2020-04-29 03:00:00,6376,136,2164
+Mississippi,USA,2020-04-29 03:00:00,6342,239,0
+Wisconsin,USA,2020-04-29 03:00:00,6289,300,2882
+US Military,USA,2020-04-29 03:00:00,6213,26,1947
+South Carolina,USA,2020-04-29 03:00:00,5735,192,0
+Nevada,USA,2020-04-29 03:00:00,4821,219,2788
+Delaware,USA,2020-04-29 03:00:00,4575,137,1096
+Kentucky,USA,2020-04-29 03:00:00,4375,225,1174
+Utah,USA,2020-04-29 03:00:00,4345,41,399
+Minnesota,USA,2020-04-29 03:00:00,4181,301,1912
+District of Columbia,USA,2020-04-29 03:00:00,3994,190,660
+Kansas,USA,2020-04-29 03:00:00,3652,127,735
+Nebraska,USA,2020-04-29 03:00:00,3517,56,0
+Oklahoma,USA,2020-04-29 03:00:00,3410,207,2260
+Arkansas,USA,2020-04-29 03:00:00,3127,57,1216
+New Mexico,USA,2020-04-29 03:00:00,2974,105,632
+Oregon,USA,2020-04-29 03:00:00,2385,99,595
+South Dakota,USA,2020-04-29 03:00:00,2313,11,1392
+New Hampshire,USA,2020-04-29 03:00:00,2010,60,936
+Idaho,USA,2020-04-29 03:00:00,1952,60,867
+Federal Bureau of Prisons,USA,2020-04-29 03:00:00,1649,30,536
+Navajo Nation,USA,2020-04-29 03:00:00,1540,58,0
+Puerto Rico,USA,2020-04-29 03:00:00,1400,86,0
+West Virginia,USA,2020-04-29 03:00:00,1095,38,481
+Maine,USA,2020-04-29 03:00:00,1040,51,585
+North Dakota,USA,2020-04-29 03:00:00,991,19,409
+Vermont,USA,2020-04-29 03:00:00,862,47,0
+Hawaii,USA,2020-04-29 03:00:00,609,16,505
+Wyoming,USA,2020-04-29 03:00:00,536,7,378
+Montana,USA,2020-04-29 03:00:00,451,15,352
+Alaska,USA,2020-04-29 03:00:00,351,9,218
+Guam,USA,2020-04-29 03:00:00,141,5,128
+Grand Princess,USA,2020-04-29 03:00:00,103,3,0
+United States Virgin Islands,USA,2020-04-29 03:00:00,57,4,51
+Diamond Princess,USA,2020-04-29 03:00:00,49,0,0
+Northern Mariana Islands,USA,2020-04-29 03:00:00,14,2,12
+Wuhan Evacuee,USA,2020-04-29 03:00:00,4,0,0

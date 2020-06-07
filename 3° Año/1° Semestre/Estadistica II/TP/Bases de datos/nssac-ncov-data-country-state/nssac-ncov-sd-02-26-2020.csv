@@ -1,0 +1,86 @@
+name,Region,Last Update,Confirmed,Deaths,Recovered
+Hubei,Mainland China,2020-02-27 03:00:00,65596,2641,23200
+Guangdong,Mainland China,2020-02-27 03:00:00,1347,7,873
+Henan,Mainland China,2020-02-27 03:00:00,1272,20,1062
+Zhejiang,Mainland China,2020-02-27 03:00:00,1205,1,881
+Hunan,Mainland China,2020-02-27 03:00:00,1017,4,793
+Anhui,Mainland China,2020-02-27 03:00:00,989,6,815
+Jiangxi,Mainland China,2020-02-27 03:00:00,934,1,754
+Shandong,Mainland China,2020-02-27 03:00:00,756,6,381
+Jiangsu,Mainland China,2020-02-27 03:00:00,631,0,494
+Chongqing,Mainland China,2020-02-27 03:00:00,576,6,384
+Sichuan,Mainland China,2020-02-27 03:00:00,534,3,310
+Heilongjiang,Mainland China,2020-02-27 03:00:00,480,13,262
+Beijing,Mainland China,2020-02-26 01:00:00,400,4,235
+Shanghai,Mainland China,2020-02-27 03:00:00,337,3,272
+Hebei,Mainland China,2020-02-27 03:00:00,317,6,261
+Fujian,Mainland China,2020-02-27 03:00:00,296,1,225
+Guangxi,Mainland China,2020-02-27 03:00:00,252,2,159
+Shaanxi,Mainland China,2020-02-27 03:00:00,245,1,194
+Yunnan,Mainland China,2020-02-26 14:00:00,174,2,144
+Hainan,Mainland China,2020-02-27 03:00:00,168,5,129
+Guizhou,Mainland China,2020-02-27 03:00:00,146,2,112
+Tianjin,Mainland China,2020-02-26 14:00:00,135,3,96
+Shanxi,Mainland China,2020-02-26 21:00:00,133,0,104
+Liaoning,Mainland China,2020-02-27 03:00:00,121,1,92
+Jilin,Mainland China,2020-02-27 03:00:00,93,1,65
+Hong Kong,Hong Kong,2020-02-27 03:00:00,91,2,24
+Gansu,Mainland China,2020-02-26 14:00:00,91,2,81
+Xinjiang Uygur,Mainland China,2020-02-27 03:00:00,76,2,34
+Nei Mongol,Mainland China,2020-02-27 03:00:00,75,0,38
+Ningxia,Mainland China,2020-02-27 03:00:00,72,0,65
+Taiwan,Taiwan,2020-02-26 14:00:00,32,1,5
+Qinghai,Mainland China,2020-02-21 03:00:00,18,0,18
+Macau,Macau,2020-02-26 02:00:00,10,0,7
+Xizang,Mainland China,2020-02-12 06:43:02,1,0,1
+South Korea,South Korea,2020-02-27 03:00:00,1595,13,24
+Others,Japan (Diamond Princess),2020-02-26 14:00:00,705,4,0
+Japan,Japan,2020-02-27 03:00:00,189,3,22
+Italy,Italy,2020-02-27 03:00:00,470,12,3
+Iran,Iran,2020-02-26 14:00:00,139,19,0
+Singapore,Singapore,2020-02-26 18:30:00,93,0,62
+Thailand,Thailand,2020-02-26 14:00:00,40,0,22
+Bahrain,Bahrain,2020-02-26 21:00:00,33,0,0
+Germany,Germany,2020-02-27 03:00:00,26,0,14
+Kuwait,Kuwait,2020-02-26 21:00:00,26,0,0
+Australia,Australia,2020-02-26 01:00:00,23,0,15
+Malaysia,Malaysia,2020-02-19 15:00:00,22,0,15
+France,France,2020-02-26 21:00:00,18,2,11
+Vietnam,Vietnam,2020-02-25 14:00:00,16,0,16
+United Kingdom,United Kingdom,2020-02-24 02:00:00,13,0,8
+United Arab Emirates,United Arab Emirates,2020-02-22 16:00:00,13,0,4
+Spain,Spain,2020-02-27 03:00:00,13,0,2
+Canada,Canada,2020-02-27 03:00:00,12,0,4
+Israel,Israel,2020-02-25 14:00:00,6,0,0
+Iraq,Iraq,2020-02-25 14:00:00,5,0,0
+Oman,Oman,2020-02-25 15:00:00,4,0,0
+India,India,2020-02-18 15:00:00,3,0,3
+Philippines,Philippines,2020-02-12 07:43:02,3,1,1
+Croatia,Croatia,2020-02-26 21:00:00,3,0,0
+Russia,Russia,2020-02-12 14:43:03,2,0,2
+Finland,Finland,2020-02-26 21:00:00,2,0,1
+Sweden,Sweden,2020-02-26 21:00:00,2,0,0
+Lebanon,Lebanon,2020-02-26 21:00:00,2,0,0
+Austria,Austria,2020-02-25 14:30,2,0,0
+Pakistan,Pakistan,2020-02-26 21:00:00,2,0,0
+Belgium,Belgium,2020-02-18 15:00:00,1,0,1
+Cambodia,Cambodia,2020-02-12 07:43:02,1,0,1
+Nepal,Nepal,2020-02-12 14:43:03,1,0,1
+Sri Lanka,Sri Lanka,2020-02-08 03:43:03,1,0,1
+Egypt,Egypt,2020-02-14 21:00:00,1,0,0
+Afghanistan,Afghanistan,2020-02-24 12:00:00,1,0,0
+Switzerland,Switzerland,2020-02-25 15:00:00,1,0,0
+Algeria,Algeria,2020-02-26 00:00:00,1,0,0
+Greece,Greece,2020-02-26 14:00:00,1,0,0
+Brazil,Brazil,2020-02-26 14:00:00,1,0,0
+North Macedonia,North Macedonia,2020-02-26 21:00:00,1,0,0
+Norway,Norway,2020-02-26 21:00,1,0,0
+Romania,Romania,2020-02-26 22:00:00,1,0,0
+Georgia (country),Georgia,2020-02-26 22:00:00,1,0,0
+Unknown location US,USA (all are repatriated cases),2020-02-26 20:00:00,42,0,0
+California,USA,2020-02-26 20:00:00,11,0,2
+Illinois,USA,2020-02-09 19:03:03,2,0,2
+Arizona,USA,2020-02-25 21:00:00,1,0,1
+Massachusetts,USA,2020-02-01 19:43:00,1,0,0
+Washington,USA,2020-02-09 07:03:00,1,0,1
+Wisconsin,USA,2020-02-05 21:53:00,1,0,0
