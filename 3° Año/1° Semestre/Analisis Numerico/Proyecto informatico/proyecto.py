@@ -63,10 +63,10 @@ def check_letras(x, y):
         print("\n\nLos valores de abscisas no tienen todos las mismas "
               "distancias entre si\n\n")
         exit(-1)
-    except LetraError:
+    except (LetraError, ValueError):
         print("\n\nSe ingresaron datos no numericos\n\n")
         exit(-1)
-    except (LargoError, TypeError, ValueError):
+    except (LargoError, TypeError):
         print("\n\nLos vectores de X e Y no tienen el mismo largo\n\n")
         exit(-1)
     return x, y
@@ -82,9 +82,12 @@ def leer_archivo(x, y):
             for row in reader:
                 x.append(row["x"])
                 y.append(row["y"])
-    except (ArchivoError, KeyError, FileNotFoundError):
-        print("\n\nEl archivo no existe, el nombre del archivo ingresado"
-              " no posee formato .csv o hay un error con sus datos\n\n")
+    except (ArchivoError, KeyError):
+        print("\n\nEl nombre del archivo ingresado no posee formato .csv o"
+              " hay un error con sus datos\n\n")
+        exit(-1)
+    except (FileNotFoundError):
+        print("\n\nEl archivo no existe\n\n")
         exit(-1)
     return check_letras(x, y)
 
