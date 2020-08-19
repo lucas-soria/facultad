@@ -1,0 +1,43 @@
+<-- Restriccion para saber si: -->
+
+# La edad es mayor a 18
+self.edad>18
+
+# El nombre es distinto de vacio
+self.nombre<>''
+
+# El estado civil es casado
+self.estadoCivil=Estado_Civil::casado
+
+# El diagrama tiene personas (cuales)
+self.persona
+
+# Las clases (todas) tienen nombre
+self.clase_del_diagrama->forAll(nombre<>null and nombre<>'')
+
+# Las clases tengan el mismo nombre
+self.clase_del_diagrama->forAll(c1,c2|c1.nombre=c2.nombre implies c1=c2)
+
+# Los atributos tengan el mismo nombre
+self.clase_del_diagrama.atributo_contenido->forAll(a1,a2|a1.nombre=a2.nombre implies a1=a2)
+
+# Los atributos (todos) tienen nombre
+self.clase_del_diagrama.atributo_contenido->forAll(nombre<>null and nombre<>'')
+
+# Los atributos (todos) tienen visibilidad privada o protegida
+self.clase_del_diagrama.atributo_contenido->forAll(visibilidad=Tipo_Visibilidad::private or visibilidad=Tipo_Visibilidad::protected)
+
+# Tiene madre
+self.madre->isEmpty
+
+# La madre tiene nombre
+self.madre.nombre
+
+# Tiene abuelo
+self.madre.padre
+
+# Su madre esta casada
+self.madre.estadoCivil=Estado_Civil::casado
+
+# Tiene estado civil
+self.madre.estadoCivil
