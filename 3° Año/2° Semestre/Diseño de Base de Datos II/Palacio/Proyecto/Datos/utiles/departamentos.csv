@@ -1,0 +1,530 @@
+"categoria","centroide_lat","centroide_lon","fuente","id","nombre","nombre_completo","provincia_id","provincia_interseccion","provincia_nombre"
+"Partido",-34.5118758903445,-58.7776710941743,"ARBA - Gerencia de Servicios Catastrales","06412","Jose C. Paz","Partido de Jose C. Paz","06",0.000159541555300346,23
+"Departamento",-27.2575511794731,-60.6806781684245,"Direc. Pcial. de Catastro y Cartografia","22112","O'Higgins","Departamento O'Higgins",22,0.0158380542527147,19
+"Departamento",-35.6318750123361,-64.2143766258097,"Direc. Grl. de Catastro","42147","Trenel","Departamento Trenel","42",0.0137010373997379,12
+"Partido",-37.9642254145303,-60.2490776485677,"ARBA - Gerencia de Servicios Catastrales","06014","Adolfo Gonzales Chaves","Partido de Adolfo Gonzales Chaves","06",0.0125905088949268,23
+"Partido",-37.1532136536641,-57.2307866316173,"ARBA - Gerencia de Servicios Catastrales","06315","General Juan Madariaga","Partido de General Juan Madariaga","06",0.00981205771863197,23
+"Partido",-37.3356554181577,-59.181805577778,"ARBA - Gerencia de Servicios Catastrales","06791","Tandil","Partido de Tandil","06",0.0159719409591909,23
+"Departamento",-26.5210512908819,-62.7274743405239,"Direc. Grl. de Catastro","86014","Alberdi","Departamento Alberdi","86",0.0931468687608323,13
+"Departamento",-36.1306397823227,-63.663736169201,"Direc. Grl. de Catastro","42119","Quemu Quemu","Departamento Quemu Quemu","42",0.0172447508351264,12
+"Departamento",-36.4980625981793,-64.198128304727,"Direc. Grl. de Catastro","42021","Capital","Departamento Capital","42",0.0175430669478971,12
+"Departamento",-30.0205633751884,-62.2804530355771,"Direc. Grl. de Catastro","86154","Rivadavia","Departamento Rivadavia","86",0.0250829925700088,13
+"Departamento",-28.0394963430537,-62.5440138783592,"Direc. Grl. de Catastro","86098","Juan F. Ibarra","Departamento Juan F. Ibarra","86",0.0677168996019885,13
+"Departamento",-28.5682847400822,-62.3388258455986,"Direc. Grl. de Catastro","86077","General Taboada","Departamento General Taboada","86",0.0445402322367629,13
+"Departamento",-33.7114684971791,-67.2475409227538,"IGN","50042","La Paz","Departamento La Paz","50",0.0489049193945245,9
+"Partido",-38.1477437843902,-61.2646589620305,"ARBA - Gerencia de Servicios Catastrales","06196","Coronel Pringles","Partido de Coronel Pringles","06",0.0175219905245948,23
+"Partido",-34.3815893993371,-58.599453988125,"ARBA - Gerencia de Servicios Catastrales","06805","Tigre","Partido de Tigre","06",0.00125438077333215,23
+"Departamento",-36.5816678881383,-63.6648708546651,"Direc. Grl. de Catastro","42028","Catrilo","Departamento Catrilo","42",0.0173373347818918,12
+"Departamento",-37.0324956718132,-63.7788855690903,"Direc. Grl. de Catastro","42007","Atreuco","Departamento Atreuco","42",0.0243973647514461,12
+"Departamento",-37.4836474005921,-63.7813086707571,"Direc. Grl. de Catastro","42070","Guatrache","Departamento Guatrache","42",0.0245354566430823,12
+"Departamento",-37.3338794806846,-65.0828316677234,"Direc. Grl. de Catastro","42154","Utracan","Departamento Utracan","42",0.0899936459025132,12
+"Departamento",-36.4787683011276,-65.5329694083622,"Direc. Grl. de Catastro","42098","Loventue","Departamento Loventue","42",0.0630715356153778,12
+"Departamento",-37.9792340442423,-63.9544827643711,"Direc. Grl. de Catastro","42077","Hucal","Departamento Hucal","42",0.0423711674988522,12
+"Departamento",-36.3954095124282,-66.5727556640635,"Direc. Grl. de Catastro","42049","Chalileo","Departamento Chalileo","42",0.0607702864045737,12
+"Departamento",-36.3978994715573,-67.6953932639542,"Direc. Grl. de Catastro","42063","Chical Co","Departamento Chical Co","42",0.0622641753026327,12
+"Departamento",-29.9854770547953,-59.2414216570581,"IGN","18049","Esquina","Departamento Esquina",18,0.0445914814617993,14
+"Departamento",-29.9995445616697,-58.7950373826119,"IGN","18175","Sauce","Departamento Sauce",18,0.0283044719296183,14
+"Departamento",-29.6955178131115,-58.3248439252656,"IGN","18035","Curuzu Cuatia","Departamento Curuzu Cuatia",18,0.0941223383202269,14
+"Departamento",-28.8289705275493,-56.9315923506787,"IGN","18147","San Martin","Departamento San Martin",18,0.074680957278876,14
+"Departamento",-43.1372229709113,-65.0757246833498,"IGN","26077","Rawson","Departamento Rawson","26",0.018242774931579,7
+"Departamento",-29.0645100901984,-57.818389954722,"IGN","18105","Mercedes","Departamento Mercedes",18,0.109627657770833,14
+"Departamento",-29.5936355856024,-57.2996337303242,"IGN","18119","Paso de los Libres","Departamento Paso de los Libres",18,0.0553306025894556,14
+"Departamento",-28.7751848033313,-56.5115297991712,"IGN","18056","General Alvear","Departamento General Alvear",18,0.0218630423678802,14
+"Departamento",-28.7536335933641,-64.7638996164731,"Direc. Grl. de Catastro","86063","Choya","Departamento Choya","86",0.0456491247414412,13
+"Departamento",-33.6177946030973,-67.9636620466005,"IGN","50112","Santa Rosa","Departamento Santa Rosa","50",0.0584150858403919,9
+"Departamento",-33.419707109754,-68.6121759957283,"IGN","50084","Rivadavia","Departamento Rivadavia","50",0.014230301993113,9
+"Partido",-38.255785801668,-62.2904249803924,"ARBA - Gerencia de Servicios Catastrales","06819","Tornquist","Partido de Tornquist","06",0.0139376732756443,23
+"Departamento",-30.1677065304375,-65.9562869452052,"IGN","46035","Chamical","Departamento Chamical","46",0.0605219208134638,10
+"Departamento",-28.5330735278082,-66.7191515033817,"IGN","46007","Arauco","Departamento Arauco","46",0.0272887213800459,10
+"Partido",-34.1381957287934,-58.8830222693056,"ARBA - Gerencia de Servicios Catastrales","06126","Campana","Partido de Campana","06",0.00313005308982748,23
+"Departamento",-28.0814710804867,-65.3349462642257,"Adm. Grl. de Catastro","10098","Santa Rosa","Departamento Santa Rosa",10,0.0158018542250059,11
+"Departamento",-29.3952000610314,-65.1919504325436,"Adm. Grl. de Catastro","10070","La Paz","Departamento La Paz",10,0.0831718906158632,11
+"Departamento",-48.8383418225325,-68.4681621286703,"IGN","78042","Magallanes","Departamento Magallanes","78",0.0831400667373905,5
+"Departamento",-49.9474837007267,-69.4469507225498,"IGN","78007","Corpen Aike","Departamento Corpen Aike","78",0.109814466577191,5
+"Departamento",-40.1487161833477,-64.3048926460226,"A.R.T - Gerencia de Catastro","62028","Conesa","Departamento Conesa","62",0.0482368092783802,6
+"Departamento",-26.8016874124461,-59.5196519224863,"Direc. Pcial. de Catastro y Cartografia","22154","Sargento Cabral","Departamento Sargento Cabral",22,0.0166226546926296,19
+"Departamento",-26.736996206931,-60.7570241668236,"Direc. Pcial. de Catastro y Cartografia","22070","Independencia","Departamento Independencia",22,0.0193492064219968,19
+"Departamento",-27.7436812830101,-60.6581451476891,"Direc. Pcial. de Catastro y Cartografia","22098","Mayor Luis J. Fontana","Departamento Mayor Luis J. Fontana",22,0.0373800855550108,19
+"Departamento",-27.8662498172761,-61.300959824592,"Direc. Pcial. de Catastro y Cartografia","22043","Fray Justo Santa Maria de Oro","Departamento Fray Justo Santa Maria de Oro",22,0.0224333885231889,19
+"Departamento",-27.1691720457957,-58.9595089153944,"Direc. Pcial. de Catastro y Cartografia","22126","1° de Mayo","Departamento 1° de Mayo",22,0.0129402921844247,19
+"Departamento",-32.1656565638277,-66.5422509844147,"Direc. de Geodesia y Catastro","74007","Ayacucho","Departamento Ayacucho","74",0.106619124359691,2
+"Partido",-36.8865728387855,-57.586173153195,"ARBA - Gerencia de Servicios Catastrales","06511","Maipu","Partido de Maipu","06",0.00853022543048363,23
+"Departamento",-27.3362384898477,-61.4747691940114,"Direc. Pcial. de Catastro y Cartografia","22036","12 de Octubre","Departamento 12 de Octubre",22,0.0277943707509859,19
+"Departamento",-31.7112016051317,-64.3070593086884,"Direc. Grl. de Catastro","14147","Santa Maria","Departamento Santa Maria",14,0.0195798910685345,8
+"Departamento",-31.707791961138,-65.1564069990554,"Direc. Grl. de Catastro","14126","San Alberto","Departamento San Alberto",14,0.0204941334065178,8
+"Departamento",-31.7330269369319,-63.4769207987931,"Direc. Grl. de Catastro","14119","Rio Segundo","Departamento Rio Segundo",14,0.0312622981453106,8
+"Departamento",-31.2393990103815,-62.5260292405918,"Direc. Grl. de Catastro","14140","San Justo","Departamento San Justo",14,0.0939130502757357,8
+"Departamento",-32.8784545187661,-62.7914258058015,"Direc. Grl. de Catastro","14182","Union","Departamento Union",14,0.0666910830698044,8
+"Departamento",-32.2877127172928,-63.7792479671775,"Direc. Grl. de Catastro","14161","Tercero Arriba","Departamento Tercero Arriba",14,0.0312538113858359,8
+"Departamento",-24.9885518325631,-65.4038423380142,"Direc. Grl. de Inmuebles","66035","Cerrillos","Departamento Cerrillos","66",0.00349650389065936,18
+"Departamento",-33.3308032176015,-64.494180483748,"Direc. Grl. de Catastro","14098","Rio Cuarto","Departamento Rio Cuarto",14,0.114337724965032,8
+"Departamento",-33.2915070191465,-69.3019667535127,"IGN","50126","Tupungato","Departamento Tupungato","50",0.0164167234859284,9
+"Departamento",-25.1053773070169,-58.6616277482245,"IGN","34042","Pilagas","Departamento Pilagas","34",0.0454663908323351,20
+"Departamento",-26.467587999102,-58.5654369092882,"IGN","34021","Laishi","Departamento Laishi","34",0.0481199644404741,20
+"Departamento",-25.7672893097833,-59.1592573575224,"IGN","34056","Pirane","Departamento Pirane","34",0.115114410859445,20
+"Departamento",-25.2137925689732,-61.337579887251,"Direc. Pcial. de Catastro y Cartografia","22063","General Güemes","Departamento General Güemes",22,0.25720870635467,19
+"Departamento",-41.7398257356123,-70.4011139544739,"A.R.T - Gerencia de Catastro","62056","Ñorquinco","Departamento Ñorquinco","62",0.0415935198850545,6
+"Partido",-37.1963357906582,-63.0560072843652,"ARBA - Gerencia de Servicios Catastrales","06007","Adolfo Alsina","Partido de Adolfo Alsina","06",0.0193250422540216,23
+"Partido",-38.0746044477032,-63.0577463401906,"ARBA - Gerencia de Servicios Catastrales","06651","Puan","Partido de Puan","06",0.0211889371433203,23
+"Partido",-39.1296648457138,-62.7268024308429,"ARBA - Gerencia de Servicios Catastrales","06875","Villarino","Partido de Villarino","06",0.0351320691680793,23
+"Departamento",-34.1401111180237,-63.4187744697841,"Direc. Grl. de Catastro","14084","Presidente Roque Saenz Peña","Departamento Presidente Roque Saenz Peña",14,0.05112440068579,8
+"Partido",-34.7687371057529,-62.9535454567251,"ARBA - Gerencia de Servicios Catastrales","06392","General Villegas","Partido de General Villegas","06",0.0231909877146645,23
+"Departamento",-34.6170744283348,-64.3787603319835,"Direc. Grl. de Catastro","14035","General Roca","Departamento General Roca",14,0.0789015037408561,8
+"Departamento",-35.2178364156832,-67.0804473289428,"IGN","50014","General Alvear","Departamento General Alvear","50",0.0993663751625444,9
+"Departamento",-27.4854057246231,-64.7601873654679,"Direc. Grl. de Catastro","86147","Rio Hondo","Departamento Rio Hondo","86",0.014915157551343,13
+"Partido",-33.7819425849294,-59.7825917634816,"ARBA - Gerencia de Servicios Catastrales","06770","San Pedro","Partido de San Pedro","06",0.0042829856340461,23
+"Departamento",-23.5128446678353,-62.8303776832343,"Direc. Grl. de Inmuebles","66133","Rivadavia","Departamento Rivadavia","66",0.168482934580535,18
+"Departamento",-24.5462867797822,-65.8530871719889,"Direc. Grl. de Inmuebles","66147","Rosario de Lerma","Departamento Rosario de Lerma","66",0.0330962886982531,18
+"Departamento",-23.7855349092159,-64.8287565421131,"Direc. Grl. de Inmuebles","38035","Ledesma","Departamento Ledesma","38",0.056145307208727,21
+"Departamento",-27.522187514513,-58.7627061875969,"IGN","18021","Capital","Departamento Capital",18,0.0061480599163012,14
+"Departamento",-27.5507848284827,-55.856845031149,"Ministerio de Ecologia","54028","Capital","Departamento Capital","54",0.0327981312782057,1
+"Departamento",-25.8747354912768,-54.4004185891377,"Ministerio de Ecologia","54063","Iguazu","Departamento Iguazu","54",0.0908558450964188,1
+"Departamento",-27.4763636003081,-55.0712221116124,"Ministerio de Ecologia","54091","Obera","Departamento Obera","54",0.0528158117933746,1
+"Departamento",-27.1765939564162,-55.3392901890006,"Ministerio de Ecologia","54098","San Ignacio","Departamento San Ignacio","54",0.0559772245073237,1
+"Departamento",-29.4604898579358,-66.3525089002799,"IGN","46014","Capital","Departamento Capital","46",0.146466106154406,10
+"Departamento",-30.032189401961,-63.2238214757827,"Direc. Grl. de Catastro","14112","Rio Seco","Departamento Rio Seco",14,0.0396380369442401,8
+"Departamento",-39.4101860186287,-66.2062591058801,"A.R.T - Gerencia de Catastro","62014","Avellaneda","Departamento Avellaneda","62",0.0967655021662825,6
+"Departamento",-38.5324900624312,-67.554484164455,"A.R.T - Gerencia de Catastro","62042","General Roca","Departamento General Roca","62",0.0703061139321081,6
+"Departamento",-27.7160106963678,-59.1157493078992,"Direc. Pcial. de Catastro y Cartografia","22140","San Fernando","Departamento San Fernando",22,0.0359940789236026,19
+"Departamento",-32.7356115411335,-66.7150069507327,"Direc. de Geodesia y Catastro","74014","Belgrano","Departamento Belgrano","74",0.106328093347143,2
+"Departamento",-40.7743899197092,-71.4866965761944,"Direc. Pcial. de Catastro e Inf. Territorial","58070","Los Lagos","Departamento Los Lagos","58",0.0459909042229338,17
+"Departamento",-27.1000545044873,-66.9223774125099,"Adm. Grl. de Catastro","10035","Belen","Departamento Belen",10,0.124345104989166,11
+"Departamento",-38.8325294845843,-68.7930144598811,"Direc. Pcial. de Catastro e Inf. Territorial","58035","Confluencia","Departamento Confluencia","58",0.0766044684486798,17
+"Departamento",-38.5742697933456,-70.3729347665806,"Direc. Pcial. de Catastro e Inf. Territorial","58105","Picunches","Departamento Picunches","58",0.0639319261797913,17
+"Departamento",-38.0986455753996,-69.0127575196277,"Direc. Pcial. de Catastro e Inf. Territorial","58014","Añelo","Departamento Añelo","58",0.127246526684915,17
+"Departamento",-38.0659054264443,-70.3140568384535,"Direc. Pcial. de Catastro e Inf. Territorial","58063","Loncopue","Departamento Loncopue","58",0.0578305565246805,17
+"Departamento",-37.6378798941082,-70.6777764142853,"Direc. Pcial. de Catastro e Inf. Territorial","58084","Ñorquin","Departamento Ñorquin","58",0.0580205474391479,17
+"Departamento",-28.4104559393629,-65.8362002957174,"Adm. Grl. de Catastro","10049","Capital","Departamento Capital",10,0.00396530611544525,11
+"Departamento",-28.9266675681635,-65.5038083174841,"Adm. Grl. de Catastro","10014","Ancasti","Departamento Ancasti",10,0.0196432758946592,11
+"Departamento",-37.3984401348449,-69.4019520980894,"Direc. Pcial. de Catastro e Inf. Territorial","58091","Pehuenches","Departamento Pehuenches","58",0.0868435154751623,17
+"Departamento",-36.8583892643308,-70.7836605070546,"Direc. Pcial. de Catastro e Inf. Territorial","58077","Minas","Departamento Minas","58",0.0625816911130228,17
+"Departamento",-36.8804936082292,-70.2862810211876,"Direc. Pcial. de Catastro e Inf. Territorial","58042","Chos Malal","Departamento Chos Malal","58",0.0473333119334717,17
+"Departamento",-42.36635302228,-70.7120117319755,"IGN","26014","Cushamen","Departamento Cushamen","26",0.0709874159379581,7
+"Departamento",-46.8341030724218,-70.6314100141799,"IGN","78035","Lago Buenos Aires","Departamento Lago Buenos Aires","78",0.11238095820884,5
+"Comuna",-34.5857649937965,-58.3948918118195,"Direc. de Catastro","02014","Comuna 2","Comuna 2","02",0.0307559943965981,22
+"Comuna",-34.6745676187442,-58.461944281059,"Direc. de Catastro","02056","Comuna 8","Comuna 8","02",0.109258099192413,22
+"Departamento",-23.1201560396969,-62.1382049441497,"IGN","34063","Ramon Lista","Departamento Ramon Lista","34",0.050204890564213,20
+"Departamento",-29.7654579620613,-64.1428878947488,"Direc. Grl. de Catastro","14154","Sobremonte","Departamento Sobremonte",14,0.0191030519350052,8
+"Departamento",-27.4347067679294,-64.2098658068888,"Direc. Grl. de Catastro","86035","Banda","Departamento Banda","86",0.0251922426734734,13
+"Partido",-34.9157089757004,-59.9584822196811,"ARBA - Gerencia de Servicios Catastrales","06224","Chivilcoy","Partido de Chivilcoy","06",0.00657012987732837,23
+"Departamento",-33.4855834326751,-60.85138406701,"Servicio de Catastro e Informacion Territorial","82028","Villa Constitucion","Departamento Villa Constitucion","82",0.0249342168328718,15
+"Departamento",-43.8138432526407,-67.2400230074032,"IGN","26063","Martires","Departamento Martires","26",0.0697298808457359,7
+"Departamento",-28.1061147414005,-63.4461751488674,"Direc. Grl. de Catastro","86182","Sarmiento","Departamento Sarmiento","86",0.0123315789643908,13
+"Departamento",-47.3305185775707,-68.0290787062148,"IGN","78014","Deseado","Departamento Deseado","78",0.2509118509201,5
+"Departamento",-43.3234947781653,-70.3484257364086,"IGN","26056","Languiñeo","Departamento Languiñeo","26",0.0654201199708939,7
+"Departamento",-29.0813959929051,-62.2187677325403,"Direc. Grl. de Catastro","86042","Belgrano","Departamento Belgrano","86",0.0246668201584411,13
+"Departamento",-29.2978682731406,-62.5153416521407,"Direc. Grl. de Catastro","86007","Aguirre","Departamento Aguirre","86",0.0303572842304925,13
+"Comuna",-34.5738372943158,-58.4222211632133,"Direc. de Catastro","02098","Comuna 14","Comuna 14","02",0.0772248739608658,22
+"Departamento",-27.9767710254958,-64.8711532150043,"Direc. Grl. de Catastro","86084","Guasayan","Departamento Guasayan","86",0.0194770451053937,13
+"Departamento",-31.4170686019036,-64.1832168468628,"Direc. Grl. de Catastro","14014","Capital","Departamento Capital",14,0.00345106448502012,8
+"Departamento",-25.9455797002151,-67.6777645009401,"Adm. Grl. de Catastro","10028","Antofagasta de la Sierra","Departamento Antofagasta de la Sierra",10,0.273654740366082,11
+"Departamento",-34.0753663960754,-69.0977010128957,"IGN","50091","San Carlos","Departamento San Carlos","50",0.0768118081338745,9
+"Departamento",-43.070540741803,-71.4553756889394,"IGN","26035","Futaleufu","Departamento Futaleufu","26",0.0403321962820172,7
+"Departamento",-48.2873290186499,-71.1138374982594,"IGN","78049","Rio Chico","Departamento Rio Chico","78",0.137473412641513,5
+"Departamento",-49.8364881431632,-72.0654713338211,"IGN","78028","Lago Argentino","Departamento Lago Argentino","78",0.161091153605853,5
+"Departamento",-39.7016431663172,-68.4845953824055,"A.R.T - Gerencia de Catastro","62035","El Cuy","Departamento El Cuy","62",0.10515104838663,6
+"Departamento",-32.5247668775446,-69.26717572394,"IGN","50049","Las Heras","Departamento Las Heras","50",0.0581153241945307,9
+"Departamento",-32.582585367751,-67.8890727049671,"IGN","50056","Lavalle","Departamento Lavalle","50",0.0671471657023154,9
+"Departamento",-39.4076832777441,-64.4005868582138,"A.R.T - Gerencia de Catastro","62063","Pichi Mahuida","Departamento Pichi Mahuida","62",0.0763935846297727,6
+"Departamento",-40.7917543082478,-63.765086491035,"A.R.T - Gerencia de Catastro","62007","Adolfo Alsina","Departamento Adolfo Alsina","62",0.0445254504471909,6
+"Comuna",-34.6138430816863,-58.4026514512217,"Direc. de Catastro","02021","Comuna 3","Comuna 3","02",0.0310094008250203,22
+"Departamento",-27.8847652276316,-64.4356675404002,"Direc. Grl. de Catastro","86049","Capital","Departamento Capital","86",0.0155267201428189,13
+"Partido",-36.0345220351902,-60.1333612561516,"ARBA - Gerencia de Servicios Catastrales","06287","General Alvear","Partido de General Alvear","06",0.0109176337432274,23
+"Departamento",-28.6244804367569,-64.3107274308234,"Direc. Grl. de Catastro","86105","Loreto","Departamento Loreto","86",0.0229358856992132,13
+"Departamento",-31.6477388963494,-59.0594708104081,"ATER - Direc. de Catastro","30113","Villaguay","Departamento Villaguay","30",0.083547074250022,4
+"Partido",-36.041669400313,-57.6570625692977,"ARBA - Gerencia de Servicios Catastrales","06168","Castelli","Partido de Castelli","06",0.0068617476074117,23
+"Departamento",-31.5768835387468,-58.4863728567996,"ATER - Direc. de Catastro","30088","San Salvador","Departamento San Salvador","30",0.0168894737699881,4
+"Partido",-34.8355700988623,-58.3673978494737,"ARBA - Gerencia de Servicios Catastrales","06028","Almirante Brown","Partido de Almirante Brown","06",0.000413465514068435,23
+"Departamento",-32.2187123475252,-59.7697019155424,"ATER - Direc. de Catastro","30077","Nogoya","Departamento Nogoya","30",0.0559498475303484,4
+"Departamento",-32.3174117217417,-59.2672864855269,"ATER - Direc. de Catastro","30091","Tala","Departamento Tala","30",0.0338110157656643,4
+"Departamento",-30.8974563498339,-59.5004488104579,"ATER - Direc. de Catastro","30070","La Paz","Departamento La Paz","30",0.083630578277297,4
+"Departamento",-27.3950475960133,-60.3646185068028,"Direc. Pcial. de Catastro y Cartografia","22147","San Lorenzo","Departamento San Lorenzo",22,0.0216726608300543,19
+"Partido",-35.0034938070318,-58.0180274992052,"ARBA - Gerencia de Servicios Catastrales","06441","La Plata","Partido de La Plata","06",0.00285154539959293,23
+"Partido",-35.2221104711751,-58.1760719473086,"ARBA - Gerencia de Servicios Catastrales","06119","Brandsen","Partido de Brandsen","06",0.00358662931280689,23
+"Partido",-35.5265113228112,-60.2301576569223,"ARBA - Gerencia de Servicios Catastrales","06854","25 de Mayo","Partido de 25 de Mayo","06",0.015400089407453,23
+"Partido",-35.8833833438579,-61.9271985156994,"ARBA - Gerencia de Servicios Catastrales","06609","Pehuajo","Partido de Pehuajo","06",0.0146398498700398,23
+"Partido",-35.8349745328235,-58.6980461310919,"ARBA - Gerencia de Servicios Catastrales","06301","General Belgrano","Partido de General Belgrano","06",0.00598271675513779,23
+"Departamento",-28.9092326420174,-65.9015706538014,"Adm. Grl. de Catastro","10042","Capayan","Departamento Capayan",10,0.0434076149962871,11
+"Partido",-35.5103702936319,-58.7694635013319,"ARBA - Gerencia de Servicios Catastrales","06547","Monte","Partido de Monte","06",0.00607613799043296,23
+"Partido",-35.4811110714388,-59.3595940527063,"ARBA - Gerencia de Servicios Catastrales","06693","Roque Perez","Partido de Roque Perez","06",0.0049847009922423,23
+"Partido",-34.4481990221196,-58.9034413925773,"ARBA - Gerencia de Servicios Catastrales","06638","Pilar","Partido de Pilar","06",0.00122258442314009,23
+"Partido",-34.5676194636906,-59.1585123543241,"ARBA - Gerencia de Servicios Catastrales","06497","Lujan","Partido de Lujan","06",0.00246052711419248,23
+"Partido",-36.7857719233293,-59.69665215894,"ARBA - Gerencia de Servicios Catastrales","06049","Azul","Partido de Azul","06",0.0213800434738094,23
+"Departamento",-27.9311673936983,-55.4670364911295,"Ministerio de Ecologia","54035","Concepcion","Departamento Concepcion","54",0.0262288462080146,1
+"Partido",-34.7108867791705,-58.7418777656329,"ARBA - Gerencia de Servicios Catastrales","06539","Merlo","Partido de Merlo","06",0.000554747950090296,23
+"Partido",-34.6184039263126,-60.3539279007252,"ARBA - Gerencia de Servicios Catastrales","06210","Chacabuco","Partido de Chacabuco","06",0.00731481585143269,23
+"Partido",-34.4067983092213,-59.8842434040917,"ARBA - Gerencia de Servicios Catastrales","06161","Carmen de Areco","Partido de Carmen de Areco","06",0.00337092985162865,23
+"Partido",-34.6503494927057,-58.9879503249052,"ARBA - Gerencia de Servicios Catastrales","06364","General Rodriguez","Partido de General Rodriguez","06",0.00116279938210666,23
+"Partido",-34.2951491690699,-59.1559117007684,"ARBA - Gerencia de Servicios Catastrales","06266","Exaltacion de la Cruz","Partido de Exaltacion de la Cruz","06",0.00201733655642528,23
+"Partido",-34.5520919648351,-58.6917055208826,"ARBA - Gerencia de Servicios Catastrales","06760","San Miguel","Partido de San Miguel","06",0.000263558744820331,23
+"Partido",-34.4377851586384,-59.4732938848478,"ARBA - Gerencia de Servicios Catastrales","06728","San Andres de Giles","Partido de San Andres de Giles","06",0.00358541171551044,23
+"Partido",-34.546128336039,-61.0054940705488,"ARBA - Gerencia de Servicios Catastrales","06413","Junin","Partido de Junin","06",0.00717020912286574,23
+"Partido",-34.8137199832046,-58.8480634347315,"ARBA - Gerencia de Servicios Catastrales","06525","Marcos Paz","Partido de Marcos Paz","06",0.00135512886724467,23
+"Departamento",-33.329445846674,-63.6063356482423,"Direc. Grl. de Catastro","14056","Juarez Celman","Departamento Juarez Celman",14,0.0487480781437347,8
+"Departamento",-38.2616553827262,-65.0966303997922,"Direc. Grl. de Catastro","42084","Lihuel Calel","Departamento Lihuel Calel","42",0.0882617313241873,12
+"Partido",-34.6971944325993,-59.42081198401,"ARBA - Gerencia de Servicios Catastrales","06532","Mercedes","Partido de Mercedes","06",0.0033471476123561,23
+"Departamento",-27.6219112869485,-61.3295201872432,"Direc. Pcial. de Catastro y Cartografia","22039","2 de Abril","Departamento 2 de Abril",22,0.0161403354118476,19
+"Partido",-34.5992140053733,-58.6496943606349,"ARBA - Gerencia de Servicios Catastrales","06408","Hurlingham","Partido de Hurlingham","06",0.000112721177090724,23
+"Partido",-34.6491410653179,-58.6198433488168,"ARBA - Gerencia de Servicios Catastrales","06568","Moron","Partido de Moron","06",0.00017634944491009,23
+"Partido",-34.5526490761118,-58.5643145358763,"ARBA - Gerencia de Servicios Catastrales","06371","Ciudad Libertador San Martin","Partido de Ciudad Libertador San Martin","06",0.000179302728611812,23
+"Departamento",-26.0838657971757,-65.1765900958914,"Direc. Grl. de Inmuebles","66084","La Candelaria","Departamento La Candelaria","66",0.00874217020601844,18
+"Partido",-34.6360018167543,-58.6887583352667,"ARBA - Gerencia de Servicios Catastrales","06410","Ituzaingo","Partido de Ituzaingo","06",0.00012135958861739,23
+"Departamento",-31.4753563662874,-60.6694790125744,"Servicio de Catastro e Informacion Territorial","82063","La Capital","Departamento La Capital","82",0.0225119247730437,15
+"Departamento",-28.2311093523606,-56.222206072693,"IGN","18168","Santo Tome","Departamento Santo Tome",18,0.0782049963317694,14
+"Departamento",-28.2124729464641,-58.6199065693295,"IGN","18126","Saladas","Departamento Saladas",18,0.0214233896963802,14
+"Departamento",-27.7199243812297,-57.7876196199145,"IGN","18063","General Paz","Departamento General Paz",18,0.0289950695965752,14
+"Partido",-34.7485629683304,-59.7034737442182,"ARBA - Gerencia de Servicios Catastrales","06784","Suipacha","Partido de Suipacha","06",0.00300618616138163,23
+"Partido",-34.5959797363173,-58.5790926022347,"ARBA - Gerencia de Servicios Catastrales","06840","Tres de Febrero","Partido de Tres de Febrero","06",0.000145526894996952,23
+"Departamento",-29.449795605204,-68.3284822964489,"IGN","46028","Coronel Felipe Varela","Departamento Coronel Felipe Varela","46",0.0902197250288193,10
+"Partido",-35.0363817959326,-60.2828693081193,"ARBA - Gerencia de Servicios Catastrales","06021","Alberti","Partido de Alberti","06",0.00357136702956445,23
+"Partido",-34.7057824914432,-58.3954484986693,"ARBA - Gerencia de Servicios Catastrales","06434","Lanus","Partido de Lanus","06",0.000163480932835015,23
+"Partido",-34.9094258328137,-58.9958733938567,"ARBA - Gerencia de Servicios Catastrales","06329","General Las Heras","Partido de General Las Heras","06",0.00240562185168829,23
+"Partido",-34.7554708441214,-58.424078867213,"ARBA - Gerencia de Servicios Catastrales","06490","Lomas de Zamora","Partido de Lomas de Zamora","06",0.000279534328995909,23
+"Partido",-35.0304083582525,-59.429785480408,"ARBA - Gerencia de Servicios Catastrales","06574","Navarro","Partido de Navarro","06",0.0051849074403453,23
+"Partido",-35.1450252367714,-58.6907790273655,"ARBA - Gerencia de Servicios Catastrales","06134","Cañuelas","Partido de Cañuelas","06",0.00381614792158832,23
+"Departamento",-25.7029508773623,-65.4445360285708,"Direc. Grl. de Inmuebles","66063","Guachipas","Departamento Guachipas","66",0.0181585040175941,18
+"Departamento",-26.1255099823638,-65.8800888963475,"Direc. Grl. de Inmuebles","66021","Cafayate","Departamento Cafayate","66",0.0102433370185492,18
+"Partido",-35.2195598528609,-59.1458071242931,"ARBA - Gerencia de Servicios Catastrales","06483","Lobos","Partido de Lobos","06",0.00553811444140763,23
+"Partido",-34.7350141996909,-58.2768874201614,"ARBA - Gerencia de Servicios Catastrales","06658","Quilmes","Partido de Quilmes","06",0.000292309021106538,23
+"Partido",-36.2023512628961,-58.3408970254988,"ARBA - Gerencia de Servicios Catastrales","06630","Pila","Partido de Pila","06",0.0112128437314099,23
+"Partido",-37.3557097661663,-61.3442438803068,"ARBA - Gerencia de Servicios Catastrales","06322","General La Madrid","Partido de General La Madrid","06",0.0158668589746562,23
+"Partido",-36.2982217499893,-61.1496836148108,"ARBA - Gerencia de Servicios Catastrales","06105","Bolivar","Partido de San Bolivar","06",0.0160307950194283,23
+"Partido",-37.7142728188627,-58.2720776945726,"ARBA - Gerencia de Servicios Catastrales","06063","Balcarce","Partido de Balcarce","06",0.013644967977158,23
+"Partido",-36.2593312232241,-61.6600936665535,"ARBA - Gerencia de Servicios Catastrales","06406","Hipolito Yrigoyen","Partido de Hipolito Yrigoyen","06",0.00535554793166332,23
+"Partido",-36.3986615531875,-57.6326112997092,"ARBA - Gerencia de Servicios Catastrales","06238","Dolores","Partido de Dolores","06",0.00642093785687824,23
+"Partido",-36.4973152716526,-62.8634418902354,"ARBA - Gerencia de Servicios Catastrales","06847","Tres Lomas","Partido de Tres Lomas","06",0.00409292824505555,23
+"Partido",-37.0347821696395,-58.442581327328,"ARBA - Gerencia de Servicios Catastrales","06042","Ayacucho","Partido de Ayacucho","06",0.0221727758678264,23
+"Departamento",-28.4973936042369,-58.930436271179,"IGN","18007","Bella Vista","Departamento Bella Vista",18,0.0198932759547233,14
+"Departamento",-27.6598759889301,-59.8288687407326,"Direc. Pcial. de Catastro y Cartografia","22161","Tapenaga","Departamento Tapenaga",22,0.0603880925150689,19
+"Departamento",-31.2902983723403,-58.237869689912,"ATER - Direc. de Catastro","30015","Concordia","Departamento Concordia","30",0.0414709107026056,4
+"Departamento",-30.9924267797136,-58.8918600477837,"ATER - Direc. de Catastro","30035","Federal","Departamento Federal","30",0.0657469680182571,4
+"Departamento",-33.0223492433906,-58.7857904865089,"ATER - Direc. de Catastro","30056","Gualeguaychu","Departamento Gualeguaychu","30",0.0970821967786673,4
+"Departamento",-33.6241288152628,-58.9351580556436,"ATER - Direc. de Catastro","30063","Islas del Ibicuy","Departamento Islas del Ibicuy","30",0.0639921224207814,4
+"Partido",-34.6683135254839,-62.0397484845208,"ARBA - Gerencia de Servicios Catastrales","06351","General Pinto","Partido de General Pinto","06",0.00813990424343015,23
+"Partido",-36.8905500665858,-62.4187740896092,"ARBA - Gerencia de Servicios Catastrales","06399","Guamini","Partido de Guamini","06",0.0158138991157625,23
+"Partido",-34.6782056572194,-58.341116892125,"ARBA - Gerencia de Servicios Catastrales","06035","Avellaneda","Partido de Avellaneda","06",0.000179377277841593,23
+"Departamento",-31.453365238609,-69.8338001250755,"Direc. de Geodesia y Catastro","70021","Calingasta","Departamento Calingasta","70",0.257688512934875,3
+"Departamento",-31.9896198487776,-67.8274038981039,"Direc. de Geodesia y Catastro","70126","25 de Mayo","Departamento 25 de Mayo","70",0.0484475600010916,3
+"Partido",-33.8860220920375,-61.0633674925405,"ARBA - Gerencia de Servicios Catastrales","06175","Colon","Partido de Colon","06",0.00315359685467677,23
+"Partido",-38.3886180658492,-59.5866369475028,"ARBA - Gerencia de Servicios Catastrales","06742","San Cayetano","Partido de San Cayetano","06",0.010047085737695,23
+"Partido",-38.5116665533312,-60.2376664741026,"ARBA - Gerencia de Servicios Catastrales","06833","Tres Arroyos","Partido de Tres Arroyos","06",0.0198482766976844,23
+"Departamento",-27.3218567500252,-63.5796320220819,"Direc. Grl. de Catastro","86070","Figueroa","Departamento Figueroa","86",0.0517422165750496,13
+"Partido",-37.7710550160995,-62.4351452974673,"ARBA - Gerencia de Servicios Catastrales","06700","Saavedra","Partido de Saavedra","06",0.0117201108314097,23
+"Partido",-38.96257223668,-61.2904738793276,"ARBA - Gerencia de Servicios Catastrales","06553","Monte Hermoso","Partido de Monte Hermoso","06",0.000693471568969936,23
+"Partido",-38.0897033467581,-58.6939656644915,"ARBA - Gerencia de Servicios Catastrales","06476","Loberia","Partido de Loberia","06",0.0157299560653574,23
+"Partido",-34.909463480255,-57.8283887071779,"ARBA - Gerencia de Servicios Catastrales","06098","Berisso","Partido de Berisso","06",0.0004620215269004,23
+"Partido",-36.3908002975414,-57.2746828657242,"ARBA - Gerencia de Servicios Catastrales","06812","Tordillo","Partido de Tordillo","06",0.00433989791614039,23
+"Partido",-33.5872972390017,-60.0574845905723,"ARBA - Gerencia de Servicios Catastrales","06665","Ramallo","Partido de Ramallo","06",0.00329661727121159,23
+"Partido",-33.4825541340452,-60.292953731623,"ARBA - Gerencia de Servicios Catastrales","06763","San Nicolas","Partido de San Nicolas","06",0.00214225132474427,23
+"Departamento",-27.2981373849478,-62.4633306370511,"Direc. Grl. de Catastro","86119","Moreno","Departamento Moreno","86",0.119399395181023,13
+"Partido",-36.6659831488299,-57.9957841120045,"ARBA - Gerencia de Servicios Catastrales","06308","General Guido","Partido de General Guido","06",0.00760031468357251,23
+"Departamento",-27.1179308909271,-61.3088910569936,"Direc. Pcial. de Catastro y Cartografia","22028","Chacabuco","Departamento Chacabuco",22,0.015260278412021,19
+"Departamento",-32.8910429154042,-68.7323728513948,"IGN","50028","Guaymallen","Departamento Guaymallen","50",0.00106426939944268,9
+"Departamento",-24.8902273126574,-65.2702656216248,"Direc. Grl. de Inmuebles","66028","Capital","Departamento Capital","66",0.0110630899609388,18
+"Departamento",-26.8190298006571,-60.0187693847422,"Direc. Pcial. de Catastro y Cartografia","22168","25 de Mayo","Departamento 25 de Mayo",22,0.0239088395556109,19
+"Partido",-37.5325532169014,-61.8893137767698,"ARBA - Gerencia de Servicios Catastrales","06203","Coronel Suarez","Partido de Coronel Suarez","06",0.0197309926967139,23
+"Partido",-38.6704811465081,-61.0956539726773,"ARBA - Gerencia de Servicios Catastrales","06189","Coronel Dorrego","Partido de Coronel Dorrego","06",0.0195949277744654,23
+"Partido",-38.2555189703716,-59.1673660597249,"ARBA - Gerencia de Servicios Catastrales","06581","Necochea","Partido de Necochea","06",0.0152189599449576,23
+"Departamento",-30.1144612462884,-67.3355202231145,"IGN","46105","Independencia","Departamento Independencia","46",0.0770956746933794,10
+"Departamento",-32.9775099458466,-68.6521739904164,"IGN","50070","Maipu","Departamento Maipu","50",0.00402800699865528,9
+"Departamento",-32.8806541047985,-68.8921657602392,"IGN","50007","Capital","Departamento Capital","50",0.000346397919648896,9
+"Departamento",-32.9297600556689,-68.8890844545155,"IGN","50021","Godoy Cruz","Departamento Godoy Cruz","50",0.000522024234215165,9
+"Departamento",-27.5445087646164,-66.3560062057426,"Adm. Grl. de Catastro","10021","Andalgala","Departamento Andalgala",10,0.0470622977683362,11
+"Departamento",-28.0189344685483,-65.9222983796596,"Adm. Grl. de Catastro","10007","Ambato","Departamento Ambato",10,0.0180369223494799,11
+"Partido",-38.5808546732895,-62.1656895327094,"ARBA - Gerencia de Servicios Catastrales","06056","Bahia Blanca","Partido de Bahia Blanca","06",0.00754121273617587,23
+"Partido",-38.2027130466251,-58.0722485722113,"ARBA - Gerencia de Servicios Catastrales","06280","General Alvarado","Partido de General Alvarado","06",0.00543276666507412,23
+"Partido",-37.9656760017008,-57.743144039076,"ARBA - Gerencia de Servicios Catastrales","06357","General Pueyrredon","Partido de General Pueyrredon","06",0.00486483975046309,23
+"Partido",-37.4984341235843,-57.6436183302355,"ARBA - Gerencia de Servicios Catastrales","06518","Mar Chiquita","Partido de Mar Chiquita","06",0.0102133022859258,23
+"Partido",-37.3705193886837,-57.0658445979783,"ARBA - Gerencia de Servicios Catastrales","06868","Villa Gesell","Partido de Villa Gesell","06",0.000542519679028944,23
+"Departamento",-33.1462075241433,-68.4803420038399,"IGN","50035","Junin","Departamento Junin","50",0.00170774208163888,9
+"Departamento",-28.8599829479001,-66.9185847556269,"IGN","46021","Castro Barros","Departamento Castro Barros","46",0.016563824692652,10
+"Departamento",-26.6685132272644,-60.1735021538447,"Direc. Pcial. de Catastro y Cartografia","22133","Quitilipi","Departamento Quitilipi",22,0.0156792855199628,19
+"Partido",-37.1099458706882,-56.8696753966329,"ARBA - Gerencia de Servicios Catastrales","06644","Pinamar","Partido de Pinamar","06",0.000218910080019246,23
+"Partido",-36.6518890129521,-56.9422695810513,"ARBA - Gerencia de Servicios Catastrales","06336","General Lavalle","Partido de General Lavalle","06",0.00879432909516801,23
+"Partido",-36.6782018297724,-56.7189105094625,"ARBA - Gerencia de Servicios Catastrales","06420","La Costa","Partido de La Costa","06",0.00081360388014985,23
+"Partido",-35.1849498629024,-57.6863916156026,"ARBA - Gerencia de Servicios Catastrales","06505","Magdalena","Partido de Magdalena","06",0.00593322480930307,23
+"Departamento",-29.1585269700688,-67.0658836337793,"IGN","46126","Sanagasta","Departamento Sanagasta","46",0.014179949664446,10
+"Partido",-34.5265131808416,-58.5044695897767,"ARBA - Gerencia de Servicios Catastrales","06861","Vicente Lopez","Partido de Vicente Lopez","06",0.000109738393731595,23
+"Departamento",-29.3959374753391,-67.4278867891974,"IGN","46042","Chilecito","Departamento Chilecito","46",0.0571329788533357,10
+"Departamento",-27.0468199682862,-59.7751691822068,"Direc. Pcial. de Catastro y Cartografia","22119","Presidencia de la Plaza","Departamento Presidencia de la Plaza",22,0.0226149245838213,19
+"Departamento",-32.7839424597327,-60.2180700309804,"ATER - Direc. de Catastro","30105","Victoria","Departamento Victoria","30",0.0853566278503008,4
+"Departamento",-30.3128975389814,-66.6630521188972,"IGN","46056","General angel V. Peñaloza","Departamento General angel V. Peñaloza","46",0.0343820373839386,10
+"Departamento",-32.228040548998,-60.5239335894137,"ATER - Direc. de Catastro","30021","Diamante","Departamento Diamante","30",0.0342267295120938,4
+"Departamento",-32.4499666887673,-58.5822661421638,"ATER - Direc. de Catastro","30098","Uruguay","Departamento Uruguay","30",0.0656737412682729,4
+"Departamento",-31.6952294494435,-60.041174481445,"ATER - Direc. de Catastro","30084","Parana","Departamento Parana","30",0.0649019858620617,4
+"Partido",-35.6765966680226,-59.7037033020054,"ARBA - Gerencia de Servicios Catastrales","06707","Saladillo","Partido de Saladillo","06",0.00874459635950249,23
+"Partido",-36.0157017377305,-59.1769657671576,"ARBA - Gerencia de Servicios Catastrales","06455","Las Flores","Partido de Las Flores","06",0.0108268174478274,23
+"Partido",-34.1926035952586,-60.7879706568364,"ARBA - Gerencia de Servicios Catastrales","06686","Rojas","Partido de Rojas","06",0.00653582722801871,23
+"Partido",-34.3287181500871,-58.7711281467385,"ARBA - Gerencia de Servicios Catastrales","06252","Escobar","Partido de Escobar","06",0.000957795592933906,23
+"Partido",-33.835815535365,-60.5450748689588,"ARBA - Gerencia de Servicios Catastrales","06623","Pergamino","Partido de Pergamino","06",0.00948447519484366,23
+"Departamento",-30.800959034536,-66.868104514456,"IGN","46070","General Juan F. Quiroga","Departamento General Juan F. Quiroga","46",0.0476363138730246,10
+"Departamento",-26.8624408970891,-65.4310597836071,"Direc. Grl. de Catastro","90063","Lules","Departamento Lules","90",0.0272511145586003,16
+"Departamento",-26.7861906133402,-65.3424091314535,"Direc. Grl. de Catastro","90119","Yerba Buena","Departamento Yerba Buena","90",0.00630225694305269,16
+"Departamento",-26.6607281369398,-65.4634432127741,"Direc. Grl. de Catastro","90105","Tafi Viejo","Departamento Tafi Viejo","90",0.0521184370583673,16
+"Departamento",-26.5309358872581,-64.8198149704644,"Direc. Grl. de Catastro","90007","Burruyacu","Departamento Burruyacu","90",0.160597667286576,16
+"Departamento",-31.4205977732086,-66.6788621651991,"IGN","46112","Rosario Vera Peñaloza","Departamento Rosario Vera Peñaloza","46",0.0559033421686679,10
+"Departamento",-28.9699286424835,-60.4135430497849,"Servicio de Catastro e Informacion Territorial","82133","Vera","Departamento Vera","82",0.152931769704679,15
+"Departamento",-28.849605091735,-61.3983535538115,"Servicio de Catastro e Informacion Territorial","82077","9 de Julio","Departamento 9 de Julio","82",0.127510429546258,15
+"Departamento",-29.6066873518726,-69.437949892691,"Direc. de Geodesia y Catastro","70049","Iglesia","Departamento Iglesia","70",0.215162441965075,3
+"Departamento",-30.7122962694155,-67.5323035648395,"Direc. de Geodesia y Catastro","70119","Valle Fertil","Departamento Valle Fertil","70",0.0589946311427935,3
+"Departamento",-31.0904647062097,-68.8815821606005,"Direc. de Geodesia y Catastro","70112","Ullum","Departamento Ullum","70",0.0503459806801266,3
+"Departamento",-31.2096344810555,-68.4519807662306,"Direc. de Geodesia y Catastro","70007","Albardon","Departamento Albardon","70",0.0115231977396303,3
+"Departamento",-31.6381980593912,-68.9555709233027,"Direc. de Geodesia y Catastro","70133","Zonda","Departamento Zonda","70",0.0272428308110327,3
+"Departamento",-35.369087077487,-65.8148193795656,"Direc. de Geodesia y Catastro","74042","Gobernador Dupuy","Departamento Gobernador Dupuy","74",0.247814471597882,2
+"Departamento",-25.038234468241,-66.2030292859746,"Direc. Grl. de Inmuebles","66014","Cachi","Departamento Cachi","66",0.0183956332637273,18
+"Departamento",-25.1514718801816,-65.6059279182319,"Direc. Grl. de Inmuebles","66042","Chicoana","Departamento Chicoana","66",0.00684584550754812,18
+"Departamento",-25.4475878403232,-65.5807612448506,"Direc. Grl. de Inmuebles","66098","La Viña","Departamento La Viña","66",0.0130018313887228,18
+"Partido",-36.5722509524193,-58.9444061302172,"ARBA - Gerencia de Servicios Catastrales","06672","Rauch","Partido de Rauch","06",0.0140623511119434,23
+"Departamento",-25.4251673018384,-64.588141248868,"Direc. Grl. de Inmuebles","66112","Metan","Departamento Metan","66",0.0341750601094994,18
+"Departamento",-25.5643605125424,-66.4549057919868,"Direc. Grl. de Inmuebles","66119","Molinos","Departamento Molinos","66",0.0241673311397467,18
+"Partido",-36.6710137553167,-63.0491259803334,"ARBA - Gerencia de Servicios Catastrales","06721","Salliquelo","Partido de Salliquelo","06",0.00259086870837977,23
+"Partido",-34.8179736855733,-58.1552626920478,"ARBA - Gerencia de Servicios Catastrales","06091","Berazategui","Partido de Berazategui","06",0.000703029473342138,23
+"Departamento",-24.7648231076768,-64.9560952507157,"Direc. Grl. de Inmuebles","66049","General Güemes","Departamento General Güemes","66",0.0141550721663711,18
+"Departamento",-25.8276863599322,-66.1742423008628,"Direc. Grl. de Inmuebles","66154","San Carlos","Departamento San Carlos","66",0.0359678438857989,18
+"Departamento",-35.4015889145024,-64.8014904385407,"Direc. Grl. de Catastro","42126","Rancul","Departamento Rancul","42",0.0349029883988957,12
+"Departamento",-36.0315435775022,-64.5106030260375,"Direc. Grl. de Catastro","42035","Conhelo","Departamento Conhelo","42",0.0352320738161945,12
+"Departamento",-28.3329401551221,-65.7309008581155,"Adm. Grl. de Catastro","10063","Fray Mamerto Esquiu","Departamento Fray Mamerto Esquiu",10,0.00184741644614279,11
+"Departamento",-31.0066417359043,-66.0590548632025,"IGN","46084","General Ocampo","Departamento General Ocampo","46",0.0413913207632022,10
+"Partido",-34.9298313021932,-58.398091246683,"ARBA - Gerencia de Servicios Catastrales","06648","Presidente Peron","Partido de Presidente Peron","06",0.000385704870895687,23
+"Departamento",-40.9256367295503,-67.4574905887938,"A.R.T - Gerencia de Catastro","62049","9 de julio","Departamento 9 de julio","62",0.119950199992749,6
+"Departamento",-31.6413069709194,-66.1459756728153,"IGN","46091","General San Martin","Departamento General San Martin","46",0.0498961638527694,10
+"Departamento",-28.6918181694465,-63.8815639978494,"Direc. Grl. de Catastro","86021","Atamisqui","Departamento Atamisqui","86",0.0177841038394763,13
+"Partido",-38.8488346485235,-61.8360446581448,"ARBA - Gerencia de Servicios Catastrales","06182","Coronel de Marina Leonardo Rosales","Partido de Coronel de Marina Leonardo Rosales","06",0.00434664188119309,23
+"Departamento",-28.6973037998771,-67.5592920371088,"IGN","46049","Famatina","Departamento Famatina","46",0.0451429062348513,10
+"Departamento",-27.3511465491091,-59.2606339567401,"Direc. Pcial. de Catastro y Cartografia","22077","Libertad","Departamento Libertad",22,0.0104790692186338,19
+"Departamento",-54.4245608958778,-67.5034849431886,"Gerencia de Catastro Pcial.","94011","Tolhuin","Departamento Rio Grande","94",0.00157466830624736,24
+"Departamento",-28.5433309063736,-67.1581530651936,"IGN","46119","San Blas de Los Sauces","Departamento San Blas de Los Sauces","46",0.0155515550763975,10
+"Departamento",-31.0546413323001,-60.125807734045,"Servicio de Catastro e Informacion Territorial","82035","Garay","Departamento Garay","82",0.0305553334918843,15
+"Departamento",-31.3153379046182,-61.1094808024842,"Servicio de Catastro e Informacion Territorial","82070","Las Colonias","Departamento Las Colonias","82",0.0475667367241727,15
+"Departamento",-35.2257917366713,-64.2102269263624,"Direc. Grl. de Catastro","42133","Realico","Departamento Realico","42",0.0169682224128626,12
+"Departamento",-25.9396352318956,-58.3773174492554,"IGN","34014",20,"Departamento Formosa","34",0.0868725940593066,20
+"Departamento",-28.1100496216627,-65.6738760483046,"Adm. Grl. de Catastro","10077","Paclin","Departamento Paclin",10,0.00977196850749007,11
+"Departamento",-28.430382930044,-65.3599245662077,"Adm. Grl. de Catastro","10056","El Alto","Departamento El Alto",10,0.0190546482693044,11
+"Departamento",-26.7871365610548,-60.4618654287039,"Direc. Pcial. de Catastro y Cartografia","22021","Comandante Fernandez","Departamento Comandante Fernandez",22,0.0151199613186512,19
+"Partido",-34.4979563497613,-61.61293092454,"ARBA - Gerencia de Servicios Catastrales","06462","Leandro N. Alem","Partido de Leandro N. Alem","06",0.0051035772439568,23
+"Departamento",-26.849534277685,-61.071967717894,"Direc. Pcial. de Catastro y Cartografia","22049","General Belgrano","Departamento General Belgrano",22,0.013103623102836,19
+"Departamento",-27.1409287639679,-59.3474877785089,"Direc. Pcial. de Catastro y Cartografia","22056","General Donovan","Departamento General Donovan",22,0.0153406842710889,19
+"Departamento",-44.2000353406651,-70.5768950488331,"IGN","26098","Tehuelches","Departamento Tehuelches","26",0.0654924407167284,7
+"Departamento",-45.282788434735,-67.7087570024311,"IGN","26021","Escalante","Departamento Escalante","26",0.0652615059193144,7
+"Departamento",-30.3997182320053,-64.6094899792791,"Direc. Grl. de Catastro","14049","Ischilin","Departamento Ischilin",14,0.0301571490017903,8
+"Departamento",-30.7261313372803,-63.9842524222316,"Direc. Grl. de Catastro","14168","Totoral","Departamento Totoral",14,0.018230001241508,8
+"Departamento",-32.5143341151357,-63.2562237062848,"Direc. Grl. de Catastro","14042","General San Martin","Departamento General San Martin",14,0.0304100989142548,8
+"Departamento",-32.0753882467214,-65.1421073770609,"Direc. Grl. de Catastro","14133","San Javier","Departamento San Javier",14,0.00936192219059843,8
+"Partido",-34.237459671314,-61.2838006242346,"ARBA - Gerencia de Servicios Catastrales","06294","General Arenales","Partido de General Arenales","06",0.00470990844536564,23
+"Partido",-35.5809627302368,-63.0945777162156,"ARBA - Gerencia de Servicios Catastrales","06679","Rivadavia","Partido de Rivadavia","06",0.0127515572401367,23
+"Comuna",-34.6517602348111,-58.4991151516538,"Direc. de Catastro","02063","Comuna 9","Comuna 9","02",0.0804060446068976,22
+"Departamento",-31.1922192642063,-68.1319625798128,"Direc. de Geodesia y Catastro","70014","Angaco","Departamento Angaco","70",0.0290270583676712,3
+"Departamento",-31.506381702579,-67.5458594420512,"Direc. de Geodesia y Catastro","70035","Caucete","Departamento Caucete","70",0.0860331105126677,3
+"Departamento",-39.4039894660668,-69.4271919918532,"Direc. Pcial. de Catastro e Inf. Territorial","58098","Picun Leufu","Departamento Picun Leufu","58",0.0491712806922097,17
+"Departamento",-39.1314863536049,-71.0463179632497,"Direc. Pcial. de Catastro e Inf. Territorial","58007","Alumine","Departamento Alumine","58",0.050518159412755,17
+"Departamento",-45.3450235273933,-69.0028353555711,"IGN","26091","Sarmiento","Departamento Sarmiento","26",0.0665670325024526,7
+"Partido",-35.4662020729313,-58.3900057061752,"ARBA - Gerencia de Servicios Catastrales","06343","General Paz","Partido de General Paz","06",0.00385444771253346,23
+"Departamento",-27.8758228176186,-57.409985810344,"IGN","18154","San Miguel","Departamento San Miguel",18,0.0340689879305655,14
+"Comuna",-34.6365544143719,-58.4518868569844,"Direc. de Catastro","02049","Comuna 7","Comuna 7","02",0.0603399681565348,22
+"Departamento",-41.1330823086991,-68.9063154547507,"A.R.T - Gerencia de Catastro","62091","25 de Mayo","Departamento 25 de Mayo","62",0.13820605141908,6
+"Comuna",-34.6278516942726,-58.5028179980211,"Direc. de Catastro","02070","Comuna 10","Comuna 10","02",0.0614316758371424,22
+"Departamento",-82.7834172335301,-50.6450428018267,"SCAR","94028","Antartida Argentina","Departamento Antartida Argentina","94",0.990899967306979,24
+"Departamento",-52.8527307050346,-53.0409118433889,"IGN","94021","Islas del Atlantico Sur","Departamento Islas del Atlantico Sur","94",0.00388565920855043,24
+"Departamento",-42.4389445468027,-67.1769071477022,"IGN","26105","Telsen","Departamento Telsen","26",0.0847706297766396,7
+"Comuna",-34.6061369839531,-58.4967418386195,"Direc. de Catastro","02077","Comuna 11","Comuna 11","02",0.0683121218307569,22
+"Partido",-34.2206591685119,-59.5193792218302,"ARBA - Gerencia de Servicios Catastrales","06735","San Antonio de Areco","Partido de San Antonio de Areco","06",0.00274311551860388,23
+"Partido",-34.610617117824,-58.8109232680035,"ARBA - Gerencia de Servicios Catastrales","06560","Moreno","Partido de Moreno","06",0.000592772199710743,23
+"Partido",-34.7701647288569,-58.6254486939189,"ARBA - Gerencia de Servicios Catastrales","06427","La Matanza","Partido de La Matanza","06",0.00104371026667595,23
+"Departamento",-40.8875778145279,-70.4626919728142,"A.R.T - Gerencia de Catastro","62070","Pilcaniyeu","Departamento Pilcaniyeu","62",0.0547075912759328,6
+"Departamento",-29.3040900587554,-64.0149932737063,"Direc. Grl. de Catastro","86126","Ojo de Agua","Departamento Ojo de Agua","86",0.0473957008788614,13
+"Partido",-35.8494190496267,-57.89575256553,"ARBA - Gerencia de Servicios Catastrales","06466","Lezama","Partido de Lezama","06",0.00337013908108334,23
+"Partido",-35.4261581087913,-57.3996034519105,"ARBA - Gerencia de Servicios Catastrales","06655","Punta Indio","Partido de Punta Indio","06",0.00517615652698695,23
+"Departamento",-24.447823040536,-65.1011266142907,"Direc. Grl. de Inmuebles","38014","El Carmen","Departamento El Carmen","38",0.0172439313347985,21
+"Departamento",-26.7859032829476,-66.2618848691237,"Adm. Grl. de Catastro","10091","Santa Maria","Departamento Santa Maria",10,0.0556523303648323,11
+"Departamento",-43.2727624456965,-66.172162203297,"IGN","26042","Gaiman","Departamento Gaiman","26",0.0513790345718745,7
+"Departamento",-28.7904353562793,-68.6977547342214,"IGN","46077","General Lamadrid","Departamento General Lamadrid","46",0.0664503583055702,10
+"Departamento",-31.4634407170853,-65.4384772539188,"Direc. Grl. de Catastro","14077","Pocho","Departamento Pocho",14,0.0183768545249898,8
+"Departamento",-29.4514531616824,-59.255912536825,"IGN","18070","Goya","Departamento Goya",18,0.0540254144445123,14
+"Departamento",-28.9879963080686,-58.9337155943843,"IGN","18091","Lavalle","Departamento Lavalle",18,0.0167864401279117,14
+"Departamento",-28.7057979959044,-58.6130197699847,"IGN","18161","San Roque","Departamento San Roque",18,0.0272237150817316,14
+"Comuna",-34.6168433901108,-58.4435682280605,"Direc. de Catastro","02042","Comuna 6","Comuna 6","02",0.0332687543965735,22
+"Departamento",-30.2222689247998,-63.8118051923902,"Direc. Grl. de Catastro","14175","Tulumba","Departamento Tulumba",14,0.058494390488329,8
+"Departamento",-30.6580631596452,-65.0774738750322,"Direc. Grl. de Catastro","14028","Cruz del Eje","Departamento Cruz del Eje",14,0.0408242204152082,8
+"Departamento",-31.2225592168079,-64.5861516801457,"Direc. Grl. de Catastro","14091","Punilla","Departamento Punilla",14,0.0148439854552405,8
+"Departamento",-31.0355515814319,-65.4111896095111,"Direc. Grl. de Catastro","14070","Minas","Departamento Minas",14,0.0214539101076573,8
+"Departamento",-40.9745810611866,-66.3108866018754,"A.R.T - Gerencia de Catastro","62084","Valcheta","Departamento Valcheta","62",0.105417002957889,6
+"Departamento",-40.9527925288953,-65.3712468150427,"A.R.T - Gerencia de Catastro","62077","San Antonio","Departamento San Antonio","62",0.071489428825207,6
+"Partido",-36.2709141317271,-63.2257388675861,"ARBA - Gerencia de Servicios Catastrales","06616","Pellegrini","Partido de Pellegrini","06",0.00592089560122651,23
+"Departamento",-26.9455386975653,-61.2652576678175,"Direc. Pcial. de Catastro y Cartografia","22105","9 de Julio","Departamento 9 de Julio",22,0.0218265141331953,19
+"Departamento",-24.5623945143611,-65.4300986417702,"Direc. Grl. de Inmuebles","66077","La Caldera","Departamento La Caldera","66",0.00707656029355545,18
+"Departamento",-34.9445449681903,-68.3826783125854,"IGN","50105","San Rafael","Departamento San Rafael","50",0.211310471561227,9
+"Departamento",-24.8751339637689,-63.8400961373676,"Direc. Grl. de Inmuebles","66007","Anta","Departamento Anta","66",0.145396621538509,18
+"Departamento",-30.5776916502152,-65.9316310510947,"IGN","46063","General Belgrano","Departamento General Belgrano","46",0.0311041676427682,10
+"Departamento",-25.9392514746819,-62.7304991775974,"Direc. Grl. de Catastro","86056","Copo","Departamento Copo","86",0.0938371656473965,13
+"Departamento",-28.3164203776524,-68.525398463115,"IGN","46098","Vinchina","Departamento Vinchina","46",0.123072933418265,10
+"Departamento",-40.3142303514009,-71.1842517277166,"Direc. Pcial. de Catastro e Inf. Territorial","58056","Lacar","Departamento Lacar","58",0.0539014474054944,17
+"Comuna",-34.5542357921934,-58.4540058768299,"Direc. de Catastro","02091","Comuna 13","Comuna 13","02",0.0725620589607013,22
+"Departamento",-51.4134125040273,-70.5618155470895,"IGN","78021","Güer Aike","Departamento Güer Aike","78",0.145188091309108,5
+"Departamento",-53.7462919872259,-68.1361046546959,"Gerencia de Catastro Pcial.","94008","Rio Grande","Departamento Rio Grande","94",0.00157956890093448,24
+"Departamento",-54.7704623704114,-66.6837162279656,"Gerencia de Catastro Pcial.","94015","Ushuaia","Departamento Ushuaia","94",0.00189495779781716,24
+"Departamento",-36.1572730441871,-69.3135099463311,"IGN","50077","Malargüe","Departamento Malargüe","50",0.277429787816722,9
+"Departamento",-28.2055993966253,-66.4072986488285,"Adm. Grl. de Catastro","10084","Poman","Departamento Poman",10,0.0547446155013497,11
+"Departamento",-27.713461665638,-65.2554821697556,"Direc. Grl. de Catastro","90035","Graneros","Departamento Graneros","90",0.0752212989919278,16
+"Departamento",-25.8718676537564,-64.7278906135036,"Direc. Grl. de Inmuebles","66140","Rosario de la Frontera","Departamento Rosario de la Frontera","66",0.0354806386685513,18
+"Departamento",-44.0301843800804,-68.6858628378391,"IGN","26070","Paso de Indios","Departamento Paso de Indios","26",0.0994539720516923,7
+"Departamento",-25.747858341484,-61.9605236304385,"Direc. Pcial. de Catastro y Cartografia","22007","Almirante Brown","Departamento Almirante Brown",22,0.175452655094443,19
+"Departamento",-28.5987132205968,-65.7071834454567,"Adm. Grl. de Catastro","10112","Valle Viejo","Departamento Valle Viejo",10,0.0060822319119285,11
+"Departamento",-26.3210291409673,-60.4553482590556,"Direc. Pcial. de Catastro y Cartografia","22091","Maipu","Departamento Maipu",22,0.02921196593469,19
+"Departamento",-27.8539440726125,-63.9075092603179,"Direc. Grl. de Catastro","86161","Robles","Departamento Robles","86",0.00990168481088295,13
+"Departamento",-32.0114827529012,-58.3699129592754,"ATER - Direc. de Catastro","30008","Colon","Departamento Colon","30",0.0352000163682348,4
+"Departamento",-33.6223342938194,-69.5078054633807,"IGN","50119","Tunuyan","Departamento Tunuyan","50",0.0221821485599101,9
+"Departamento",-33.0382520812765,-69.4437142136667,"IGN","50063","Lujan de Cuyo","Departamento Lujan de Cuyo","50",0.0320525017476044,9
+"Departamento",-45.3403562037762,-70.6400981523958,"IGN","26084","Rio Senguer","Departamento Rio Senguer","26",0.104674022795681,7
+"Departamento",-41.4981211976981,-71.531077517069,"A.R.T - Gerencia de Catastro","62021","Bariloche","Departamento Bariloche","62",0.0272576968030313,6
+"Departamento",-39.7946776781363,-71.2590025540125,"Direc. Pcial. de Catastro e Inf. Territorial","58049","Huiliches","Departamento Huiliches","58",0.043328390088419,17
+"Departamento",-39.4807942918938,-70.4335593332799,"Direc. Pcial. de Catastro e Inf. Territorial","58021","Catan Lil","Departamento Catan Lil","58",0.0589415846721871,17
+"Departamento",-40.0529195538789,-70.2813499391274,"Direc. Pcial. de Catastro e Inf. Territorial","58028","Collon Cura","Departamento Collon Cura","58",0.0622877591825553,17
+"Partido",-35.379488920773,-62.4295611893429,"ARBA - Gerencia de Servicios Catastrales","06154","Carlos Tejedor","Partido de Carlos Tejedor","06",0.0125715156926696,23
+"Partido",-34.0113151746224,-60.0627625274553,"ARBA - Gerencia de Servicios Catastrales","06077","Arrecifes","Partido de Arrecifes","06",0.00392478785130677,23
+"Partido",-34.1497065018665,-59.8548037960898,"ARBA - Gerencia de Servicios Catastrales","06140","Capitan Sarmiento","Partido de Capitan Sarmiento","06",0.00173911361479129,23
+"Partido",-34.2708350525697,-60.305182566345,"ARBA - Gerencia de Servicios Catastrales","06714","Salto","Partido de Salto","06",0.00511980862982856,23
+"Departamento",-33.1199026931696,-59.6016234890441,"ATER - Direc. de Catastro","30049","Gualeguay","Departamento Gualeguay","30",0.0853045235595408,4
+"Departamento",-30.7348931499453,-58.1591541174073,"ATER - Direc. de Catastro","30028","Federacion","Departamento Federacion","30",0.0474475301143475,4
+"Departamento",-30.4139444642315,-58.7287958918597,"ATER - Direc. de Catastro","30042","Feliciano","Departamento Feliciano","30",0.0397686579449664,4
+"Partido",-35.481190578256,-60.9751157295027,"ARBA - Gerencia de Servicios Catastrales","06588","9 de Julio","Partido de 9 de Julio","06",0.0138036600026452,23
+"Partido",-36.0564352739976,-62.6346332497416,"ARBA - Gerencia de Servicios Catastrales","06826","Trenque Lauquen","Partido de Trenque Lauquen","06",0.0178396515491316,23
+"Partido",-35.7496551260772,-61.3737522686863,"ARBA - Gerencia de Servicios Catastrales","06147","Carlos Casares","Partido de Carlos Casares","06",0.00814632674988018,23
+"Partido",-36.8567012129546,-60.6707349373354,"ARBA - Gerencia de Servicios Catastrales","06595","Olavarria","Partido de Olavarria","06",0.025084268069142,23
+"Partido",-34.8312099703342,-58.476969025414,"ARBA - Gerencia de Servicios Catastrales","06260","Esteban Echeverria","Partido de Esteban Echeverria","06",0.00038752026449711,23
+"Partido",-34.997569924782,-61.0501968347291,"ARBA - Gerencia de Servicios Catastrales","06385","General Viamonte","Partido de General Viamonte","06",0.00686176882880671,23
+"Partido",-34.4873038284663,-58.7121329971982,"ARBA - Gerencia de Servicios Catastrales","06515","Malvinas Argentinas","Partido de Malvinas Argentinas","06",0.000200585089933422,23
+"Partido",-35.070384883326,-61.6827618200122,"ARBA - Gerencia de Servicios Catastrales","06469","Lincoln","Partido de Lincoln","06",0.0185288348931592,23
+"Partido",-36.3471383108251,-60.1308804386321,"ARBA - Gerencia de Servicios Catastrales","06798","Tapalque","Partido de Tapalque","06",0.0135671117900601,23
+"Departamento",-36.6621621527055,-64.6922110146556,"Direc. Grl. de Catastro","42140","Toay","Departamento Toay","42",0.0352511429414964,12
+"Departamento",-30.2289552221138,-57.8702855877153,"IGN","18112","Monte Caseros","Departamento Monte Caseros",18,0.0307749171184739,14
+"Partido",-35.0610928531071,-60.6042295511118,"ARBA - Gerencia de Servicios Catastrales","06112","Bragado","Partido de Bragado","06",0.00705525012515142,23
+"Partido",-34.8758213531443,-58.5648395364287,"ARBA - Gerencia de Servicios Catastrales","06270","Jose M. Ezeiza","Partido de Jose M. Ezeiza","06",0.000759529300064369,23
+"Departamento",-38.1797375458882,-66.3301334719636,"Direc. Grl. de Catastro","42042","Curaco","Departamento Curaco","42",0.0954809084841661,12
+"Departamento",-37.2419021199786,-66.555232691641,"Direc. Grl. de Catastro","42091","Limay Mahuida","Departamento Limay Mahuida","42",0.0698678814535234,12
+"Departamento",-37.4341807808756,-67.6049641366153,"Direc. Grl. de Catastro","42112","Puelen","Departamento Puelen","42",0.0916874750528093,12
+"Partido",-34.8778729879112,-58.2586377649204,"ARBA - Gerencia de Servicios Catastrales","06274","Florencio Varela","Partido de Florencio Varela","06",0.000606849802284925,23
+"Departamento",-28.1888486587603,-64.2732683808708,"Direc. Grl. de Catastro","86189","Silipica","Departamento Silipica","86",0.00901834847727908,13
+"Departamento",-27.3786143623767,-54.634090486794,"Ministerio de Ecologia","54119","25 de Mayo","Departamento 25de Mayo","54",0.0555082546773824,1
+"Partido",-35.0704596398936,-58.4319219645129,"ARBA - Gerencia de Servicios Catastrales","06778","San Vicente","Partido de San Vicente","06",0.00210134329284806,23
+"Partido",-36.6405459243249,-61.891417127905,"ARBA - Gerencia de Servicios Catastrales","06231","Daireaux","Partido de Daireaux","06",0.0124805140276193,23
+"Departamento",-31.6458046846082,-68.3890526964703,"Direc. de Geodesia y Catastro","70063","9 de Julio","Departamento 9 de Julio","70",0.00175558192992495,3
+"Departamento",-31.6865858135558,-68.4675631318926,"Direc. de Geodesia y Catastro","70077","Rawson","Departamento Rawson","70",0.00326511461615207,3
+"Partido",-34.8422541242657,-57.9789322377767,"ARBA - Gerencia de Servicios Catastrales","06245","Ensenada","Partido de Ensenada","06",0.000362603245197774,23
+"Partido",-37.5155525089772,-60.7680626719213,"ARBA - Gerencia de Servicios Catastrales","06448","Laprida","Partido de Laprida","06",0.0113987556417078,23
+"Partido",-34.4869499670191,-58.5372648522523,"ARBA - Gerencia de Servicios Catastrales","06756","San Isidro","Partido de San Isidro","06",0.000166314330259371,23
+"Partido",-37.585278315595,-59.8883008698795,"ARBA - Gerencia de Servicios Catastrales","06084","Benito Juarez","Partido de Benito Juarez","06",0.0176892879319193,23
+"Departamento",-24.3467258804414,-65.4468528811404,"Direc. Grl. de Inmuebles","38056","San Antonio","Departamento San Antonio","38",0.0131304677463886,21
+"Departamento",-26.3785169756021,-59.4878778128786,"Direc. Pcial. de Catastro y Cartografia","22084","Libertador General San Martin","Departamento Libertador General San Martin",22,0.0724494780049469,19
+"Departamento",-42.7490685142491,-68.802322331286,"IGN","26049","Gastre","Departamento Gastre","26",0.0700379266336155,7
+"Partido",-34.1512700249506,-58.5459540333809,"ARBA - Gerencia de Servicios Catastrales","06749","San Fernando","Partido de San Fernando","06",0.00314168017316532,23
+"Partido",-33.9971401820257,-59.1284709610169,"ARBA - Gerencia de Servicios Catastrales","06882","Zarate","Partido de Zarate","06",0.00374224045401154,23
+"Departamento",-28.9187435892712,-63.3035949540839,"Direc. Grl. de Catastro","86168","Salavina","Departamento Salavina","86",0.02340225654888,13
+"Departamento",-26.2203346046951,-64.0912083069938,"Direc. Grl. de Catastro","86133","Pellegrini","Departamento Pellegrini","86",0.0498952819403067,13
+"Departamento",-28.5553626652401,-63.2037665884943,"Direc. Grl. de Catastro","86028","Avellaneda","Departamento Avellaneda","86",0.0280271845799554,13
+"Departamento",-26.958636224259,-58.7093649014335,"Direc. Pcial. de Catastro y Cartografia","22014","Bermejo","Departamento Bermejo",22,0.0257907944335322,19
+"Departamento",-32.216548125306,-65.3939560584901,"Direc. de Geodesia y Catastro","74049","Junin","Departamento Junin","74",0.034639990566339,2
+"Departamento",-32.9088785853185,-68.2844229443887,"IGN","50098","San Martin","Departamento San Martin","50",0.00994894577370873,9
+"Departamento",-38.922044155846,-69.8222074301959,"Direc. Pcial. de Catastro e Inf. Territorial","58112","Zapala","Departamento Zapala","58",0.0554679305245708,17
+"Departamento",-31.1440502226475,-64.1528709889175,"Direc. Grl. de Catastro","14021","Colon","Departamento Colon",14,0.014050333431972,8
+"Departamento",-33.2214972343879,-61.5310164822665,"Servicio de Catastro e Informacion Territorial","82014","Caseros","Departamento Caseros","82",0.026773290950756,15
+"Departamento",-33.1278557358532,-60.7108416659256,"Servicio de Catastro e Informacion Territorial","82084","Rosario","Departamento Rosario","82",0.014374422283757,15
+"Departamento",-32.9423146043516,-60.9615014674026,"Servicio de Catastro e Informacion Territorial","82119","San Lorenzo","Departamento San Lorenzo","82",0.0154101930956992,15
+"Departamento",-32.7060836088838,-61.2733877091661,"Servicio de Catastro e Informacion Territorial","82056","Iriondo","Departamento Iriondo","82",0.0246740178449298,15
+"Departamento",-32.6103027395973,-61.7042951949086,"Servicio de Catastro e Informacion Territorial","82007","Belgrano","Departamento Belgrano","82",0.0187004741728874,15
+"Departamento",-32.1537713586804,-61.0481265781191,"Servicio de Catastro e Informacion Territorial","82105","San Jeronimo","Departamento San Jeronimo","82",0.0337865669251049,15
+"Departamento",-29.6150659886474,-62.7386805205781,"Direc. Grl. de Catastro","86112","Mitre","Departamento Mitre","86",0.0251902265193394,13
+"Departamento",-22.3958266942337,-64.8956351260047,"Direc. Grl. de Inmuebles","66161","Santa Victoria","Departamento Santa Victoria","66",0.0257067249685503,18
+"Departamento",-22.7169492299382,-63.6627437658428,"Direc. Grl. de Inmuebles","66056","General Jose de San Martin","Departamento General Jose de San Martin","66",0.101573625000615,18
+"Departamento",-25.3700377167627,-58.062606265553,"IGN","34049","Pilcomayo","Departamento Pilcomayo","34",0.0711271015787066,20
+"Departamento",-31.0327992067991,-63.4385673505455,"Direc. Grl. de Catastro","14105","Rio Primero","Departamento Rio Primero",14,0.0405731882190903,8
+"Departamento",-27.5405127310562,-67.9292408147481,"Adm. Grl. de Catastro","10105","Tinogasta","Departamento Tinogasta",10,0.223757781678618,11
+"Departamento",-33.030846572143,-62.2767719720096,"Direc. Grl. de Catastro","14063","Marcos Juarez","Departamento Marcos Juarez",14,0.0563845640638525,8
+"Departamento",-32.2027119466219,-64.6167170389735,"Direc. Grl. de Catastro","14007","Calamuchita","Departamento Calamuchita",14,0.0283412536709863,8
+"Departamento",-32.7269672116015,-65.1982374778981,"Direc. de Geodesia y Catastro","74028","Chacabuco","Departamento Chacabuco","74",0.031698655428991,2
+"Departamento",-33.9008795169272,-66.5025775641531,"Direc. de Geodesia y Catastro","74056","Juan Martin de Pueyrredon","Departamento Juan Martin de Pueyrredon","74",0.18035153168878,2
+"Departamento",-33.8905514573194,-65.56285207424,"Direc. de Geodesia y Catastro","74035","General Pedernera","Departamento General Pedernera","74",0.196263739245874,2
+"Partido",-40.1973260070881,-62.8529094080666,"ARBA - Gerencia de Servicios Catastrales","06602","Patagones","Partido de Patagones","06",0.0465142865586462,23
+"Departamento",-32.5784192360116,-65.7095887724917,"Direc. de Geodesia y Catastro","74063","Libertador General San Martin","Departamento Libertador General San Martin","74",0.045518672142986,2
+"Departamento",-33.1068820542746,-65.900790202998,"Direc. de Geodesia y Catastro","74021","Coronel Pringles","Departamento Coronel Pringles","74",0.0507657216180514,2
+"Comuna",-34.6064218855511,-58.3715396530269,"Direc. de Catastro","02007","Comuna 1","Comuna 1","02",0.0868584651239787,22
+"Comuna",-34.6420794257822,-58.3874550689885,"Direc. de Catastro","02028","Comuna 4","Comuna 4","02",0.110581967663086,22
+"Comuna",-34.617369923785,-58.4205721902857,"Direc. de Catastro","02035","Comuna 5","Comuna 5","02",0.0323438620273213,22
+"Departamento",-38.6755832575061,-63.8968179856269,"Direc. Grl. de Catastro","42014","Caleu Caleu","Departamento Caleu Caleu","42",0.0647923037391449,12
+"Departamento",-30.3550759493245,-68.4412683481467,"Direc. de Geodesia y Catastro","70056","Jachal","Departamento Jachal","70",0.161947599206999,3
+"Departamento",-29.382302416388,-63.3535127711283,"Direc. Grl. de Catastro","86140","Quebrachos","Departamento Quebrachos","86",0.0293064505899869,13
+"Departamento",-28.0163816801467,-58.1855624499057,"IGN","18098","Mburucuya","Departamento Mburucuya",18,0.0111250006419653,14
+"Departamento",-27.8961218833917,-58.6658439667722,"IGN","18042","Empedrado","Departamento Empedrado",18,0.0218409122812441,14
+"Departamento",-27.9114257175706,-56.7904763823004,"IGN","18084","Ituzaingo","Departamento Ituzaingo",18,0.107639981101467,14
+"Departamento",-27.3823055047941,-58.5174860021794,"IGN","18133","San Cosme","Departamento San Cosme",18,0.00656329260128528,14
+"Departamento",-27.3460562357383,-58.0713754415461,"IGN","18077","Itati","Departamento Itati",18,0.00964961895207782,14
+"Comuna",-34.5662276065396,-58.490428041078,"Direc. de Catastro","02084","Comuna 12","Comuna 12","02",0.0761149101282747,22
+"Departamento",-27.7771031457714,-55.1674595934642,"Ministerio de Ecologia","54105","San Javier","Departamento San Javier","54",0.0218491624805709,1
+"Departamento",-27.8888038850636,-55.6782740306512,"Ministerio de Ecologia","54007","Apostoles","Departamento Apostoles","54",0.0350201854967336,1
+"Departamento",-26.3138449973517,-54.4407363386818,"Ministerio de Ecologia","54042","Eldorado","Departamento Eldorado","54",0.0573436410109664,1
+"Departamento",-26.6299609405552,-53.9629779665021,"Ministerio de Ecologia","54112","San Pedro","Departamento San Pedro","54",0.136117294277154,1
+"Departamento",-26.6579081276292,-54.5631774073677,"Ministerio de Ecologia","54084","Montecarlo","Departamento Montecarlo","54",0.0588471586486207,1
+"Partido",-35.6187689428966,-57.9043202817554,"ARBA - Gerencia de Servicios Catastrales","06217","Chascomus","Partido de Chascomus","06",0.010206560081071,23
+"Comuna",-34.5918836701565,-58.4627740218828,"Direc. de Catastro","02105","Comuna 15","Comuna 15","02",0.0695318005000028,22
+"Departamento",-28.1877612837658,-63.854114579231,"Direc. Grl. de Catastro","86175","San Martin","Departamento San Martin","86",0.0131389668421217,13
+"Departamento",-26.899591169452,-64.2725159118858,"Direc. Grl. de Catastro","86091","Jimenez","Departamento Jimenez","86",0.0404221651328384,13
+"Partido",-33.9321914567436,-59.4929504876902,"ARBA - Gerencia de Servicios Catastrales","06070","Baradero","Partido de Baradero","06",0.00483196203113034,23
+"Departamento",-23.0821382910047,-65.4089124214828,"Direc. Grl. de Inmuebles","38028","Humahuaca","Departamento Humahuaca","38",0.0662990687227531,21
+"Departamento",-22.2906705371725,-65.5669616842196,"Direc. Grl. de Inmuebles","38112","Yavi","Departamento Yavi","38",0.0560313628034127,21
+"Departamento",-22.137931595162,-66.227664877192,"Direc. Grl. de Inmuebles","38077","Santa Catalina","Departamento Santa Catalina","38",0.0547145013841273,21
+"Departamento",-24.2985497355434,-64.8110140944895,"Direc. Grl. de Inmuebles","38063","San Pedro","Departamento San Pedro","38",0.0387456868363758,21
+"Departamento",-23.4670612447247,-65.0119194137172,"Direc. Grl. de Inmuebles","38105","Valle Grande","Departamento Valle Grande","38",0.0227590213764494,21
+"Departamento",-24.8750609917942,-59.9585024741836,"IGN","34035","Patiño","Departamento Patiño","34",0.347213385939381,20
+"Departamento",-24.0255563345755,-61.2828019983788,"IGN","34007","Bermejo","Departamento Bermejo","34",0.18255816841976,20
+"Departamento",-23.5204314374652,-66.6617993267455,"Direc. Grl. de Inmuebles","38084","Susques","Departamento Susques","38",0.191769108128745,21
+"Departamento",-22.8148374145959,-64.9202186004952,"Direc. Grl. de Inmuebles","66070","Iruya","Departamento Iruya","66",0.0224479110827555,18
+"Departamento",-23.854855944809,-62.076891256733,"IGN","34028","Matacos","Departamento Matacos","34",0.0533230933063162,20
+"Departamento",-24.6424364614968,-67.34403275869,"Direc. Grl. de Inmuebles","66105","Los Andes","Departamento Los Andes","66",0.162084197539954,18
+"Departamento",-23.4987690402927,-64.1510163822065,"Direc. Grl. de Inmuebles","66126","Oran","Departamento Oran","66",0.0744935302574919,18
+"Departamento",-23.560543852464,-65.3197513527091,"Direc. Grl. de Inmuebles","38094","Tilcara","Departamento Tilcara","38",0.039910898892935,21
+"Departamento",-24.1949225444459,-65.1264498289923,"Direc. Grl. de Inmuebles","38042","Palpala","Departamento Palpala","38",0.00921981619168954,21
+"Departamento",-22.9392350234639,-65.9346878202021,"Direc. Grl. de Inmuebles","38007","Cochinoca","Departamento Cochinoca","38",0.134607897149451,21
+"Departamento",-23.7434725633393,-65.696096204681,"Direc. Grl. de Inmuebles","38098","Tumbaya","Departamento Tumbaya","38",0.0620913713747561,21
+"Departamento",-24.0893413107767,-65.4484768876505,"Direc. Grl. de Inmuebles","38021","Dr. Manuel Belgrano","Departamento Dr. Manuel Belgrano","38",0.0392226109433722,21
+"Departamento",-24.0075465739997,-64.4023110880998,"Direc. Grl. de Inmuebles","38070","Santa Barbara","Departamento Santa Barbara","38",0.082912857042704,21
+"Departamento",-22.6216157957901,-66.5415733150047,"Direc. Grl. de Inmuebles","38049","Rinconada","Departamento Rinconada","38",0.115181969052712,21
+"Departamento",-24.1468804221181,-66.2073097573146,"Direc. Grl. de Inmuebles","66091","La Poma","Departamento La Poma","66",0.0257464685889932,18
+"Departamento",-27.2695777554986,-65.8110121945484,"Direc. Grl. de Catastro","90021","Chicligasta","Departamento Chicligasta","90",0.0573478055735044,16
+"Departamento",-27.1106075164054,-65.6431429705926,"Direc. Grl. de Catastro","90070","Monteros","Departamento Monteros","90",0.0527851191531185,16
+"Departamento",-27.1918024636989,-65.0850078123385,"Direc. Grl. de Catastro","90056","Leales","Departamento Leales","90",0.0874199091607964,16
+"Departamento",-26.9759879123642,-65.4789798424484,"Direc. Grl. de Catastro","90028","Famailla","Departamento Famailla","90",0.0203477427693039,16
+"Departamento",-26.832724441173,-65.2174963397207,"Direc. Grl. de Catastro","90084","Capital","Departamento Capital","90",0.00395746216290431,16
+"Departamento",-26.9182437174427,-64.9757343718485,"Direc. Grl. de Catastro","90014","Cruz Alta","Departamento Cruz Alta","90",0.0532364512908291,16
+"Departamento",-26.3432601177699,-65.4054839941384,"Direc. Grl. de Catastro","90112","Trancas","Departamento Trancas","90",0.132955228797671,16
+"Departamento",-26.5914036518985,-65.8894957616981,"Direc. Grl. de Catastro","90098","Tafi del Valle","Departamento Tafi del Valle","90",0.108239413581945,16
+"Departamento",-32.0125797507259,-61.8082508211602,"Servicio de Catastro e Informacion Territorial","82126","San Martin","Departamento San Martin","82",0.0374897993604272,15
+"Departamento",-27.6020473964888,-58.2685422687085,"IGN","18140","San Luis del Palmar","Departamento San Luis del Palmar",18,0.0286201505285344,14
+"Departamento",-27.4779720010057,-57.6113792118725,"IGN","18014","Beron de Astrada","Departamento Beron de Astrada",18,0.00944392990825753,14
+"Departamento",-31.2314149716439,-61.6569626868615,"Servicio de Catastro e Informacion Territorial","82021","Castellanos","Departamento Castellanos","82",0.0507113079570981,15
+"Departamento",-30.5304248150144,-60.4886940672765,"Servicio de Catastro e Informacion Territorial","82112","San Justo","Departamento San Justo","82",0.0420253578325122,15
+"Departamento",-30.2283191431559,-61.360015159641,"Servicio de Catastro e Informacion Territorial","82091","San Cristobal","Departamento San Cristobal","82",0.109486502039334,15
+"Departamento",-30.1041461066388,-59.8980704738644,"Servicio de Catastro e Informacion Territorial","82098","San Javier","Departamento San Javier","82",0.0499162830201214,15
+"Departamento",-28.6719704542176,-59.5266516978974,"Servicio de Catastro e Informacion Territorial","82049","General Obligado","Departamento General Obligado","82",0.0816368824899707,15
+"Departamento",-31.4874196948621,-68.5239289662613,"Direc. de Geodesia y Catastro","70042","Chimbas","Departamento Chimbas","70",0.000762904819990603,3
+"Departamento",-31.5285412012606,-68.2072931248825,"Direc. de Geodesia y Catastro","70091","San Martin","Departamento San Martin","70",0.00628505286477557,3
+"Departamento",-42.4436350204267,-64.9332260287713,"IGN","26007","Biedma","Departamento Biedma","26",0.0562324898080846,7
+"Partido",-34.8738967496734,-62.4013534701346,"ARBA - Gerencia de Servicios Catastrales","06277","Florentino Ameghino","Partido de Florentino Ameghino","06",0.00577850741071087,23
+"Departamento",-44.4232685527937,-66.1300665443193,"IGN","26028","Florentino Ameghino","Departamento Florentino Ameghino","26",0.0714185572556473,7
+"Departamento",-27.793699696551,-65.5981413742508,"Direc. Grl. de Catastro","90049","La Cocha","Departamento La Cocha","90",0.0426115850585463,16
+"Departamento",-27.6058945987109,-65.7832035039246,"Direc. Grl. de Catastro","90042","Juan Bautista Alberdi","Departamento Juan Bautista Alberdi","90",0.0328052934259343,16
+"Departamento",-27.450131903938,-65.7517295073354,"Direc. Grl. de Catastro","90077","Rio Chico","Departamento Rio Chico","90",0.0272006610777302,16
+"Departamento",-27.424163373399,-65.2918660955326,"Direc. Grl. de Catastro","90091","Simoca","Departamento Simoca","90",0.0596025531091905,16
+"Departamento",-33.9251483443292,-61.9449986852751,"Servicio de Catastro e Informacion Territorial","82042","General Lopez","Departamento General Lopez","82",0.0890044909529673,15
+"Departamento",-27.4608502028348,-55.5826897694998,"Ministerio de Ecologia","54021","Candelaria","Departamento Candelaria","54",0.0308937589618446,1
+"Departamento",-27.1478299707848,-54.802339249309,"Ministerio de Ecologia","54014","Cainguas","Departamento Cainguas","54",0.0518922305325225,1
+"Departamento",-26.8931448853066,-54.9233629496583,"Ministerio de Ecologia","54077","Libertador General San Martin","Departamento Libertador General San Martin","54",0.0488911683582052,1
+"Departamento",-25.9786262379125,-53.9636582644351,"Ministerio de Ecologia","54049","General Manuel Belgrano","Departamento General Manuel Belgrano","54",0.0992954807846352,1
+"Departamento",-27.0262341090705,-54.2693679741111,"Ministerio de Ecologia","54056","Guarani","Departamento Guarani","54",0.109704962953141,1
+"Departamento",-31.5542325394479,-68.6416232535812,"Direc. de Geodesia y Catastro","70084","Rivadavia","Departamento Rivadavia","70",0.00137345504497465,3
+"Departamento",-31.5327173670967,-68.4634116809574,"Direc. de Geodesia y Catastro","70098","Santa Lucia","Departamento Santa Lucia","70",0.000617293120832176,3
+"Departamento",-31.7459555808161,-68.5842081096793,"Direc. de Geodesia y Catastro","70070","Pocito","Departamento Pocito","70",0.00650025670271133,3
+"Departamento",-32.073542322508,-68.691135621109,"Direc. de Geodesia y Catastro","70105","Sarmiento","Departamento Sarmiento","70",0.0327230127200916,3
+"Departamento",-31.5330748483572,-68.5342856277406,"Direc. de Geodesia y Catastro","70028","Capital","Departamento Capital","70",0.000304404814290635,3
+"Departamento",-35.2272428701704,-63.6609121074931,"Direc. Grl. de Catastro","42056","Chapaleufu","Departamento Chapaleufu","42",0.0171757254344084,12
+"Departamento",-35.6796177582431,-63.6624891520267,"Direc. Grl. de Catastro","42105","Maraco","Departamento Maraco","42",0.0171497247183339,12
+"Departamento",-28.4083953496766,-58.031384641798,"IGN","18028","Concepcion","Departamento Concepcion",18,0.0590522915494179,14
+"Departamento",-27.6306652578033,-55.3880677535388,"Ministerio de Ecologia","54070","Leandro N. Alem","Departamento Leandro N. Alem","54",0.0359635112163637,1
