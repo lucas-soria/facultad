@@ -62,6 +62,8 @@ CREATE TABLE Restaurante (
 
 CREATE TABLE Tipo_comida (
     id_tipo_comida int NOT NULL IDENTITY(1,1),
+	clasificacion varchar(50) NOT NULL,
+	categorias varchar(50) NOT NULL,
     tipo_comida varchar(50) NOT NULL,
     PRIMARY KEY (id_tipo_comida)
 );

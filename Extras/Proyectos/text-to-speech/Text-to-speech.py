@@ -16,6 +16,8 @@ import sys
 
 """
 
+# Uso: python3 Text-to-speech.py archivo_texto_entrada idioma archivo_audio_salida
+
 file = open("./{}".format(sys.argv[1]), "r")
 text = file.read()
 lang = sys.argv[2]
