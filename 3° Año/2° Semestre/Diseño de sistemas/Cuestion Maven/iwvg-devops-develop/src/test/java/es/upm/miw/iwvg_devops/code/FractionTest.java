@@ -2,7 +2,6 @@ package es.upm.miw.iwvg_devops.code;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.springframework.scheduling.config.FixedRateTask;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
