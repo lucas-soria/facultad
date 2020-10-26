@@ -1,0 +1,201 @@
+[{
+  "_id": {
+    "$oid": "5f86826171821132a5f18089"
+  },
+  "id_usuario": "b&m_foundation",
+  "fecha_publicacion": {
+    "$date": "2018-10-30T07:31:24Z"
+  },
+  "foto": "add/b&m_foundation/agua.jpg",
+  "descripción": "Con Melinda & Bill brindamos agua a pueblos de África",
+  "tag": [
+    "potable",
+    "agua",
+    "africa"
+  ],
+  "likes": [
+    "lucasoria",
+    "soriabel"
+  ],
+  "dislikes": [
+    "juanpedrito33"
+  ]
+},{
+  "_id": {
+    "$oid": "5f86826171821132a5f1808a"
+  },
+  "id_usuario": "b&m_foundation",
+  "fecha_publicacion": {
+    "$date": "2019-02-02T07:31:24Z"
+  },
+  "foto": "add/b&m_foundation/bacterias.jpg",
+  "descripción": "Limpiando el mar de un poco de basura con las nuevas bacterias que desarrollamos",
+  "likes": [
+    "lucasoria",
+    "soriabel",
+    "juanpedrito33"
+  ]
+},{
+  "_id": {
+    "$oid": "5f86826171821132a5f1808b"
+  },
+  "id_usuario": "greenpeace",
+  "fecha_publicacion": {
+    "$date": "2017-10-15T23:25:56Z"
+  },
+  "foto": "add/greenpeace/pinguinos.jpg",
+  "descripción": "Estamos limpiando a los pinguinos manchados de petroleo",
+  "tag": [
+    "pinguino",
+    "petroleo",
+    "limpieza"
+  ],
+  "likes": [
+    "lucasoria",
+    "soriabel",
+    "juanpedrito33"
+  ]
+},{
+  "_id": {
+    "$oid": "5f86826171821132a5f1808c"
+  },
+  "id_usuario": "greenpeace",
+  "fecha_publicacion": {
+    "$date": "2020-02-17T23:25:56Z"
+  },
+  "foto": "add/greenpeace/arboles.jpg",
+  "descripción": "Nos sumamos a Mr.Beast y empezamos a plantar arboles, hasta los 20000000 no se para",
+  "tag": [
+    "arboles",
+    "mrbeast",
+    "O2"
+  ],
+  "likes": [
+    "lucasoria",
+    "juanpedrito33"
+  ],
+  "dislikes": [
+    "soriabel"
+  ]
+},{
+  "_id": {
+    "$oid": "5f86826171821132a5f1808d"
+  },
+  "id_usuario": "greenpeace",
+  "fecha_publicacion": {
+    "$date": "2017-02-17T23:25:56Z"
+  },
+  "foto": "add/greenpeace/ilegales.jpg",
+  "descripción": "Combatiendo pescadores ilegales",
+  "likes": [
+    "soriabel"
+  ]
+},{
+  "_id": {
+    "$oid": "5f86826171821132a5f1808e"
+  },
+  "id_usuario": "villavicencio",
+  "fecha_publicacion": {
+    "$date": "2020-10-14T16:05:00Z"
+  },
+  "foto": "add/villavicencio/fabrica.jpg",
+  "descripción": "Les mostramos como nuestra planta cuida el medio ambiente",
+  "tag": [
+    "agua",
+    "planta",
+    "cuidado"
+  ],
+  "likes": [
+    "lucasoria",
+    "juanpedrito33",
+    "alitomarotta"
+  ],
+  "dislikes": [
+    "bernardoLopez"
+  ]
+},{
+  "_id": {
+    "$oid": "5f86826171821132a5f1808f"
+  },
+  "id_usuario": "villavicencio",
+  "fecha_publicacion": {
+    "$date": "2020-10-14T16:05:00Z"
+  },
+  "foto": "add/villavicencio/reserva.jpg",
+  "descripción": "Lo hermoso de la reserva natural Villavicencio",
+  "tag": [
+    "agua",
+    "reserva",
+    "cuidado"
+  ],
+  "likes": [
+    "lucasoria",
+    "juanpedrito33",
+    "alitomarotta",
+    "bernadroLopez"
+  ],
+  "dislikes": [
+    "robertito_gea"
+  ]
+},{
+  "_id": {
+    "$oid": "5f875289698bd12de862b128"
+  },
+  "id_usuario": "marchiggiana",
+  "fecha_publicacion": {
+    "$date": "2020-10-14T16:05:00Z"
+  },
+  "foto": "add/marchiggiana/huerta.jpg",
+  "descripción": "Usamos productos de nuestra propia Huerta Natural, sin agroquimicos",
+  "tag": [
+    "huerta",
+    "libreDeQuimicos"
+  ],
+  "likes": [
+    "lucasoria",
+    "juanpedrito33",
+    "alitomarotta",
+    "bernadroLopez"
+  ],
+  "dislikes": [
+    "martin_perez"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8752b8698bd12de862b129"
+  },
+  "id_usuario": "b&6m_foundation",
+  "fecha_publicacion": {
+    "$date": "2020-10-14T16:05:00Z"
+  },
+  "foto": "add/b&m_foundation/virus.jpg",
+  "descripción": "Desarrollando la vacuna contra el covid",
+  "likes": [
+    "lucasoria",
+    "soriabel",
+    "juanpedrito33",
+    "alitomarotta"
+  ],
+  "dislikes": [
+    "bernardoLopez"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8752d9698bd12de862b12a"
+  },
+  "id_usuario": "marchiggiana",
+  "fecha_publicacion": {
+    "$date": "2020-10-14T16:05:00Z"
+  },
+  "foto": "add/marchiggiana/huerta2.jpg",
+  "descripción": "La cosecha la realizan gente local humilde, dandoles posibilidades de trabajo y que cuiden sus tierras",
+  "tag": [
+    "respeto"
+  ],
+  "likes": [
+    "lucasoria",
+    "juanpedrito33",
+    "alitomarotta",
+    "bernadroLopez"
+  ]
+}]

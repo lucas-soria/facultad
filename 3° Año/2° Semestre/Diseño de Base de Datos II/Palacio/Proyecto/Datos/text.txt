@@ -1,7 +1,4 @@
-USE ComiditasYaDW;
-
-INSERT INTO Fact_Pedido (id_tiempo, id_restaurante, id_ubicacion, id_comida, importe_comida, importe_envio, importe_total) SELECT id_tiempo, id_restaurante, id_ubicacion, id_comida, importe_comida, importe_envio, importe_total FROM (VALUES
-		(21629, 1832, 171, 13, 50.0, 98, 148.0),
+	(21629, 1832, 171, 13, 50.0, 98, 148.0),
 	(24736, 704, 232, 20, 50.0, 47, 97.0),
 	(33343, 362, 59, 29, 1499.99, 66, 1565.99),
 	(17525, 1453, 447, 8, 150.0, 90, 240.0),
@@ -20000,4 +19997,4 @@ INSERT INTO Fact_Pedido (id_tiempo, id_restaurante, id_ubicacion, id_comida, imp
 	(28440, 1251, 420, 28, 200.0, 59, 259.0),
 	(21670, 2101, 75, 15, 25.0, 34, 59.0),
 	(12436, 2234, 498, 28, 200.0, 33, 233.0),
-	(29327, 2441, 457, 24, 2000.0, 32, 2032.0)) AS tabla(id_tiempo, id_restaurante, id_ubicacion, id_comida, importe_comida, importe_envio, importe_total);
+	(29327, 2441, 457, 24, 2000.0, 32, 2032.0)

@@ -1,6 +1,6 @@
 USE ComiditasYaDW;
 
-INSERT INTO Dim_Restaurante (tipo_empresa, tipo_restaurante, nombre) VALUES
+INSERT INTO Dim_Restaurante (tipo_empresa, tipo_restaurante, nombre) SELECT tipo_empresa, tipo_restaurante, nombre FROM (VALUES
 	('franquicia', 'comida rapida', 'McDonalds S.A.'),
 	('franquicia', 'comida rapida', 'Burger King S.A.'),
 	('franquicia', 'comida rapida', 'Wendys S.A.'),
@@ -2482,5 +2482,5 @@ INSERT INTO Dim_Restaurante (tipo_empresa, tipo_restaurante, nombre) VALUES
 	('franquicia', 'parrillada', 'ZOMBI'),
 	('local', 'parrillada', 'ZONA'),
 	('local', 'heladeria', 'ZOO BAR'),
-	('local', 'panaderia', 'Angelito')
+	('local', 'panaderia', 'Angelito')) AS tabla(tipo_empresa, tipo_restaurante, nombre);
 ;

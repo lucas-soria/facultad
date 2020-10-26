@@ -1,0 +1,283 @@
+[{
+  "_id": {
+    "$oid": "5f875248698bd12de862b11e"
+  },
+  "id_usuario": "lucasoria",
+  "fecha_publicacion": {
+    "$date": "2020-01-18T16:55:00Z"
+  },
+  "foto": "post/issue/lucasoria/contaminacion.jpg",
+  "descripción": "Antes podía ver la cordillera, ahora no puedo ver nada por culpa de la contaminación!!!",
+  "tag": [
+    "basura",
+    "contaminación"
+  ],
+  "ubicación": {
+    "latitud": -32.881312,
+    "longitud": -68.860408,
+    "nombre": "Ciudad de Mendoza, Mendoza"
+  },
+  "support": [
+    "juanpedrito33",
+    "sorialbel"
+  ],
+  "comentarios": [
+    {
+      "userid": "soriabel",
+      "comentario": "Hay que hacer leyes de regulación de contaminación!!!"
+    },
+    {
+      "userid": "juanpedrito33",
+      "comentario": "Empecemos a usar bicis!!"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f875248698bd12de862b11f"
+  },
+  "id_usuario": "soriabel",
+  "fecha_publicacion": {
+    "$date": "2020-10-20T14:30:59Z"
+  },
+  "foto": "post/issue/soriabel/mar.jpg",
+  "descripción": "Miren lo que la basura le hace a los mares!!",
+  "tag": [
+    "basura",
+    "contaminación",
+    "mar"
+  ],
+  "ubicación": {
+    "latitud": 22.881312,
+    "longitud": -18.860408,
+    "nombre": "Mar del plata, Buenos Aires"
+  },
+  "support": [
+    "juanpedrito33",
+    "lucasoria"
+  ],
+  "comentarios": [
+    {
+      "userid": "lucasoria",
+      "comentario": "Las tortugaaassss!!!"
+    },
+    {
+      "userid": "juanpedrito33",
+      "comentario": "Una verguenza!!"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f875248698bd12de862b120"
+  },
+  "id_usuario": "soriabel",
+  "fecha_publicacion": {
+    "$date": "2020-10-20T14:30:59Z"
+  },
+  "foto": "post/issue/soriabel/isla.jpg",
+  "descripción": "Miren la cantidad de basura que hay en el mar!!! Incluso se pueden formar islas",
+  "tag": [
+    "basura",
+    "contaminación",
+    "mar",
+    "isladebasura"
+  ],
+  "ubicación": {
+    "latitud": 12.881312,
+    "longitud": 10.860408,
+    "nombre": "Oceano Pacifico"
+  },
+  "support": [
+    "lucasoria"
+  ]
+},{
+  "_id": {
+    "$oid": "5f875248698bd12de862b121"
+  },
+  "id_usuario": "soriabel",
+  "fecha_publicacion": {
+    "$date": "2020-10-20T14:30:59Z"
+  },
+  "foto": "post/issue/soriabel/verguenza.jpg",
+  "descripción": "En estas condiciones esta el planeta ahora mismo, una verguenza"
+},{
+  "_id": {
+    "$oid": "5f875248698bd12de862b122"
+  },
+  "id_usuario": "juanpedrito33",
+  "fecha_publicacion": {
+    "$date": "2017-11-02T17:55:00Z"
+  },
+  "foto": "post/issue/juanpedrito33/lago.jpg",
+  "descripción": "Asi esta el lago cerca de mi casa, hay que limpiarlo!!",
+  "tag": [
+    "basura",
+    "contaminación"
+  ],
+  "support": [
+    "lucasoria",
+    "sorialbel"
+  ],
+  "comentarios": [
+    {
+      "userid": "soriabel",
+      "comentario": "Hay que hacer leyes de regulación de contaminación!!!"
+    },
+    {
+      "userid": "lucasoria",
+      "comentario": "Sii, organicemos una limpiada!!",
+      "comentarios": [
+        {
+          "userid": "juanpedrito33",
+          "comentario": "Sii, hay que hacer eso!!"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f875248698bd12de862b123"
+  },
+  "id_usuario": "alitomarotta",
+  "fecha_publicacion": {
+    "$date": "2020-10-14T16:09:00Z"
+  },
+  "foto": "post/issue/alitomarotta/mar.jpg",
+  "descripción": "No puede estar asi de sucio el mar!!",
+  "tag": [
+    "basura",
+    "contaminación"
+  ],
+  "support": [
+    "lucasoria",
+    "sorialbel",
+    "bernardoLopez"
+  ],
+  "comentarios": [
+    {
+      "userid": "bernardoLopez",
+      "comentario": "Pobres peces"
+    },
+    {
+      "userid": "lucasoria",
+      "comentario": "Llama a la municipalidad y que haga algo"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f875248698bd12de862b124"
+  },
+  "id_usuario": "alitomarotta",
+  "fecha_publicacion": {
+    "$date": "2020-10-14T16:09:00Z"
+  },
+  "foto": "post/issue/alitomarotta/estancia.jpg",
+  "descripción": "Estoy en el medio d ela nada y aun asi hay basura!",
+  "tag": [
+    "basura",
+    "contaminación"
+  ],
+  "support": [
+    "sorialbel",
+    "bernardoLopez",
+    "martin_perez"
+  ],
+  "comentarios": [
+    {
+      "userid": "bernardoLopez",
+      "comentario": "Pobres peces"
+    },
+    {
+      "userid": "martin_perez",
+      "comentario": "No lo puedo creer"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f875248698bd12de862b125"
+  },
+  "id_usuario": "robertito_gea",
+  "fecha_publicacion": {
+    "$date": "2020-10-14T16:09:00Z"
+  },
+  "foto": "post/issue/robertito_gea/elefantes.jpg",
+  "descripción": "Que odio como maltratan a los elefantes",
+  "tag": [
+    "elefantes",
+    "maltrato"
+  ],
+  "support": [
+    "alitomarotta",
+    "sorialbel",
+    "bernardoLopez",
+    "martin_perez"
+  ],
+  "comentarios": [
+    {
+      "userid": "alitomarotta",
+      "comentario": "Por un poco de dinero los matan"
+    },
+    {
+      "userid": "martin_perez",
+      "comentario": "Asco"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f875248698bd12de862b126"
+  },
+  "id_usuario": "bernardoLopez",
+  "fecha_publicacion": {
+    "$date": "2020-10-14T16:09:00Z"
+  },
+  "foto": "post/issue/bernardoLopez/pelion.jpg",
+  "descripción": "Hermoso lugar, una pena que tiren las botellas al piso",
+  "tag": [
+    "basura"
+  ],
+  "support": [
+    "alitomarotta",
+    "sorialbel",
+    "bernardoLopez",
+    "martin_perez"
+  ],
+  "comentarios": [
+    {
+      "userid": "lucasoria",
+      "comentario": "Sin basura seria perfecto"
+    },
+    {
+      "userid": "robertito_gea",
+      "comentario": "Y tienen el tacho de basura al lado"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f875248698bd12de862b127"
+  },
+  "id_usuario": "bernardoLopez",
+  "fecha_publicacion": {
+    "$date": "2020-10-14T16:09:00Z"
+  },
+  "foto": "post/issue/bernardoLopez/ascequia.jpg",
+  "descripción": "Dejen de tirar basura a la calle que se tapan las ascequias",
+  "tag": [
+    "basura",
+    "inundacion"
+  ],
+  "support": [
+    "alitomarotta",
+    "sorialbel",
+    "bernardoLopez",
+    "martin_perez"
+  ],
+  "comentarios": [
+    {
+      "userid": "lucasoria",
+      "comentario": "Fuaaa, despues se inunda todo"
+    },
+    {
+      "userid": "robertito_gea",
+      "comentario": "Icreible como no cuidan ni la puerta de su casa"
+    }
+  ]
+}]

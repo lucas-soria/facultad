@@ -30,10 +30,11 @@ lista = [250.0, 200.0, 350.0, 350.0, 400.0, 200.0, 150.0, 150.0, 250.0, 210.0, 5
 # import envio
 # tot
 # (1, 7, 1, 1, 500, 30, 530)
-for i in range(1000000):
-    tiempo = str(random.randint(0, 44999))
-    resta = str(random.randint(0, 2481))
-    ubic = str(random.randint(0, 528))
+file = open('./text.txt', 'a')
+for i in range(20000):
+    tiempo = str(random.randint(1, 45000))
+    resta = str(random.randint(1, 2482))
+    ubic = str(random.randint(1, 529))
     comid = random.randint(0, 29)
     env = random.randint(25, 100)
-    print("\t(" + tiempo + ", " + resta + ", " + ubic + ", " + str(comid) + ", " + str(lista[comid]) + ", " + str(env) + ", " + str(lista[comid] + env) + "),")
+    file.write("\t(" + tiempo + ", " + resta + ", " + ubic + ", " + str(comid+1) + ", " + str(lista[comid]) + ", " + str(env) + ", " + str(lista[comid] + env) + "),\n")

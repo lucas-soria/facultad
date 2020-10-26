@@ -1,6 +1,6 @@
 USE ComiditasYaDW;
 
-INSERT INTO Dim_Tiempo(agno, mes, dia, hora, dia_semana) VALUES
+INSERT INTO Dim_Tiempo(agno, mes, dia, hora, dia_semana) SELECT agno, mes, dia, hora, dia_semana FROM (VALUES
 	(2016, 1, 1, 0, 'Viernes'),
     (2016, 1, 1, 1, 'Viernes'),
     (2016, 1, 1, 2, 'Viernes'),
@@ -45000,5 +45000,4 @@ INSERT INTO Dim_Tiempo(agno, mes, dia, hora, dia_semana) VALUES
     (2020, 12, 30, 21, 'Jueves'),
     (2020, 12, 30, 22, 'Jueves'),
     (2020, 12, 30, 23, 'Jueves'),
-    (2020, 12, 30, 24, 'Jueves')
-;
+    (2020, 12, 30, 24, 'Jueves')) AS tabla(agno, mes, dia, hora, dia_semana);
