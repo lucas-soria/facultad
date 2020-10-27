@@ -1,0 +1,300 @@
+[{
+  "_id": {
+    "$oid": "5f8683548a2f14026ce3317f"
+  },
+  "id_usuario": "lucasoria",
+  "fecha_publicacion": {
+    "$date": "2020-01-18T16:55:00Z"
+  },
+  "foto": "post/beauty/lucasoria/montana.jpg",
+  "ubicación": {
+    "latitud": -40.761666,
+    "longitud": -71.645209,
+    "nombre": "Villa La Angostura, Neuquén"
+  },
+  "descripción": "Miren este hermoso amanecer",
+  "tag": [
+    "montana",
+    "amanecer"
+  ],
+  "likes": [
+    "juanpedrito33",
+    "soriabel"
+  ],
+  "dislikes": [
+    "lucasoria"
+  ],
+  "comentarios": [
+    {
+      "userid": "soriabel",
+      "comentario": "Hermoso ❤️😍"
+    },
+    {
+      "userid": "juanpedrito33",
+      "comentario": "Quiero irrr 😭"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f8683ebc2fbc66bb19224f1"
+  },
+  "id_usuario": "lucasoria",
+  "fecha_publicacion": {
+    "$date": "2015-01-18T16:55:00Z"
+  },
+  "foto": "post/beauty/lucasoria/rio.jpg",
+  "ubicación": {
+    "latitud": -35.1567,
+    "longitud": 40.5813,
+    "nombre": "Colorado, Cordillera"
+  },
+  "descripción": "Estaba tranqui el rio",
+  "tag": [
+    "montana",
+    "rio"
+  ],
+  "likes": [
+    "soriabel"
+  ],
+  "dislikes": [
+    "juanpedrito33"
+  ],
+  "comentarios": [
+    {
+      "userid": "soriabel",
+      "comentario": "Sii, re tranquilito"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f868409c2fbc66bb19224f2"
+  },
+  "id_usuario": "soriabel",
+  "fecha_publicacion": {
+    "$date": "2020-10-16T16:55:00Z"
+  },
+  "foto": "post/beauty/soriabel/primera.jpg",
+  "descripción": "El primer post",
+  "tag": [
+    "primero",
+    "arrancando"
+  ],
+  "likes": [
+    "juanpedrito33"
+  ],
+  "dislikes": [
+    "lucasoria"
+  ],
+  "comentarios": [
+    {
+      "userid": "lucasoria",
+      "comentario": "Media pila el primer post"
+    },
+    {
+      "userid": "juanpedrito33",
+      "comentario": "Esta muy lindooo, yo quiero ir ahi"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f86841dc2fbc66bb19224f3"
+  },
+  "id_usuario": "juanpedrito33",
+  "fecha_publicacion": {
+    "$date": "2017-03-15T16:55:00Z"
+  },
+  "foto": "post/beauty/juanpedrito33/bosque.jpg",
+  "ubicación": {
+    "latitud": -20.761666,
+    "longitud": 58.645209,
+    "nombre": "Bosque de Arrayanes, Neuquen"
+  },
+  "descripción": "Este bosque es una locura, parece de pelicula",
+  "tag": [
+    "bosque",
+    "misterio",
+    "amanecer",
+    "depelicula"
+  ],
+  "likes": [
+    "lucasoria",
+    "soriabel"
+  ],
+  "comentarios": [
+    {
+      "userid": "soriabel",
+      "comentario": "Hermoso lugar"
+    },
+    {
+      "userid": "lucasoria",
+      "comentario": "Siii esta muy bueno"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f868431c2fbc66bb19224f4"
+  },
+  "id_usuario": "juanpedrito33",
+  "fecha_publicacion": {
+    "$date": "2019-01-18T16:55:00Z"
+  },
+  "foto": "post/beauty/juanpedrito33/google.jpg",
+  "descripción": "Me lo encontre en google, esta piola no?",
+  "dislikes": [
+    "lucasoria",
+    "soriabel"
+  ]
+},{
+  "_id": {
+    "$oid": "5f868431c2fbc66bb19224f5"
+  },
+  "id_usuario": "alitomarotta",
+  "fecha_publicacion": {
+    "$date": "2020-10-14T16:05:00Z"
+  },
+  "foto": "post/beauty/alitomarotta/paisaje1.jpg",
+  "descripción": "Una de ayer",
+  "likes": [
+    "lucasoria",
+    "soriabel"
+  ]
+},{
+  "_id": {
+    "$oid": "5f868431c2fbc66bb19224f6"
+  },
+  "id_usuario": "martin_perez",
+  "fecha_publicacion": {
+    "$date": "2020-10-14T16:05:00Z"
+  },
+  "foto": "post/beauty/martin_perez/sendero.jpg",
+  "ubicación": {
+    "latitud": -32.96655246051181,
+    "longitud": -68.90408019320478,
+    "nombre": "Senderos de Chacras"
+  },
+  "descripción": "Disfrutando andando en bici",
+  "tag": [
+    "bici"
+  ],
+  "likes": [
+    "lucasoria",
+    "soriabel",
+    "alitomarotta"
+  ],
+  "comentarios": [
+    {
+      "userid": "alitomarotta",
+      "comentario": "La proxima invita"
+    },
+    {
+      "userid": "lucasoria",
+      "comentario": "Alta bici!!"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f868431c2fbc66bb19224f7"
+  },
+  "id_usuario": "bernardoLopez",
+  "fecha_publicacion": {
+    "$date": "2020-10-14T16:05:00Z"
+  },
+  "foto": "post/beauty/bernardolopez/iguazu.jpg",
+  "ubicación": {
+    "latitud": -25.666127605664958,
+    "longitud": -54.44995792412326,
+    "nombre": "Cataratas del Iguazu"
+  },
+  "descripción": "En las Cataratas",
+  "tag": [
+    "iguazu",
+    "cataratas",
+    "viaje"
+  ],
+  "likes": [
+    "soriabel",
+    "alitomarotta",
+    "juanpedrito33"
+  ],
+  "comentarios": [
+    {
+      "userid": "juanpedrito33",
+      "comentario": "Estuve el año pasado, es genial"
+    },
+    {
+      "userid": "alitomarotta",
+      "comentario": "Cuidado los mosquitos!!"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f868431c2fbc66bb19224f8"
+  },
+  "id_usuario": "robertito_gea",
+  "fecha_publicacion": {
+    "$date": "2020-10-14T16:05:00Z"
+  },
+  "foto": "post/beauty/robertito_gea/palermo.jpg",
+  "ubicación": {
+    "latitud": -34.5710818619781,
+    "longitud": -58.417409086987995,
+    "nombre": "Bosques de Palermo"
+  },
+  "descripción": "Disfrutando una tarde en el Rosedal",
+  "tag": [
+    "bosque",
+    "plaza"
+  ],
+  "likes": [
+    "soriabel",
+    "alitomarotta",
+    "juanpedrito33",
+    "bernardoLopez"
+  ],
+  "comentarios": [
+    {
+      "userid": "lucasoria",
+      "comentario": "Que lindas flores!"
+    },
+    {
+      "userid": "alitomarotta",
+      "comentario": "Trae un recuerdo"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f868431c2fbc66bb19224f9"
+  },
+  "id_usuario": "alitomarotta",
+  "fecha_publicacion": {
+    "$date": "2020-10-14T16:05:00Z"
+  },
+  "foto": "post/beauty/alitomarotta/madryn.jpg",
+  "ubicación": {
+    "latitud": -42.810613225582635,
+    "longitud": -64.89546748967835,
+    "nombre": "Reserva Loberia,Puerto Madryn"
+  },
+  "descripción": "Por ver las ballenas!",
+  "tag": [
+    "ballenas",
+    "cuidemosElAmbiente"
+  ],
+  "likes": [
+    "lucasoria",
+    "soriabel",
+    "alitomarotta",
+    "juanpedrito33",
+    "bernardoLopez"
+  ],
+  "comentarios": [
+    {
+      "userid": "lucasoria",
+      "comentario": "Increibles animales"
+    },
+    {
+      "userid": "alitomarotta",
+      "comentario": "Que hermoso!"
+    }
+  ]
+}]
