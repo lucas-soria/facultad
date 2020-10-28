@@ -1,0 +1,191 @@
+[{
+  "_id": "alitomarotta",
+  "contrasena": "aguanteMongo",
+  "nombre": "Alito Marotta",
+  "mail": "alitomarotta@gmail.com",
+  "telefono": "2616489544",
+  "descripcion": "Estudiante de ing. informatica",
+  "foto_perfil": "perfiles/alitomarotta.jpg",
+  "empresa": false,
+  "fecha_creacion": {
+    "$date": "2010-05-09T00:00:00Z"
+  },
+  "seguidos": [
+    "soriabel",
+    "lucasoria"
+  ],
+  "likes": [
+    {
+      "$oid": "5f8683548a2f14026ce3317f"
+    },
+    {
+      "$oid": "5f8683ebc2fbc66bb19224f1"
+    },
+    {
+      "$oid": "5f86826171821132a5f18089"
+    }
+  ],
+  "dislikes": [
+    {
+      "$oid": "5f868409c2fbc66bb19224f2"
+    },
+    {
+      "$oid": "5f86826171821132a5f1808a"
+    }
+  ],
+  "support": [
+    {
+      "$oid": "5f875248698bd12de862b125"
+    },
+    {
+      "$oid": "5f875248698bd12de862b126"
+    },
+    {
+      "$oid": "5f875248698bd12de862b127"
+    },
+    {
+      "$oid": "5f875248698bd12de862b11e"
+    }
+  ]
+},{
+  "_id": "martin_perez",
+  "contrasena": "windowsApesta",
+  "nombre": "Martin Perez",
+  "mail": "martincitoperez@gmail.com",
+  "telefono": "2616254136",
+  "descripcion": "Cansado de ver un mundo sin conciencia",
+  "foto_perfil": "perfiles/martin_perez.jpg",
+  "empresa": false,
+  "fecha_creacion": {
+    "$date": "2010-05-09T00:00:00Z"
+  },
+  "seguidos": [
+    "soriabel",
+    "alitomarotta",
+    "robertito_gea"
+  ],
+  "likes": [],
+  "dislikes": [],
+  "support": [
+    {
+      "$oid": "5f875248698bd12de862b124"
+    },
+    {
+      "$oid": "5f875248698bd12de862b125"
+    },
+    {
+      "$oid": "5f875248698bd12de862b126"
+    },
+    {
+      "$oid": "5f875248698bd12de862b127"
+    }
+  ]
+},{
+  "_id": "bernardoLopez",
+  "contrasena": "GokuyVegeta",
+  "nombre": "Bernardo Lopez",
+  "mail": "bernilopez@gmail.com",
+  "telefono": "2615489612",
+  "descripcion": "Amandte del Alpinismo y Montañismo",
+  "foto_perfil": "perfiles/bernardoLopez.jpg",
+  "empresa": false,
+  "fecha_creacion": {
+    "$date": "2010-05-09T00:00:00Z"
+  },
+  "seguidos": [
+    "soriabel",
+    "alitomarotta",
+    "martin_perez"
+  ],
+  "likes": [],
+  "dislikes": [],
+  "support": [
+    {
+      "$oid": "5f875248698bd12de862b123"
+    },
+    {
+      "$oid": "5f875248698bd12de862b124"
+    },
+    {
+      "$oid": "5f875248698bd12de862b125"
+    }
+  ]
+},{
+  "_id": "villavicencio",
+  "contrasena": "villaAgua",
+  "nombre": "Villavicencio Agua Mineral",
+  "mail": "villavicencio@aguas.com",
+  "telefono": "0810 333 4444",
+  "descripcion": "Empresa tipo B fabricante de Agua mineral en Mendoza",
+  "foto_perfil": "perfiles/villavicencio.jpg",
+  "empresa": true,
+  "fecha_creacion": {
+    "$date": "2017-02-17T23:25:56Z"
+  }
+},{
+  "_id": "marchiggiana",
+  "contrasena": "laMarchi",
+  "nombre": "La Marchiggiana Restorante",
+  "mail": "marchi@resto.com",
+  "telefono": "2616957841",
+  "descripcion": "Restorante certificado tipo B, donde buscamos el triple impacto ademas de satisfacer a nuestros Cleintes",
+  "foto_perfil": "perfiles/marchiggiana.jpg",
+  "empresa": true,
+  "fecha_creacion": {
+    "$date": "2017-02-17T23:25:56Z"
+  }
+},{
+  "_id": "robertito_gea",
+  "contrasena": "aguanteGea",
+  "nombre": "Roberto Montes",
+  "mail": "rmontes@gmail.com",
+  "telefono": "2615846322",
+  "descripcion": "me gusta la naturaleza",
+  "foto_perfil": "perfiles/robertito_gea.jpg",
+  "empresa": false,
+  "fecha_creacion": {
+    "$date": "2010-05-09T00:00:00Z"
+  },
+  "seguidos": [
+    "soriabel",
+    "alitomarotta"
+  ],
+  "likes": [],
+  "dislikes": [],
+  "support": []
+},{
+  "_id": "jesus_34",
+  "contrasena": "asdf123",
+  "nombre": "Jesus Solanes",
+  "mail": "jsolanes@gmail.com",
+  "telefono": "2616589411",
+  "descripcion": "Vivo en Argentina",
+  "foto_perfil": "perfiles/jesus_34.jpg",
+  "empresa": false,
+  "fecha_creacion": {
+    "$date": "2020-10-16T15:53:21.425Z"
+  }
+},{
+  "_id": "juanchi",
+  "contrasena": "juencito123",
+  "nombre": "Juan Pedro de la Rosa",
+  "mail": "jrosa@gmail.com",
+  "telefono": "2616958433",
+  "descripcion": "Tengo el nombre re largo",
+  "foto_perfil": "perfiles/juanchi.jpg",
+  "empresa": false,
+  "fecha_creacion": {
+    "$date": "2020-10-16T16:42:48.130Z"
+  }
+},{
+  "_id": "rosario33",
+  "contrasena": "contrasena",
+  "nombre": "Rosario Gomez",
+  "mail": "rosario@gmail.com",
+  "telefono": "1234564",
+  "foto_perfil": "perfiles/default.jpg",
+  "empresa": "false",
+  "fecha_creacion": {
+    "$date": "2020-10-17T15:11:44.055Z"
+  }
+}]
