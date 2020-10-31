@@ -1,0 +1,53 @@
+Este es un antipatron TODO: Buscar que es un antipatron
+
+Es dificil mantener codigo en el que hay 1 interfaz y muchas cosas que lo implementan. La cantidad de metodos crece mucho
+
+
+Compuesto por dos partes principales: El visitante y el visitable
+
+
+El patron visitor consiste en una estructura de objetos, que pueden ser de distinto tipo, donde se define y lleva a cabo
+operaciones sobre estos sin necesidad de alterar las clases.
+Permite separar las nuevas operaciones de la estructura de objetos sobre la que opera
+
+
+Se usa para:
+* Extiender comportamientos de clases que no cambian
+* Atravesar arboles y nodos
+* Compiladores e interpretadores para atravesar tipos de expresiones y agregar tipos de operaciones de evaluacion
+* Aplicar la misma operacion para diferentes tipos de elementos
+
+
+
+## Intencion
+
+
+## Arquitectura
+
+
+## Diagrama
+
+
+## Ejemplos:
+    Impuestos
+    Ofertas
+    Bichos que van a flores
+    carrito de compras
+
+
+### Notas:
+
+* Jerga: Visitor, Visible, Accept, Visit
+* Principio Open - Close (
+    Algo con principio SOLID
+    Se debe mantener las APIs abiertas a extensibilidad pero cerradas a modificacion
+    No hay que modificar la API para agregar nuevas operaciones que interactuen con la misma. Estos deben hacerlo de
+    foma extensible
+)
+* Polimorfismo / single, double and multiple dispatch (
+    Polimorfismo = single dispatch
+    Doble dispatch = Visitor
+    Double dispatch es la interaccion de dos objetos especificos entre ellos.
+    Antes no podian interactuar entre si, pero si con su superclase
+)
+* Gang of four book
