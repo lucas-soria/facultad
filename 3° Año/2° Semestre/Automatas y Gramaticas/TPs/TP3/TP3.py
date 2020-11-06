@@ -51,8 +51,10 @@ class Pila:
         return (self.items)
 
 
-def analizador_sintactico(p, entrada, salida):
+def analizador_sintactico(p, entrada, numeros):
     entrada_2 = entrada.copy()
+    lista = []
+    salida = ""
     print("\nAnalizador sintactico:\n")
     print("PILA" + " " * (espacio-4) + "ENTRADA" + " " * (espacio-7) + "SALIDA")
     print(str(p.contenido()) + " " * (espacio-len(str(p.contenido()))) +
@@ -84,10 +86,14 @@ def analizador_sintactico(p, entrada, salida):
         if(simbolo_entrada == "$" and p.inspeccionar() == "$"):
             print("\nAnalisis Finalizado!\n")
         else:
-            p.extraer()
+            extrae = p.extraer()
+            if extrae == "i":
+                lista.append(numeros.pop(0))
+            else:
+                lista.append(extrae)
             entrada_2.pop(0)
-            print(str(p.contenido()) + " " *
-                  (espacio-len(str(p.contenido()))) + str(entrada_2))
+            print(str(p.contenido()) + " " * (espacio-len(str(p.contenido()))) + str(entrada_2))
+    return eval(''.join(lista))
 
 
 def arbol_sintactico(p, entrada, salida):
@@ -124,6 +130,26 @@ def arbol_sintactico(p, entrada, salida):
             entrada_2.pop(0)
 
 
+def calcular_expresion(entrada):
+    lista = []
+    numeros = ""
+    entrada_2 = []
+    for x in entrada:
+        if x not in ["+", "-", "(", ")"]:
+            numeros += x
+        else:
+            if numeros != "":
+                lista.append(numeros)
+                entrada_2.append("i")
+            entrada_2.append(x)
+            numeros = ""
+    lista.append(numeros)
+    if x != ")":
+        entrada_2.append("i")
+    entrada_2.append("$")
+    return entrada_2, lista
+
+
 if __name__ == "__main__":
     pila_analizador = Pila()
     pila_analizador.insertar("$")
@@ -131,7 +157,7 @@ if __name__ == "__main__":
     pila_arbol = Pila()
     pila_arbol.insertar("$")
     pila_arbol.insertar("E")
-    entrada = ["i", "+", "(", "i", "+", "i", ")", "-", "i", "$"]
-    salida = ""
-    analizador_sintactico(pila_analizador, entrada, salida)
-    arbol_sintactico(pila_arbol, entrada, salida)
+    entrada, numeros = calcular_expresion(input("Ingrese la expresion a analizar: "))
+    resultado = analizador_sintactico(pila_analizador, entrada, numeros)
+    arbol_sintactico(pila_arbol, entrada, "")
+    print(f"\n\nEl resultado de la expresion es: {resultado}\n")

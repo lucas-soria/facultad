@@ -1,7 +1,0 @@
-Tendrias un error porque no se puede dividir una lista por 2
-
-
-Python si permite poder hacer intercambio de valores 
-a, b = b, a
-a, b, c = c, a, b
-http://www.juanjoconti.com/posts/2009/05/04/intercambio-de-valores-rapido-en-python/
