@@ -53,7 +53,8 @@ class Pila:
 
 def analizador_sintactico(p, entrada, numeros):
     entrada_2 = entrada.copy()
-    lista = []
+    sumar = True
+    total = 0
     salida = ""
     print("\nAnalizador sintactico:\n")
     print("PILA" + " " * (espacio-4) + "ENTRADA" + " " * (espacio-7) + "SALIDA")
@@ -88,12 +89,18 @@ def analizador_sintactico(p, entrada, numeros):
         else:
             extrae = p.extraer()
             if extrae == "i":
-                lista.append(numeros.pop(0))
+                if sumar:
+                    total += int(numeros.pop(0))
+                else:
+                    total -= int(numeros.pop(0))
             else:
-                lista.append(extrae)
+                if extrae == "+":
+                    sumar = True
+                elif extrae == "-":
+                    sumar = False
             entrada_2.pop(0)
             print(str(p.contenido()) + " " * (espacio-len(str(p.contenido()))) + str(entrada_2))
-    return eval(''.join(lista))
+    return total
 
 
 def arbol_sintactico(p, entrada, salida):
@@ -157,7 +164,7 @@ if __name__ == "__main__":
     pila_arbol = Pila()
     pila_arbol.insertar("$")
     pila_arbol.insertar("E")
-    entrada, numeros = calcular_expresion(input("Ingrese la expresion a analizar: "))
+    entrada, numeros = calcular_expresion(input("Ingrese una expresion de sumas y restas para analizar: "))
     resultado = analizador_sintactico(pila_analizador, entrada, numeros)
     arbol_sintactico(pila_arbol, entrada, "")
     print(f"\n\nEl resultado de la expresion es: {resultado}\n")
