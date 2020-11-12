@@ -9,7 +9,7 @@ print(s.group(1))
 # grupo 2
 print(s.group(2))
 # Accediendo a los grupos por nombres
-patron = re.compile(r"(?P<nombre>\w+) (?P<apellido>\w+) (?P<edad>\d+)")
+patron = re.compile(r"""(?P<nombre>\w+) (?P<apellido>\w+) (?P<edad>\d+)""")
 s = patron.search("Raul Lopez 50")
 # grupo nombre
 print(s.group("nombre"))
