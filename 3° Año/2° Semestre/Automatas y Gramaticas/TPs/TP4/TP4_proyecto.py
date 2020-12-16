@@ -31,7 +31,7 @@ def calendarios(fe):
 
 
 def conexiones(fe, fechas):
-    print('+------------------------------------+\n')
+    print('\n+------------------------------------+\n')
     while True:
         respuesta = input('¿Desea visualizar la lista completa de conexiones en dias feriados y fines de semana? (Y/N) ')
         if respuesta.lower() == 'y':
@@ -81,12 +81,13 @@ def macs(usuarios, macaps):
         else:
             print('Opción invalida')
 
-def csv(fe,fechas):
+
+def csv(fe, fechas):
     data = {}
-    columnas = ['Fecha','Dia','Usuarios']
+    columnas = ['Fecha', 'Dia', 'Usuarios']
     data['Fecha'] = []
     data['Dia'] = []
-    data['Usuarios'] = []    
+    data['Usuarios'] = []
 
     for i in fe:
         data['Fecha'].append(i)
@@ -97,17 +98,14 @@ def csv(fe,fechas):
                 usuarios = f'{j}'
             else:
                 usuarios = usuarios + f'; {j}'
-        
         data['Usuarios'].append(usuarios)
-            
-    
-    df = pd.DataFrame(data, columns = columnas)
+    df = pd.DataFrame(data, columns=columnas)
 
-    df.to_excel('wifi.xlsx', sheet_name='feriados',index=False)        
+    df.to_excel('wifi.xlsx', sheet_name='feriados', index=False)
 
 
 def main():
-    with open('Wifi.txt', 'r') as registros:
+    with open('./Wifi.txt', 'r') as registros:
         registros.readline()
         linea = registros.readline()
         c = 1
@@ -146,8 +144,8 @@ def main():
         print('\nIntegrantes del grupo:\n\t* Marotta, Alenjandro Adrian\n\t* Soria Gava, Lucas Damian\n')
         print(f'\n+------------------------------------+\n\nRegistros incorrectos: {c}\n')
         fe = fechas.keys()
-        csv(fe,fechas)
-        macs(usuarios, macaps)        
+        csv(fe, fechas)
+        macs(usuarios, macaps)
         conexiones(fe, fechas)
         buscador(fe, fechas)
 
