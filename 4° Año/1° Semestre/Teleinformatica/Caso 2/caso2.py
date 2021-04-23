@@ -59,11 +59,11 @@ def myNetwork():
     rc.cmd('ip route add 10.0.1.0/24 via 192.168.100.1 dev rc-eth0')
     rc.cmd('ip route add 10.0.2.0/24 via 192.168.100.9 dev rc-eth1')
 
-    rsuc1.cmd('ip route add 192.168.100.8/29 via 192.168.100.1 dev rsuc1-eth0')
-    rsuc1.cmd('ip route add 10.0.2.0/24 via 192.168.100.1 dev rsuc1-eth0')
+    rsuc1.cmd('ip route add 192.168.100.8/29 via 192.168.100.6 dev rsuc1-eth0')
+    rsuc1.cmd('ip route add 10.0.2.0/24 via 192.168.100.6 dev rsuc1-eth0')
 
-    rsuc2.cmd('ip route add 192.168.100.0/29 via 192.168.100.9 dev rsuc2-eth0')
-    rsuc2.cmd('ip route add 10.0.1.0/24 via 192.168.100.9 dev rsuc2-eth0')
+    rsuc2.cmd('ip route add 192.168.100.0/29 via 192.168.100.14 dev rsuc2-eth0')
+    rsuc2.cmd('ip route add 10.0.1.0/24 via 192.168.100.14 dev rsuc2-eth0')
 
     
     info( '* Starting network\n')
@@ -86,4 +86,3 @@ def myNetwork():
 if __name__ == '__main__':
     setLogLevel( 'info' )
     myNetwork()
-
