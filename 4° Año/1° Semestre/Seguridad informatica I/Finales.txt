@@ -1,0 +1,73 @@
+ 1- SGSI: definir, objetivos, principios básicos de seguridad, PDCA Manuales
+2- Definir: Activo, Valoración, Vulverabilidad, Amenaza, Riesgo
+3- Tecnicas de los proc de adm de riesgos
+4- Análisis de riesgos, Proc, Matrices variables
+5- F digital, Prop intel, Dominios
+
+------------------------------------------------------------------------------
+
+1 - SGSI completo: manuales, ciclos, definiciones
+2 - Definciones de conceptos basicos como activos, amenazas, riesgos, etc
+3 - Tecnicas para administrar el riesgo
+4- Analisis
+5 - Diferencias de confidencialidad, habeas data, firmas
+
+------------------------------------------------------------------------------
+
+Me preguntaron: ¿Para qué se realiza un análisis de riesgo?
+
+Ahí el profesor te va llevando y me terminó preguntando la unidad 2 completa: 
+Definición de riesgo, probabilidad, amenaza, activos, impactos, vulnerabilidades, riesgo total, riesgo residual, matriz de riesgo, controles, plan de contingencia... todo muy por arriba, nada profundo.
+
+De la unidad 1 me preguntó: Inventario de activos, costo de la seguridad, y áreas de la seguridad (confidencialidad, disponibilidad, integridad) cada una con ejemplos.
+IMPORTANTE: me dijo que me faltaba explicar un área, que era la Trazabilidad. (?)
+
+Luego me dio un caso práctico:
+Amenaza: Incendio - Activo: Terminales
+Y de eso me pidió que le explique a que áreas de la seguridad afectaba, y que contramedidas debo tomar, controles, prevención, etc...
+
+---------------------------------------------------------------------------------
+
+Pidió un esquema sobre un análisis de riesgo, los pasos a seguir, activos, el valor de los activos y las interrelaciones, por dónde empezar, qué activos primeros, conceptos de vulnerabilidad, amenaza, probabilidad, frecuencia, salvaguardas, plan de continuidad/contingencia
+
+SGSI, ISO 27001: Ciclo PDCA brevemente explicado, mencionar documentación de ISO 27001.
+
+Valores de ISO 27001: Integridad, Disponibilidad y Confidencialidad. Ejemplo de virus, qué valor ataca, plan de contingencia. 
+
+En general fueron muchas preguntas prácticas que no están en los apuntes como por ejemplo, "Si un virus me ataca un servidor de correo y lo deja sin uso, ¿qué plan de contigencia debo tener? (un servidor de correo alternativo)".
+
+-------------------------------------------------------------------------------------
+
+Conde:
+-Análisis de riesgo
+-Conceptos de la 27001
+
+Tomba:
+-Seguridad física
+-Control de acceso
+-Confidencialidad, disponibilidad, integridad
+
+--------------------------------------------------------------------------------------
+
+Analisis de riesgo: Todo (esta parte me la tomaron escrita), etapas, matriz de riesgo, riesgo residual (CONDE)
+ISO 27001, 17999, preguntas como ¿un activo de informacion puede ser una llamada telefonica? si!
+Activo: Valores
+
+Conceptos de vulnerabilidad, amenazas, riesgo (TOMBA)
+Seguridad Fisica (TOMBA)
+Seguridad Logica (TOMBA)
+Plan de contingencia: Etapas (TOMBA)
+Me volvio a preguntar que era el riesgo residual (TOMBA)
+
+Ejemplo de disponibilidad fisica en una empresa, mi ejemplo basico fue: sacar el cable de alimentacion y me dijo que estaba bien  :? 
+
+Con el concepto de riesgo, le dije todo y despues de un largooooooo rato me dijo pero QUE ES UNA SUMA UNA RESTA UNA PROBABILIDAD? jajaj, asi que es importante decir que es una probabilidad.
+
+---------------------------------------------------------------------------------------
+
+Analisis de riesgo completo (ciclo PDCA y explicar brevemente cada uno)
+Me preguntaron ¿ La ISO sugiere alguna metodología para ser implementada? Respuesta: NO, la ISO es un marco de referencia cada uno puede implementar la metodologia que mas se adecue a sus necesidades.
+
+Conceptos: Activo,Amenaza, Vulnerabilidad, Riesgo, valor de los activos.
+
+Después de pasar la parte teórica (en mi caso escrita) te hacen unas preguntas prácticas para que las razonés pero nada del otro mundo.
