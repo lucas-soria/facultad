@@ -1,0 +1,28 @@
+Rolo:
+
+  - Nada de memoria? Eso es bueno
+  - Saber los conceptos, razonar, que es lo mas importante
+  - Dato por si solo no dice nada, hay que relacionarlos, ver que onda el hambiente y eso. Relacionados y eso hacen info
+  - El bucle de los 4 conceptos nunca termina. Eso lo puse bien en el cuestionario
+  - Todos los dias cambian las cosas, ahora podemos estar concientes de los riesgos de los activos, pero puede que mañana aparezca una nueva amenaza o "jugador" que cambie las reglas del juego
+  - CONCEPTOS MAS IMPORTANTES: ISO, info, dato, los 4 pasos, confidencialidad integridad y el otro, activo, amenaza mas importante (humano). Delito informatico: que es, a que le llamamos delit, porque es tan dificil enmarcarlo legalmente
+
+
+
+
+Carlitos:
+
+  - examen basado en casos y su desarrollo
+  - simetrica asimetrica encriptacion
+  - firma digital
+  - algoritmo hash
+  - TRANSACCIONAL???? MUY IMPORTANTE
+  - Seguridad fisica
+  - Computacion de borde: nuevo paradigma a la seg logica. Vienen las APIs, IoT, apps mobiles
+  - seguridad en capas: subdivision de redes -> publica, privada, DMZ o semiprivada, MZ -> puntapie a Firewall
+  - Firewall tipo WAV???
+  - Blockchain, concepto de token para autentificar y validad identidad
+
+
+
+-> https://sites.google.com/site/seguridadinformaticayweb/roles ???? una pagina de seguridad que habla de todo un poco
