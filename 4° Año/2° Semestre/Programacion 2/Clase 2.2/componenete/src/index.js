@@ -1,0 +1,24 @@
+import ReactDOM from 'react-dom';
+import CounterApp from './CounterApp';
+import RecorredorArregloObjetos from './RecorredorArregloObjetos';
+
+const divRoot = document.querySelector('#root');
+
+ReactDOM.render(<CounterApp value={0} />, divRoot);
+
+const objects = [
+    {nombre: "Lucas",
+     apellido: "Soria",
+     edad: 21,
+    },
+    {nombre: "Alejandro",
+     apellido: "Marotta",
+     edad: 24,
+    },
+    {nombre: "Franco",
+     apellido: "Santander",
+     edad: 21,
+    },
+];
+
+ReactDOM.render(<RecorredorArregloObjetos objects={objects} value={0} />, divRoot);

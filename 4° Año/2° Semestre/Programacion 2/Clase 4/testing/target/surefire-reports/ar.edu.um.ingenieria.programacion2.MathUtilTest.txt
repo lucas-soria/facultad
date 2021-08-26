@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ar.edu.um.ingenieria.programacion2.MathUtilTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in ar.edu.um.ingenieria.programacion2.MathUtilTest
