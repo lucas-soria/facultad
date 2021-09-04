@@ -9,7 +9,7 @@ import unittest, time, re
 
 class BuscarEnLaBibliotecaUM(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(30)
         self.base_url = "https://www.google.com/"
         self.verificationErrors = []
