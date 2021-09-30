@@ -1,0 +1,9 @@
+import reactDom from 'react-dom';
+import './index.css';
+import LechugaApp from './LechugaApp';
+
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reactDom.render(<LechugaApp/>, document.getElementById('root'));
