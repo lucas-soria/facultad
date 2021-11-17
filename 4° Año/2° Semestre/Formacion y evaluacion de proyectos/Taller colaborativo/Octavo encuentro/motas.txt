@@ -1,0 +1,20 @@
+incsripcion de la empresa? Costo?
+
+vamos a separar: 
+
+inversion: 
+	Los del periodo 0.
+	Considerar el importe de inversion en capital de trabajo:plata para poder trabajar o empezar a trabajar o los gastos de los primeros meses.
+	Debe tener un total
+
+Funcionamiento u operativos:
+	Estos son anuales
+	Inversion en activos fisicos: Los balances
+	fijos y variables
+
+¿Que impuestos tenemos que pagar? -> a las ganancias. Como funciona???
+
+utilidad bruta -> aca aplicar 35% ganancias
+
+Insumos:
+	poner que las tecnologias son de uso libre y no son necesarios pagarlos -> ¿Que tecnologias?

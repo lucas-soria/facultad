@@ -1,0 +1,29 @@
+1) ¿Que tipo de problemas resuelven los perceptrones simples y cuales los multicapas?
+	R1) Problemas linealmente separables (AND / OR / NAND / NOR / NOT). No resuelve problemas no linealmente separables (XOR / NXOR). Los multicapas cualquier problema que tenga respuesta.
+
+2) ¿Que cantidad de neuronas hay en cada capa? ¿Por que?
+	R2) En la capa de entrada las neuronas corresponden al numero de entradas. En una imagen como entrada, una neurona por cada pixel de la imagen (10px x 10px = 100 neuronas de entrada). En el caso de un archivo de audio, se puede tomar la codificacion del nivel de señal dividido en un rango de 256 niveles (si es decimal = 8Neuronas ó hexadecimal = 4Neuronas), luego podemos tomar el espacio temporal de 1s (divido en 1000ms) y le asignamos un valor de la señal por cada uno. La entrada es de 4 (hexadecimal) x 1000 (ms) = 4000Neuronas
+	En la capa de salida tambien depende de la cantidad de clasificaciones de salida y es en funcion de 2^n clasificaciones, n son la cantidad de Neuronas. (La cantidad de neuronas en la capa de salida es una funcion de 2 elevado a la n, por ejemplo si tengo 4 salidas, se necesitan por lo tanto 2 neuronas, es decir 22, siendo n el numero de la cantidad de neuronas a utiliza.).
+	En la capa intermedia o capa oculta no existe criterio matematico para definir la cantidad de neuronas. Es a prueba y error. Un criterio útil ir agregando neuronas hasta que aprenda y despues empezar a dividir el numero por 2. Reducir el numero de neuronas reduce el tiempo que tarda en aprender. Otro criterio es empezar por [(entrada + salida) * (2/3)]
+
+3) ¿Cuantas neuronas de salida si necesito clasificar o identificar los digitos?
+	R3) 3 x 7 = 21Neuronas como en los displays de segmentos.
+
+4) ¿De que depende la cantidad final de neuronas? ¿Y la de entrada?
+
+5) ¿Cuantas neuronas se ponen en la capa oculta? -> prueba y error
+
+6) ¿Cuanto valen los pesos de las neuronas? (se inician aleatorio entre -1 y 1. Valor final es cualquiera)
+
+7) ¿Como sabes si aprende o no aprende? -> por ejemplos que sabes la respuesta, o porque en el gráfico de errores estos no convergen a 0
+
+8) La red neuronal empieza recalculando los pesos de la salida primero (Backpropagation)
+
+9) ¿Para que o cuando se usan las redes neuronales?
+	R9) Todo lo que sea reconocimiento de patrones (visuales, audio, clima, mercado), pronostico, diagnostico, clasificacion -> (banco toma datos y ve si es un pagador de prestamos). Aprendizaje supervisado o no supervisados. Es homogeneidad de clusters, reconoce la diferencia entre esos clusters que se comportan de forma diferente
+
+10) ¿Cual es la diferencia entre un sistema supervisado y uno no supervisado?
+	R10) En un sistema de aprendizaje supervisado uno entrega a la red neuronal tanto la entrada como la salida esperada y aprende a discernir entre los distintos tipos de salida, mientras que el aprendizaje no supervisado se da cuando el sistema logra discernir entre entre grupos o cluster de patrones similares.
+
+11) ¿Que son las redes convolutivas o convolucionales y que diferencias tienen con las redes no convolutivas y para que se usan?
+	R11) Sirven para reconocer cosas en movimiento o en distintos lugares o posiciones, como por ejemplo en un video. Los otros estan "registrados" -> mismo tamaño y posicion siempre.
