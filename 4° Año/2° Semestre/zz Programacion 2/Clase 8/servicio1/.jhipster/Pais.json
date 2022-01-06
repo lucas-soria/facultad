@@ -1,0 +1,25 @@
+{
+  "name": "Pais",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "continente",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "pais",
+  "dto": "no",
+  "pagination": "infinite-scroll",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["servicio1"],
+  "changelogDate": "20210504194656"
+}

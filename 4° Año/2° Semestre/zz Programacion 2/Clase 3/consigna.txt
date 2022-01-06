@@ -1,0 +1,17 @@
+Productor/consumidor
+
+Dos executors:
+	1 consume
+	2 produce
+
+clase contenedora que guarda el dato (pila):
+	tiene el metodo para meter y sacar protegido y sincronizado
+	metodo para ver cuantos elemntos quedan al sacar o poner
+
+por pantalla ver interaccion entre los componentes
+
+Jugar con tiempos:
+	un productor produce mas rapido que el consumidor
+	un consumidor mas rapido que un productor
+
+Que se duerman si no hay nada, para no poder sacar algo que no hay

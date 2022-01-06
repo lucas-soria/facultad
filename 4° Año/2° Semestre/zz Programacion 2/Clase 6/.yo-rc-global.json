@@ -1,0 +1,8 @@
+{
+  "generator-jhipster:7.0.1": {
+    "promptValues": {
+      "packageName": "ar.edu.um.ingenieria.programacion2",
+      "nativeLanguage": "es"
+    }
+  }
+}

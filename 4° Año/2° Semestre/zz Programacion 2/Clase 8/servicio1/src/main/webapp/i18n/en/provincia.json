@@ -1,0 +1,26 @@
+{
+  "servicio1App": {
+    "provincia": {
+      "home": {
+        "title": "Provincias",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Provincia",
+        "createOrEditLabel": "Create or edit a Provincia",
+        "notFound": "No Provincias found"
+      },
+      "created": "A new Provincia is created with identifier {{ param }}",
+      "updated": "A Provincia is updated with identifier {{ param }}",
+      "deleted": "A Provincia is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Provincia {{ id }}?"
+      },
+      "detail": {
+        "title": "Provincia"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "codigoPostal": "Codigo Postal",
+      "pais": "Pais"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+application {
+  config {
+    applicationType monolith
+    authenticationType jwt
+    baseName servicio1
+    blueprints []
+    buildTool maven
+    cacheProvider ehcache
+    clientFramework react
+    clientPackageManager npm
+    clientTheme none
+    creationTimestamp 1620157556880
+    databaseType sql
+    devDatabaseType h2Disk
+    dtoSuffix DTO
+    enableHibernateCache true
+    enableSwaggerCodegen false
+    enableTranslation true
+    jhiPrefix jhi
+    jhipsterVersion "7.0.1"
+    jwtSecretKey "OGQ0NmM4YjZjNWUyZTQ0OWY4Njg0NzZkMGY3MGJkNmFkYjgwMWQ1YjNhZDhhMWFhMDhjYWUyODk5OTRjMDY4NTE0OTUzNTQyMTBlZjhhMTRkYTg3NDU0OGEwMDFhZDczZTM5ZjA0MjE0ZmI4MmNkNzU5MjFiYTAwZDQxMTc4MTg="
+    languages [es, en, fr]
+    messageBroker false
+    nativeLanguage es
+    otherModules []
+    packageName ar.edu.um.programacion2
+    prodDatabaseType mariadb
+    reactive false
+    searchEngine false
+    serverPort 8080
+    serviceDiscoveryType false
+    skipClient false
+    skipServer false
+    skipUserManagement false
+    testFrameworks []
+    websocket false
+    withAdminUi true
+  }
+
+}
+entity Pais {
+  nombre String required
+  continente String
+}
+entity Provincia {
+  nombre String
+  codigoPostal String
+}
+relationship ManyToOne {
+  Provincia{pais(nombre)} to Pais
+}
+paginate Pais with infinite-scroll
+paginate Provincia with pagination
+service Pais, Provincia with serviceImpl
+

@@ -1,0 +1,32 @@
+{
+  "name": "Provincia",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codigoPostal",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "pais",
+      "otherEntityRelationshipName": "provincia",
+      "relationshipName": "pais",
+      "otherEntityField": "nombre"
+    }
+  ],
+  "entityTableName": "provincia",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["servicio1"],
+  "changelogDate": "20210504194756"
+}

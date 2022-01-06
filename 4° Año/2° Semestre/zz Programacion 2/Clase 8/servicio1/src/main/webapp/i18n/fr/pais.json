@@ -1,0 +1,25 @@
+{
+  "servicio1App": {
+    "pais": {
+      "home": {
+        "title": "Pais",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Pais",
+        "createOrEditLabel": "Créer ou éditer un Pais",
+        "notFound": "Aucun Pais trouvé"
+      },
+      "created": "Un nouveau Pais a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Pais avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Pais avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Pais {{ id }} ?"
+      },
+      "detail": {
+        "title": "Pais"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "continente": "Continente"
+    }
+  }
+}

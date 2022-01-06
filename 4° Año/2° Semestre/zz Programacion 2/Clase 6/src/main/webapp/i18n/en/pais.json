@@ -1,0 +1,25 @@
+{
+  "servicio1App": {
+    "pais": {
+      "home": {
+        "title": "Pais",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Pais",
+        "createOrEditLabel": "Create or edit a Pais",
+        "notFound": "No Pais found"
+      },
+      "created": "A new Pais is created with identifier {{ param }}",
+      "updated": "A Pais is updated with identifier {{ param }}",
+      "deleted": "A Pais is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Pais {{ id }}?"
+      },
+      "detail": {
+        "title": "Pais"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "continente": "Continente"
+    }
+  }
+}

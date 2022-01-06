@@ -1,0 +1,26 @@
+{
+  "servicio1App": {
+    "provincia": {
+      "home": {
+        "title": "Provincias",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Provincia",
+        "createOrEditLabel": "Crear o editar Provincia",
+        "notFound": "Ningún Provincias encontrado"
+      },
+      "created": "Un nuevo Provincia ha sido creado con el identificador {{ param }}",
+      "updated": "Un Provincia ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Provincia ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Provincia {{ id }}?"
+      },
+      "detail": {
+        "title": "Provincia"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "codigoPostal": "Codigo Postal",
+      "pais": "Pais"
+    }
+  }
+}
