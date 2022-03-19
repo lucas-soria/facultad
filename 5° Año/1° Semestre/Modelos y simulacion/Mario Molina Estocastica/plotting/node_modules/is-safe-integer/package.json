@@ -1,0 +1,38 @@
+{
+  "name": "is-safe-integer",
+  "version": "2.0.0",
+  "description": "ES2015 Number.isSafeInteger() ponyfill",
+  "license": "MIT",
+  "repository": "sindresorhus/is-safe-integer",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "es2015",
+    "ponyfill",
+    "polyfill",
+    "shim",
+    "browser",
+    "number",
+    "safe",
+    "is",
+    "integer"
+  ],
+  "dependencies": {
+    "max-safe-integer": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "*"
+  }
+}
