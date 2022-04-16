@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "8b64acce023d976b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccbfd612ce4bb580",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Aseguramiento de calidad de software/13-4-22.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5d46e1c036898355",
+    "type": "split",
+    "children": [
+      {
+        "id": "99c76542e17fc723",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1161a1d9030c156f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3f6ccf5646e68c10",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#hola",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 447
+  },
+  "right": {
+    "id": "1762e55481096fed",
+    "type": "split",
+    "children": [
+      {
+        "id": "dda040518c9893b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "21fca48a9575f305",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Aseguramiento de calidad de software/13-4-22.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "0964a92e9404b4eb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ccbfd612ce4bb580",
+  "lastOpenFiles": [
+    "Aseguramiento de calidad de software/13-4-22.md",
+    "Aseguramiento de calidad de software/Resumen/Resumen para TP1.md",
+    "Aseguramiento de calidad de software/6-4-22.md",
+    "Aseguramiento de calidad de software/30-3-22.md",
+    "Planeamiento y gestion de empresas/Presentaciones 12-4-22.md",
+    "Gestion de calidad y medio ambiente/Tema 4.md",
+    "Modelos y simulacion/Pool.md",
+    "Higiene y seguridad del trabajo/2 Exposicion 7-4-22.md",
+    "Planeamiento y gestion de empresas/22-3-22.md",
+    "Tesis/8-4-22.md"
+  ]
+}
