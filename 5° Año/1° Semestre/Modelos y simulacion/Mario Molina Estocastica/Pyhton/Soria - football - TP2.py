@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import numpy as np
 import matplotlib.gridspec as gridspec
-import random
 import pandas as pd
 
 
@@ -19,12 +18,17 @@ xl = []
 yl = []
 zl = []
 ticks = []
+ttotal = (2 * vi * np.sin(alpha)) / g
 
 
 def animate(index, ax1, ax2):
     z = h + vi * np.sin(alpha) * (index * tick) - 1/2 * g * (index * tick)**2
     if z < 0:
-        plt.pause(3600)
+        xl.append(vi * np.cos(alpha) * (ttotal))
+        yl.append(vi * np.sin(teta) * (ttotal))
+        zl.append(h + vi * np.sin(alpha) * (index * tick) - 1/2 * g * (ttotal)**2)
+        plt.pause(30)
+        plt.close()
     else:
         y = vi * np.sin(teta) * (index * tick)
         x = vi * np.cos(alpha) * (index * tick)

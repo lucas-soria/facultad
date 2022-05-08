@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ccbfd612ce4bb580",
+        "id": "bc0b6ad775f3b674",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Aseguramiento de calidad de software/13-4-22.md",
+            "file": "Higiene y seguridad del trabajo/Resumen.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 447
+    "width": 297
   },
   "right": {
     "id": "1762e55481096fed",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Aseguramiento de calidad de software/13-4-22.md",
+                "file": "Higiene y seguridad del trabajo/Resumen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,25 +87,34 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "a23f23d0962e0d31",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "ccbfd612ce4bb580",
+  "active": "bc0b6ad775f3b674",
   "lastOpenFiles": [
+    "Higiene y seguridad del trabajo/Resumen.md",
+    "Aseguramiento de calidad de software/2022-05-04.md",
+    "Aseguramiento de calidad de software/2022-04-20.md",
+    "Aseguramiento de calidad de software/Ejercicio practico/Ejercicio.md",
+    "Aseguramiento de calidad de software/Ejercicio practico/2022-04-20 2022-04-20 20.42.27.excalidraw.md",
     "Aseguramiento de calidad de software/13-4-22.md",
-    "Aseguramiento de calidad de software/Resumen/Resumen para TP1.md",
     "Aseguramiento de calidad de software/6-4-22.md",
-    "Aseguramiento de calidad de software/30-3-22.md",
-    "Planeamiento y gestion de empresas/Presentaciones 12-4-22.md",
-    "Gestion de calidad y medio ambiente/Tema 4.md",
-    "Modelos y simulacion/Pool.md",
-    "Higiene y seguridad del trabajo/2 Exposicion 7-4-22.md",
-    "Planeamiento y gestion de empresas/22-3-22.md",
-    "Tesis/8-4-22.md"
+    "Planeamiento y gestion de empresas/2022-05-03.md",
+    "Planeamiento y gestion de empresas/2022-04-19.md",
+    "Gestion de calidad y medio ambiente/Tema 5.md"
   ]
 }

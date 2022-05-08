@@ -1,3 +1,7 @@
 {
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "resumen-ambiente",
+    "text-format"
+  ]
 }

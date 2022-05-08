@@ -25,23 +25,23 @@ teta = 1/16 * np.pi  # Angulo de golpe en plano XY
 r = 0.11  # Radio de la pelota en metros
 mass = 0.430  # Masa de la pelota en kg
 tick = 0.1  # Medida de los tock en segundos
-curvas = 100  # Cantidad de curvas MAXIMAS a generar
+curvas = 5  # Cantidad de curvas MAXIMAS a generar
+ttotal = (2 * vi * np.sin(alpha)) / g
+hmax = (vi**2 * np.sin(alpha)**2) / (2 * g)
+h23 = 2/3 * hmax
 
 
 def add_wind():
-    if random.randint(1, 4) > 3:
-        return [random.randint(0, 3) * random.random(), np.pi * random.randint(0, 360) / 180, np.pi * random.randint(0, 360) / 180]
-    return [0, 0, 0]
+    return [random.randint(0, 30) * random.random(), np.pi * random.randint(0, 360) / 180, np.pi * random.randint(0, 360) / 180]
 
-def plot_family(index, ax1, ax2):
+def plot_family(ax1, ax2, x0, y0, vx0, vy0):
+    index = 0
     for i in range(len(familia_curvas)):
         wind, anglexz, angley = familia_curvas[i]
-        z = h + vi * np.sin(alpha) * (index * tick) - 1/2 * g * (index * tick)**2 + wind * np.sin(anglexz) * (index * tick)
-        if z < 0:
-            continue
-        else:
-            x = vi * np.cos(alpha) * (index * tick) + wind * np.cos(anglexz) * (index * tick)
-            y = vi * np.sin(teta) * (index * tick) + wind * np.sin(angley) * (index * tick)
+        z = h + vi * np.sin(alpha) * (index * tick) - 1/2 * g * (index * tick)**2
+        if z >= h23:
+            x = x0 + vx0 * (index * tick) + wind * np.cos(anglexz) * (index * tick) 
+            y = y0 + vy0 * (index * tick) + wind * np.sin(angley) * (index * tick)
             if i in xlw:
                 xlw[i].append(x)
                 ylw[i].append(y)
@@ -50,14 +50,21 @@ def plot_family(index, ax1, ax2):
                 xlw[i] = [x]
                 ylw[i] = [y]
                 zlw[i] = [z]
-            ax1.plot(xlw[i], zlw[i], color='pink')
-            ax2.plot(xlw[i], ylw[i], zlw[i], color='pink')
+        if z < 0:
+            xlw[i].append(5)
+            ylw[i].append(5)
+            zlw[i].append(5)
+            continue
+        ax1.plot(xlw[i], zlw[i], color='pink')
+        ax2.plot(xlw[i], ylw[i], zlw[i], color='pink')
+        index += 1
 
 def animate(index, ax1, ax2):
     global familia_curvas
     z = h + vi * np.sin(alpha) * (index * tick) - 1/2 * g * (index * tick)**2
     if z < 0:
-        plt.pause(3600)
+        plt.pause(60)
+        plt.close()
     else:
         y = vi * np.sin(teta) * (index * tick)
         x = vi * np.cos(alpha) * (index * tick)
@@ -110,3 +117,14 @@ df = pd.DataFrame.from_dict(dic)
 df.to_excel('Soria - football - TP3.xlsx', header=True, index=False)
 
 # TODO: forzar el z = 0
+
+"""
+el viento debe tener los siguientes parametros 
+{ 
+    esta a 2/3 de la altura del vuelo
+    random duracion entre 0 y 1 seg
+    random velocidad entre 0 y 30 m/s
+    (distribucionn a discutir) angulo entre 0 y 360° (paralelo al piso) => el norte son 0 grados y es antihorario
+}
+Despues se busca un coeficiente de dispercion
+"""
