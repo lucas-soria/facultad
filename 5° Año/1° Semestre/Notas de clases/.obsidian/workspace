@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "bc0b6ad775f3b674",
+        "id": "699fbae63ea5d2f0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Higiene y seguridad del trabajo/Resumen.md",
+            "file": "Gestion de calidad y medio ambiente/Resumen/Resumen parcial 2.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Higiene y seguridad del trabajo/Resumen.md",
+                "file": "Gestion de calidad y medio ambiente/Resumen/Resumen parcial 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,24 +97,24 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "bc0b6ad775f3b674",
+  "active": "699fbae63ea5d2f0",
   "lastOpenFiles": [
-    "Higiene y seguridad del trabajo/Resumen.md",
-    "Aseguramiento de calidad de software/2022-05-04.md",
-    "Aseguramiento de calidad de software/2022-04-20.md",
-    "Aseguramiento de calidad de software/Ejercicio practico/Ejercicio.md",
-    "Aseguramiento de calidad de software/Ejercicio practico/2022-04-20 2022-04-20 20.42.27.excalidraw.md",
-    "Aseguramiento de calidad de software/13-4-22.md",
-    "Aseguramiento de calidad de software/6-4-22.md",
-    "Planeamiento y gestion de empresas/2022-05-03.md",
-    "Planeamiento y gestion de empresas/2022-04-19.md",
-    "Gestion de calidad y medio ambiente/Tema 5.md"
+    "Gestion de calidad y medio ambiente/Resumen/Resumen parcial 2.md",
+    "Gestion de calidad y medio ambiente/Resumen/Temas parciales.md",
+    "Gestion de calidad y medio ambiente/Tema 1.md",
+    "Gestion de calidad y medio ambiente/Resumen/Resumen parcial 1.md",
+    "Gestion de calidad y medio ambiente/Tema 2.md",
+    "Excalidraw/Gestion de calidad y medio ambiente/Tema 2 2022-03-29 15.05.28.excalidraw.md",
+    "Gestion de calidad y medio ambiente/Tema 3.md",
+    "Gestion de calidad y medio ambiente/Tema 4.md",
+    "Gestion de calidad y medio ambiente/Tema 5.md",
+    "Gestion de calidad y medio ambiente/Tema 6.md"
   ]
 }

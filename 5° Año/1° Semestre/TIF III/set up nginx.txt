@@ -1,0 +1,71 @@
+sudo apt update
+sudo apt install nginx
+sudo ufw app list
+sudo ufw allow 'Nginx Full' && sudo ufw allow 'OpenSSH' && sudo ufw allow 8880
+
+add security group with 8880 allowed
+
+sudo ufw status
+sudo ufw enable
+sudo ufw status
+systemctl status nginx
+
+->> http://your_server_ip
+
+sudo mkdir -p /var/www/lsoria.com/html
+sudo chown -R $USER:$USER /var/www/lsoria.com/html
+sudo chmod -R 755 /var/www/lsoria.com
+sudo nano /etc/nginx/sites-available/lsoria.com
+
+server {
+        listen 80;
+        listen [::]:80;
+
+        root /var/www/lsoria.com/html;
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name lsoria.com www.lsoria.com;
+
+        location /api {
+            proxy_pass http://localhost:8080/api;
+            proxy_set_header Host localhost;
+        }
+
+        location / {
+                try_files $uri $uri/ /index.html =404;
+        }
+}
+
+sudo ln -s /etc/nginx/sites-available/lsoria.com /etc/nginx/sites-enabled/
+sudo nano /etc/nginx/nginx.conf
+
+...
+http {
+    ...
+    server_names_hash_bucket_size 64;
+    ...
+}
+...
+
+sudo nginx -t
+
+sudo systemctl restart nginx
+
+npm run build
+scp -r -i ~/.ssh/qrsec-aws.pem build ubuntu@server_ip:~/qrsec/qrsec-frontend
+scp -r -i ~/.ssh/qrsec-aws.pem ./build/* ubuntu@server_ip:/var/www/lsoria.com/html
+
+sudo apt install certbot python3-certbot-nginx
+sudo nano /etc/nginx/sites-available/lsoria.com
+
+...
+server_name lsoria.com www.lsoria.com;
+...
+
+sudo nginx -t
+sudo systemctl reload nginx
+
+sudo certbot --nginx -d lsoria.com -d www.lsoria.com
+sudo systemctl status certbot.timer
+
+sudo certbot renew --dry-run

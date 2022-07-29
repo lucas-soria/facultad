@@ -5,3 +5,29 @@ h1, h2, h3, h4, h5, h6 {
 body {
     text-align: justify;
 }
+
+img[alt*="center"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img[alt*="stick-top"] {
+  margin-top: 0;
+  padding-top: 0;
+}
+img[alt*="stick-bottom"] {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.page-break {
+  page-break-after: always;
+}
+
+.epigraph {
+  color: grey;
+  align-content: center;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
