@@ -2,5 +2,8 @@
   "baseFontSize": 16,
   "enabledCssSnippets": [
     "text-format"
-  ]
+  ],
+  "theme": "obsidian",
+  "translucency": true,
+  "cssTheme": "Obsidian Nord"
 }

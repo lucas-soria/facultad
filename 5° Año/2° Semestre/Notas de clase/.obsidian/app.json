@@ -1,17 +1,47 @@
 {
   "legacyEditor": false,
   "livePreview": true,
-  "spellcheck": true,
+  "spellcheck": false,
   "spellcheckLanguages": [
-    "en-GB",
-    "es",
     "es-AR",
-    "en-US"
+    "es-MX",
+    "es-ES",
+    "es-US",
+    "es-419",
+    "es",
+    "en-GB",
+    "en-GB-oxendict",
+    "en-US",
+    "de",
+    "de-DE"
   ],
   "pdfExportSettings": {
-    "pageSize": "Letter",
+    "pageSize": "A4",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "spellcheckDictionary": [
+    "RSA",
+    "IPSec",
+    "Stack",
+    "hash",
+    "After",
+    "hashes",
+    "sha3",
+    "dgst",
+    "openssl",
+    "sha3",
+    "dgst",
+    "openssl",
+    "HMAC",
+    "x509",
+    "PKI",
+    "Juncotic",
+    "ICMP",
+    "paralelizar",
+    "3DES",
+    "3DES",
+    "EDE"
+  ]
 }
