@@ -1,0 +1,37 @@
+Que diferencia hay entre la integridad tcp/ip e integridad en criptografia?
+
+En TCP/IP se utiliza el CRC para ver que la cantidad de bits sea igual a la cantidad de bits enviados, por lo que si coincide, en teoria no habria ningun cambio, es mas, el mismo CRC  aplica distintos metodos en casos de que no este la misma cantidad de bits, de tal manera que se pueda corregir el error. La diferencia con la integridad de la seguridad informatica es que en caso de que se haya modificado el mensaje, uno se da cuenta de dicha modificacion, en cambio con TCP/IP, no hay nada que te asegure que el dato no haya sido modificado. Ambos sistemas pueden ser atacados por personas(dato a saber)
+
+Colicion de hasha = Es cuando yo tengo 2 entradas que me generan el mismo hash
+
+RSA = Cifrado asimetrico, usar uno mayor a 2048b
+
+AES = Cifrado simetrico, tiene que ser mayor a 256b
+
+Hash -> SHA1, SHA-3, MD5
+    Genera una cadena de bits en base a un input
+    No tiene funcion Inversa
+    Usa 1 clave para cifrar y decifrar(Cifrado Simetrico) o tambien se pueden utilizar 2 claves, una   para encriptar y otra para decincriptar informacion(Cifrado Asimetrico).
+    Para encriptar se utiliza un algoritmo + clave
+
+Diferencia entre cifrado y codificado
+
+En el cifrado yo necesito una clave para decifrarlo, no tiene funcion inversa, se utiliza en autenticaciones o en integridad de datos
+
+Con el codificado, no hace falta una clave para decodificarlo, es decir, tiene funcion inversa, es decir, desde el final yo puedo volver al comienzo, por eso no necesito clave -> base64 es un ejemplo de codificacion.
+
+Base64 se refiere a la cantidad de combinaciones que yo puedo hacer, ademas es porque yo tengo 6 bits, por lo que si elevo 2 a la sexta, me da como resultado 64.
+
+Cuando usar un cifrado simetrico y uno asimetrico?
+
+Cifrar y decifrar con un cifrado simetrico es muchisimo mas rapido que los algoritmos asimetricos, por lo que para cifrar canales es mejor utilizar algoritmos asimetricos, pero para cifrar archivos, es mejor utilzar claves simetricas ya que si el archivo es bastante grande, la perfomance va a ser mucho mejor que un algoritmo asimetrico. Se puede utilizar algoritmos asimetricos para autenticacion en general ya que da mayor confianza y seguridad.
+
+diffie hellman -> Vimos como es su algoritmo e hicimos un caso practico para ver como funciona
+
+Se dice que se trabaja Diffie Hellman sobre la curva eliptica, es decir se un Diffie Hellman basado en curva eliptica.
+
+Es muy complicado hackear DH, la unica manera es realizar fuerza bruta para obtener el numero que se desconoce de ambas lados de la coneccion. Esto, segun los numeros que se utilicen en el algoritmo, puede llegar a demorar varios años.
+
+La autenticacion con DF se hace con cifrado asimetrico.
+
+Perfect Forward Secrecy => Es mandar la nueva clave al receptor de manera cifrada, ahi es cuando entra el PFC, lo que se hace es cada cierto periodo de tiempo volver a ejecutar el DH, de tal manera que sea extremadamente complicado obtener las claves y los datos que se estan transmitiendo.

@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "699fbae63ea5d2f0",
+        "id": "6e41255798f22195",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Gestion de calidad y medio ambiente/Resumen/Resumen parcial 2.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#hola",
+                "query": "corrup",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +45,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion de calidad y medio ambiente/Resumen/Resumen parcial 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,17 +100,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "699fbae63ea5d2f0",
+  "active": "6e41255798f22195",
   "lastOpenFiles": [
     "Gestion de calidad y medio ambiente/Resumen/Resumen parcial 2.md",
+    "Planeamiento y gestion de empresas/2022-04-19.md",
+    "Aseguramiento de calidad de software/6-4-22.md",
+    "Tesis/1-4-22.md",
     "Gestion de calidad y medio ambiente/Resumen/Temas parciales.md",
     "Gestion de calidad y medio ambiente/Tema 1.md",
     "Gestion de calidad y medio ambiente/Resumen/Resumen parcial 1.md",
     "Gestion de calidad y medio ambiente/Tema 2.md",
     "Excalidraw/Gestion de calidad y medio ambiente/Tema 2 2022-03-29 15.05.28.excalidraw.md",
-    "Gestion de calidad y medio ambiente/Tema 3.md",
-    "Gestion de calidad y medio ambiente/Tema 4.md",
-    "Gestion de calidad y medio ambiente/Tema 5.md",
-    "Gestion de calidad y medio ambiente/Tema 6.md"
+    "Gestion de calidad y medio ambiente/Tema 3.md"
   ]
 }

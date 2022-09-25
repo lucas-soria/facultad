@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "6ed5c9e8574b7e42",
+        "id": "f181df881f5dccd3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Seguridad Informatica II/2022-08-17.md",
+            "file": "Seguridad Informatica II/Extras/SOC.md",
             "mode": "source",
             "source": false
           }
@@ -35,12 +35,33 @@
             }
           },
           {
+            "id": "8d3c46c2c5e9ee2d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Seguridad Informatica II/Extras/SOC.md"
+              }
+            }
+          },
+          {
+            "id": "6081c9a4bc5f63bf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
             "id": "e185dc479f89c75d",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "base64",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,12 +69,20 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "b464e12e449714e6",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 295.0036334991455
   },
   "right": {
     "id": "fc5d55e9eb128229",
@@ -62,7 +91,6 @@
       {
         "id": "4d6d211962ad1cc0",
         "type": "tabs",
-        "dimension": 46.56319290465632,
         "children": [
           {
             "id": "9c07cd71eb6ee6e3",
@@ -71,19 +99,12 @@
               "type": "calendar",
               "state": {}
             }
-          }
-        ]
-      },
-      {
-        "id": "9c29ac50919d4871",
-        "type": "tabs",
-        "dimension": 53.43680709534369,
-        "children": [
+          },
           {
-            "id": "98295ad32128c1e1",
+            "id": "21fe501c56bc656e",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           },
@@ -93,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad Informatica II/2022-08-17.md",
+                "file": "Seguridad Informatica II/Extras/SOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,24 +124,50 @@
                 "unlinkedCollapsed": false
               }
             }
+          },
+          {
+            "id": "21a062ac16ae4aa8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Seguridad Informatica II/Extras/SOC.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "9c29ac50919d4871",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "489967422de2803f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 341.71575927734375
+    "width": 372.7156677246094
   },
-  "active": "6ed5c9e8574b7e42",
+  "active": "f181df881f5dccd3",
   "lastOpenFiles": [
-    "Auditoria de Sistemas/2022-08-08.md",
-    "Seguridad Informatica II/2022-08-17.md",
-    "Seguridad Informatica II/2022-08-10.md",
-    "Dibujos/Seguridad Informatica II/Screenshot_20220817_230148.png",
-    "cripto 1.pdf",
-    "cripto.pdf",
-    "Auditoria de Sistemas/Presentacion.md",
-    "Dibujos/Seguridad Informatica II/Screenshot_20220817_172939.png",
-    "Auditoria de Sistemas/TP investigación.md",
-    "Untitled.md"
+    "Seguridad Informatica II/Extras/PCI DSS.md",
+    "Seguridad Informatica II/Extras/API vs WebService.md",
+    "Excalidraw/Fotos/Screenshot_20220921_202220.png",
+    "Excalidraw/Fotos/Pasted image 20220924210257.png",
+    "Seguridad Informatica II/Clases/2022-09-16.md",
+    "Seguridad Informatica II/Extras/PBKDF2.md",
+    "Seguridad Informatica II/Extras/RSA - ¿Cómo Funciona Este Algoritmo de Cifrado?.md",
+    "Seguridad Informatica II/Extras/SOC.md",
+    "Seguridad Informatica II/Extras/BSI - BS ISO_IEC 27002_2005, BS 7799-1_2005,BS ISO_IEC 17799_2005 Information technology. Security techniques. Code of practice for information security management-BSI (2007).pdf",
+    "Seguridad Informatica II/Clases/2022-09-30.md"
   ]
 }

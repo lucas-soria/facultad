@@ -3,7 +3,9 @@
   "enabledCssSnippets": [
     "text-format"
   ],
-  "theme": "obsidian",
+  "theme": "moonstone",
   "translucency": true,
-  "cssTheme": "Obsidian Nord"
+  "cssTheme": "Obsidian Nord",
+  "textFontFamily": "Inter",
+  "interfaceFontFamily": "Inter"
 }

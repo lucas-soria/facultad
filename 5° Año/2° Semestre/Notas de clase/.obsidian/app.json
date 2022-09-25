@@ -42,6 +42,27 @@
     "paralelizar",
     "3DES",
     "3DES",
-    "EDE"
-  ]
+    "EDE",
+    "recuperatorio",
+    "COBIT",
+    "ITIL",
+    "SRE",
+    "ITSM",
+    "EGIT",
+    "T&I",
+    "T&I",
+    "circularización",
+    "Core",
+    "pseudorandom",
+    "crackear",
+    "OWASP",
+    "programita",
+    "ITC",
+    "transplantes",
+    "Criptosistema",
+    "certificación"
+  ],
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "/",
+  "showLineNumber": true
 }

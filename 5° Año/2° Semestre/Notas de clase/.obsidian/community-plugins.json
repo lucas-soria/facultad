@@ -3,5 +3,16 @@
   "calendar",
   "obsidian-dynamic-toc",
   "obsidian-excalidraw-plugin",
-  "obsidian-languagetool-plugin"
+  "obsidian-languagetool-plugin",
+  "obsidian-memos",
+  "obsidian-mind-map",
+  "obsidian-excel-to-markdown-table",
+  "obsidian-living-graph",
+  "obsidian-image-toolkit",
+  "dataview",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-emoji-toolbar",
+  "obsidian-icon-folder",
+  "obsidian-quiet-outline",
+  "lapel"
 ]

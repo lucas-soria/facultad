@@ -1,0 +1,37 @@
+Cifrador simetrico en bloque
+
+ECB - ECB Electronic code book:
+
+Uno tiene el texto plano sin cifrar, luego tenemos el cifrador de bloques que es donde se mete la clave y luego obtenemos el bloque cifrado. La longitud y generacion de la clave depende del bloque que queremos cifrar.
+
+Luego concatenamos los bloques de cifrados y obtenemos todo el bloque cifrado.
+
+Con un asimetrico, esto a nivel computo es mucho mas rapido ya que se procesa por partes. Este metodo es paralelizable ya que no necesita la informacion del bloque anterior para cifrar el siguiente bloque. El unico problema que tiene es que genera patrones de cifrado, es decir, cifra de la misma manera las mismas palabras, colores, etc, por lo que cada bloque en si no se puede leer pero el bloque entero, de manera macro, se puede ver claramente que es lo que se quiso cifrar. Un ejemplo de esto es la imagen del pinguino de linux vs la misma imagen cifrada con ECB.
+
+
+CBC - Cipher block Chaining;
+
+Se encarga de ir encadenando bloques cifrados. Se utiliza un vector de inicializacion para poder inicializar esto es porque se aplica una funcion xor al texto plano y luego a eso lo ingreso al blok cipher encryption que junto con la clave encriptan el texto plano, luego el resultado va a ser el nuevo vector de inicializacion para hacerle la fc xor con el nuevo tecto plano para su posterterior cifrado.
+
+Lo malo es que tiene este metodo es que se puede decifrar si alguien obteiene el primer texto, luego aplico ing inversa y obtnego el texto plano. Este metodo no es paralizable.
+
+Para decifrar la informacion, hago el camino inverso al que se utiliza para encriptar.
+
+
+Output Feedback (OFB) mode encyorion:
+
+Junta los otros 2 metodos visto para ahcer un unico metodo de encriptacion. Con el vector de inicializacion y la llave genero un bloque encriptador el cual le voy a aplicar una funcion XOR junto el texto pĺano a cifrar para obtener el bloque cifrado. Para decifrar tambien se aplica el metodo reverso del modelo. Es paralelizable a medias en realidad.
+
+Counter (CTR) mode encryption:
+
+La diferencia con el metodo anterior es que el vector iniciador que se utilzia junto a la clave para obtener el bloque encriptador, es un vector que se genera y se utiliza una unica vez. Es decir, cada vector inicializador que se utiliza es unico y distinto en cada bloque por lo que ahora es mucho mas paralelizable ya que son independientes. Este vector inicializacion esta compuesto por 2 partes el nonce el cual es un string unico que se utiliza en todos los inicializadores y la otra parte es un contador que va aumentando una unidad en cada bloque.
+
+El metodo de decifrador es basicamente el metodo inverso en la funcion xor ya que se calcula el bloque decifrador y en vez de pasar el texto plano, lo que se pasa es el texto cifrado para poder hacer el xor y obtener el texto plano.
+
+Luego vimos DES(data encryption Standard) y 3DES.
+
+En este metodo se utilzian claves de 64b (8 de CRC) o claves de 56b + 8 bits de control
+
+El DES era muy facil de romper con hardware mas poderoso, es por eso que salio el 3DES donde aca se utilizan 3 claves. Lo que primero se haceen 3DES es encriptar la informacion con una clave, luego eso se desencriptaba con una clave distinta y por ultimo se encriptaba con una tercer llave distinta, de esta manera se encriptaba la informacion. Para obtener el texto plano original lo que se hacia era el camino inverso es decir, desencripto con la clave 3 primero, luego encripto con la 2 y desencripto con la primer llave. AUn asi sigue siendo suceptible a ataques de fuerza bruta.
+
+Luego el otro metodo de encriptacion es el ARIAS y AES

@@ -1,0 +1,64 @@
+
+entity User {
+	email String
+    password String
+    authority Authority
+    fistName String
+    lastName String
+    dni String
+    address Address
+    phone String
+}
+
+enum Authority {
+    ADMIN, OWNER, GUARD
+}
+
+entity Guest {
+	firstName String
+    lastName String
+    dni String
+    phone String
+}
+
+entity Invite {
+	owner User
+    guest Guest
+    days String
+    hours String
+    maxTime Integer
+    passengers Integer
+    drop Boolean
+    arrival LocalDate
+    departure LocalDate
+    created LocalDate
+    modified LocalDate
+}
+
+entity Address {
+	street String
+    number Integer
+    house House
+    location Location
+}
+
+entity House {
+	block String
+    house Integer
+}
+
+entity Location {
+	type String
+    coordinates Double
+}
+
+relationship OneToMany {
+	User to Invite{owner}
+    Guest to Invite{guest}
+    User{address} to Address
+}
+
+relationship OneToOne {
+    House to Address{house}
+    Location to Address{location}
+}

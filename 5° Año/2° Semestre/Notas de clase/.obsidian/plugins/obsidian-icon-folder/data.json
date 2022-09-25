@@ -1,0 +1,46 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FabApple",
+      "FasPencil",
+      "FasMicroscope",
+      "FarNoteSticky",
+      "FasAppleWhole"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 2,
+      "right": 2,
+      "bottom": 2,
+      "left": 2
+    }
+  },
+  "Ingeniería Derecho y Ética Profesional": "FasBriefcase",
+  "Excalidraw": "FasPaintbrush",
+  "Auditoria de Sistemas": "RiComputerFill",
+  "Práctica profesional": "FabCcMastercard",
+  "Seguridad Informatica II": "RiLock2Fill",
+  "Templates": "RiPagesLine",
+  "TIF": "FasGraduationCap",
+  "Overview.md": "FasBinoculars",
+  "Seguridad Informatica II/Extras": "FasPaperclip",
+  "Seguridad Informatica II/Clases": "FasAppleWhole",
+  "Ingeniería Derecho y Ética Profesional/Ingeniería Derecho y Ética Profesional.md": "FasBinoculars",
+  "Práctica profesional/Práctica profesional.md": "FasBinoculars",
+  "Seguridad Informatica II/Seguridad Informática II.md": "FasBinoculars",
+  "Ingeniería Derecho y Ética Profesional/Unidades/Extras": "FasPaperclip",
+  "Ingeniería Derecho y Ética Profesional/Clases": "FasAppleWhole",
+  "Ingeniería Derecho y Ética Profesional/Unidades": "FarNoteSticky",
+  "TIF/TIF IV.md": "FasBinoculars",
+  "Auditoria de Sistemas/Clases": "FasAppleWhole",
+  "Auditoria de Sistemas/Resumenes": "FarNoteSticky",
+  "Auditoria de Sistemas/Metodologias": "FasMicroscope",
+  "Auditoria de Sistemas/Auditoria de Sistemas.md": "FasBinoculars",
+  "Auditoria de Sistemas/Notas TP de investigación.md": "FasPencil",
+  "TIF/Clases": "FasAppleWhole"
+}
