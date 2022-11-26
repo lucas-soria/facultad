@@ -3,7 +3,6 @@
   "calendar",
   "obsidian-dynamic-toc",
   "obsidian-excalidraw-plugin",
-  "obsidian-languagetool-plugin",
   "obsidian-memos",
   "obsidian-mind-map",
   "obsidian-excel-to-markdown-table",
@@ -14,5 +13,6 @@
   "obsidian-emoji-toolbar",
   "obsidian-icon-folder",
   "obsidian-quiet-outline",
-  "lapel"
+  "lapel",
+  "obsidian-languagetool-plugin"
 ]

@@ -1,0 +1,27 @@
+{
+  "carroDeComprasApp": {
+    "carroCompra": {
+      "home": {
+        "title": "Carro Compras",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Carro Compra",
+        "createOrEditLabel": "Crear o editar Carro Compra",
+        "notFound": "Ningún Carro Compras encontrado"
+      },
+      "created": "Un nuevo Carro Compra ha sido creado con el identificador {{ param }}",
+      "updated": "Un Carro Compra ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Carro Compra ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Carro Compra {{ id }}?"
+      },
+      "detail": {
+        "title": "Carro Compra"
+      },
+      "id": "ID",
+      "total": "Total",
+      "finalizado": "Finalizado",
+      "vendido": "Vendido",
+      "cliente": "Cliente"
+    }
+  }
+}

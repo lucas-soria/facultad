@@ -1,0 +1,89 @@
+# This configuration is intended for development purpose, it's **your** responsibility to harden it for production
+version: '3.8'
+services:
+  productos-app:
+    image: productos
+    restart: unless-stopped
+    environment:
+      - _JAVA_OPTIONS=-Xmx512m -Xms256m
+      - SPRING_PROFILES_ACTIVE=prod,api-docs
+      - MANAGEMENT_METRICS_EXPORT_PROMETHEUS_ENABLED=true
+      - SPRING_DATASOURCE_URL=jdbc:mysql://productos-mysql:3306/productos?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
+      - SPRING_LIQUIBASE_URL=jdbc:mysql://productos-mysql:3306/productos?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
+      - JHIPSTER_SLEEP=30 # gives time for other services to boot before the application
+      - SPRING_DATASOURCE_PASSWORD=
+    # If you want to expose these ports outside your dev PC,
+    # remove the "127.0.0.1:" prefix
+    ports:
+      - 8081:8081
+  productos-mysql:
+    image: mysql:8.0.26
+    volumes:
+      - ~/volumes/jhipster/productos/mysql/:/var/lib/mysql/
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+      - MYSQL_DATABASE=productos
+    # If you want to expose these ports outside your dev PC,
+    # remove the "127.0.0.1:" prefix
+    # ports:
+    #   - 127.0.0.1:3306:3306
+    command: mysqld --lower_case_table_names=1 --skip-ssl --character_set_server=utf8mb4 --explicit_defaults_for_timestamp
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+  carrodecompras-app:
+    image: carrodecompras
+    restart: unless-stopped
+    environment:
+      - _JAVA_OPTIONS=-Xmx512m -Xms256m
+      - SPRING_PROFILES_ACTIVE=prod,api-docs
+      - MANAGEMENT_METRICS_EXPORT_PROMETHEUS_ENABLED=true
+      - SPRING_DATASOURCE_URL=jdbc:mysql://carrodecompras-mysql:3306/carrodecompras?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
+      - SPRING_LIQUIBASE_URL=jdbc:mysql://carrodecompras-mysql:3306/carrodecompras?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
+      - JHIPSTER_SLEEP=30 # gives time for other services to boot before the application
+      - SPRING_DATASOURCE_PASSWORD=
+      - PROPIEDADES_MICROPRODUCTOS_URL=http://productos-app:8081/api
+    # If you want to expose these ports outside your dev PC,
+    # remove the "127.0.0.1:" prefix
+    ports:
+      - 8082:8082
+  carrodecompras-mysql:
+    image: mysql:8.0.26
+    volumes:
+      - ~/volumes/jhipster/carrodecompras/mysql/:/var/lib/mysql/
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+      - MYSQL_DATABASE=carrodecompras
+    # If you want to expose these ports outside your dev PC,
+    # remove the "127.0.0.1:" prefix
+    # ports:
+    #   - 127.0.0.1:3306:3306
+    command: mysqld --lower_case_table_names=1 --skip-ssl --character_set_server=utf8mb4 --explicit_defaults_for_timestamp
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+  react-app:
+    build:
+      context: ./carrito-front  # ./carrito-front-nginx
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./carrito-front:/carrito-front  # ./carrito-front-nginx:/carrito-front
+      - ./carrito-front/node_modules  # ./carrito-front-nginx/node_modules
+    ports:
+      - 5000:5000
+      - 3000:3000
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+  nginx:
+    image: nginx
+    restart: unless-stopped
+    volumes:
+      - ./carrito-front/public:/usr/share/nginx/html  # ./carrito-front-nginx/public:/usr/share/nginx/html
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf  # ./nginx-react-local.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - 80:80
+    depends_on:
+      - productos-app
+      - carrodecompras-app
+      - react-app

@@ -1,11 +1,12 @@
 {
-  "baseFontSize": 16,
+  "baseFontSize": 15,
   "enabledCssSnippets": [
     "text-format"
   ],
   "theme": "moonstone",
-  "translucency": true,
+  "translucency": false,
   "cssTheme": "Obsidian Nord",
   "textFontFamily": "Inter",
-  "interfaceFontFamily": "Inter"
+  "interfaceFontFamily": "Inter",
+  "accentColor": ""
 }

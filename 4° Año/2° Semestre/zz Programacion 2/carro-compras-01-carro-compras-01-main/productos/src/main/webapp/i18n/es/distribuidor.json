@@ -1,0 +1,26 @@
+{
+  "productosApp": {
+    "distribuidor": {
+      "home": {
+        "title": "Distribuidors",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Distribuidor",
+        "createOrEditLabel": "Crear o editar Distribuidor",
+        "notFound": "Ningún Distribuidors encontrado"
+      },
+      "created": "Un nuevo Distribuidor ha sido creado con el identificador {{ param }}",
+      "updated": "Un Distribuidor ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Distribuidor ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Distribuidor {{ id }}?"
+      },
+      "detail": {
+        "title": "Distribuidor"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "descripcion": "Descripcion",
+      "habilitado": "Habilitado"
+    }
+  }
+}

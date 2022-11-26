@@ -1,0 +1,38 @@
+{
+  "name": "Distribuidor",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descripcion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "habilitado",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "producto",
+      "otherEntityRelationshipName": "distribuidor",
+      "relationshipName": "producto"
+    }
+  ],
+  "entityTableName": "distribuidores",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["gateway", "microProductos"],
+  "microserviceName": "microProductos",
+  "clientRootFolder": "microProductos",
+  "databaseType": "sql",
+  "changelogDate": "20211026222933"
+}

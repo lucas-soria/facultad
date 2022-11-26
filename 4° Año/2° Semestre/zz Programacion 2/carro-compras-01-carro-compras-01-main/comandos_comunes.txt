@@ -1,0 +1,45 @@
+# Generar el proyecto
+jhipster jdl carroCompras.jdl
+
+# Backend
+./mvnw -DskipTests
+./mvnw -DSkipTests -Dspring-boot.run.arguments=--server.port=8083
+./mvnw package -Pprod verify jib:dockerBuild
+./mvnw package -Pprod
+./mvnw package -Pprod jib:dockerBuild -DskipTests
+
+# Troubleshooting
+./mvnw dependency:resolve
+./mvnw verify
+
+# Frontend
+./npmw start
+./npmw install
+
+# Correr registry
+docker-compose -f microProductos/src/main/docker/jhipster-registry.yml up
+
+# Correr versiones compiladas de las apps
+java -jar <microservice>/target/<version>.jar
+./<microservice>/target/<version>.jar
+
+# Correr el frontend con live reload
+./mvnw -P-webapp -DSkipTests
+./npmw start
+
+
+# comandos construccion proyecto:
+
+1 correr en la carpeta de cada microservicio:
+    ./mvnw package -Pprod jib:dockerBuild -DskipTests
+
+2.1 Para correr la primer vez (crea la imagen del proyecto react)
+    docker-compose -f dockerCompose_oneDB.yaml up --build
+
+2.2 Para correr el proyecto completo una vez creada la imagen de react
+    docker-compose -f dockerCompose_oneDB.yaml up
+
+2.3 Para correr el proyecto con react local
+    Comentar en el archivo docker-compose el service de react-app
+    Cambiar el archivo de config de nginx por el indicado en el comentario
+    docker-compose -f dockerCompose_oneDB.yaml up

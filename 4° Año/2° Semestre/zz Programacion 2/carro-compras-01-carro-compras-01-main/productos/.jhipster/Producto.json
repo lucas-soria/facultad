@@ -1,0 +1,47 @@
+{
+  "name": "Producto",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descripcion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "precio",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "cantidadVendidos",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "habilitado",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "imagen",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "distribuidor",
+      "otherEntityRelationshipName": "producto",
+      "relationshipName": "distribuidor"
+    }
+  ],
+  "entityTableName": "productos",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["productos"],
+  "changelogDate": "20211105031340"
+}

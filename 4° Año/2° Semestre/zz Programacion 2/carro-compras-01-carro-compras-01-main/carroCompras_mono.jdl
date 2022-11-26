@@ -1,0 +1,87 @@
+application {
+  config {
+    baseName productos,
+    applicationType monolith,
+    serverPort 8081,
+    packageName ar.edu.um.programacion2.productos,
+    authenticationType jwt,
+    databaseType sql,
+    prodDatabaseType mysql,
+    devDatabaseType mysql,
+    buildTool maven,
+    clientFramework react,
+    languages [en, es],
+    nativeLanguage es,
+  }
+  dto * with mapstruct
+  entities Distribuidor, Producto
+}
+
+application {
+  config {
+    baseName carroDeCompras,
+    applicationType monolith,
+    serverPort 8082,
+    packageName ar.edu.um.programacion2.carro_de_compras,
+    authenticationType jwt,
+    databaseType sql,
+    prodDatabaseType mysql,
+    devDatabaseType mysql,
+    buildTool maven,
+    clientFramework react,
+    languages [en, es],
+    nativeLanguage es,
+  }
+  dto * with mapstruct
+  entities Venta, CarroCompra, ProductoSeleccionado, ProductoComprado
+}
+
+entity Venta(Ventas) {
+  fecha LocalDate
+  total Float
+}
+
+entity CarroCompra(CarrosCompras) {
+  total Float
+  finalizado Boolean
+  vendido Boolean
+}
+
+entity Producto(Productos) {
+  nombre String
+  descripcion String
+  precio Float
+  cantidadVendidos Integer
+  habilitado Boolean
+}
+
+entity ProductoSeleccionado(ProductosSeleccionados) {
+  producto Long
+  precio Float
+  cantidad Integer
+}
+
+entity ProductoComprado(ProductosComprados) {
+  producto Long
+  precio Float
+  cantidad Integer
+}
+
+entity Distribuidor(Distribuidores) {
+  nombre String
+  descripcion String
+  habilitado Boolean
+}
+
+relationship OneToOne {
+  Venta{carro} to CarroCompra
+}
+
+relationship ManyToOne {
+  ProductoComprado{venta} to Venta
+  ProductoSeleccionado{carro} to CarroCompra
+  Venta{cliente} to User
+  CarroCompra{cliente} to User
+  Producto{distribuidor} to Distribuidor
+}
+

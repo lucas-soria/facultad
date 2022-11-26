@@ -1,0 +1,33 @@
+{
+  "gatewayApp": {
+    "microProductosProducto": {
+      "home": {
+        "title": "Productos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Producto",
+        "createOrEditLabel": "Create or edit a Producto",
+        "notFound": "No Productos found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Producto {{ id }}?"
+      },
+      "detail": {
+        "title": "Producto"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "descripcion": "Descripcion",
+      "precio": "Precio",
+      "cantidadVendidos": "Cantidad Vendidos",
+      "habilitado": "Habilitado",
+      "distribuidor": "Distribuidor"
+    }
+  },
+  "microProductosApp": {
+    "microProductosProducto": {
+      "created": "A new Producto is created with identifier {{ param }}",
+      "updated": "A Producto is updated with identifier {{ param }}",
+      "deleted": "A Producto is deleted with identifier {{ param }}"
+    }
+  }
+}

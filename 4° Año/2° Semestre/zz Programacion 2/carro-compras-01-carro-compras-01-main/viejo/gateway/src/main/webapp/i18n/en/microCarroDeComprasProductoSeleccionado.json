@@ -1,0 +1,31 @@
+{
+  "gatewayApp": {
+    "microCarroDeComprasProductoSeleccionado": {
+      "home": {
+        "title": "Producto Seleccionados",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Producto Seleccionado",
+        "createOrEditLabel": "Create or edit a Producto Seleccionado",
+        "notFound": "No Producto Seleccionados found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Producto Seleccionado {{ id }}?"
+      },
+      "detail": {
+        "title": "Producto Seleccionado"
+      },
+      "id": "ID",
+      "producto": "Producto",
+      "precio": "Precio",
+      "cantidad": "Cantidad",
+      "carro": "Carro"
+    }
+  },
+  "microCarroDeComprasApp": {
+    "microCarroDeComprasProductoSeleccionado": {
+      "created": "A new Producto Seleccionado is created with identifier {{ param }}",
+      "updated": "A Producto Seleccionado is updated with identifier {{ param }}",
+      "deleted": "A Producto Seleccionado is deleted with identifier {{ param }}"
+    }
+  }
+}

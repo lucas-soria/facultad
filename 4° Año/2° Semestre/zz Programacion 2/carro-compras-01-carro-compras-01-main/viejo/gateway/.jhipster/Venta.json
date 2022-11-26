@@ -1,0 +1,45 @@
+{
+  "name": "Venta",
+  "fields": [
+    {
+      "fieldName": "cliente",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "total",
+      "fieldType": "Float"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "carroCompra",
+      "otherEntityRelationshipName": "venta",
+      "relationshipName": "carro",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "productoComprado",
+      "otherEntityRelationshipName": "venta",
+      "relationshipName": "productoComprado"
+    }
+  ],
+  "entityTableName": "ventas",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["gateway", "microCarroDeCompras"],
+  "microserviceName": "microCarroDeCompras",
+  "clientRootFolder": "microCarroDeCompras",
+  "databaseType": "sql",
+  "changelogDate": "20211026223333"
+}

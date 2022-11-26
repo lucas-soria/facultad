@@ -1,0 +1,35 @@
+{
+  "name": "CarroCompra",
+  "fields": [
+    {
+      "fieldName": "total",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "finalizado",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "vendido",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "carroCompra",
+      "relationshipName": "cliente"
+    }
+  ],
+  "entityTableName": "carros_compras",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["carroDeCompras"],
+  "changelogDate": "20211105031340"
+}

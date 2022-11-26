@@ -1,0 +1,35 @@
+{
+  "name": "ProductoComprado",
+  "fields": [
+    {
+      "fieldName": "producto",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "precio",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "cantidad",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "venta",
+      "otherEntityRelationshipName": "productoComprado",
+      "relationshipName": "venta"
+    }
+  ],
+  "entityTableName": "productos_comprados",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["carroDeCompras"],
+  "changelogDate": "20211105031440"
+}

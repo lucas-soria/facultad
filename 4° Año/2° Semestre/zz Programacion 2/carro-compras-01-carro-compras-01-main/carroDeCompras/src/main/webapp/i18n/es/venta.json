@@ -1,0 +1,27 @@
+{
+  "carroDeComprasApp": {
+    "venta": {
+      "home": {
+        "title": "Ventas",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Venta",
+        "createOrEditLabel": "Crear o editar Venta",
+        "notFound": "Ningún Ventas encontrado"
+      },
+      "created": "Un nuevo Venta ha sido creado con el identificador {{ param }}",
+      "updated": "Un Venta ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Venta ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Venta {{ id }}?"
+      },
+      "detail": {
+        "title": "Venta"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "total": "Total",
+      "carro": "Carro",
+      "cliente": "Cliente"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "jwt",
+    "clientFramework": "react",
+    "serverPort": "9000",
+    "serviceDiscoveryType": "eureka",
+    "skipUserManagement": false,
+    "withAdminUi": true,
+    "baseName": "gateway",
+    "buildTool": "maven",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": ["es", "en"],
+    "messageBroker": false,
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "skipClient": false,
+    "testFrameworks": [],
+    "websocket": false,
+    "enableGradleEnterprise": false,
+    "gradleEnterpriseHost": "",
+    "applicationType": "gateway",
+    "packageName": "ar.edu.um.programacion2.gateway",
+    "packageFolder": "ar/edu/um/programacion2/gateway",
+    "nativeLanguage": "es",
+    "jhipsterVersion": "7.3.0",
+    "skipServer": false,
+    "clientPackageManager": "npm",
+    "dtoSuffix": "DTO",
+    "entitySuffix": "",
+    "reactive": true,
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "applicationIndex": 0,
+    "applications": {
+      "microProductos": {
+        "serverPort": "8081",
+        "applicationIndex": 1
+      },
+      "microCarroDeCompras": {
+        "serverPort": "8082",
+        "applicationIndex": 2
+      }
+    },
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "blueprints": [],
+    "otherModules": [],
+    "pages": [],
+    "creationTimestamp": 1635287253331,
+    "monorepository": true,
+    "skipCommitHook": true,
+    "jwtSecretKey": "MGUwYmQxZmI0OGJjN2ZkMmEyNGQwZjM5ZTdkNTcxYmRhYWIzNjkxOTM1OTQ1NzQ0MjllMjdmNTg4ZWU0OTlhNGVlYmY2OTY1ODA2Yzg1NTBiMDQyYWRmMDhmMGQ5YmVkZjgxZDQxNDI0ODdjMmM0YTdmMjVkZTAxZDEwZTVhNDg=",
+    "devServerPort": 9060,
+    "entities": ["CarroCompra", "Distribuidor", "Producto", "ProductoComprado", "ProductoSeleccionado", "Venta"],
+    "lastLiquibaseTimestamp": 1635287613000
+  }
+}

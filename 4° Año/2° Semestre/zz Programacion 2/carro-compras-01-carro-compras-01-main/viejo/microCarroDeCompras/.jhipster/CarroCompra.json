@@ -1,0 +1,42 @@
+{
+  "name": "CarroCompra",
+  "fields": [
+    {
+      "fieldName": "cliente",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "total",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "finalizado",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "vendido",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "productoSeleccionado",
+      "otherEntityRelationshipName": "carro",
+      "relationshipName": "productoSeleccionado"
+    }
+  ],
+  "entityTableName": "carros_compras",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["gateway", "microCarroDeCompras"],
+  "microserviceName": "microCarroDeCompras",
+  "clientRootFolder": "microCarroDeCompras",
+  "databaseType": "sql",
+  "changelogDate": "20211026222833"
+}

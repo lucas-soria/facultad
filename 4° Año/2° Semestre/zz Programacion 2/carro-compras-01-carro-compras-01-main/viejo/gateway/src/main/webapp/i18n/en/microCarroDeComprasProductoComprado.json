@@ -1,0 +1,31 @@
+{
+  "gatewayApp": {
+    "microCarroDeComprasProductoComprado": {
+      "home": {
+        "title": "Producto Comprados",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Producto Comprado",
+        "createOrEditLabel": "Create or edit a Producto Comprado",
+        "notFound": "No Producto Comprados found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Producto Comprado {{ id }}?"
+      },
+      "detail": {
+        "title": "Producto Comprado"
+      },
+      "id": "ID",
+      "producto": "Producto",
+      "precio": "Precio",
+      "cantidad": "Cantidad",
+      "venta": "Venta"
+    }
+  },
+  "microCarroDeComprasApp": {
+    "microCarroDeComprasProductoComprado": {
+      "created": "A new Producto Comprado is created with identifier {{ param }}",
+      "updated": "A Producto Comprado is updated with identifier {{ param }}",
+      "deleted": "A Producto Comprado is deleted with identifier {{ param }}"
+    }
+  }
+}

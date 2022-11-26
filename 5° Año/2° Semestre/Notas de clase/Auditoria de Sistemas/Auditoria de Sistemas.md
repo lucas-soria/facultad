@@ -14,6 +14,5 @@ julieta.suarez@um.edu.ar
 
 
 # To-do:
-- [ ] Resumir unidad 3.
+- [x] Resumir unidad 3.
 - [ ] Investigar y avanzar en desarrollo.
-- [ ] Analizar metodologias.

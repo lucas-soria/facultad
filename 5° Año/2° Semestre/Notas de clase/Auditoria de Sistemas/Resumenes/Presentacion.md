@@ -101,7 +101,7 @@ En muchas ocasiones rebasa las obligaciones contractuales con el cliente directo
 | **_Personal de Función de auditoría informática ejercida por terceros (Cont.)_** | <ul><li>El personal externo ha de contar con alta experiencia en este ramo y ser conocido por su trayectoria en el mercado regional o nacional al menos.</li><br /><li>Debe evaluarse se desempeño una vez terminado su trabajo.</li></ul>                                   | <ul><li>Existe un compromiso moral y profesional del auditor en informática para ejercer la asesoría de manera ética e independiente.</li><br /><li>Se exigen resultados y beneficios desde el inicio de los proyectos.</li></ul>                                                                                                                | <ul><li>Si es contratado por el responsable de informática puede estar influido en el momento de elaborar y entregar el informe final de trabajo.</li><br /><li>Se requiere compromiso y participación formal de todos los involucrados.</li></ul>                                                                         | 
 
 ---
-# Control interno:
+# ¿Qué es el control interno?
 ## Conceptos:
 ![[Screenshot_20220921_202220.png]]
 

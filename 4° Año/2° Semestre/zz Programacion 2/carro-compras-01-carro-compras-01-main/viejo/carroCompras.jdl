@@ -1,0 +1,124 @@
+application {
+  config {
+    baseName gateway,
+    applicationType gateway,
+    serverPort 9000,
+    packageName ar.edu.um.programacion2.gateway,
+    authenticationType jwt,
+    databaseType sql,
+    prodDatabaseType mysql,
+    devDatabaseType h2Memory,
+    cacheProvider no,
+    buildTool maven,
+    clientFramework react,
+    languages [en, es],
+    nativeLanguage es,
+  }
+  entities *
+}
+
+application {
+  config {
+    baseName microProductos,
+    applicationType microservice,
+    serverPort 8081,
+    packageName ar.edu.um.programacion2.micro_productos,
+    authenticationType jwt,
+    databaseType sql,
+    prodDatabaseType mysql,
+    devDatabaseType h2Memory,
+    enableHibernateCache false,
+    buildTool maven,
+    languages [en, es],
+    nativeLanguage es,
+  }
+  dto * with mapstruct
+  entities Distribuidor, Producto
+}
+
+application {
+  config {
+    baseName microCarroDeCompras,
+    applicationType microservice,
+    serverPort 8082,
+    packageName ar.edu.um.programacion2.micro_carro_de_compras,
+    authenticationType jwt,
+    databaseType sql,
+    prodDatabaseType mysql,
+    devDatabaseType h2Memory,
+    enableHibernateCache false,
+    buildTool maven,
+    languages [en, es],
+    nativeLanguage es,
+  }
+  dto * with mapstruct
+  entities Usuario, Cliente, Administrador, Venta, CarroCompra, ProductoSeleccionado, ProductoComprado
+}
+
+entity Usuario(Usuarios) {
+  nombreUsuario String
+  contrasena String
+  nombre String
+  apellido String
+  email String
+  habilitado Boolean
+}
+
+entity Cliente(Clientes) {}
+
+entity Administrador(Administradores) {}
+
+entity Venta(Ventas) {
+  fecha LocalDate
+  total Float
+}
+
+entity CarroCompra(CarrosCompras) {
+  total Float
+  finalizado Boolean
+  vendido Boolean
+}
+
+entity ProductoSeleccionado(ProductosSeleccionados) {
+  idProducto Integer
+  precio Integer
+  cantidad Integer
+}
+
+entity ProductoComprado(ProductosComprados) {
+  idProducto Integer
+  precio Integer
+  cantidad Integer
+}
+
+entity Distribuidor(Distribuidores) {
+  nombre String
+  descripcion String
+  habilitado Boolean
+}
+
+entity Producto(Productos) {
+  nombre String
+  descripcion String
+  precio Float
+  cantidadVendidos Integer
+  habilitado Boolean
+}
+
+relationship OneToMany {
+  Cliente to Venta{idCliente}
+  Cliente to CarroCompra{idCliente}
+  Venta to ProductoComprado{idVenta}
+  CarroCompra to ProductoSeleccionado{idCarro}
+  Distribuidor to Producto{idDistribuidor}
+}
+
+relationship OneToOne {
+  Venta{idCarro} to CarroCompra
+  Cliente{idUsuario} to Usuario
+  Administrador{idUsuario} to Usuario
+}
+
+microservice Distribuidor, Producto with microProductos
+microservice Usuario, Cliente, Administrador, Venta, CarroCompra, ProductoSeleccionado, ProductoComprado with microCarroDeCompras
+filter *

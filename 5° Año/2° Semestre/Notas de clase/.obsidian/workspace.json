@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "ad39ecbbaaf9f845",
+    "type": "split",
+    "children": [
+      {
+        "id": "776bd9f712f6b3d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee10bdf502724e57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ingeniería Derecho y Ética Profesional/Clases/2022-11-03.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ac367a318ec72e54",
+    "type": "split",
+    "children": [
+      {
+        "id": "31cec1c2a76dc3d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5e82920f305e63b1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8d3c46c2c5e9ee2d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Ingeniería Derecho y Ética Profesional/Clases/2022-11-03.md"
+              }
+            }
+          },
+          {
+            "id": "6081c9a4bc5f63bf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e185dc479f89c75d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "bien material",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b464e12e449714e6",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 297
+  },
+  "right": {
+    "id": "fc5d55e9eb128229",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d6d211962ad1cc0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c07cd71eb6ee6e3",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "21fe501c56bc656e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "016e2dbc91d0c54a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Ingeniería Derecho y Ética Profesional/Clases/2022-11-03.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "21a062ac16ae4aa8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Ingeniería Derecho y Ética Profesional/Clases/2022-11-03.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d62e640c2b7eefd2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1f85c64641c0679",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 372.7156677246094
+  },
+  "active": "ee10bdf502724e57",
+  "lastOpenFiles": [
+    "Ingeniería Derecho y Ética Profesional/Clases/2022-10-06.md",
+    "Ingeniería Derecho y Ética Profesional/Clases/2022-10-13.md",
+    "Ingeniería Derecho y Ética Profesional/Clases/2022-11-03.md",
+    "Seguridad Informatica II/Clases/2022-09-30.md",
+    "Seguridad Informatica II/Clases/2022-09-16.md",
+    "Seguridad Informatica II/Seguridad Informática II.md",
+    "Seguridad Informatica II/Clases/2022-09-09.md",
+    "Seguridad Informatica II/Clases/2022-08-26.md",
+    "Auditoria de Sistemas/Clases/2022-10-24.md",
+    "Auditoria de Sistemas/Metodologias/SRE.md"
+  ]
+}

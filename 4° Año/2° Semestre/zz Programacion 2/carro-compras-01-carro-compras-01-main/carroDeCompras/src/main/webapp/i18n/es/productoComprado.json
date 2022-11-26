@@ -1,0 +1,27 @@
+{
+  "carroDeComprasApp": {
+    "productoComprado": {
+      "home": {
+        "title": "Producto Comprados",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Producto Comprado",
+        "createOrEditLabel": "Crear o editar Producto Comprado",
+        "notFound": "Ningún Producto Comprados encontrado"
+      },
+      "created": "Un nuevo Producto Comprado ha sido creado con el identificador {{ param }}",
+      "updated": "Un Producto Comprado ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Producto Comprado ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Producto Comprado {{ id }}?"
+      },
+      "detail": {
+        "title": "Producto Comprado"
+      },
+      "id": "ID",
+      "producto": "Producto",
+      "precio": "Precio",
+      "cantidad": "Cantidad",
+      "venta": "Venta"
+    }
+  }
+}

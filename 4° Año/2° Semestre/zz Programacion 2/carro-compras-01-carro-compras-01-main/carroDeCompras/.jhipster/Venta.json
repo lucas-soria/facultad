@@ -1,0 +1,38 @@
+{
+  "name": "Venta",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "total",
+      "fieldType": "Float"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "carroCompra",
+      "otherEntityRelationshipName": "venta",
+      "relationshipName": "carro",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "venta",
+      "relationshipName": "cliente"
+    }
+  ],
+  "entityTableName": "ventas",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["carroDeCompras"],
+  "changelogDate": "20211105031540"
+}

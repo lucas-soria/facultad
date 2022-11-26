@@ -1,0 +1,20 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 60px;
+}
+
+input {
+  color:grey;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.people {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  border-left: 2px solid grey;
+}

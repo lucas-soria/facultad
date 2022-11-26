@@ -1,0 +1,32 @@
+{
+  "gatewayApp": {
+    "microCarroDeComprasCarroCompra": {
+      "home": {
+        "title": "Carro Compras",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Carro Compra",
+        "createOrEditLabel": "Create or edit a Carro Compra",
+        "notFound": "No Carro Compras found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Carro Compra {{ id }}?"
+      },
+      "detail": {
+        "title": "Carro Compra"
+      },
+      "id": "ID",
+      "cliente": "Cliente",
+      "total": "Total",
+      "finalizado": "Finalizado",
+      "vendido": "Vendido",
+      "productoSeleccionado": "Producto Seleccionado"
+    }
+  },
+  "microCarroDeComprasApp": {
+    "microCarroDeComprasCarroCompra": {
+      "created": "A new Carro Compra is created with identifier {{ param }}",
+      "updated": "A Carro Compra is updated with identifier {{ param }}",
+      "deleted": "A Carro Compra is deleted with identifier {{ param }}"
+    }
+  }
+}

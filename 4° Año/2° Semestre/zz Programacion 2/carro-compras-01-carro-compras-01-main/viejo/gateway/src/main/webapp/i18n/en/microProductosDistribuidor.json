@@ -1,0 +1,31 @@
+{
+  "gatewayApp": {
+    "microProductosDistribuidor": {
+      "home": {
+        "title": "Distribuidors",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Distribuidor",
+        "createOrEditLabel": "Create or edit a Distribuidor",
+        "notFound": "No Distribuidors found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Distribuidor {{ id }}?"
+      },
+      "detail": {
+        "title": "Distribuidor"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "descripcion": "Descripcion",
+      "habilitado": "Habilitado",
+      "producto": "Producto"
+    }
+  },
+  "microProductosApp": {
+    "microProductosDistribuidor": {
+      "created": "A new Distribuidor is created with identifier {{ param }}",
+      "updated": "A Distribuidor is updated with identifier {{ param }}",
+      "deleted": "A Distribuidor is deleted with identifier {{ param }}"
+    }
+  }
+}

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f181df881f5dccd3",
+        "id": "ee10bdf502724e57",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Seguridad Informatica II/Extras/SOC.md",
+            "file": "Ingeniería Derecho y Ética Profesional/Clases/2022-10-13.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Seguridad Informatica II/Extras/SOC.md"
+                "file": "Ingeniería Derecho y Ética Profesional/Clases/2022-10-13.md"
               }
             }
           },
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bien material",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.0036334991455
+    "width": 297
   },
   "right": {
     "id": "fc5d55e9eb128229",
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad Informatica II/Extras/SOC.md",
+                "file": "Ingeniería Derecho y Ética Profesional/Clases/2022-10-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad Informatica II/Extras/SOC.md",
+                "file": "Ingeniería Derecho y Ética Profesional/Clases/2022-10-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,11 +140,11 @@
         ]
       },
       {
-        "id": "9c29ac50919d4871",
+        "id": "d62e640c2b7eefd2",
         "type": "tabs",
         "children": [
           {
-            "id": "489967422de2803f",
+            "id": "b1f85c64641c0679",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -157,17 +157,17 @@
     "direction": "horizontal",
     "width": 372.7156677246094
   },
-  "active": "f181df881f5dccd3",
+  "active": "ee10bdf502724e57",
   "lastOpenFiles": [
-    "Seguridad Informatica II/Extras/PCI DSS.md",
-    "Seguridad Informatica II/Extras/API vs WebService.md",
-    "Excalidraw/Fotos/Screenshot_20220921_202220.png",
-    "Excalidraw/Fotos/Pasted image 20220924210257.png",
-    "Seguridad Informatica II/Clases/2022-09-16.md",
-    "Seguridad Informatica II/Extras/PBKDF2.md",
-    "Seguridad Informatica II/Extras/RSA - ¿Cómo Funciona Este Algoritmo de Cifrado?.md",
-    "Seguridad Informatica II/Extras/SOC.md",
+    "Excalidraw/2022-10-13 2022-10-13 18.11.53.excalidraw.md",
+    "Ingeniería Derecho y Ética Profesional/Clases/2022-10-13.md",
+    "Excalidraw/2022-10-13 2022-10-13 18.06.35.excalidraw.md",
+    "Ingeniería Derecho y Ética Profesional/Clases/2022-09-15.md",
+    "Ingeniería Derecho y Ética Profesional/Clases/2022-09-29.md",
+    "Ingeniería Derecho y Ética Profesional/Clases/2022-10-06.md",
     "Seguridad Informatica II/Extras/BSI - BS ISO_IEC 27002_2005, BS 7799-1_2005,BS ISO_IEC 17799_2005 Information technology. Security techniques. Code of practice for information security management-BSI (2007).pdf",
-    "Seguridad Informatica II/Clases/2022-09-30.md"
+    "Seguridad Informatica II/Clases/2022-09-16.md",
+    "Seguridad Informatica II/Clases/2022-09-30.md",
+    "Seguridad Informatica II/Extras/PCI DSS.md"
   ]
 }
