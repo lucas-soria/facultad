@@ -14,4 +14,4 @@ project: false
 # To-do:
 - [x] Consigna 2
 - [x] Resumir unidad 1
-- [ ] Resumir unidad 2.
+- [x] Resumir unidad 2.

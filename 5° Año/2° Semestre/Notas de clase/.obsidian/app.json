@@ -64,5 +64,6 @@
   ],
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "/",
-  "showLineNumber": true
+  "showLineNumber": true,
+  "defaultViewMode": "preview"
 }

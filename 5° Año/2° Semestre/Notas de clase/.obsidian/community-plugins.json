@@ -1,18 +1,17 @@
 [
   "table-editor-obsidian",
   "calendar",
-  "obsidian-dynamic-toc",
-  "obsidian-excalidraw-plugin",
-  "obsidian-memos",
-  "obsidian-mind-map",
-  "obsidian-excel-to-markdown-table",
-  "obsidian-living-graph",
-  "obsidian-image-toolkit",
   "dataview",
+  "obsidian-dynamic-toc",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-emoji-toolbar",
+  "obsidian-excalidraw-plugin",
   "obsidian-icon-folder",
-  "obsidian-quiet-outline",
+  "obsidian-excel-to-markdown-table",
+  "obsidian-mind-map",
+  "obsidian-image-toolkit",
+  "obsidian-languagetool-plugin",
   "lapel",
-  "obsidian-languagetool-plugin"
+  "obsidian-living-graph",
+  "obsidian-memos",
+  "obsidian-quiet-outline"
 ]
